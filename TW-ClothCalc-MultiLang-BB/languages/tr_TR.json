@@ -1,0 +1,518 @@
+{
+	"common": {
+		"ok": "OK",
+		"cancel": "İptal",
+		"yes": "Evet",
+		"no": "Hayır",
+		"not_now": "Şimdi değil",
+		"close": "Kapat",
+		"delete": "Sil",
+		"select_file": "Dosya seç",
+		"listen": "Dinle",
+		"save_error": "Kaydetme başarısız",
+		"save_success": "Başarıyla kaydedildi",
+		"save": "Kaydet",
+		"preview": "Önizleme",
+		"edit": "Düzenle",
+		"search": "Ara"
+	},
+	"misc": {
+		"notes_title": "Notlar",
+		"color_dialog_bold": "kalın",
+		"color_dialog_caps": "BÜYÜK HARF",
+		"color_dialog_history": "Geçmiş",
+		"color_dialog_title": "Renk",
+		"button_church_title": "Kilise inşa et",
+		"button_market_title": "Pazarı aç",
+		"pin_toggle_tooltip": "Sabitleme modunu değiştir",
+		"telegram_toggle_tooltip": "Biçimlendirilmemiş mesaj ile orijinali arasında geçiş yap",
+		"wear_close_tooltip": "Sadece envanter pencerelerini kapat",
+		"sort_by": "Sırala",
+		"name": "Ad",
+		"country": "Kontluk",
+		"sound_default": "Varsayılan ses",
+		"sleep": "Uyku",
+		"hotel": "Otel",
+		"stage": "Seviye",
+		"your_position": "Konumun",
+		"levels": "Seviyeler",
+		"count": "Sayı",
+		"duration": "Süre",
+		"experience": "Deneyim",
+		"money": "Para",
+		"bonds": "Tahviller",
+		"motivation": "Motivasyon",
+		"danger": "Tehlike",
+		"killed": "Baygın",
+		"yield": "Üretim",
+		"items": "Eşyalar",
+		"luck": "Şans",
+		"reset": "Sıfırla",
+		"import": "İçe aktar",
+		"export": "Dışa aktar",
+		"hours_lowercase": "saat",
+		"jobs": "İşler",
+		"construction": "İnşaat",
+		"category": "Kategori",
+		"rank": "Rütbe",
+		"distance": "Mesafe",
+		"health_points": "Sağlık Puanları",
+		"labor_points": "Çalışma Puanları"
+	},
+	"script": {
+		"duplicate": "ClothCalc UserScript iki farklı dil ile iki kez kurulmuş. Scriptin düzgün çalışması için bunlardan birini devre dışı bırakmalısınız.",
+		"description": "ClothCalc UserScript, TW-DB.info ekibi tarafından oluşturulmuş bir projedir. Oyun deneyimini geliştiren, zamandan tasarruf sağlayan ve bazı etkinlikleri optimize eden birçok özellik sunar.",
+		"thank_you": "Teşekkürler!",
+		"paypal_alt": "PayPal – Online ödeme için en güvenli ve en kolay yol!",
+		"lang": "Dil",
+		"error_message": "Mesaj",
+		"error_type": "Hata",
+		"error_copy": "Kopyala",
+		"error_copied": "Kopyalandı!",
+		"api_registration_failed": "TW-DB.info UserScript'in TheWestApi kaydı başarısız oldu.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "“OK” tuşuna basıldığında değişiklikleri uygulamak için sayfa otomatik olarak yenilenecektir.",
+		"title": "Ayarlar",
+		"category_inventory": "Envanter",
+		"category_quests": "Görevler",
+		"category_jobs": "İşler",
+		"category_task_list": "Görev listesi",
+		"category_fort": "Kale",
+		"category_town": "Şehir",
+		"category_market": "Pazar",
+		"category_graphics": "Grafikler",
+		"category_minimap": "Mini harita",
+		"category_premium": "Premium ayarlar",
+		"category_misc": "Diğer",
+		"collector": "Envanterinizde henüz olmayan eşyaları tüccar ve pazarda işaretler",
+		"collector_sell": "Tüccarda seçilen bir eşya hariç tümünü satmak için bir düğme ekler",
+		"pin_items": "Envanter penceresinde eşyaları sabitle",
+		"quest_cancel": "Görev iptalini onayla",
+		"instant_quest": "Tüm gereksinimler karşılanıyorsa görevi anında tamamla",
+		"colored_quest": "Tamamlanabilir görevlerin rengini değiştir",
+		"job_lp": "İş pencerelerine çalışma puanlarını ekle",
+		"task_points": "Görev listesine çalışma puanı göstergesi ve sağlık ipuçları ekle – [sağ alt]",
+		"forts_import": "Sitede (westforts) kale savaşı içe aktarma düğmesi ekle",
+		"fort_recruit": "Kale alım genel görünümünü ekle",
+		"fort_recruit_enhanced": "Kale savaşı öncesi alım sekmesini geliştir",
+		"declare_report": "Savaş baltası kazı raporunu saldıran kaleye bağla",
+		"forts_owned": "Şehir profillerinde sahip olunan kaleleri göster",
+		"cemetery_critical": "Kale mezarlığında kritik vuruşlar ve hayalet turları",
+		"battle_damage": "Kale savaşı sırasında her oyuncu için toplam verilen hasarı göster",
+		"battle_round": "Her turda isabetler, ıskalar, alınan vuruşlar ve kaçınmalar",
+		"building_progress": "Bina penceresinde inşaat ilerlemesini göster",
+		"church_levels": "İnşa edilebilecek ek kilise seviyelerini göster",
+		"improved_cityhall_tab": "Sadece tamamlanmamış binaları göster",
+		"forum_blink": "Yeni şehir forumu mesajı varsa şehir düğmesinin yanıp sönmesini kaldır",
+		"market_map": "Pazar Haritası penceresi ekle",
+		"market_reminder": "Pazar açık artırmaları için hatırlatıcı ekle",
+		"market_sell": "Pazar satış penceresini geliştir",
+		"market_report": "Pazar satış raporu simgesini geliştir",
+		"market_improved": "Pazar satın alma penceresini geliştir",
+		"duel_motivation": "Kalıcı düello motivasyon göstergesi ekle – [enerji çubuğunun altında]",
+		"sleep_direct": "Otele veya kışlaya doğrudan erişim için düğme ekle",
+		"deposit": "Bulunulan bankaya para yatırmak için düğme ekle",
+		"shop_sale_off": "İNDİRİM bildirimini devre dışı bırak – [Salon düğmesinin altında]",
+		"exp_bar": "Deneyim çubuğuna değerler ekle",
+		"mini_chat": "Sohbet odalarını küçültmek için düğme ekle",
+		"event_counter": "Büyük ekranlarda etkinlik sayacını taşı",
+		"scrollbars_off": "Küçük ekranlarda veya pencereler çok taşındığında kaydırma çubuklarını devre dışı bırak",
+		"wear_close": "Sadece envanter pencerelerini otomatik kapatmak için düğme ekle",
+		"profile_duel_exp": "Oyuncu profillerinde düello deneyimini göster",
+		"regen_timers": "Oyuncu portresine yenilenme sayaçları ekle",
+		"button_church": "Kilise inşa penceresini kolay açmak için düğme ekle",
+		"button_market": "Pazar penceresini kolay açmak için düğme ekle",
+		"automation_buttons": "Sağ tarafta otomasyon düğmeleri",
+		"bonus_jobs": "Bonuslu işleri gösterme seçeneği ekle",
+		"coordinates_input": "Belirtilen koordinatlara gitme seçeneği ekle",
+		"work_queue_off": "Premium otomasyon satın alma bildirimlerini kapat",
+		"fetch_all_off": "Pazardan eşya alırken premium uyarıyı kapat",
+		"wof_nuggets_off": "Etkinliklerde külçeleri varsayılan ödeme yöntemi olarak kapat",
+		"chat": "Sohbet geliştirmelerini etkinleştir – [sohbet renkleri]",
+		"notes": "Telgraf/Raporlar penceresine notlar ekle",
+		"auto_deposit": "Şehre parayla ulaşıldığında yatırma hatırlatıcısı ekle",
+		"chest_analyzer": "Telgraf/Raporlar penceresine Sandık Analizörü ekle",
+		"weekly_crafting": "Üretim bekleme süresi bitişi için hatırlatıcı ekle",
+		"telegram_bb_codes": "Telgraflarda biçimlendirilmemiş metne geçiş düğmesi ekle",
+		"enhanced_rankings": "Sıralama sekmelerini geliştir ve oyuncu farkını ekle",
+		"translation_texts": "Belirli hatalı metin dizelerini çevir",
+		"forum_select": "Şehir forumunda metin seçimine izin ver",
+		"pin_important": "Menüyü, deneyim çubuğunu ve scripti her zaman üstte tut",
+		"fortbattle_reminder": "Soldaki kale savaşı hatırlatıcısını kapat",
+		"night_mode": "The-West haritası için karanlık mod",
+		"blink_events": "Soldaki etkinlikler ve lunaparkın yanıp sönmesini durdur",
+		"whisper_improved": "Salon sohbetlerinde fısıltı sesini geliştir"
+	},
+	"debug": {
+		"failed_to_copy": "Kopyalama başarısız:",
+		"key_saved": "$key$ anahtarı kaydedildi.",
+		"needs": "gerektirir",
+		"current_statistic_data": "Mevcut istatistik verileri:",
+		"current_sort_display_state": "Mevcut sıralama/görüntüleme durumu:",
+		"report_queue": "Rapor kuyruğu:",
+		"failed_report_ids": "Başarısız rapor kimlikleri:"
+	},
+	"cache": {
+		"reset": "TWDB Önbelleğini Sıfırla - BB",
+		"reset_key": "Fonksiyon anahtarı",
+		"reset_all_keys": "Tüm fonksiyon ayarlarını sıfırla",
+		"reset_complete": "Sıfırlama tamamlandı, sayfa yeniden yüklenecek",
+		"reset_confirm": "{$script$} UserScript önbelleğinin tamamını sıfırlamak istediğinize emin misiniz?"
+	},
+	"io": {
+		"settings": "Ayarlar",
+		"export_copy_failed": "Otomatik kopyalama başarısız oldu veya desteklenmiyor. Aşağıdan ayarları manuel olarak kopyalayın.",
+		"import_paste_instructions": "Ayarlarınızı aşağıdaki alana yapıştırın ve İçe Aktar'a basın.",
+		"import_placeholder": "Ayarlarınızı buraya yapıştırın...",
+		"import_cancelled": "Ayar içe aktarma iptal edildi.",
+		"export_start": "AYARLARI DIŞA AKTARMA BAŞLANGICI",
+		"export_end": "AYARLARI DIŞA AKTARMA SONU",
+		"export_clipboard_success": "Ayarlar otomatik olarak panoya kopyalandı.",
+		"export_clipboard_failed": "Otomatik kopyalama başarısız",
+		"import_warning": "Uyarı: İçe aktarma mevcut ayarların üzerine yazacaktır. Uyarıyı okudunuz mu?",
+		"import_no_data": "Ayar girilmedi. İçe aktarma iptal edildi.",
+		"import_start": "AYARLARI İÇE AKTAR",
+		"import_json_preview": "Aşağıdaki JSON içe aktarılacak",
+		"import_success_reload": "Kaydetmek için oyunu yeniden yükleyin.",
+		"import_error": "Ayarlar içe aktarılırken hata oluştu. Metnin geçerli JSON olup olmadığını kontrol edin.",
+		"import_error_log": "Ayar içe aktarma hatası",
+		"import_clipboard_success": "Ayarlar panodan okundu. İçe aktarma başlatılıyor...",
+		"import_clipboard_failed": "Panoyu otomatik okuma başarısız."
+	},
+	"updater": {
+		"version_features_title": "Sürüm Özellikleri",
+		"script_updated": "UserScript güncellendi!",
+		"script_updated_message": "UserScript $script$ güncellendi. Yenilikleri görmek ister misiniz?",
+		"script_needs_update": "UserScript güncelleme gerektiriyor",
+		"new_version_available": "UserScript $script$ için yeni bir sürüm mevcut. Güncellemek için OK'a tıklayın.",
+		"current_version": "Mevcut sürüm",
+		"new_version": "Yeni sürüm",
+		"reload_after_install": "Kurulumdan sonra oyunu yeniden yükleyin.",
+		"version_label": "Sürüm"
+	},
+	"market": {
+		"reminder_title": "Pazar hatırlatıcısı",
+		"rights_town": "Şehir",
+		"rights_alliance": "İttifak",
+		"rights_anyone": "Herkes",
+		"sell_multiply": "Mevcut fiyatı bu sayı ile ayarla (çarp)",
+		"sell_save_desc": "Gelecek açık artırmalar için açıklamayı kaydet",
+		"sell_reset_desc": "Açıklamayı sıfırla",
+		"sell_reset_sel": "Seçimi sıfırla",
+		"sell_buy_price": "Alış fiyatı",
+		"sell_sell_price": "Satış fiyatı",
+		"sell_save_duration": "Gelecek açık artırmalar için süreyi ve hakları kaydet",
+		"map_tab_title": "Pazar Haritası",
+		"auction_label": "Açık artırma",
+		"reminder_before_expiry": "Açık artırma bitmeden önce hatırlat",
+		"reminder_minutes": "dakika",
+		"auction_ends": ", Bitiş",
+		"auction_ends_label": "Açık artırma bitişi",
+		"use_as_default_price": "Varsayılan fiyat olarak kullan",
+		"reminder_late": "Hatırlatma geç geldi, açık artırma zaten sona erdi."
+	},
+	"fort": {
+		"forts": "Kaleler",
+		"forts_owned": "Sahip olunan kaleler",
+		"forts_members": "İttifak kaleleri",
+		"size": "Boyut",
+		"sizes": {
+			"0": "Küçük",
+			"1": "Orta",
+			"2": "Büyük"
+		},
+		"sort_by_health": "Sağlığa göre sırala",
+		"sort_asc_current_health": "Mevcut sağlık artan",
+		"sort_desc_current_health": "Mevcut sağlık azalan",
+		"sort_asc_max_health": "Maks. sağlık artan",
+		"sort_desc_max_health": "Maks. sağlık azalan",
+		"sort_asc_distance": "Mesafe artan",
+		"sort_desc_distance": "Mesafe azalan",
+		"show_players_at_fort": "Kaledeki oyuncuları göster",
+		"hide_players_at_fort": "Kaledeki oyuncuları gizle",
+		"show_players_near_fort": "Kaleye yakın oyuncuları göster",
+		"hide_players_near_fort": "Kaleye yakın oyuncuları gizle",
+		"show_players_away_fort": "Uzak oyuncuları göster",
+		"hide_players_away_fort": "Uzak oyuncuları gizle"
+	},
+	"battle": {
+		"critical_hits": "Kritik vuruşlar",
+		"ghost_rounds": "Hayalet turlar",
+		"stats_total": "Toplam",
+		"stats_hits": "İsabetler",
+		"stats_missed": "Iskalar",
+		"stats_got_shot": "Alınan vuruşlar",
+		"stats_dodge": "Kaçınmalar",
+		"total_damage_tooltip": "Verilen hasar"
+	},
+	"jobs": {
+		"show_gold_jobs": "Altın bonuslu işleri göster",
+		"gold_jobs": "Altın bonuslu işler",
+		"show_silver_jobs": "Gümüş bonuslu işleri göster",
+		"silver_jobs": "Gümüş bonuslu işler",
+		"with_bonus": "Bonuslu işler",
+		"reset_jobs_bonus_confirm": "Sıfırlamak istediğiniz iş kategorisini seçin veya iptal edin.",
+		"reset_all_jobs_bonus": "Tümü",
+		"reset_silver_jobs_bonus": "Gümüş",
+		"reset_gold_jobs_bonus": "Altın",
+		"lp_remaining": "$lp$ Ç.P."
+	},
+	"analyzer": {
+		"reset_confirm_title": "İş Analizörü istatistiklerini sıfırlamak istediğinize emin misiniz?",
+		"reset_confirm_message": "Sıfırlamadan sonra okunacak ilk raporun bağlantısını girin",
+		"job_title": "İş Analizörü",
+		"chest_title": "Sandık Analizörü",
+		"duel_coming_soon": "Düello Analizörü gelecekte eklenecek!",
+		"table_sum_tooltip": "Ortalama Ø'ya geç",
+		"table_avg_tooltip": "Toplam Σ'ya geç",
+		"toggle_rewards_items": "Ödüller ve bulunan eşyalar arasında geçiş yap",
+		"reset_report_analyzer": "Analizör raporlarını sıfırla",
+		"report_link_label": "Rapor bağlantısı:",
+		"use_all_reports": "veya tüm raporları kullan",
+		"use_future_reports": "veya yalnızca gelecekteki raporları kullan"
+	},
+	"quests": {
+		"cancel_title": "Görev iptal edilsin mi?",
+		"cancel_message": "Bu görevi iptal etmek istediğinizden emin misiniz?",
+		"accept_finish": "Görevi kabul et ve tamamla"
+	},
+	"building": {
+		"progress_tooltip": "İlerleme, bir sonraki seviye için ne kadar inşaat kaldığını gösterir",
+		"progress_label": "İlerleme"
+	},
+	"map": {
+		"coordinates_tooltip": "Haritada koordinatları göster",
+		"coordinates_button": "Haritayı verilen koordinatlara taşı",
+		"show_town_tooltip": "Haritada şehri göster",
+		"show_coordinates": "Haritada koordinatları göster"
+	},
+	"duel": {
+		"levels_duel": "Düello yapabileceğiniz seviyeler: $min$ - $max$",
+		"levels_exp": "Kazanacağınız düello deneyimi: $min$ - $max$",
+		"potion_label": "Gizemli iksir",
+		"levels_potion": "Düello Seviyesi $min$$max$",
+		"motivation": "Düello motivasyonu",
+		"ko_time": "Bayılma süresi",
+		"ko_suspension": "KO – Düello $time$ tarihine kadar askıya alındı",
+		"ko_protection": "KO – Düello koruması $time$ tarihine kadar",
+		"profile_duel_exp": "Oyuncu profillerinde düello deneyimini göster",
+		"protection_changed": "Düello koruması değiştirildi"
+	},
+	"town": {
+		"move_tooltip": "Şehre git"
+	},
+	"banking": {
+		"money": "Para",
+		"deposit_message": "Şehrinize ulaştınız. Paranızı yatırmak ister misiniz?",
+		"deposit_money": "Para yatır"
+	},
+	"crafting": {
+		"notification": "Üretim",
+		"can_craft_again": "Tekrar üretebilirsiniz!"
+	},
+	"collector": {
+		"item_not_owned": "Bu eşyaya henüz sahip değilsiniz"
+	},
+	"regen": {
+		"full_health": "Tam sağlığa kalan süre",
+		"full_energy": "Tam enerjiye kalan süre",
+		"missing": "Eksik",
+		"per_hour": "Saatlik yenilenme",
+		"next_health": "Sonraki sağlık puanı",
+		"next_energy": "Sonraki enerji puanı"
+	},
+	"task": {
+		"negative_lp": "negatif çalışma puanları",
+		"low_lp": "düşük çalışma puanları",
+		"suboptimal_lp": "optimal olmayan çalışma puanları"
+	},
+	"westforts": {
+		"open_import": "West Forts'ta savaş içe aktarmayı aç",
+		"close_import": "West Forts'ta savaş içe aktarmayı kapat",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[hata düzeltmesi] Dili Değiştirme işlevinin eski kodunu düzeltin",
+				"[ana] UserScript kodunu yeniden düzenleme ve temizleme"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[özellik] \"Geçici\" Dil değiştirme işlevi ekle",
+				"[özellik] Ayarlar sekme kodunu temizleme",
+				"[özellik] Salon'da renk modu kodu temizleme (sohbet)",
+				"[özellik] Mini Haritadaki bonuslara sahip İşler için temizleme kodu",
+				"[özellik] İş/Göğüs Analiz Cihazı fonksiyon kodunu temizleme",
+				"[özellik] UserScript kodunun çeşitli işlevlerini modernleştirin"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[özellik] İçe/Dışa Aktarma Ayarlarını Ekle işlevi"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[özellik] Web sitesi veritabanına kale savaşı girişi ekleyin (westforts.com)",
+				"[özellik] Fısıltı sesi değiştirme işlevini ekleme",
+				"[özellik] Bir kale savaşı sırasında her oyuncuya verilen hasarı ekleyin",
+				"[özellik] Bir kale savaşı sırasında her fırsatta atış ekleyin",
+				"[özellik] Tamamlanabilecek görevlere renk katın",
+				"[özellik] Tamamlanabilecek görevleri otomatik olarak kabul etmek ve tamamlamak için ekle düğmesi",
+				"[hata düzeltmesi] Seçilen bir öğe dışındaki tüm öğeleri Satıcıya satmak için kodu geri yükleyin",
+				"[hata düzeltmesi] İşler penceresinde iş noktalarını gösteren seçeneğin eski kodu düzeltildi",
+				"[hata düzeltmesi] Giyim penceresinin simge durumuna küçültülmesi için Market otomatik açma seçeneğinin kodunu düzeltin",
+				"[hata düzeltmesi] TWIR mevcutsa derleme sekmesindeki kodu düzeltin",
+				"[ana] Ayarlar sekmesindeki kategorileri yeniden sıralama"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[özellik] The-West Haritası için Koyu tema seçeneği ekleyin",
+				"[özellik] Pazar binasının satın alma penceresindeki satış raporu simgesi iyileştirildi",
+				"[özellik] Pazar tekliflerinin yalnızca ittifak veya şehir üyeleri için herkese açık olup olmadığını belirten simge ekleyin",
+				"[özellik] Market penceresini kolayca açmak için yeni bir düğme ekleyin"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[özellik] Oyuncu portresine Yenilenme Süreleri eklendi",
+				"[özellik] Şehir Forumlarına metin vurgulama ekleme",
+				"[özellik] Menü çubuğunu, Deneyimi ve UserScript'i ekrana sabitleme seçeneği ekleyin",
+				"[özellik] Oyuncu profiline düello deneyimi ekleyin",
+				"[hata düzeltmesi] İşe alma sekmesi düzeltmesi",
+				"[hata düzeltmesi] Bazı işlevlerin otomatik etkinleştirilmesini devre dışı bırakın"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": [
+				"[hata düzeltmesi] Bazı ayar mesajlarını düzeltin",
+				"[hata düzeltmesi] İşe alma sekmesi düzeltmesi"
+			]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[özellik] Kale mezarlığına kritik vuruşlar ve hayalet turlar eklendi",
+				"[özellik] Sahip olunan ve müttefik kaleler için şehirler penceresine pencere ekle",
+				"[özellik] Raporundan baltayla kaldırılan kalenin otomatik açılmasını ekleyin",
+				"[özellik] Tüm Sıralama tabloları iyileştirildi",
+				"[özellik] Kale savaşından önceki Üye Alım penceresi iyileştirildi",
+				"[özellik] Şehir Forumunda yeni bir mesaj varsa Şehir düğmesinin yanıp sönmesini kaldırın"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[özellik] Bina sekmesine inşaat ilerleme durumu ekleme",
+				"[özellik] Ekstra kilise seviyeleri ekleyin",
+				"[özellik] Yalnızca Belediye Binasında tamamen inşa edilmemiş binaları görüntüleme işlevi eklendi",
+				"[özellik] Kilise inşası sekmesini kolayca açmak için yeni bir düğme eklendi",
+				"[özellik] Yalnızca Envanter pencerelerini kapatmak için bir düğme ekleyin"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[hata düzeltmesi] Hata! Derleme kodunu düzeltin"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[hata düzeltmesi] Yeni sürüm bağlantısını düzeltin"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[bugfix] Bazı yerlerde sürüm düzeltildi, umarım!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[bugfix] Bazı yerlerde sürüm düzeltmesi"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[ana] Düzeltmeyi kaldır"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[hata düzeltmesi] Yeni özellik sürümü bağlantısı değiştirildi"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[hata düzeltmesi] UserScript'i kullanan kullanımdan kaldırılmış kodu düzeltin"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": ["[ana] Gereksiz kodu kaldır", "[ana] Üye Al penceresindeki ayrıntılar değiştirildi"]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[hata düzeltmesi] Hata! Sabit Kullanıcı Komut Dosyası"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[hata düzeltmesi] Yanlış sürümü düzeltin"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": [
+				"[ana] Üye Al penceresindeki gereksiz kod kaldırıldı",
+				"[ana] Güncelleyiciyi Değiştir"
+			]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[hata düzeltmesi] Öğe pininin Vanilya ve TWIR Envanteri penceresinde doğru görüntülenmesi için düzeltildi",
+				"[bugfix] Sürüm Niteliklerindeki hata düzeltme kelimesindeki yazım hatalarını düzeltin"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": ["[ana] Kod temizleme - bölüm 2", "[ana] Bazı köprüler değiştirildi"]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[ana] Kod temizleme - bölüm 1"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[hata düzeltmesi] Otomatik güncelleme için bağlantıları yenileyin"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[hata düzeltmesi] Bazı köprüler değiştirildi"]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[hata düzeltmesi] Hata! Sabit Kullanıcı Komut Dosyası"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[hata düzeltmesi] Özelliğin kaldırılmasına yönelik düzeltme"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[ana] Pek çok işe yaramaz özellik kaldırıldı"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": [
+				"[hata düzeltmesi] Bazı yazım hataları düzeltildi",
+				"[ana] Formül sürümünü değiştir"
+			]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** Clothcalc_sk'tan UserScript oluşturun **"]
+		}
+	]
+}

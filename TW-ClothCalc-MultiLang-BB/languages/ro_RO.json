@@ -1,0 +1,524 @@
+{
+	"common": {
+		"ok": "OK",
+		"cancel": "Anulează",
+		"yes": "Da",
+		"no": "Nu",
+		"not_now": "Nu acum",
+		"close": "Închide",
+		"delete": "Șterge",
+		"select_file": "Selectează fișier",
+		"listen": "Ascultă",
+		"save_error": "Salvare eșuată",
+		"save_success": "Salvare reușită",
+		"save": "Salvează",
+		"preview": "Previzualizare",
+		"edit": "Editează",
+		"search": "Caută"
+	},
+	"misc": {
+		"notes_title": "Note",
+		"color_dialog_bold": "aldin",
+		"color_dialog_caps": "MAJUSCULE",
+		"color_dialog_history": "Istoric",
+		"color_dialog_title": "Culoare",
+		"button_church_title": "Construiește biserică",
+		"button_market_title": "Deschide piața",
+		"pin_toggle_tooltip": "Comută modul de fixare",
+		"telegram_toggle_tooltip": "Comută între mesaj neformatat și cel original",
+		"wear_close_tooltip": "Închide doar ferestrele inventarului",
+		"sort_by": "Sortează după",
+		"name": "Nume",
+		"country": "Comitat",
+		"sound_default": "Sunet implicit",
+		"sleep": "Somn",
+		"hotel": "Hotel",
+		"stage": "Nivel",
+		"your_position": "Poziția ta",
+		"levels": "Niveluri",
+		"count": "Număr",
+		"duration": "Durată",
+		"experience": "Experiență",
+		"money": "Bani",
+		"bonds": "Obligațiuni",
+		"motivation": "Motivație",
+		"danger": "Pericol",
+		"killed": "Inconștient",
+		"yield": "Producție",
+		"items": "Obiecte",
+		"luck": "Noroc",
+		"reset": "Resetare",
+		"import": "Importă",
+		"export": "Exportă",
+		"hours_lowercase": "ore",
+		"jobs": "Munci",
+		"construction": "Construcție",
+		"category": "Categorie",
+		"rank": "Rang",
+		"distance": "Distanță",
+		"health_points": "Puncte de viață",
+		"labor_points": "Puncte de muncă"
+	},
+	"script": {
+		"duplicate": "UserScript ClothCalc este instalat de două ori cu limbi diferite. Trebuie să dezactivezi una dintre ele pentru ca scriptul să funcționeze corect.",
+		"description": "UserScript ClothCalc este un proiect creat de echipa TW-DB.info. Oferă numeroase funcții și extensii care îmbunătățesc experiența de joc, economisesc timp și optimizează anumite activități.",
+		"thank_you": "Mulțumim!",
+		"paypal_alt": "PayPal – Cea mai sigură și simplă metodă de plată online!",
+		"lang": "Limbă",
+		"error_message": "Mesaj",
+		"error_type": "Eroare",
+		"error_copy": "Copiază",
+		"error_copied": "Copiat!",
+		"api_registration_failed": "Înregistrarea UserScript-ului TW-DB.info la TheWestApi a eșuat.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "Apăsând „OK”, pagina va fi reîncărcată automat pentru a aplica modificările.",
+		"title": "Setări",
+		"category_inventory": "Inventar",
+		"category_quests": "Misiuni",
+		"category_jobs": "Munci",
+		"category_task_list": "Listă de sarcini",
+		"category_fort": "Fort",
+		"category_town": "Oraș",
+		"category_market": "Piață",
+		"category_graphics": "Grafică",
+		"category_minimap": "Minihartă",
+		"category_premium": "Setări premium",
+		"category_misc": "Diverse",
+		"collector": "Marchează la comerciant și pe piață obiectele pe care nu le ai încă în inventar",
+		"collector_sell": "Adaugă un buton pentru a vinde totul, cu excepția unui obiect selectat, la comerciant",
+		"pin_items": "Fixează obiecte în fereastra inventarului",
+		"quest_cancel": "Confirmare anulare misiune",
+		"instant_quest": "Finalizează instant o misiune dacă toate cerințele sunt îndeplinite",
+		"colored_quest": "Schimbă culoarea misiunilor ce pot fi finalizate",
+		"job_lp": "Adaugă punctele de muncă în ferestrele de lucru",
+		"task_points": "Adaugă indicator pentru puncte de muncă și sfaturi pentru puncte de viață în lista de sarcini – [dreapta jos]",
+		"forts_import": "Adaugă buton pentru importul bătăliilor de fort pe site (westforts)",
+		"fort_recruit": "Adaugă prezentare generală a recrutării fortului",
+		"fort_recruit_enhanced": "Îmbunătățește fila de recrutare înaintea unei bătălii de fort",
+		"declare_report": "Leagă raportul de dezgropare a toporului de luptă de fortul atacator",
+		"forts_owned": "Afișează forturile deținute în profilurile orașelor",
+		"cemetery_critical": "Lovituri critice și runde fantomă în cimitirul fortului",
+		"battle_damage": "Daune totale provocate în descrierea fiecărui jucător în timpul bătăliei de fort",
+		"battle_round": "Lovituri reușite, ratări, lovituri primite și eschive în fiecare rundă",
+		"building_progress": "Afișează progresul construcției într-o fereastră de clădire",
+		"church_levels": "Afișează niveluri suplimentare de biserică ce pot fi construite",
+		"improved_cityhall_tab": "Afișează doar clădirile nefinalizate",
+		"forum_blink": "Elimină clipirea butonului orașului dacă există un mesaj nou pe forum",
+		"market_map": "Adaugă fereastra hărții pieței",
+		"market_reminder": "Adaugă memento pentru licitațiile pieței",
+		"market_sell": "Îmbunătățește fereastra de vânzare a pieței",
+		"market_report": "Îmbunătățește pictograma raportului de vânzare din piață",
+		"market_improved": "Îmbunătățește fereastra de cumpărare din piață",
+		"duel_motivation": "Adaugă un indicator permanent pentru motivația duelului – [sub bara de energie]",
+		"sleep_direct": "Adaugă un buton pentru acces direct la hotel sau cazarmă",
+		"deposit": "Adaugă un buton pentru depunerea banilor la banca actuală",
+		"shop_sale_off": "Dezactivează notificarea de REDUCERE – [sub butonul salonului]",
+		"exp_bar": "Adaugă valori în bara de experiență",
+		"mini_chat": "Adaugă un buton pentru minimizarea camerelor de chat",
+		"event_counter": "Mută contorul de evenimente pe ecrane mari",
+		"scrollbars_off": "Dezactivează barele de derulare pe ecrane mici sau când ferestrele sunt mutate prea departe",
+		"wear_close": "Adaugă un buton pentru a închide automat doar ferestrele inventarului",
+		"profile_duel_exp": "Afișează experiența de duel în profilurile jucătorilor",
+		"regen_timers": "Adaugă temporizatoare de regenerare pe portretul jucătorului",
+		"button_church": "Adaugă un buton pentru deschiderea rapidă a ferestrei de construire a bisericii",
+		"button_market": "Adaugă un buton pentru deschiderea rapidă a ferestrei pieței",
+		"automation_buttons": "Butoane de automatizare în partea dreaptă",
+		"bonus_jobs": "Adaugă opțiunea de afișare a muncilor cu bonus",
+		"coordinates_input": "Adaugă opțiunea de deplasare către coordonate specificate",
+		"work_queue_off": "Dezactivează notificările pentru achiziția automatizării premium",
+		"fetch_all_off": "Dezactivează mesajul premium la colectarea obiectelor din piață",
+		"wof_nuggets_off": "Dezactivează pepitele ca metodă implicită de plată la evenimente",
+		"chat": "Activează îmbunătățirile de chat – [culori chat]",
+		"notes": "Adaugă note în fereastra Telegraf/Rapoarte",
+		"auto_deposit": "Adaugă memento de depunere când ajungi în oraș cu bani",
+		"chest_analyzer": "Adaugă Analizatorul de Cufere în fereastra Telegraf/Rapoarte",
+		"weekly_crafting": "Adaugă memento pentru expirarea timpului de așteptare al creației",
+		"telegram_bb_codes": "Adaugă un buton pentru comutarea la text neformatat în telegrame",
+		"enhanced_rankings": "Îmbunătățește filele clasamentului și adaugă diferența dintre jucători",
+		"translation_texts": "Traduce anumite șiruri de text incorecte",
+		"forum_select": "Permite selectarea textului în forumul orașului",
+		"pin_important": "Păstrează meniul, bara de experiență și scriptul mereu sus",
+		"fortbattle_reminder": "Dezactivează memento-ul pentru bătălia de fort din stânga",
+		"night_mode": "Mod întunecat pentru harta The-West",
+		"blink_events": "Oprește clipirea evenimentelor și a parcului de distracții din stânga",
+		"whisper_improved": "Îmbunătățește sunetul șoaptelor în chat-urile salonului"
+	},
+	"debug": {
+		"failed_to_copy": "Copiere eșuată:",
+		"key_saved": "Cheia $key$ a fost salvată.",
+		"needs": "necesită",
+		"current_statistic_data": "Date statistice curente:",
+		"current_sort_display_state": "Starea curentă de sortare/afișare:",
+		"report_queue": "Coada de rapoarte:",
+		"failed_report_ids": "ID-uri de rapoarte eșuate:"
+	},
+	"cache": {
+		"reset": "Resetare cache TWDB - BB",
+		"reset_key": "Cheie funcție",
+		"reset_all_keys": "Resetare toate funcțiile",
+		"reset_complete": "Resetare finalizată, pagina va fi reîncărcată",
+		"reset_confirm": "Ești sigur că vrei să resetezi complet cache-ul UserScript {$script$}?"
+	},
+	"io": {
+		"settings": "Setări",
+		"export_copy_failed": "Copierea automată a eșuat sau nu este suportată. Copiază manual setările din câmpul de mai jos.",
+		"import_paste_instructions": "Lipește setările tale în câmpul de mai jos și apasă Importă.",
+		"import_placeholder": "Lipește setările tale aici...",
+		"import_cancelled": "Importarea setărilor a fost anulată.",
+		"export_start": "ÎNCEPUT EXPORT SETĂRI",
+		"export_end": "SFÂRȘIT EXPORT SETĂRI",
+		"export_clipboard_success": "Setările au fost copiate automat în clipboard.",
+		"export_clipboard_failed": "Copiere automată eșuată",
+		"import_warning": "Atenție: importarea va suprascrie setările curente. Ai citit avertismentul?",
+		"import_no_data": "Nu au fost introduse setări. Importare anulată.",
+		"import_start": "IMPORT SETĂRI",
+		"import_json_preview": "Următorul JSON va fi importat",
+		"import_success_reload": "Reîncarcă jocul pentru a salva.",
+		"import_error": "Eroare la importarea setărilor. Verifică dacă textul este JSON valid.",
+		"import_error_log": "Eroare la importarea setărilor",
+		"import_clipboard_success": "Setările au fost citite din clipboard. Se începe importarea...",
+		"import_clipboard_failed": "Citirea automată a clipboard-ului a eșuat."
+	},
+	"updater": {
+		"version_features_title": "Funcționalități versiune",
+		"script_updated": "UserScript-ul a fost actualizat!",
+		"script_updated_message": "UserScript-ul $script$ a fost actualizat. Dorești să vezi noutățile?",
+		"script_needs_update": "UserScript-ul necesită actualizare",
+		"new_version_available": "Este disponibilă o versiune nouă pentru UserScript-ul $script$. Apasă OK pentru a actualiza.",
+		"current_version": "Versiune curentă",
+		"new_version": "Versiune nouă",
+		"reload_after_install": "Reîncarcă jocul după instalare.",
+		"version_label": "Versiune"
+	},
+	"market": {
+		"reminder_title": "Memento piață",
+		"rights_town": "Oraș",
+		"rights_alliance": "Alianță",
+		"rights_anyone": "Oricine",
+		"sell_multiply": "Setează (multiplică) prețul curent cu acest număr",
+		"sell_save_desc": "Salvează descrierea pentru licitații viitoare",
+		"sell_reset_desc": "Resetează descrierea",
+		"sell_reset_sel": "Resetează selecția",
+		"sell_buy_price": "Preț de cumpărare",
+		"sell_sell_price": "Preț de vânzare",
+		"sell_save_duration": "Salvează durata și drepturile pentru licitații viitoare",
+		"map_tab_title": "Harta pieței",
+		"auction_label": "Licitație",
+		"reminder_before_expiry": "Memento înainte de expirarea licitației",
+		"reminder_minutes": "minute",
+		"auction_ends": ", Se termină",
+		"auction_ends_label": "Sfârșit licitație",
+		"use_as_default_price": "Folosește ca preț implicit",
+		"reminder_late": "Memento-ul a sosit prea târziu, licitația s-a încheiat deja."
+	},
+	"fort": {
+		"forts": "Forturi",
+		"forts_owned": "Forturi deținute",
+		"forts_members": "Forturi ale alianței",
+		"size": "Dimensiune",
+		"sizes": {
+			"0": "Mic",
+			"1": "Mediu",
+			"2": "Mare"
+		},
+		"sort_by_health": "Sortează după viață",
+		"sort_asc_current_health": "Viață curentă crescător",
+		"sort_desc_current_health": "Viață curentă descrescător",
+		"sort_asc_max_health": "Viață maximă crescător",
+		"sort_desc_max_health": "Viață maximă descrescător",
+		"sort_asc_distance": "Distanță crescător",
+		"sort_desc_distance": "Distanță descrescător",
+		"show_players_at_fort": "Afișează jucătorii la fort",
+		"hide_players_at_fort": "Ascunde jucătorii la fort",
+		"show_players_near_fort": "Afișează jucătorii lângă fort",
+		"hide_players_near_fort": "Ascunde jucătorii lângă fort",
+		"show_players_away_fort": "Afișează jucătorii îndepărtați",
+		"hide_players_away_fort": "Ascunde jucătorii îndepărtați"
+	},
+	"battle": {
+		"critical_hits": "Lovituri critice",
+		"ghost_rounds": "Runde fantomă",
+		"stats_total": "Total",
+		"stats_hits": "Lovituri reușite",
+		"stats_missed": "Ratări",
+		"stats_got_shot": "Lovituri primite",
+		"stats_dodge": "Eschive",
+		"total_damage_tooltip": "Daune provocate"
+	},
+	"jobs": {
+		"show_gold_jobs": "Afișează munci bonus aur",
+		"gold_jobs": "Munci bonus aur",
+		"show_silver_jobs": "Afișează munci bonus argint",
+		"silver_jobs": "Munci bonus argint",
+		"with_bonus": "Munci cu bonus",
+		"reset_jobs_bonus_confirm": "Alege categoria de munci pe care dorești să o resetezi sau anulează resetarea.",
+		"reset_all_jobs_bonus": "Toate",
+		"reset_silver_jobs_bonus": "Argint",
+		"reset_gold_jobs_bonus": "Aur",
+		"lp_remaining": "$lp$ P.M."
+	},
+	"analyzer": {
+		"reset_confirm_title": "Sigur dorești să resetezi statisticile Analizatorului de Munci?",
+		"reset_confirm_message": "Furnizează linkul primului raport ce va fi citit după resetare",
+		"job_title": "Analizator de Munci",
+		"chest_title": "Analizator de Cufere",
+		"duel_coming_soon": "Analizatorul de Dueluri va fi disponibil în viitor!",
+		"table_sum_tooltip": "Comută la medie Ø",
+		"table_avg_tooltip": "Comută la total Σ",
+		"toggle_rewards_items": "Comută între recompense și obiecte găsite",
+		"reset_report_analyzer": "Resetează rapoartele analizatorului",
+		"report_link_label": "Link raport:",
+		"use_all_reports": "sau folosește toate rapoartele",
+		"use_future_reports": "sau folosește doar rapoarte viitoare"
+	},
+	"quests": {
+		"cancel_title": "Anulezi misiunea?",
+		"cancel_message": "Ești sigur că dorești să anulezi această misiune?",
+		"accept_finish": "Acceptă și finalizează misiunea"
+	},
+	"building": {
+		"progress_tooltip": "Progresul arată câtă construcție mai este necesară pentru nivelul următor",
+		"progress_label": "Progres"
+	},
+	"map": {
+		"coordinates_tooltip": "Afișează coordonatele pe hartă",
+		"coordinates_button": "Mută harta la coordonatele introduse",
+		"show_town_tooltip": "Afișează orașul pe hartă",
+		"show_coordinates": "Afișează coordonatele pe hartă"
+	},
+	"duel": {
+		"levels_duel": "Niveluri de duel pe care le poți provoca: $min$ - $max$",
+		"levels_exp": "Experiență de duel pe care o vei obține: $min$ - $max$",
+		"potion_label": "Poțiune misterioasă",
+		"levels_potion": "Nivel duel $min$$max$",
+		"motivation": "Motivație duel",
+		"ko_time": "Timp KO",
+		"ko_suspension": "KO – Duel suspendat până la $time$",
+		"ko_protection": "KO – Protecție duel până la $time$",
+		"profile_duel_exp": "Afișează experiența de duel în profilurile jucătorilor",
+		"protection_changed": "Protecția duelului a fost modificată"
+	},
+	"town": {
+		"move_tooltip": "Deplasează-te în oraș"
+	},
+	"banking": {
+		"money": "Bani",
+		"deposit_message": "Ai ajuns în orașul tău. Dorești să depui banii?",
+		"deposit_money": "Depune bani"
+	},
+	"crafting": {
+		"notification": "Creare",
+		"can_craft_again": "Poți crea din nou!"
+	},
+	"collector": {
+		"item_not_owned": "Nu deții încă acest obiect"
+	},
+	"regen": {
+		"full_health": "Timp până la viață completă",
+		"full_energy": "Timp până la energie completă",
+		"missing": "Lipsește",
+		"per_hour": "Regenerare pe oră",
+		"next_health": "Următorul punct de viață în",
+		"next_energy": "Următorul punct de energie în"
+	},
+	"task": {
+		"negative_lp": "puncte de muncă negative",
+		"low_lp": "puncte de muncă scăzute",
+		"suboptimal_lp": "puncte de muncă neoptime"
+	},
+	"westforts": {
+		"open_import": "Deschide importul de bătălii în West Forts",
+		"close_import": "Închide importul de bătălii în West Forts",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[bugfix] Remediați codul vechi al funcției de schimbare a limbii",
+				"[principal] Refactorizarea și curățarea codului UserScript"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[funcție] Adăugați funcția de schimbare a limbii „temporane”.",
+				"[funcție] Curățați codul filei Setări",
+				"[funcție] Curățarea codului modului de culoare în Saloon (chat)",
+				"[funcție] Cod de curățare pentru locuri de muncă cu bonusuri pe mini hartă",
+				"[funcție] Curățați codul funcției Job/Chest Analyzer",
+				"[funcție] Modernizați diferite funcții ale codului UserScript"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[funcție] Adăugați funcția Setări de import/export"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[funcție] Adăugați o intrare de luptă fort la baza de date a site-ului web (westforts.com)",
+				"[funcție] Adăugați funcția de schimbare a sunetului Whisper",
+				"[funcție] Adăugați daunele aduse fiecărui jucător în timpul unei bătălii cu fortăreață",
+				"[funcție] Adaugă lovituri la fiecare rând în timpul unei bătălii cu fortăreață",
+				"[funcție] Adăugați culoare misiunilor care pot fi finalizate",
+				"[funcție] Buton Adaugă pentru a accepta și a finaliza automat misiunile care pot fi finalizate",
+				"[remediere] Restabiliți codul pentru a vinde comerciantului toate articolele, cu excepția unuia selectat",
+				"[bugfix] S-a remediat codul vechi al opțiunii care afișează punctele de lucru în fereastra de joburi",
+				"[bugfix] Remediați codul opțiunii de deschidere automată a pieței, astfel încât fereastra de îmbrăcăminte să fie minimizată",
+				"[remediere] Remediați codul din fila de compilare dacă este prezent TWIR",
+				"[principal] Reordonarea categoriilor în fila Setări"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[funcție] Adăugați opțiunea de temă întunecată pentru Harta The-West",
+				"[funcție] S-a îmbunătățit pictograma raportului de vânzare în fereastra de cumpărare a clădirii Market",
+				"[funcție] Adăugați pictogramă pentru a stabili dacă ofertele pieței sunt publice, numai pentru membrii alianței sau a orașului",
+				"[funcție] Adăugați un buton nou pentru a deschide cu ușurință fereastra Piață"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[funcție] Timpii de regenerare adăugat la portretul jucătorului",
+				"[funcție] Adăugați evidențierea textului la forumurile orașului",
+				"[funcție] Adăugați opțiunea pentru fixarea barei de meniu, Experiența și UserScript pe ecran",
+				"[funcție] Adăugați experiență de duel la profilul jucătorului",
+				"[remediere] Fila Recrutare remediată",
+				"[bugfix] Dezactivează activarea automată a unor funcții"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": [
+				"[remediere] Remediați unele mesaje de setări",
+				"[remediere] Fila Recrutare remediată"
+			]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[funcție] S-au adăugat lovituri critice și runde fantomă în cimitirul cetății",
+				"[funcție] Adăugați o fereastră pentru forturile deținute și aliate în fereastra orașelor",
+				"[funcție] Adăugați deschiderea automată a fortăreței Ax Unbury din raportul său",
+				"[funcție] S-au îmbunătățit toate tabelele de clasare",
+				"[funcție] Fereastra de recrutare a fost îmbunătățită înainte de bătălia cetății",
+				"[funcție] Eliminați clipirea butonului Oraș dacă există un mesaj nou în Forumul orașului"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[funcție] Adăugați progresul construcției în fila de construcție",
+				"[funcție] Adăugați niveluri suplimentare de biserică",
+				"[funcție] Adăugați funcția pentru a afișa numai clădirile care nu sunt complet construite în Primărie",
+				"[funcție] S-a adăugat un buton nou pentru a deschide cu ușurință fila Clădirea Bisericii",
+				"[funcție] Adăugați un buton pentru a închide numai ferestrele Inventar"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[remediere] Hopa! Remediați codul de construcție"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[remediere] Remediați linkul versiunii noi"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[bugfix] Versiune remediată în unele locuri, să sperăm!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[bugfix] Versiune remediată în unele locuri"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[principal] Eliminați revizuirea"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[bugfix] S-a schimbat linkul versiunii noii caracteristici"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[bugfix] Remediați codul depreciat care folosea UserScript"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": [
+				"[principal] Eliminați codul redundant",
+				"[principal] Detalii modificate în fereastra Recrutare"
+			]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[remediere] Hopa! S-a corectat UserScript"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[bugfix] Remediați versiunea greșită"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": [
+				"[principal] S-a eliminat codul inutil din fereastra Recrutare",
+				"[principal] Schimbare de actualizare"
+			]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[remediere] Remediați codul elementului pentru a fi afișat corect în fereastra vanilie și Inventar TWIR",
+				"[bugfix] Remediați greșelile de ortografie ale cuvântului bugfix în Release Attributes"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": [
+				"[principal] Curățarea codului - partea 2",
+				"[principal] S-au schimbat unele hyperlinkuri"
+			]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[principal] Curățarea codului - partea 1"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[remediere] Actualizează linkurile pentru actualizarea automată"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[bugfix] S-au schimbat unele hyperlinkuri"]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[remediere] Hopa! S-a corectat UserScript"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[remediere] Remediere pentru eliminarea caracteristicilor"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[principal] S-au eliminat multe caracteristici inutile"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": [
+				"[bugfix] S-au remediat unele greșeli de scriere",
+				"[principal] Schimbați versiunea formulei"
+			]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** Generați UserScript din clothcalc_sk **"]
+		}
+	]
+}

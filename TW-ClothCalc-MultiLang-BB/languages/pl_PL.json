@@ -1,0 +1,515 @@
+{
+	"common": {
+		"ok": "OK",
+		"cancel": "Anuluj",
+		"yes": "Tak",
+		"no": "Nie",
+		"not_now": "Nie teraz",
+		"close": "Zamknij",
+		"delete": "Usuń",
+		"select_file": "Wybierz plik",
+		"listen": "Odsłuchaj",
+		"save_error": "Błąd zapisu",
+		"save_success": "Zapisano pomyślnie",
+		"save": "Zapisz",
+		"preview": "Podgląd",
+		"edit": "Edytuj",
+		"search": "Szukaj"
+	},
+	"misc": {
+		"notes_title": "Notatki",
+		"color_dialog_bold": "pogrubienie",
+		"color_dialog_caps": "WIELKIE LITERY",
+		"color_dialog_history": "Historia",
+		"color_dialog_title": "Kolor",
+		"button_church_title": "Buduj kościół",
+		"button_market_title": "Otwórz targ",
+		"pin_toggle_tooltip": "Przełącz tryb przypinania",
+		"telegram_toggle_tooltip": "Przełącz między wiadomością bez formatowania a oryginalną",
+		"wear_close_tooltip": "Zamknij tylko okna ekwipunku",
+		"sort_by": "Sortuj według",
+		"name": "Nazwa",
+		"country": "Hrabstwo",
+		"sound_default": "Domyślny dźwięk",
+		"sleep": "Sen",
+		"hotel": "Hotel",
+		"stage": "Poziom",
+		"your_position": "Twoja pozycja",
+		"levels": "Poziomy",
+		"count": "Ilość",
+		"duration": "Czas trwania",
+		"experience": "Doświadczenie",
+		"money": "Pieniądze",
+		"bonds": "Obligacje",
+		"motivation": "Motywacja",
+		"danger": "Niebezpieczeństwo",
+		"killed": "Nieprzytomny",
+		"yield": "Plon",
+		"items": "Przedmioty",
+		"luck": "Szczęście",
+		"reset": "Resetuj",
+		"import": "Importuj",
+		"export": "Eksportuj",
+		"hours_lowercase": "godziny",
+		"jobs": "Prace",
+		"construction": "Budowa",
+		"category": "Kategoria",
+		"rank": "Ranga",
+		"distance": "Odległość",
+		"health_points": "Punkty zdrowia",
+		"labor_points": "Punkty pracy"
+	},
+	"script": {
+		"duplicate": "UserScript ClothCalc jest zainstalowany dwukrotnie w dwóch różnych językach. Aby działał poprawnie, należy wyłączyć jeden z nich.",
+		"description": "UserScript ClothCalc to projekt stworzony przez zespół TW-DB.info. Oferuje wiele funkcji i rozszerzeń, które poprawiają komfort gry, oszczędzają czas i optymalizują niektóre czynności.",
+		"thank_you": "Dziękujemy!",
+		"paypal_alt": "PayPal – Najbezpieczniejszy i najprostszy sposób płacenia online!",
+		"lang": "Język",
+		"error_message": "Wiadomość",
+		"error_type": "Błąd",
+		"error_copy": "Kopiuj",
+		"error_copied": "Skopiowano!",
+		"api_registration_failed": "Rejestracja UserScript TW-DB.info w TheWestApi nie powiodła się.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "Po kliknięciu „OK” strona zostanie automatycznie odświeżona, aby zastosować zmiany.",
+		"title": "Ustawienia",
+		"category_inventory": "Ekwipunek",
+		"category_quests": "Zadania",
+		"category_jobs": "Prace",
+		"category_task_list": "Lista zadań",
+		"category_fort": "Fort",
+		"category_town": "Miasto",
+		"category_market": "Targ",
+		"category_graphics": "Grafika",
+		"category_minimap": "Minimapa",
+		"category_premium": "Ustawienia premium",
+		"category_misc": "Różne",
+		"collector": "Oznacza u handlarza i na targu przedmioty, których jeszcze nie posiadasz w ekwipunku",
+		"collector_sell": "Dodaje przycisk do sprzedaży wszystkiego oprócz jednego wybranego przedmiotu u handlarza",
+		"pin_items": "Przypinanie przedmiotów w oknie ekwipunku",
+		"quest_cancel": "Potwierdzenie anulowania zadania",
+		"instant_quest": "Natychmiastowe ukończenie zadania, jeśli spełnione są wszystkie wymagania",
+		"colored_quest": "Zmiana koloru zadań możliwych do ukończenia",
+		"job_lp": "Dodanie punktów pracy do okien prac",
+		"task_points": "Dodanie wskaźnika punktów pracy i porad dotyczących zdrowia do listy zadań – [prawy dolny róg]",
+		"forts_import": "Dodanie przycisku importu bitew fortowych na stronę (westforts)",
+		"fort_recruit": "Dodanie przeglądu rekrutacji fortu",
+		"fort_recruit_enhanced": "Ulepszenie zakładki rekrutacji przed bitwą fortu",
+		"declare_report": "Powiązanie raportu wykopania topora bojowego z atakowanym fortem",
+		"forts_owned": "Wyświetlanie posiadanych fortów w profilach miast",
+		"cemetery_critical": "Ciosy krytyczne i rundy ducha na cmentarzu fortu",
+		"battle_damage": "Łączne zadane obrażenia w opisie każdego gracza podczas bitwy fortowej",
+		"battle_round": "Trafienia, pudła, otrzymane trafienia i uniki w każdej rundzie",
+		"building_progress": "Wyświetlanie postępu budowy w oknie budynku",
+		"church_levels": "Wyświetlanie dodatkowych poziomów kościoła możliwych do zbudowania",
+		"improved_cityhall_tab": "Wyświetlanie tylko budynków nieukończonych",
+		"forum_blink": "Usunięcie migania przycisku miasta przy nowej wiadomości na forum",
+		"market_map": "Dodanie okna mapy targu",
+		"market_reminder": "Dodanie przypomnienia o aukcjach targowych",
+		"market_sell": "Ulepszenie okna sprzedaży na targu",
+		"market_report": "Ulepszenie ikony raportu sprzedaży na targu",
+		"market_improved": "Ulepszenie okna zakupów na targu",
+		"duel_motivation": "Dodanie stałego wskaźnika motywacji do pojedynku – [pod paskiem energii]",
+		"sleep_direct": "Dodanie przycisku bezpośredniego przejścia do hotelu lub koszar",
+		"deposit": "Dodanie przycisku do wpłaty pieniędzy w aktualnym banku",
+		"shop_sale_off": "Wyłączenie powiadomień o WYPRZEDAŻY – [pod przyciskiem saloonu]",
+		"exp_bar": "Dodanie wartości do paska doświadczenia – podziękowania dla (Leones/Slygoxx/Belle Bernice)",
+		"mini_chat": "Dodanie przycisku do minimalizacji okien czatu",
+		"event_counter": "Przeniesienie licznika wydarzeń na dużych ekranach (waluta wydarzenia, skrypt Hiro&#38;#39;s)",
+		"scrollbars_off": "Wyłączenie pasków przewijania na małych ekranach lub przy dużym przesunięciu okien",
+		"wear_close": "Dodanie przycisku do automatycznego zamykania tylko okien ekwipunku",
+		"profile_duel_exp": "Wyświetlanie doświadczenia pojedynków w profilach graczy",
+		"regen_timers": "Dodanie liczników regeneracji do portretu gracza",
+		"button_church": "Dodanie przycisku ułatwiającego otwarcie okna budowy kościoła",
+		"button_market": "Dodanie przycisku ułatwiającego otwarcie okna targu",
+		"automation_buttons": "Przyciski automatyzacji po prawej stronie",
+		"bonus_jobs": "Dodanie opcji wyświetlania prac z bonusami",
+		"coordinates_input": "Dodanie opcji przejścia do określonych współrzędnych",
+		"work_queue_off": "Wyłączenie powiadomień o zakupie automatyzacji premium",
+		"fetch_all_off": "Wyłączenie monitu premium przy odbiorze przedmiotów z targu",
+		"wof_nuggets_off": "Wyłączenie bryłek jako domyślnej metody płatności podczas wydarzeń (jeśli dostępne)",
+		"chat": "Włączenie ulepszeń czatu – [kolory czatu]",
+		"notes": "Dodanie notatek do okna Telegraf/Raporty",
+		"auto_deposit": "Dodanie przypomnienia o wpłacie po dotarciu do miasta z pieniędzmi",
+		"chest_analyzer": "Dodanie Analizatora Skrzyń do okna Telegraf/Raporty",
+		"weekly_crafting": "Dodanie przypomnienia o zakończeniu czasu odnowienia wytwarzania",
+		"telegram_bb_codes": "Dodanie przycisku do przełączania na tekst bez formatowania w telegramach",
+		"enhanced_rankings": "Ulepszenie zakładek rankingów i dodanie różnicy między graczami",
+		"translation_texts": "Tłumaczenie wybranych błędnych ciągów tekstowych",
+		"forum_select": "Włączenie zaznaczania tekstu na forum miasta",
+		"pin_important": "Zachowanie menu, paska doświadczenia i skryptu zawsze na wierzchu",
+		"fortbattle_reminder": "Wyłączenie przypomnienia o bitwie fortowej po lewej stronie",
+		"night_mode": "Tryb nocny dla mapy The-West",
+		"blink_events": "Zatrzymanie migania wydarzeń i wesołego miasteczka po lewej stronie",
+		"whisper_improved": "Ulepszenie dźwięku szeptu w różnych czatach saloonu (po włączeniu można odsłuchać i zmienić dźwięk bezpośrednio poniżej)"
+	},
+	"debug": {
+		"failed_to_copy": "Nie udało się skopiować:",
+		"key_saved": "Klucz $key$ zapisany.",
+		"needs": "wymaga",
+		"current_statistic_data": "Aktualne dane statystyczne:",
+		"current_sort_display_state": "Aktualny stan sortowania/wyświetlania:",
+		"report_queue": "Kolejka raportów:",
+		"failed_report_ids": "ID nieudanych raportów:"
+	},
+	"cache": {
+		"reset": "Resetuj pamięć podręczną TWDB - BB",
+		"reset_key": "Klucz funkcji",
+		"reset_all_keys": "Resetuj wszystkie ustawienia funkcji",
+		"reset_complete": "Reset zakończony, strona zostanie ponownie załadowana",
+		"reset_confirm": "Czy na pewno chcesz zresetować całą pamięć podręczną UserScript {$script$}?"
+	},
+	"io": {
+		"settings": "Ustawienia",
+		"export_copy_failed": "Automatyczne kopiowanie nie powiodło się lub nie jest obsługiwane. Skopiuj ustawienia ręcznie z pola poniżej.",
+		"import_paste_instructions": "Wklej swoje ustawienia w polu poniżej i kliknij Importuj.",
+		"import_placeholder": "Wklej tutaj swoje ustawienia...",
+		"import_cancelled": "Import ustawień anulowany.",
+		"export_start": "POCZĄTEK EKSPORTU USTAWIEŃ",
+		"export_end": "KONIEC EKSPORTU USTAWIEŃ",
+		"export_clipboard_success": "Ustawienia zostały automatycznie skopiowane do schowka.",
+		"export_clipboard_failed": "Automatyczne kopiowanie nie powiodło się",
+		"import_warning": "Uwaga: import nadpisze bieżące ustawienia. Czy przeczytałeś ostrzeżenie?",
+		"import_no_data": "Nie wprowadzono żadnych ustawień. Import anulowany.",
+		"import_start": "IMPORT USTAWIEŃ",
+		"import_json_preview": "Następujący JSON zostanie zaimportowany",
+		"import_success_reload": "Przeładuj grę, aby zapisać.",
+		"import_error": "Błąd podczas importu ustawień. Sprawdź, czy tekst jest poprawnym JSON-em.",
+		"import_error_log": "Błąd importu ustawień",
+		"import_clipboard_success": "Ustawienia odczytane ze schowka. Rozpoczynam import...",
+		"import_clipboard_failed": "Automatyczne odczytanie schowka nie powiodło się."
+	},
+	"updater": {
+		"version_features_title": "Funkcje wersji",
+		"script_updated": "UserScript został zaktualizowany!",
+		"script_updated_message": "UserScript $script$ został zaktualizowany. Czy chcesz zobaczyć nowości?",
+		"script_needs_update": "UserScript wymaga aktualizacji",
+		"new_version_available": "Dostępna jest nowa wersja UserScript $script$. Kliknij OK, aby zaktualizować.",
+		"current_version": "Aktualna wersja",
+		"new_version": "Nowa wersja",
+		"reload_after_install": "Po instalacji przeładuj grę.",
+		"version_label": "Wersja"
+	},
+	"market": {
+		"reminder_title": "Przypomnienie targu",
+		"rights_town": "Miasto",
+		"rights_alliance": "Sojusz",
+		"rights_anyone": "Każdy",
+		"sell_multiply": "Ustaw (pomnóż) aktualną cenę przez tę liczbę",
+		"sell_save_desc": "Zapisz opis dla przyszłych aukcji",
+		"sell_reset_desc": "Resetuj opis",
+		"sell_reset_sel": "Resetuj zaznaczenie",
+		"sell_buy_price": "Cena zakupu",
+		"sell_sell_price": "Cena sprzedaży",
+		"sell_save_duration": "Zapisz czas trwania i prawa dla przyszłych aukcji",
+		"map_tab_title": "Mapa targu",
+		"auction_label": "Aukcja",
+		"reminder_before_expiry": "Przypomnienie przed zakończeniem aukcji",
+		"reminder_minutes": "minuty",
+		"auction_ends": ", Koniec",
+		"auction_ends_label": "Koniec aukcji",
+		"use_as_default_price": "Użyj jako ceny domyślnej",
+		"reminder_late": "Przypomnienie było spóźnione, aukcja już się zakończyła."
+	},
+	"fort": {
+		"forts": "Forty",
+		"forts_owned": "Posiadane forty",
+		"forts_members": "Forty sojuszu",
+		"size": "Rozmiar",
+		"sizes": {
+			"0": "Mały",
+			"1": "Średni",
+			"2": "Duży"
+		},
+		"sort_by_health": "Sortuj według zdrowia",
+		"sort_asc_current_health": "Aktualne zdrowie rosnąco",
+		"sort_desc_current_health": "Aktualne zdrowie malejąco",
+		"sort_asc_max_health": "Maksymalne zdrowie rosnąco",
+		"sort_desc_max_health": "Maksymalne zdrowie malejąco",
+		"sort_asc_distance": "Odległość rosnąco",
+		"sort_desc_distance": "Odległość malejąco",
+		"show_players_at_fort": "Pokaż graczy w forcie",
+		"hide_players_at_fort": "Ukryj graczy w forcie",
+		"show_players_near_fort": "Pokaż graczy w pobliżu fortu",
+		"hide_players_near_fort": "Ukryj graczy w pobliżu fortu",
+		"show_players_away_fort": "Pokaż odległych graczy",
+		"hide_players_away_fort": "Ukryj odległych graczy"
+	},
+	"battle": {
+		"critical_hits": "Ciosy krytyczne",
+		"ghost_rounds": "Rundy ducha",
+		"stats_total": "Suma",
+		"stats_hits": "Trafienia",
+		"stats_missed": "Pudła",
+		"stats_got_shot": "Otrzymane trafienia",
+		"stats_dodge": "Uniki",
+		"total_damage_tooltip": "Zadane obrażenia"
+	},
+	"jobs": {
+		"show_gold_jobs": "Pokaż złote prace bonusowe",
+		"gold_jobs": "Złote prace bonusowe",
+		"show_silver_jobs": "Pokaż srebrne prace bonusowe",
+		"silver_jobs": "Srebrne prace bonusowe",
+		"with_bonus": "Prace z bonusem",
+		"reset_jobs_bonus_confirm": "Wybierz kategorię prac do resetu lub anuluj reset.",
+		"reset_all_jobs_bonus": "Wszystkie",
+		"reset_silver_jobs_bonus": "Srebrne",
+		"reset_gold_jobs_bonus": "Złote",
+		"lp_remaining": "$lp$ P.P."
+	},
+	"analyzer": {
+		"reset_confirm_title": "Czy na pewno chcesz zresetować statystyki Analizatora Prac?",
+		"reset_confirm_message": "Podaj link do pierwszego raportu, który ma zostać odczytany po resecie",
+		"job_title": "Analizator Prac",
+		"chest_title": "Analizator Skrzyń",
+		"duel_coming_soon": "Analizator Pojedynków pojawi się w przyszłości!",
+		"table_sum_tooltip": "Przełącz na średnią Ø",
+		"table_avg_tooltip": "Przełącz na sumę Σ",
+		"toggle_rewards_items": "Przełącz między nagrodami a znalezionymi przedmiotami",
+		"reset_report_analyzer": "Resetuj raporty analizatora",
+		"report_link_label": "Link raportu:",
+		"use_all_reports": "lub użyj wszystkich raportów",
+		"use_future_reports": "lub użyj tylko przyszłych raportów"
+	},
+	"quests": {
+		"cancel_title": "Anulować zadanie?",
+		"cancel_message": "Czy na pewno chcesz anulować to zadanie?",
+		"accept_finish": "Akceptuj i zakończ zadanie"
+	},
+	"building": {
+		"progress_tooltip": "Postęp pokazuje, ile budowy pozostało do następnego poziomu",
+		"progress_label": "Postęp"
+	},
+	"map": {
+		"coordinates_tooltip": "Pokaż współrzędne na mapie",
+		"coordinates_button": "Przenieś mapę do podanych współrzędnych",
+		"show_town_tooltip": "Pokaż miasto na mapie",
+		"show_coordinates": "Pokaż współrzędne na mapie"
+	},
+	"duel": {
+		"levels_duel": "Poziomy pojedynku, które możesz wyzwać: $min$ - $max$",
+		"levels_exp": "Aktualne doświadczenie pojedynku, które otrzymasz: $min$ - $max$",
+		"potion_label": "Tajemnicza mikstura",
+		"levels_potion": "Poziom pojedynku $min$$max$",
+		"motivation": "Motywacja pojedynku",
+		"ko_time": "Czas KO",
+		"ko_suspension": "KO – Zawieszenie pojedynków do $time$",
+		"ko_protection": "KO – Ochrona pojedynków do $time$",
+		"profile_duel_exp": "Pokaż doświadczenie pojedynku w profilach graczy",
+		"protection_changed": "Ochrona pojedynku została zmieniona"
+	},
+	"town": {
+		"move_tooltip": "Przejdź do miasta"
+	},
+	"banking": {
+		"money": "Pieniądze",
+		"deposit_message": "Dotarłeś do swojego miasta. Czy chcesz wpłacić pieniądze?",
+		"deposit_money": "Wpłać pieniądze"
+	},
+	"crafting": {
+		"notification": "Wytwarzanie",
+		"can_craft_again": "Możesz wytwarzać ponownie!"
+	},
+	"collector": {
+		"item_not_owned": "Nie posiadasz jeszcze tego przedmiotu"
+	},
+	"regen": {
+		"full_health": "Czas do pełnego zdrowia",
+		"full_energy": "Czas do pełnej energii",
+		"missing": "Brakuje",
+		"per_hour": "Regeneracja na godzinę",
+		"next_health": "Następny punkt zdrowia za",
+		"next_energy": "Następny punkt energii za"
+	},
+	"task": {
+		"negative_lp": "ujemne punkty pracy",
+		"low_lp": "niskie punkty pracy",
+		"suboptimal_lp": "nieoptymalne punkty pracy"
+	},
+	"westforts": {
+		"open_import": "Otwórz import bitew w West Forts",
+		"close_import": "Zamknij import bitew w West Forts",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[poprawka] Napraw stary kod funkcji Zmień język",
+				"[main] Refaktoryzacja i czyszczenie kodu UserScript"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[funkcja] Dodaj „tymczasową” funkcję zmiany języka",
+				"[funkcja] Oczyść kod karty Ustawienia",
+				"[funkcja] Czyszczenie kodu trybu koloru w Saloon (czat)",
+				"[funkcja] Kod porządkowy dla zawodów z bonusami na minimapie",
+				"[funkcja] Oczyść kod funkcji analizatora pracy/klatki piersiowej",
+				"[funkcja] Modernizacja różnych funkcji kodu UserScript"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[funkcja] Dodaj funkcję importu/eksportu ustawień"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[funkcja] Dodaj wpis bitwy o fort do bazy danych witryny (westforts.com)",
+				"[funkcja] Dodaj funkcję zmiany dźwięku szeptu",
+				"[funkcja] Dodaj obrażenia zadane każdemu graczowi podczas bitwy o twierdzę",
+				"[funkcja] Dodawaj strzały w każdej turze podczas bitwy o twierdzę",
+				"[funkcja] Dodaj koloru do zadań, które można ukończyć",
+				"[funkcja] Dodaj przycisk, aby automatycznie akceptować i wykonywać zadania, które można ukończyć",
+				"[poprawka] Przywróć kod, aby sprzedać handlarzowi wszystkie przedmioty oprócz wybranego",
+				"[poprawka] Naprawiono stary kod opcji pokazującej punkty pracy w oknie zadań",
+				"[poprawka] Napraw kod opcji automatycznego otwierania Marketu, aby zminimalizować okno odzieży",
+				"[poprawka] Napraw kod w zakładce kompilacji, jeśli obecny jest TWIR",
+				"[main] Zmiana kolejności kategorii w zakładce Ustawienia"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[funkcja] Dodaj opcję ciemnego motywu dla mapy The-West",
+				"[funkcja] Poprawiono ikonę raportu sprzedaży w oknie zakupu budynku Targowiska",
+				"[funkcja] Dodaj ikonę informującą, czy oferty rynkowe są publiczne, tylko dla członków sojuszu lub miasta",
+				"[funkcja] Dodaj nowy przycisk, aby łatwo otworzyć okno Marketu"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[funkcja] Dodano czasy regeneracji do portretu gracza",
+				"[funkcja] Dodaj podświetlanie tekstu do forów miejskich",
+				"[funkcja] Dodano opcję przypinania paska menu, środowiska i skryptu użytkownika do ekranu",
+				"[funkcja] Dodaj doświadczenie pojedynków do profilu gracza",
+				"[poprawka] Naprawa zakładki Rekrutacja",
+				"[poprawka] Wyłącz automatyczną aktywację niektórych funkcji"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": [
+				"[poprawka] Napraw niektóre komunikaty dotyczące ustawień",
+				"[poprawka] Naprawa zakładki Rekrutacja"
+			]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[funkcja] Dodano trafienia krytyczne i rundy duchów na cmentarzu fortecy",
+				"[funkcja] Dodano okno dla posiadanych i sojuszniczych fortów do okna miast",
+				"[funkcja] Dodano automatyczne otwieranie twierdzy Axe Unbury z jej raportu",
+				"[funkcja] Poprawiono wszystkie tabele rankingowe",
+				"[funkcja] Poprawiono okno Rekrutacji przed bitwą o twierdzę",
+				"[funkcja] Usuń miganie przycisku Miasto, jeśli na Forum Miasta pojawiła się nowa wiadomość"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[funkcja] Dodaj postęp budowy do zakładki budowy",
+				"[funkcja] Dodaj dodatkowe poziomy kościoła",
+				"[funkcja] Dodaj funkcję wyświetlającą tylko budynki, które nie są w pełni wybudowane w ratuszu",
+				"[funkcja] Dodano nowy przycisk umożliwiający łatwe otwarcie zakładki budowy kościoła",
+				"[funkcja] Dodaj przycisk zamykający tylko okna Ekwipunku"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[poprawka] Ups! Napraw kod kompilacji"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[poprawka] Napraw link do nowej wersji"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[poprawka] Poprawka wersji w niektórych miejscach, miejmy nadzieję!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[poprawka] Poprawka wersji w niektórych miejscach"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[główny] Usuń wersję"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[poprawka] Zmieniono link do nowej wersji funkcji"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[poprawka] Napraw przestarzały kod korzystający z UserScript"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": ["[main] Usuń zbędny kod", "[main] Zmieniono szczegóły w oknie Rekrutacji"]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[poprawka] Ups! Naprawiono skrypt użytkownika"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[poprawka] Napraw błędną wersję"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": [
+				"[main] Usunięto niepotrzebny kod w oknie Rekrutacji",
+				"[główny] Zmień aktualizator"
+			]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[poprawka] Naprawiono pinezkę przedmiotu, aby poprawnie wyświetlała się w oknie ekwipunku TWIR",
+				"[poprawka] Napraw błędy ortograficzne słowa „poprawka” w atrybutach wydania"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": ["[główny] Oczyszczanie kodu - część 2", "[main] Zmieniono niektóre hiperłącza"]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[główny] Oczyszczanie kodu - część 1"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[poprawka] Odśwież linki do automatycznej aktualizacji"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[poprawka] Zmieniono niektóre hiperłącza"]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[poprawka] Ups! Naprawiono skrypt użytkownika"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[poprawka] Poprawka dotycząca usuwania funkcji"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[główny] Usunięto wiele bezużytecznych funkcji"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": ["[poprawka] Naprawiono kilka literówek", "[main] Zmień wersję formuły"]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** Wygeneruj skrypt użytkownika z Clothcalc_sk **"]
+		}
+	]
+}

@@ -1,0 +1,509 @@
+{
+	"common": {
+		"ok": "OK",
+		"cancel": "Cancel",
+		"yes": "Yes",
+		"no": "No",
+		"not_now": "Not now",
+		"close": "Close",
+		"delete": "Delete",
+		"select_file": "Select file",
+		"listen": "Listen",
+		"save_error": "Save failed",
+		"save_success": "Saved successfully",
+		"save": "Save",
+		"preview": "Preview",
+		"edit": "Edit",
+		"search": "Search"
+	},
+	"misc": {
+		"notes_title": "Notes",
+		"color_dialog_bold": "bold",
+		"color_dialog_caps": "CAPS",
+		"color_dialog_history": "History",
+		"color_dialog_title": "Color",
+		"button_church_title": "Build Church",
+		"button_market_title": "Open Market",
+		"pin_toggle_tooltip": "Toggle pin mode",
+		"telegram_toggle_tooltip": "Toggle between unformatted message and original",
+		"wear_close_tooltip": "Close only your inventory windows",
+		"sort_by": "Sort by",
+		"name": "Name",
+		"country": "County",
+		"sound_default": "Default sound",
+		"sleep": "Sleep",
+		"hotel": "Hotel",
+		"stage": "Stage",
+		"your_position": "Your position",
+		"levels": "Levels",
+		"count": "Count",
+		"duration": "Duration",
+		"experience": "Experience",
+		"money": "Money",
+		"bonds": "Bonds",
+		"motivation": "Motivation",
+		"danger": "Danger",
+		"killed": "Knocked out",
+		"yield": "Yield",
+		"items": "Items",
+		"luck": "Luck",
+		"reset": "Reset",
+		"import": "Import",
+		"export": "Export",
+		"hours_lowercase": "hours",
+		"jobs": "Jobs",
+		"construction": "Construction",
+		"category": "Category",
+		"rank": "Rank",
+		"distance": "Distance",
+		"health_points": "Health Points",
+		"labor_points": "Labor Points"
+	},
+	"script": {
+		"duplicate": "The ClothCalc UserScript is installed twice, with two different languages. You must disable one of the two languages for the UserScript to work properly.",
+		"description": "The ClothCalc UserScript is a project created by the TW-DB.info team. It offers many features and extensions that will give you an improved gameplay experience – saving your time and optimizing some of your activities.",
+		"thank_you": "Thank you!",
+		"paypal_alt": "PayPal – The safest and easiest way to pay online!",
+		"lang": "Language",
+		"error_message": "Message",
+		"error_type": "Error",
+		"error_copy": "Copy",
+		"error_copied": "Copied!",
+		"api_registration_failed": "The registration of the TW-DB.info UserScript with TheWestApi failed.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "Pressing \"OK\" will automatically reload the page to apply your changes.",
+		"title": "Settings",
+		"category_inventory": "Inventory",
+		"category_quests": "Quests",
+		"category_jobs": "Jobs",
+		"category_task_list": "Task list",
+		"category_fort": "Fort",
+		"category_town": "Town",
+		"category_market": "Market",
+		"category_graphics": "Graphics",
+		"category_minimap": "Minimap",
+		"category_premium": "Premium settings",
+		"category_misc": "Miscellaneous",
+		"collector": "Mark items at the trader and market that you do not yet own in your inventory",
+		"collector_sell": "Add a button to sell all except one selected item at the trader",
+		"pin_items": "Pin items in the inventory window",
+		"quest_cancel": "Confirm quest cancellation",
+		"instant_quest": "Complete a quest instantly if all requirements are met",
+		"colored_quest": "Change the color of quests that can be completed",
+		"job_lp": "Add labor points to job windows",
+		"task_points": "Add labor point indicator and health point tips to the task list – [Bottom right]",
+		"forts_import": "Add a fort battle import button to the site (westforts)",
+		"fort_recruit": "Add fort recruitment overview",
+		"fort_recruit_enhanced": "Improve the recruitment tab before a fort battle",
+		"declare_report": "Link the battle axe dig report to the specific attacking fort",
+		"forts_owned": "Fort ownership in town profiles",
+		"cemetery_critical": "Critical hits and ghost rounds in the fort cemetery",
+		"battle_damage": "Total damage dealt in each player description during fort battles",
+		"battle_round": "Hits, misses, received hits and dodges in each round",
+		"building_progress": "Show construction progress in a building window",
+		"church_levels": "Show additional church levels you can build",
+		"improved_cityhall_tab": "Show only buildings that are not fully built",
+		"forum_blink": "Remove city button blinking if there is a new city forum message",
+		"market_map": "Add Market Map window",
+		"market_reminder": "Add a reminder for market auctions",
+		"market_sell": "Improve the market sell window",
+		"market_report": "Improve the market sell report icon",
+		"market_improved": "Improve the market buy window",
+		"duel_motivation": "Add a permanent duel motivation indicator – [Below the energy bar]",
+		"sleep_direct": "Add a button for direct access to the Hotel or Barracks",
+		"deposit": "Add a button to deposit money at the bank you are in",
+		"shop_sale_off": "Disable SALE notification – [Below the Saloon button]",
+		"exp_bar": "Add values to the experience bar – Thanks to (Leones/Slygoxx/Belle Bernice)",
+		"mini_chat": "Add a button to minimize chat rooms",
+		"event_counter": "Move event counter on large screens (Event currency, Hiro&#38;#39;s script)",
+		"scrollbars_off": "Disable scrollbars on small screens or when windows are moved too far",
+		"wear_close": "Add a button to automatically close only inventory windows",
+		"profile_duel_exp": "Show duel experience on player profiles",
+		"regen_timers": "Add regeneration timers to the player portrait",
+		"button_church": "Add a button for easier opening of the church construction window",
+		"button_market": "Add a button for easier opening of the market window",
+		"automation_buttons": "Automation buttons on the right",
+		"bonus_jobs": "Add option to show jobs with bonuses",
+		"coordinates_input": "Add option to move to specified coordinates",
+		"work_queue_off": "Disable Premium Automation purchase notifications",
+		"fetch_all_off": "Disable Premium prompt when collecting items from the market",
+		"wof_nuggets_off": "Disable Nuggets as default payment method in events (when available)",
+		"chat": "Enable chat improvement – [Chat colors]",
+		"notes": "Add Notes to the Telegraph/Reports window",
+		"auto_deposit": "Add deposit reminder when you reach your town with money",
+		"chest_analyzer": "Add Chest Analyzer to the Telegraph/Reports window",
+		"weekly_crafting": "Add reminder for crafting cooldown expiration",
+		"telegram_bb_codes": "Add a button to switch to unformatted text in telegrams",
+		"enhanced_rankings": "Improve ranking tabs and add player difference",
+		"translation_texts": "Translate specific incorrect text strings",
+		"forum_select": "Enable text selection in City Forum",
+		"pin_important": "Keep menu, experience bar and script always on top",
+		"fortbattle_reminder": "Disable fort battle reminder on the left",
+		"night_mode": "Dark mode for the The-West map",
+		"blink_events": "Stop blinking of Events and the Fairground on the left side",
+		"whisper_improved": "Improve whisper sound in various Saloon chats (while enabled, you can listen and change the sound directly from the list below)"
+	},
+	"debug": {
+		"failed_to_copy": "Failed to copy:",
+		"key_saved": "Key $key$ saved.",
+		"needs": "needs",
+		"current_statistic_data": "Current statistic data:",
+		"current_sort_display_state": "Current sort/display state:",
+		"report_queue": "Report queue:",
+		"failed_report_ids": "Failed report IDs:"
+	},
+	"cache": {
+		"reset": "Reset TWDB Cache - BB",
+		"reset_key": "Feature key",
+		"reset_all_keys": "Reset all feature settings",
+		"reset_complete": "Reset completed, the page will reload",
+		"reset_confirm": "Are you sure you want to reset the entire {$script$} UserScript cache?"
+	},
+	"io": {
+		"settings": "Settings",
+		"export_copy_failed": "Automatic copy failed or is not supported. Please manually copy the settings from the box below.",
+		"import_paste_instructions": "Please paste your settings into the box below and press Import.",
+		"import_placeholder": "Paste your settings here...",
+		"import_cancelled": "Settings import canceled.",
+		"export_start": "START EXPORT SETTINGS",
+		"export_end": "END EXPORT SETTINGS",
+		"export_clipboard_success": "Settings were automatically copied to the clipboard.",
+		"export_clipboard_failed": "Automatic copy failed",
+		"import_warning": "Warning: Importing settings will overwrite current settings. Have you read the warning?",
+		"import_no_data": "No settings were entered. Import canceled.",
+		"import_start": "IMPORT SETTINGS",
+		"import_json_preview": "The following JSON will be imported",
+		"import_success_reload": "Reload the game to save.",
+		"import_error": "Error importing settings. Check if the text is valid JSON.",
+		"import_error_log": "Settings import error",
+		"import_clipboard_success": "Settings read from clipboard. Proceeding with import...",
+		"import_clipboard_failed": "Failed to automatically read clipboard."
+	},
+	"updater": {
+		"version_features_title": "Version Features",
+		"script_updated": "The UserScript has been updated!",
+		"script_updated_message": "The UserScript $script$ has been updated. Would you like to see the version features?",
+		"script_needs_update": "The UserScript needs an update",
+		"new_version_available": "A new version is available for the UserScript $script$. Click OK to update.",
+		"current_version": "Current version",
+		"new_version": "New version",
+		"reload_after_install": "Reload the game after installation.",
+		"version_label": "Version"
+	},
+	"market": {
+		"reminder_title": "Market reminder",
+		"rights_town": "Town",
+		"rights_alliance": "Alliance",
+		"rights_anyone": "Anyone",
+		"sell_multiply": "Set (multiply) the current price by this number",
+		"sell_save_desc": "Save description for future auctions",
+		"sell_reset_desc": "Reset description",
+		"sell_reset_sel": "Reset selection",
+		"sell_buy_price": "Buy price",
+		"sell_sell_price": "Sell price",
+		"sell_save_duration": "Save duration and rights for future auctions",
+		"map_tab_title": "Market Map",
+		"auction_label": "Auction",
+		"reminder_before_expiry": "Reminder before auction ends",
+		"reminder_minutes": "minutes",
+		"auction_ends": ", Ends",
+		"auction_ends_label": "Auction end",
+		"use_as_default_price": "Use as default price",
+		"reminder_late": "The reminder is late, the auction has already ended."
+	},
+	"fort": {
+		"forts": "Forts",
+		"forts_owned": "Owned Forts",
+		"forts_members": "Alliance Forts",
+		"size": "Size",
+		"sizes": {
+			"0": "Small",
+			"1": "Medium",
+			"2": "Large"
+		},
+		"sort_by_health": "Sort by health",
+		"sort_asc_current_health": "Ascending current health",
+		"sort_desc_current_health": "Descending current health",
+		"sort_asc_max_health": "Ascending max health",
+		"sort_desc_max_health": "Descending max health",
+		"sort_asc_distance": "Ascending distance",
+		"sort_desc_distance": "Descending distance",
+		"show_players_at_fort": "Show players at the fort",
+		"hide_players_at_fort": "Hide players at the fort",
+		"show_players_near_fort": "Show players near the fort",
+		"hide_players_near_fort": "Hide players near the fort",
+		"show_players_away_fort": "Show players away from the fort",
+		"hide_players_away_fort": "Hide players away from the fort"
+	},
+	"battle": {
+		"critical_hits": "Critical hits",
+		"ghost_rounds": "Ghost rounds",
+		"stats_total": "Total",
+		"stats_hits": "Hits",
+		"stats_missed": "Misses",
+		"stats_got_shot": "Got hit",
+		"stats_dodge": "Dodges",
+		"total_damage_tooltip": "Damage dealt"
+	},
+	"jobs": {
+		"show_gold_jobs": "Show gold bonus jobs",
+		"gold_jobs": "Gold bonus jobs",
+		"show_silver_jobs": "Show silver bonus jobs",
+		"silver_jobs": "Silver bonus jobs",
+		"with_bonus": "Jobs with bonus",
+		"reset_jobs_bonus_confirm": "Choose which job category you want to reset or cancel the reset.",
+		"reset_all_jobs_bonus": "All",
+		"reset_silver_jobs_bonus": "Silver",
+		"reset_gold_jobs_bonus": "Gold",
+		"lp_remaining": "$lp$ L.P."
+	},
+	"analyzer": {
+		"reset_confirm_title": "Do you really want to reset the Job Analyzer statistics?",
+		"reset_confirm_message": "Provide the link of the first report to be read after the reset",
+		"job_title": "Job Analyzer",
+		"chest_title": "Chest Analyzer",
+		"duel_coming_soon": "The Duel Analyzer will come in the future!",
+		"table_sum_tooltip": "Switch to Ø average",
+		"table_avg_tooltip": "Switch to Σ total",
+		"toggle_rewards_items": "Toggle between rewards and found items",
+		"reset_report_analyzer": "Reset Analyzer reports",
+		"report_link_label": "Report link:",
+		"use_all_reports": "or use all reports",
+		"use_future_reports": "or use only future reports"
+	},
+	"quests": {
+		"cancel_title": "Cancel Quest?",
+		"cancel_message": "Are you sure you want to cancel this quest?",
+		"accept_finish": "Accept & Complete quest"
+	},
+	"building": {
+		"progress_tooltip": "Progress shows how much construction is still needed for the next level",
+		"progress_label": "Progress"
+	},
+	"map": {
+		"coordinates_tooltip": "Show coordinates on the map",
+		"coordinates_button": "Move the map to the given coordinates",
+		"show_town_tooltip": "Show town indicator on the map",
+		"show_coordinates": "Show coordinates on the map"
+	},
+	"duel": {
+		"levels_duel": "Duel levels you can duel: $min$ - $max$",
+		"levels_exp": "Current duel experience you will gain: $min$ - $max$",
+		"potion_label": "Mysterious potion",
+		"levels_potion": "Duel Level $min$$max$",
+		"motivation": "Duel motivation",
+		"ko_time": "Knockout time",
+		"ko_suspension": "KO – Duel suspension until $time$",
+		"ko_protection": "KO – Duel protection until $time$",
+		"profile_duel_exp": "Show duel experience on player profiles",
+		"protection_changed": "Duel protection has changed"
+	},
+	"town": {
+		"move_tooltip": "Move to town"
+	},
+	"banking": {
+		"money": "Money",
+		"deposit_message": "You have reached your town. Would you like to deposit your money?",
+		"deposit_money": "Deposit money"
+	},
+	"crafting": {
+		"notification": "Crafting",
+		"can_craft_again": "You can craft again!"
+	},
+	"collector": {
+		"item_not_owned": "You do not own this item yet"
+	},
+	"regen": {
+		"full_health": "Time to full health",
+		"full_energy": "Time to full energy",
+		"missing": "Missing",
+		"per_hour": "Regeneration per hour",
+		"next_health": "Next health point in",
+		"next_energy": "Next energy point in"
+	},
+	"task": {
+		"negative_lp": "negative labor points",
+		"low_lp": "low labor points",
+		"suboptimal_lp": "Suboptimal labor points"
+	},
+	"westforts": {
+		"open_import": "Open battle import in West Forts",
+		"close_import": "Close battle import in West Forts",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[bugfix] Fixed old code of Change Language function",
+				"[main] Refactoring and cleaning up the UserScript code"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[feature] Add \"temporary\" Language change function",
+				"[feature] Clean up Settings tab code",
+				"[feature] Color mode code cleanup in Saloon (chat)",
+				"[feature] Cleanup code for Jobs with bonuses on the Mini Map",
+				"[feature] Clean up Job/Chest Analyzer function code",
+				"[feature] Modernize various functions of the UserScript code"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[feature] Add Import/Export Settings function"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[feature] Add fort battle entry to website database (westforts.com)",
+				"[feature] Add Whisper sound change function",
+				"[feature] Add damage dealt to each player during a fortress battle",
+				"[feature] Add shots every turn during a fortress battle",
+				"[feature] Add color to the quests that can be completed",
+				"[feature] Add button to automatically accept and complete quests that can be completed",
+				"[bugfix] Restore code to sell all but a selected item to the Merchant",
+				"[bugfix] Fixed old code of the option that shows the job points in the jobs window",
+				"[bugfix] Fixed the code of the Market auto-open option so that the clothing window is minimized",
+				"[bugfix] Fixed code in build tab if TWIR is present",
+				"[main] Reordering the categories in the Settings tab"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[feature] Add Dark theme option for The-West Map",
+				"[feature] Improved the sale report icon in the purchase window of the Market building",
+				"[feature] Add icon for whether market offers are public, only for alliance or city members",
+				"[feature] Add a new button to easily open the Market window"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[feature] Added Regeneration Times to player portrait",
+				"[feature] Add text highlighting to City Forums",
+				"[feature] Add option to pin Menu bar, Experience and UserScript to screen",
+				"[feature] Add dueling experience to player profile",
+				"[bugfix] Recruit tab fix",
+				"[bugfix] Disable automatic activation of some functions"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": ["[bugfix] Fixed some settings messages", "[bugfix] Recruit tab fix"]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[feature] Added critical hits and ghost rounds to fortress graveyard",
+				"[feature] Add window for owned and allied forts to cities window",
+				"[feature] Add auto-opening of digging up an axe in a fortress from its report",
+				"[feature] Improved all Ranking tables",
+				"[feature] Improved the Recruitment window before the fortress battle",
+				"[feature] Remove flashing of City button if there is a new message in the City Forum"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[feature] Add building progress to building tab",
+				"[feature] Add extra church levels",
+				"[feature] Add function to display only buildings that are not fully constructed in City Hall",
+				"[feature] Added a new button to easily open the Church building tab",
+				"[feature] Add a button to close only the Inventory windows"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[bugfix] Oops! Fixed build code"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[bugfix] Fixed new version link"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[bugfix] Version fixed in some places, let's hope!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[bugfix] Version fixed in some places"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[main] Remove revision"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[bugfix] Changed new feature version link"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[bugfix] Fixed deprecated code that used UserScript"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": ["[main] Remove redundant code", "[main] Changed details in Recruit window"]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[bugfix] Oops! Fixed the UserScript"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[bugfix] Fixed wrong version"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": ["[main] Removed unnecessary code in the Recruit window", "[main] Change Updater"]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[bugfix] Fixed item pin to display correctly in vanilla and TWIR Inventory window",
+				"[bugfix] Fixed spelling mistakes of the word bugfix in the Changelog Releases"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": ["[main] Code cleanup - part 2", "[main] Changed some hyperlinks"]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[main] Code cleanup - part 1"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[bugfix] Refresh links for automatic update"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[bugfix] Changed some hyperlinks"]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[bugfix] Oops! Fixed the UserScript"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[bugfix] Fixed things for feature removal"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[main] Removed many useless features"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": ["[bugfix] Fixed some typos", "[main] Change formula version"]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** Generate UserScript from clothcalc_sk **"]
+		}
+	]
+}

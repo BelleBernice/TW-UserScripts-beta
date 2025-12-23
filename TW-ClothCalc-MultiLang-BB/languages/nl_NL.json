@@ -1,0 +1,515 @@
+{
+	"common": {
+		"ok": "OK",
+		"cancel": "Annuleren",
+		"yes": "Ja",
+		"no": "Nee",
+		"not_now": "Niet nu",
+		"close": "Sluiten",
+		"delete": "Verwijderen",
+		"select_file": "Bestand selecteren",
+		"listen": "Luisteren",
+		"save_error": "Opslaan mislukt",
+		"save_success": "Succesvol opgeslagen",
+		"save": "Opslaan",
+		"preview": "Voorbeeld",
+		"edit": "Bewerken",
+		"search": "Zoeken"
+	},
+	"misc": {
+		"notes_title": "Notities",
+		"color_dialog_bold": "vet",
+		"color_dialog_caps": "HOOFDLETTERS",
+		"color_dialog_history": "Geschiedenis",
+		"color_dialog_title": "Kleur",
+		"button_church_title": "Kerk bouwen",
+		"button_market_title": "Markt openen",
+		"pin_toggle_tooltip": "Vastzetmodus wisselen",
+		"telegram_toggle_tooltip": "Schakelen tussen onopgemaakt bericht en origineel",
+		"wear_close_tooltip": "Alleen inventarisvensters sluiten",
+		"sort_by": "Sorteren op",
+		"name": "Naam",
+		"country": "District",
+		"sound_default": "Standaardgeluid",
+		"sleep": "Slapen",
+		"hotel": "Hotel",
+		"stage": "Niveau",
+		"your_position": "Jouw positie",
+		"levels": "Niveaus",
+		"count": "Aantal",
+		"duration": "Duur",
+		"experience": "Ervaring",
+		"money": "Geld",
+		"bonds": "Obligaties",
+		"motivation": "Motivatie",
+		"danger": "Gevaar",
+		"killed": "Buiten bewustzijn",
+		"yield": "Opbrengst",
+		"items": "Voorwerpen",
+		"luck": "Geluk",
+		"reset": "Resetten",
+		"import": "Importeren",
+		"export": "Exporteren",
+		"hours_lowercase": "uren",
+		"jobs": "Werk",
+		"construction": "Bouw",
+		"category": "Categorie",
+		"rank": "Rang",
+		"distance": "Afstand",
+		"health_points": "Gezondheidspunten",
+		"labor_points": "Arbeidspunten"
+	},
+	"script": {
+		"duplicate": "Het ClothCalc UserScript is twee keer geïnstalleerd met verschillende talen. Schakel één van de twee talen uit zodat het UserScript correct werkt.",
+		"description": "Het ClothCalc UserScript is een project van het TW-DB.info-team. Het biedt veel functies en uitbreidingen die de spelervaring verbeteren, tijd besparen en bepaalde activiteiten optimaliseren.",
+		"thank_you": "Bedankt!",
+		"paypal_alt": "PayPal – De veiligste en eenvoudigste manier om online te betalen!",
+		"lang": "Taal",
+		"error_message": "Bericht",
+		"error_type": "Fout",
+		"error_copy": "Kopiëren",
+		"error_copied": "Gekopieerd!",
+		"api_registration_failed": "De registratie van het TW-DB.info UserScript bij TheWestApi is mislukt.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "Door op \"OK\" te klikken wordt de pagina automatisch opnieuw geladen om je wijzigingen toe te passen.",
+		"title": "Instellingen",
+		"category_inventory": "Inventaris",
+		"category_quests": "Missies",
+		"category_jobs": "Werk",
+		"category_task_list": "Takenlijst",
+		"category_fort": "Fort",
+		"category_town": "Stad",
+		"category_market": "Markt",
+		"category_graphics": "Grafisch",
+		"category_minimap": "Minimap",
+		"category_premium": "Premiuminstellingen",
+		"category_misc": "Overig",
+		"collector": "Markeert bij de handelaar en op de markt voorwerpen die je nog niet in je inventaris hebt",
+		"collector_sell": "Voegt een knop toe om alles te verkopen behalve één geselecteerd voorwerp bij de handelaar",
+		"pin_items": "Voorwerpen vastzetten in het inventarisvenster",
+		"quest_cancel": "Bevestiging van missie-annulering",
+		"instant_quest": "Een missie direct voltooien als aan alle vereisten is voldaan",
+		"colored_quest": "Kleur wijzigen van missies die voltooid kunnen worden",
+		"job_lp": "Arbeidspunten toevoegen aan werkvensters",
+		"task_points": "Arbeidspunt-indicator en gezondheidstips toevoegen aan de takenlijst – [rechtsonder]",
+		"forts_import": "Knop toevoegen om fortgevechten te importeren op de website (westforts)",
+		"fort_recruit": "Overzicht van fortrekrutering toevoegen",
+		"fort_recruit_enhanced": "Rekruterings-tab verbeteren vóór een fortgevecht",
+		"declare_report": "Het opgraafrapport van de strijdhamer koppelen aan het aanvallende fort",
+		"forts_owned": "Fortbezit tonen in stadsprofielen",
+		"cemetery_critical": "Kritieke treffers en spookrondes op het fortkerkhof",
+		"battle_damage": "Totale toegebrachte schade in de beschrijving van elke speler tijdens fortgevechten",
+		"battle_round": "Treffers, missers, ontvangen treffers en ontwijkingen per ronde",
+		"building_progress": "Bouwvoortgang tonen in een gebouwvenster",
+		"church_levels": "Extra kerklevels tonen die je kunt bouwen",
+		"improved_cityhall_tab": "Alleen gebouwen tonen die nog niet volledig gebouwd zijn",
+		"forum_blink": "Knipperen van de stadsknop verwijderen bij een nieuw forumbericht",
+		"market_map": "Marktkaartvenster toevoegen",
+		"market_reminder": "Herinnering voor markveilingen toevoegen",
+		"market_sell": "Verkoopvenster van de markt verbeteren",
+		"market_report": "Verkooprapport-icoon van de markt verbeteren",
+		"market_improved": "Aankoopvenster van de markt verbeteren",
+		"duel_motivation": "Permanente duelmotivatie-indicator toevoegen – [onder de energiebalk]",
+		"sleep_direct": "Knop toevoegen voor directe toegang tot het hotel of de kazerne",
+		"deposit": "Knop toevoegen om geld te storten bij de huidige bank",
+		"shop_sale_off": "SALE-melding uitschakelen – [onder de saloonknop]",
+		"exp_bar": "Waarden toevoegen aan de ervaringsbalk – Dank aan (Leones/Slygoxx/Belle Bernice)",
+		"mini_chat": "Knop toevoegen om chatruimtes te minimaliseren",
+		"event_counter": "Eventteller verplaatsen op grote schermen (eventvaluta, Hiro&#38;#39;s script)",
+		"scrollbars_off": "Schuifbalken uitschakelen op kleine schermen of wanneer vensters te ver zijn verplaatst",
+		"wear_close": "Knop toevoegen om automatisch alleen inventarisvensters te sluiten",
+		"profile_duel_exp": "Duelervaring tonen op spelersprofielen",
+		"regen_timers": "Regeneratietimers toevoegen aan het spelersportret",
+		"button_church": "Knop toevoegen om het kerkbouwvenster gemakkelijker te openen",
+		"button_market": "Knop toevoegen om het marktvenster gemakkelijker te openen",
+		"automation_buttons": "Automatiseringsknoppen rechts",
+		"bonus_jobs": "Optie toevoegen om werk met bonus te tonen",
+		"coordinates_input": "Optie toevoegen om naar opgegeven coördinaten te bewegen",
+		"work_queue_off": "Meldingen voor aankoop van Premium Automatisering uitschakelen",
+		"fetch_all_off": "Premiummelding uitschakelen bij het ophalen van voorwerpen van de markt",
+		"wof_nuggets_off": "Nuggets uitschakelen als standaard betaalmiddel bij evenementen (indien beschikbaar)",
+		"chat": "Chatverbetering inschakelen – [chatkleuren]",
+		"notes": "Notities toevoegen aan het Telegraaf/Rapporten-venster",
+		"auto_deposit": "Stortingsherinnering toevoegen wanneer je met geld je stad bereikt",
+		"chest_analyzer": "Kistanalyse toevoegen aan het Telegraaf/Rapporten-venster",
+		"weekly_crafting": "Herinnering toevoegen voor het aflopen van de knutselwachttijd",
+		"telegram_bb_codes": "Knop toevoegen om naar onopgemaakte tekst te schakelen in telegrammen",
+		"enhanced_rankings": "Ranglijsttabbladen verbeteren en spelersverschil toevoegen",
+		"translation_texts": "Specifieke foutieve tekststrings vertalen",
+		"forum_select": "Tekstselectie in het stadsforum inschakelen",
+		"pin_important": "Menu, ervaringsbalk en script altijd bovenaan houden",
+		"fortbattle_reminder": "Fortgevecht-herinnering links uitschakelen",
+		"night_mode": "Donkere modus voor de The-West-kaart",
+		"blink_events": "Knipperen van evenementen en het pretpark aan de linkerkant stoppen",
+		"whisper_improved": "Fluistergeluid verbeteren in verschillende saloonchats (wanneer ingeschakeld kun je het geluid hieronder direct beluisteren en wijzigen)"
+	},
+	"debug": {
+		"failed_to_copy": "Kopiëren mislukt:",
+		"key_saved": "Sleutel $key$ opgeslagen.",
+		"needs": "vereist",
+		"current_statistic_data": "Huidige statistische gegevens:",
+		"current_sort_display_state": "Huidige sorteer-/weergavestatus:",
+		"report_queue": "Rapportwachtrij:",
+		"failed_report_ids": "Mislukte rapport-ID’s:"
+	},
+	"cache": {
+		"reset": "TWDB-cache resetten - BB",
+		"reset_key": "Functiesleutel",
+		"reset_all_keys": "Alle functie-instellingen resetten",
+		"reset_complete": "Reset voltooid, de pagina wordt opnieuw geladen",
+		"reset_confirm": "Weet je zeker dat je de volledige {$script$}-UserScript-cache wilt resetten?"
+	},
+	"io": {
+		"settings": "Instellingen",
+		"export_copy_failed": "Automatisch kopiëren is mislukt of wordt niet ondersteund. Kopieer de instellingen handmatig uit het onderstaande veld.",
+		"import_paste_instructions": "Plak je instellingen in het onderstaande veld en klik op Importeren.",
+		"import_placeholder": "Plak hier je instellingen...",
+		"import_cancelled": "Importeren van instellingen geannuleerd.",
+		"export_start": "BEGIN EXPORT INSTELLINGEN",
+		"export_end": "EINDE EXPORT INSTELLINGEN",
+		"export_clipboard_success": "Instellingen zijn automatisch naar het klembord gekopieerd.",
+		"export_clipboard_failed": "Automatisch kopiëren mislukt",
+		"import_warning": "Waarschuwing: Importeren zal de huidige instellingen overschrijven. Heb je de waarschuwing gelezen?",
+		"import_no_data": "Geen instellingen ingevoerd. Importeren geannuleerd.",
+		"import_start": "INSTELLINGEN IMPORTEREN",
+		"import_json_preview": "De volgende JSON wordt geïmporteerd",
+		"import_success_reload": "Laad het spel opnieuw om op te slaan.",
+		"import_error": "Fout bij het importeren van instellingen. Controleer of de tekst geldige JSON is.",
+		"import_error_log": "Fout bij importeren van instellingen",
+		"import_clipboard_success": "Instellingen uit het klembord gelezen. Importeren wordt gestart...",
+		"import_clipboard_failed": "Automatisch lezen van het klembord mislukt."
+	},
+	"updater": {
+		"version_features_title": "Versiefuncties",
+		"script_updated": "Het UserScript is bijgewerkt!",
+		"script_updated_message": "Het UserScript $script$ is bijgewerkt. Wil je de nieuwe functies bekijken?",
+		"script_needs_update": "Het UserScript heeft een update nodig",
+		"new_version_available": "Er is een nieuwe versie beschikbaar voor het UserScript $script$. Klik op OK om bij te werken.",
+		"current_version": "Huidige versie",
+		"new_version": "Nieuwe versie",
+		"reload_after_install": "Laad het spel opnieuw na de installatie.",
+		"version_label": "Versie"
+	},
+	"market": {
+		"reminder_title": "Marktherinnering",
+		"rights_town": "Stad",
+		"rights_alliance": "Alliantie",
+		"rights_anyone": "Iedereen",
+		"sell_multiply": "De huidige prijs met dit getal vermenigvuldigen",
+		"sell_save_desc": "Beschrijving opslaan voor toekomstige veilingen",
+		"sell_reset_desc": "Beschrijving resetten",
+		"sell_reset_sel": "Selectie resetten",
+		"sell_buy_price": "Koopprijs",
+		"sell_sell_price": "Verkoopprijs",
+		"sell_save_duration": "Duur en rechten opslaan voor toekomstige veilingen",
+		"map_tab_title": "Marktkaart",
+		"auction_label": "Veiling",
+		"reminder_before_expiry": "Herinnering vóór het einde van de veiling",
+		"reminder_minutes": "minuten",
+		"auction_ends": ", Eindigt",
+		"auction_ends_label": "Einde veiling",
+		"use_as_default_price": "Als standaardprijs gebruiken",
+		"reminder_late": "De herinnering was te laat, de veiling is al afgelopen."
+	},
+	"fort": {
+		"forts": "Forten",
+		"forts_owned": "Eigen forten",
+		"forts_members": "Alliantieforten",
+		"size": "Grootte",
+		"sizes": {
+			"0": "Klein",
+			"1": "Middel",
+			"2": "Groot"
+		},
+		"sort_by_health": "Sorteren op gezondheid",
+		"sort_asc_current_health": "Huidige gezondheid oplopend",
+		"sort_desc_current_health": "Huidige gezondheid aflopend",
+		"sort_asc_max_health": "Maximale gezondheid oplopend",
+		"sort_desc_max_health": "Maximale gezondheid aflopend",
+		"sort_asc_distance": "Afstand oplopend",
+		"sort_desc_distance": "Afstand aflopend",
+		"show_players_at_fort": "Spelers bij het fort tonen",
+		"hide_players_at_fort": "Spelers bij het fort verbergen",
+		"show_players_near_fort": "Spelers nabij het fort tonen",
+		"hide_players_near_fort": "Spelers nabij het fort verbergen",
+		"show_players_away_fort": "Verre spelers tonen",
+		"hide_players_away_fort": "Verre spelers verbergen"
+	},
+	"battle": {
+		"critical_hits": "Kritieke treffers",
+		"ghost_rounds": "Spookrondes",
+		"stats_total": "Totaal",
+		"stats_hits": "Treffers",
+		"stats_missed": "Missers",
+		"stats_got_shot": "Ontvangen treffers",
+		"stats_dodge": "Ontwijkingen",
+		"total_damage_tooltip": "Toegebrachte schade"
+	},
+	"jobs": {
+		"show_gold_jobs": "Gouden bonuswerk tonen",
+		"gold_jobs": "Gouden bonuswerk",
+		"show_silver_jobs": "Zilveren bonuswerk tonen",
+		"silver_jobs": "Zilveren bonuswerk",
+		"with_bonus": "Werk met bonus",
+		"reset_jobs_bonus_confirm": "Kies welke werkcategorie je wilt resetten of annuleer het resetten.",
+		"reset_all_jobs_bonus": "Alle",
+		"reset_silver_jobs_bonus": "Zilver",
+		"reset_gold_jobs_bonus": "Goud",
+		"lp_remaining": "$lp$ A.P."
+	},
+	"analyzer": {
+		"reset_confirm_title": "Weet je zeker dat je de statistieken van de Werk-analyzer wilt resetten?",
+		"reset_confirm_message": "Geef de link op van het eerste rapport dat na de reset gelezen moet worden",
+		"job_title": "Werk-analyzer",
+		"chest_title": "Kisten-analyzer",
+		"duel_coming_soon": "De Duel-analyzer komt in de toekomst!",
+		"table_sum_tooltip": "Wisselen naar Ø gemiddelde",
+		"table_avg_tooltip": "Wisselen naar Σ totaal",
+		"toggle_rewards_items": "Schakelen tussen beloningen en gevonden voorwerpen",
+		"reset_report_analyzer": "Analyzer-rapporten resetten",
+		"report_link_label": "Rapportlink:",
+		"use_all_reports": "of alle rapporten gebruiken",
+		"use_future_reports": "of alleen toekomstige rapporten gebruiken"
+	},
+	"quests": {
+		"cancel_title": "Missie annuleren?",
+		"cancel_message": "Weet je zeker dat je deze missie wilt annuleren?",
+		"accept_finish": "Missie accepteren en voltooien"
+	},
+	"building": {
+		"progress_tooltip": "De voortgang toont hoeveel bouw nog nodig is voor het volgende niveau",
+		"progress_label": "Voortgang"
+	},
+	"map": {
+		"coordinates_tooltip": "Coördinaten op de kaart tonen",
+		"coordinates_button": "De kaart naar de opgegeven coördinaten verplaatsen",
+		"show_town_tooltip": "Stad op de kaart tonen",
+		"show_coordinates": "Coördinaten op de kaart tonen"
+	},
+	"duel": {
+		"levels_duel": "Duelniveaus die je kunt uitdagen: $min$ - $max$",
+		"levels_exp": "Huidige duelervaring die je zult krijgen: $min$ - $max$",
+		"potion_label": "Mysterieus drankje",
+		"levels_potion": "Duelniveau $min$$max$",
+		"motivation": "Duelmotivatie",
+		"ko_time": "KO-tijd",
+		"ko_suspension": "KO – Duel geschorst tot $time$",
+		"ko_protection": "KO – Duelbescherming tot $time$",
+		"profile_duel_exp": "Duelervaring tonen op spelersprofielen",
+		"protection_changed": "Duelbescherming is gewijzigd"
+	},
+	"town": {
+		"move_tooltip": "Naar de stad verplaatsen"
+	},
+	"banking": {
+		"money": "Geld",
+		"deposit_message": "Je bent in je stad aangekomen. Wil je je geld storten?",
+		"deposit_money": "Geld storten"
+	},
+	"crafting": {
+		"notification": "Maken",
+		"can_craft_again": "Je kunt opnieuw maken!"
+	},
+	"collector": {
+		"item_not_owned": "Je bezit dit voorwerp nog niet"
+	},
+	"regen": {
+		"full_health": "Tijd tot volledige gezondheid",
+		"full_energy": "Tijd tot volledige energie",
+		"missing": "Ontbreekt",
+		"per_hour": "Regeneratie per uur",
+		"next_health": "Volgend gezondheidspunt over",
+		"next_energy": "Volgend energiepunt over"
+	},
+	"task": {
+		"negative_lp": "negatieve arbeidspunten",
+		"low_lp": "lage arbeidspunten",
+		"suboptimal_lp": "niet-optimale arbeidspunten"
+	},
+	"westforts": {
+		"open_import": "Gevechtsimport openen in West Forts",
+		"close_import": "Gevechtsimport sluiten in West Forts",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[bugfix] Oude code van de functie Taal wijzigen repareren",
+				"[main] De UserScript-code opnieuw opbouwen en opschonen"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[feature] Voeg een \"tijdelijke\" taalwijzigingsfunctie toe",
+				"[feature] Tabbladcode Instellingen opschonen",
+				"[feature] Kleurmoduscode opschonen in Saloon (chat)",
+				"[feature] Opruimcode voor banen met bonussen op de minikaart",
+				"[feature] Functiecode taak-/kistanalysator opruimen",
+				"[feature] Moderniseer verschillende functies van de UserScript-code"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[functie] Functie voor import-/exportinstellingen toevoegen"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[feature] Voeg fortgevechtinvoer toe aan websitedatabase (westforts.com)",
+				"[functie] Fluistergeluidsveranderingsfunctie toevoegen",
+				"[functie] Voeg de schade toe die aan elke speler wordt toegebracht tijdens een fortgevecht",
+				"[feature] Voeg elke beurt schoten toe tijdens een fortgevecht",
+				"[feature] Voeg kleur toe aan de missies die kunnen worden voltooid",
+				"[feature] Knop toevoegen om automatisch te voltooien missies te accepteren en te voltooien",
+				"[bugfix] Code herstellen om alles, behalve een geselecteerd item, aan de handelaar te verkopen",
+				"[bugfix] Oude code gerepareerd van de optie die de taakpunten in het takenvenster toont",
+				"[bugfix] Repareer de code van de optie voor automatisch openen van Markt, zodat het kledingvenster wordt geminimaliseerd",
+				"[bugfix] Code op het tabblad Build repareren als TWIR aanwezig is",
+				"[main] De categorieën op het tabblad Instellingen opnieuw ordenen"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[feature] Donkere thema-optie toegevoegd voor de West-kaart",
+				"[feature] Het verkooprapportpictogram in het aankoopvenster van het marktgebouw verbeterd",
+				"[feature] Voeg een pictogram toe dat aangeeft of marktaanbiedingen openbaar zijn, alleen voor alliantie- of stadsleden",
+				"[feature] Voeg een nieuwe knop toe om eenvoudig het Marktvenster te openen"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[functie] Regeneratietijden toegevoegd aan het spelersportret",
+				"[feature] Voeg tekstmarkering toe aan stadsforums",
+				"[feature] Optie toegevoegd om de menubalk, ervaring en gebruikersscript vast te zetten op het scherm",
+				"[feature] Voeg duelervaring toe aan het spelersprofiel",
+				"[bugfix] Rekruteringstabblad opgelost",
+				"[bugfix] Schakel de automatische activering van sommige functies uit"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": [
+				"[bugfix] Enkele instellingsberichten gerepareerd",
+				"[bugfix] Rekruteringstabblad opgelost"
+			]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[functie] Kritieke treffers en spookrondes toegevoegd aan het kerkhof van het fort",
+				"[feature] Voeg een venster voor eigen en geallieerde forten toe aan het stadsvenster",
+				"[feature] Automatische opening van bijl-unbury-fort uit het rapport toegevoegd",
+				"[feature] Alle rangschikkingstabellen verbeterd",
+				"[feature] Het rekruteringsvenster vóór de fortstrijd is verbeterd",
+				"[feature] Verwijder het knipperen van de stadsknop als er een nieuw bericht in het stadsforum is"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[feature] Voeg bouwvoortgang toe aan het tabblad Bouwen",
+				"[feature] Voeg extra kerkniveaus toe",
+				"[feature] Functie toegevoegd om alleen gebouwen weer te geven die nog niet volledig zijn gebouwd in het stadhuis",
+				"[functie] Een nieuwe knop toegevoegd om eenvoudig het tabblad Kerkgebouw te openen",
+				"[feature] Voeg een knop toe om alleen de inventarisvensters te sluiten"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[bugfix] Oeps! Bouwcode repareren"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[bugfix] Nieuwe versielink repareren"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[bugfix] Versieverbetering op sommige plaatsen, laten we hopen!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[bugfix] Versieverbetering op sommige plaatsen"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[main] Revisie verwijderen"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[bugfix] Link naar nieuwe functieversie gewijzigd"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[bugfix] Verouderde code repareren die UserScript gebruikte"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": [
+				"[main] Verwijder overtollige code",
+				"[main] Details gewijzigd in het rekruteringsvenster"
+			]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[bugfix] Oeps! Vast gebruikersscript"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[bugfix] Verkeerde versie repareren"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": ["[main] Onnodige code verwijderd in het Recruit-venster", "[main] Updater wijzigen"]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[bugfix] Repareer de itempin zodat deze correct wordt weergegeven in het vanille- en TWIR-inventarisvenster",
+				"[bugfix] Repareer spelfouten van het woord bugfix in Release-attributen"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": ["[main] Code opschonen - deel 2", "[main] Enkele hyperlinks gewijzigd"]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[main] Code opschonen - deel 1"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[bugfix] Vernieuw koppelingen voor automatische update"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[bugfix] Enkele hyperlinks gewijzigd"]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[bugfix] Oeps! Vast gebruikersscript"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[bugfix] Oplossing voor het verwijderen van functies"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[main] Veel nutteloze functies verwijderd"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": ["[bugfix] Een aantal typefouten opgelost", "[main] Formuleversie wijzigen"]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** Genereer gebruikersscript van Clothcalc_sk **"]
+		}
+	]
+}

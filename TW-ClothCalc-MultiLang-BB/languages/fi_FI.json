@@ -1,0 +1,518 @@
+{
+	"common": {
+		"ok": "OK",
+		"cancel": "Peruuta",
+		"yes": "Kyllä",
+		"no": "Ei",
+		"not_now": "Ei nyt",
+		"close": "Sulje",
+		"delete": "Poista",
+		"select_file": "Valitse tiedosto",
+		"listen": "Kuuntele",
+		"save_error": "Tallennus epäonnistui",
+		"save_success": "Tallennus onnistui",
+		"save": "Tallenna",
+		"preview": "Esikatselu",
+		"edit": "Muokkaa",
+		"search": "Hae"
+	},
+	"misc": {
+		"notes_title": "Muistiinpanot",
+		"color_dialog_bold": "lihavointi",
+		"color_dialog_caps": "SUURAAKKOSET",
+		"color_dialog_history": "Historia",
+		"color_dialog_title": "Väri",
+		"button_church_title": "Rakenna kirkko",
+		"button_market_title": "Avaa tori",
+		"pin_toggle_tooltip": "Vaihda kiinnitystilaa",
+		"telegram_toggle_tooltip": "Vaihda muotoilemattoman viestin ja alkuperäisen välillä",
+		"wear_close_tooltip": "Sulje vain inventaarioikkunat",
+		"sort_by": "Lajittele",
+		"name": "Nimi",
+		"country": "Kreivikunta",
+		"sound_default": "Oletusääni",
+		"sleep": "Uni",
+		"hotel": "Hotelli",
+		"stage": "Taso",
+		"your_position": "Sijaintisi",
+		"levels": "Tasot",
+		"count": "Määrä",
+		"duration": "Kesto",
+		"experience": "Kokemus",
+		"money": "Raha",
+		"bonds": "Joukkovelkakirjat",
+		"motivation": "Motivaatio",
+		"danger": "Vaara",
+		"killed": "Tajuton",
+		"yield": "Tuotto",
+		"items": "Esineet",
+		"luck": "Onni",
+		"reset": "Palauta",
+		"import": "Tuo",
+		"export": "Vie",
+		"hours_lowercase": "tuntia",
+		"jobs": "Työt",
+		"construction": "Rakentaminen",
+		"category": "Kategoria",
+		"rank": "Sijoitus",
+		"distance": "Etäisyys",
+		"health_points": "Terveys­pisteet",
+		"labor_points": "Työpisteet"
+	},
+	"script": {
+		"duplicate": "ClothCalc UserScript on asennettu kahdesti eri kielillä. Poista toinen käytöstä, jotta skripti toimii oikein.",
+		"description": "ClothCalc UserScript on TW-DB.info-tiimin luoma projekti. Se tarjoaa monia ominaisuuksia ja laajennuksia, jotka parantavat pelikokemusta, säästävät aikaa ja optimoivat tiettyjä toimintoja.",
+		"thank_you": "Kiitos!",
+		"paypal_alt": "PayPal – Turvallisin ja helpoin tapa maksaa verkossa!",
+		"lang": "Kieli",
+		"error_message": "Viesti",
+		"error_type": "Virhe",
+		"error_copy": "Kopioi",
+		"error_copied": "Kopioitu!",
+		"api_registration_failed": "TW-DB.info UserScriptin rekisteröinti TheWestApiin epäonnistui.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "Painamalla \"OK\" sivu päivitetään automaattisesti muutosten käyttöönottoa varten.",
+		"title": "Asetukset",
+		"category_inventory": "Inventaario",
+		"category_quests": "Tehtävät",
+		"category_jobs": "Työt",
+		"category_task_list": "Tehtävälista",
+		"category_fort": "Linnoitus",
+		"category_town": "Kaupunki",
+		"category_market": "Tori",
+		"category_graphics": "Grafiikka",
+		"category_minimap": "Minikartta",
+		"category_premium": "Premium-asetukset",
+		"category_misc": "Muut",
+		"collector": "Merkitsee kauppiaalla ja torilla esineet, joita sinulla ei vielä ole inventaariossa",
+		"collector_sell": "Lisää painikkeen, jolla myydään kaikki paitsi yksi valittu esine kauppiaalla",
+		"pin_items": "Kiinnitä esineet inventaarioikkunaan",
+		"quest_cancel": "Vahvista tehtävän peruutus",
+		"instant_quest": "Suorita tehtävä heti, jos kaikki vaatimukset täyttyvät",
+		"colored_quest": "Vaihda suoritettavien tehtävien väriä",
+		"job_lp": "Lisää työpisteet työikkunoihin",
+		"task_points": "Lisää työpisteiden ilmaisin ja terveysvinkit tehtävälistaan – [alhaalla oikealla]",
+		"forts_import": "Lisää linnoitustaistelujen tuontipainike sivustolle (westforts)",
+		"fort_recruit": "Lisää linnoituksen rekrytoinnin yleiskuva",
+		"fort_recruit_enhanced": "Paranna rekrytointivälilehteä ennen linnoitustaistelua",
+		"declare_report": "Yhdistä taistelukirveen kaivamisraportti hyökkäävään linnoitukseen",
+		"forts_owned": "Näytä omistetut linnoitukset kaupunkiprofiileissa",
+		"cemetery_critical": "Kriittiset osumat ja aavekierrokset linnoituksen hautausmaalla",
+		"battle_damage": "Näytä kunkin pelaajan aiheuttama kokonaisvahinko linnoitustaistelussa",
+		"battle_round": "Osumat, ohilaukaukset, saadut osumat ja väistöt jokaisella kierroksella",
+		"building_progress": "Näytä rakennuksen edistyminen rakennusikkunassa",
+		"church_levels": "Näytä lisäkirkon tasot, jotka voidaan rakentaa",
+		"improved_cityhall_tab": "Näytä vain rakennukset, joita ei ole vielä täysin rakennettu",
+		"forum_blink": "Poista kaupunkipainikkeen vilkkuminen uuden foorumiviestin yhteydessä",
+		"market_map": "Lisää torikartta",
+		"market_reminder": "Lisää muistutus torihuutokaupoista",
+		"market_sell": "Paranna torin myynti-ikkunaa",
+		"market_report": "Paranna torin myyntiraportin kuvaketta",
+		"market_improved": "Paranna torin ostoikkunaa",
+		"duel_motivation": "Lisää pysyvä kaksintaistelumotivaation ilmaisin – [energiapalkin alla]",
+		"sleep_direct": "Lisää painike suoraan hotelliin tai kasarmiin",
+		"deposit": "Lisää painike rahan tallettamiseen nykyiseen pankkiin",
+		"shop_sale_off": "Poista ALE-ilmoitus käytöstä – [saloon-painikkeen alla]",
+		"exp_bar": "Lisää arvot kokemuspalkkiin",
+		"mini_chat": "Lisää painike chat-huoneiden pienentämiseen",
+		"event_counter": "Siirrä tapahtumalaskuri suurilla näytöillä",
+		"scrollbars_off": "Poista vierityspalkit pienillä näytöillä tai kun ikkunoita siirretään kauas",
+		"wear_close": "Lisää painike, joka sulkee automaattisesti vain inventaarioikkunat",
+		"profile_duel_exp": "Näytä kaksintaistelukokemus pelaajaprofiileissa",
+		"regen_timers": "Lisää palautumisajastimet pelaajakuvaan",
+		"button_church": "Lisää painike kirkon rakennusikkunan helppoon avaamiseen",
+		"button_market": "Lisää painike torin ikkunan helppoon avaamiseen",
+		"automation_buttons": "Automaatiopainikkeet oikealla",
+		"bonus_jobs": "Lisää valinta bonus­töiden näyttämiseen",
+		"coordinates_input": "Lisää valinta siirtymiseen annettuihin koordinaatteihin",
+		"work_queue_off": "Poista premium-automaation ostoilmoitukset",
+		"fetch_all_off": "Poista premium-kehote torilta esineitä noudettaessa",
+		"wof_nuggets_off": "Poista nugetit oletusmaksutapana tapahtumissa",
+		"chat": "Ota chat-parannukset käyttöön – [chatin värit]",
+		"notes": "Lisää muistiinpanot Telegrafi/Raportit-ikkunaan",
+		"auto_deposit": "Lisää talletusmuistutus, kun saavut kaupunkiin rahan kanssa",
+		"chest_analyzer": "Lisää Arkun analysoija Telegrafi/Raportit-ikkunaan",
+		"weekly_crafting": "Lisää muistutus valmistuksen odotusajan päättymisestä",
+		"telegram_bb_codes": "Lisää painike muotoilemattomaan tekstiin vaihtamiseksi telegrameissa",
+		"enhanced_rankings": "Paranna sijoitusvälilehtiä ja lisää pelaajien välinen erotus",
+		"translation_texts": "Käännä tietyt virheelliset tekstijonot",
+		"forum_select": "Salli tekstin valinta kaupunkifoorumilla",
+		"pin_important": "Pidä valikko, kokemuspalkki ja skripti aina ylhäällä",
+		"fortbattle_reminder": "Poista vasemman reunan linnoitustaistelumuistutus",
+		"night_mode": "Tumma tila The-West-kartalle",
+		"blink_events": "Pysäytä tapahtumien ja huvipuiston vilkkuminen vasemmalla",
+		"whisper_improved": "Paranna kuiskausääntä saloon-chateissa"
+	},
+	"debug": {
+		"failed_to_copy": "Kopiointi epäonnistui:",
+		"key_saved": "Avain $key$ tallennettu.",
+		"needs": "tarvitsee",
+		"current_statistic_data": "Nykyiset tilastotiedot:",
+		"current_sort_display_state": "Nykyinen lajittelu-/näyttötila:",
+		"report_queue": "Raporttijono:",
+		"failed_report_ids": "Epäonnistuneet raportti-ID:t:"
+	},
+	"cache": {
+		"reset": "Palauta TWDB-välimuisti - BB",
+		"reset_key": "Toimintoavain",
+		"reset_all_keys": "Palauta kaikki toimintoasetukset",
+		"reset_complete": "Palautus valmis, sivu ladataan uudelleen",
+		"reset_confirm": "Haluatko varmasti palauttaa koko {$script$}-UserScript-välimuistin?"
+	},
+	"io": {
+		"settings": "Asetukset",
+		"export_copy_failed": "Automaattinen kopiointi epäonnistui tai ei ole tuettu. Kopioi asetukset käsin alta.",
+		"import_paste_instructions": "Liitä asetuksesi alla olevaan kenttään ja napsauta Tuo.",
+		"import_placeholder": "Liitä asetuksesi tähän...",
+		"import_cancelled": "Asetusten tuonti peruutettiin.",
+		"export_start": "ASETUSTEN VIENNIN ALKU",
+		"export_end": "ASETUSTEN VIENNIN LOPPU",
+		"export_clipboard_success": "Asetukset kopioitiin automaattisesti leikepöydälle.",
+		"export_clipboard_failed": "Automaattinen kopiointi epäonnistui",
+		"import_warning": "Varoitus: Tuonti korvaa nykyiset asetukset. Oletko lukenut varoituksen?",
+		"import_no_data": "Asetuksia ei annettu. Tuonti peruutettiin.",
+		"import_start": "Tuo ASETUKSET",
+		"import_json_preview": "Seuraava JSON tuodaan",
+		"import_success_reload": "Tallenna lataamalla peli uudelleen.",
+		"import_error": "Virhe asetuksia tuotaessa. Tarkista, että teksti on kelvollista JSONia.",
+		"import_error_log": "Asetusten tuontivirhe",
+		"import_clipboard_success": "Asetukset luettu leikepöydältä. Tuonti käynnistyy...",
+		"import_clipboard_failed": "Leikepöydän automaattinen luku epäonnistui."
+	},
+	"updater": {
+		"version_features_title": "Version ominaisuudet",
+		"script_updated": "UserScript on päivitetty!",
+		"script_updated_message": "UserScript $script$ on päivitetty. Haluatko nähdä uudet ominaisuudet?",
+		"script_needs_update": "UserScript vaatii päivityksen",
+		"new_version_available": "Uusi versio UserScriptistä $script$ on saatavilla. Päivitä napsauttamalla OK.",
+		"current_version": "Nykyinen versio",
+		"new_version": "Uusi versio",
+		"reload_after_install": "Lataa peli uudelleen asennuksen jälkeen.",
+		"version_label": "Versio"
+	},
+	"market": {
+		"reminder_title": "Torimuistutus",
+		"rights_town": "Kaupunki",
+		"rights_alliance": "Liittouma",
+		"rights_anyone": "Kuka tahansa",
+		"sell_multiply": "Aseta (kerro) nykyinen hinta tällä luvulla",
+		"sell_save_desc": "Tallenna kuvaus tulevia huutokauppoja varten",
+		"sell_reset_desc": "Palauta kuvaus",
+		"sell_reset_sel": "Palauta valinta",
+		"sell_buy_price": "Ostohinta",
+		"sell_sell_price": "Myyntihinta",
+		"sell_save_duration": "Tallenna kesto ja oikeudet tulevia huutokauppoja varten",
+		"map_tab_title": "Torikartta",
+		"auction_label": "Huutokauppa",
+		"reminder_before_expiry": "Muistutus ennen huutokaupan päättymistä",
+		"reminder_minutes": "minuuttia",
+		"auction_ends": ", Päättyy",
+		"auction_ends_label": "Huutokaupan päättyminen",
+		"use_as_default_price": "Käytä oletushintana",
+		"reminder_late": "Muistutus tuli liian myöhään, huutokauppa on jo päättynyt."
+	},
+	"fort": {
+		"forts": "Linnoitukset",
+		"forts_owned": "Omat linnoitukset",
+		"forts_members": "Liittouman linnoitukset",
+		"size": "Koko",
+		"sizes": {
+			"0": "Pieni",
+			"1": "Keskikokoinen",
+			"2": "Suuri"
+		},
+		"sort_by_health": "Lajittele terveyden mukaan",
+		"sort_asc_current_health": "Nykyinen terveys nouseva",
+		"sort_desc_current_health": "Nykyinen terveys laskeva",
+		"sort_asc_max_health": "Maks. terveys nouseva",
+		"sort_desc_max_health": "Maks. terveys laskeva",
+		"sort_asc_distance": "Etäisyys nouseva",
+		"sort_desc_distance": "Etäisyys laskeva",
+		"show_players_at_fort": "Näytä pelaajat linnoituksella",
+		"hide_players_at_fort": "Piilota pelaajat linnoituksella",
+		"show_players_near_fort": "Näytä pelaajat lähellä linnoitusta",
+		"hide_players_near_fort": "Piilota pelaajat lähellä linnoitusta",
+		"show_players_away_fort": "Näytä kaukana olevat pelaajat",
+		"hide_players_away_fort": "Piilota kaukana olevat pelaajat"
+	},
+	"battle": {
+		"critical_hits": "Kriittiset osumat",
+		"ghost_rounds": "Aavekierrokset",
+		"stats_total": "Yhteensä",
+		"stats_hits": "Osumat",
+		"stats_missed": "Ohilaukaukset",
+		"stats_got_shot": "Saadut osumat",
+		"stats_dodge": "Väistöt",
+		"total_damage_tooltip": "Aiheutettu vahinko"
+	},
+	"jobs": {
+		"show_gold_jobs": "Näytä kultabonus-työt",
+		"gold_jobs": "Kultabonus-työt",
+		"show_silver_jobs": "Näytä hopeabonus-työt",
+		"silver_jobs": "Hopeabonus-työt",
+		"with_bonus": "Bonukselliset työt",
+		"reset_jobs_bonus_confirm": "Valitse palautettava työluokka tai peruuta.",
+		"reset_all_jobs_bonus": "Kaikki",
+		"reset_silver_jobs_bonus": "Hopea",
+		"reset_gold_jobs_bonus": "Kulta",
+		"lp_remaining": "$lp$ T.P."
+	},
+	"analyzer": {
+		"reset_confirm_title": "Haluatko varmasti palauttaa Työanalysoijan tilastot?",
+		"reset_confirm_message": "Anna linkki ensimmäiseen raporttiin, joka luetaan palautuksen jälkeen",
+		"job_title": "Työanalysoija",
+		"chest_title": "Arkun analysoija",
+		"duel_coming_soon": "Kaksintaisteluanalysoija tulee myöhemmin!",
+		"table_sum_tooltip": "Vaihda keskiarvoon Ø",
+		"table_avg_tooltip": "Vaihda summaan Σ",
+		"toggle_rewards_items": "Vaihda palkintojen ja löydettyjen esineiden välillä",
+		"reset_report_analyzer": "Palauta analysoijan raportit",
+		"report_link_label": "Raporttilinkki:",
+		"use_all_reports": "tai käytä kaikkia raportteja",
+		"use_future_reports": "tai käytä vain tulevia raportteja"
+	},
+	"quests": {
+		"cancel_title": "Peruutetaanko tehtävä?",
+		"cancel_message": "Haluatko varmasti peruuttaa tämän tehtävän?",
+		"accept_finish": "Hyväksy ja suorita tehtävä"
+	},
+	"building": {
+		"progress_tooltip": "Edistyminen näyttää, kuinka paljon rakentamista on jäljellä seuraavaan tasoon",
+		"progress_label": "Edistyminen"
+	},
+	"map": {
+		"coordinates_tooltip": "Näytä koordinaatit kartalla",
+		"coordinates_button": "Siirrä kartta annettuihin koordinaatteihin",
+		"show_town_tooltip": "Näytä kaupunki kartalla",
+		"show_coordinates": "Näytä koordinaatit kartalla"
+	},
+	"duel": {
+		"levels_duel": "Kaksintaistelutasot, joita voit haastaa: $min$ - $max$",
+		"levels_exp": "Saatava kaksintaistelukokemus: $min$ - $max$",
+		"potion_label": "Salaperäinen juoma",
+		"levels_potion": "Kaksintaistelutaso $min$$max$",
+		"motivation": "Kaksintaistelumotivaatio",
+		"ko_time": "KO-aika",
+		"ko_suspension": "KO – Kaksintaistelu keskeytetty $time$ asti",
+		"ko_protection": "KO – Kaksintaistelusuoja $time$ asti",
+		"profile_duel_exp": "Näytä kaksintaistelukokemus pelaajaprofiileissa",
+		"protection_changed": "Kaksintaistelusuoja on muuttunut"
+	},
+	"town": {
+		"move_tooltip": "Siirry kaupunkiin"
+	},
+	"banking": {
+		"money": "Raha",
+		"deposit_message": "Olet saapunut kaupunkiisi. Haluatko tallettaa rahat?",
+		"deposit_money": "Talleta rahat"
+	},
+	"crafting": {
+		"notification": "Valmistus",
+		"can_craft_again": "Voit valmistaa uudelleen!"
+	},
+	"collector": {
+		"item_not_owned": "Et omista tätä esinettä vielä"
+	},
+	"regen": {
+		"full_health": "Aika täyteen terveyteen",
+		"full_energy": "Aika täyteen energiaan",
+		"missing": "Puuttuu",
+		"per_hour": "Palautuminen tunnissa",
+		"next_health": "Seuraava terveyspiste",
+		"next_energy": "Seuraava energiapiste"
+	},
+	"task": {
+		"negative_lp": "negatiiviset työpisteet",
+		"low_lp": "alhaiset työpisteet",
+		"suboptimal_lp": "ei-optimaaliset työpisteet"
+	},
+	"westforts": {
+		"open_import": "Avaa taistelujen tuonti West Fortsissa",
+		"close_import": "Sulje taistelujen tuonti West Fortsissa",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[virheenkorjaus] Korjaa Change Language -toiminnon vanha koodi",
+				"[main] UserScript-koodin uudelleenfaktorointi ja puhdistaminen"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[ominaisuus] Lisää \"väliaikainen\" kielenvaihtotoiminto",
+				"[ominaisuus] Puhdista Asetukset-välilehden koodi",
+				"[ominaisuus] Väritilan koodin puhdistus sedanissa (chat)",
+				"[ominaisuus] Siivouskoodi työpaikoille, joissa on bonuksia minikartassa",
+				"[ominaisuus] Clean up Job/Chest Analyzer -toimintokoodi",
+				"[ominaisuus] Nykyaikaistaa UserScript-koodin eri toimintoja"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[ominaisuus] Lisää tuonti-/vientiasetukset-toiminto"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[ominaisuus] Lisää linnoitustaistelun merkintä verkkosivuston tietokantaan (westforts.com)",
+				"[ominaisuus] Lisää Whisper-äänenvaihtotoiminto",
+				"[ominaisuus] Lisää jokaiselle pelaajalle linnoitustaistelun aikana aiheutettua vahinkoa",
+				"[ominaisuus] Lisää laukauksia joka käänteessä linnoitustaistelun aikana",
+				"[ominaisuus] Lisää väriä tehtävissä, jotka voidaan suorittaa",
+				"[ominaisuus] Lisää-painike hyväksyä ja suorittaa automaattisesti tehtävät, jotka voidaan suorittaa",
+				"[virheenkorjaus] Palauta koodi myydäksesi kaikki paitsi valitut tuotteet kauppiaalle",
+				"[vikakorjaus] Korjattu vanha koodi vaihtoehtoon, joka näyttää työpisteet työikkunassa",
+				"[virheenkorjaus] Korjaa Marketin automaattisen avauksen koodi niin, että vaateikkuna on minimoitu",
+				"[virheenkorjaus] Korjaa koodi rakennusvälilehdellä, jos TWIR on läsnä",
+				"[main] Luokkien järjestys uudelleen Asetukset-välilehdellä"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[ominaisuus] Lisää tumma teemavaihtoehto Länsi-kartalle",
+				"[ominaisuus] Parannettu myyntiraporttikuvaketta Market-rakennuksen ostoikkunassa",
+				"[ominaisuus] Lisää kuvake siitä, ovatko markkinatarjoukset julkisia, vain liittoutuman tai kaupungin jäsenille",
+				"[ominaisuus] Lisää uusi painike avataksesi Market-ikkunan helposti"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[ominaisuus] Lisätty uusiutumisajat pelaajan muotokuvaan",
+				"[ominaisuus] Lisää tekstin korostus kaupunkifoorumeihin",
+				"[ominaisuus] Lisää vaihtoehto kiinnittääksesi valikkopalkin, Experiencen ja UserScriptin näyttöön",
+				"[ominaisuus] Lisää kaksintaistelukokemus pelaajaprofiiliin",
+				"[virheenkorjaus] Rekrytointi-välilehden korjaus",
+				"[virheenkorjaus] Poista joidenkin toimintojen automaattinen aktivointi käytöstä"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": [
+				"[virheenkorjaus] Korjaa jotkin asetusviestit",
+				"[virheenkorjaus] Rekrytointi-välilehden korjaus"
+			]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[ominaisuus] Lisätty kriittisiä osumia ja haamukierroksia linnoituksen hautausmaalle",
+				"[ominaisuus] Lisää ikkuna omistetuille ja liittoutuneille linnoille kaupunkien ikkunaan",
+				"[ominaisuus] Lisää raportistaan ​​axe unbury -linnoituksen automaattinen avautuminen",
+				"[ominaisuus] Parannettu kaikkia Ranking-taulukoita",
+				"[ominaisuus] Paransi Rekrytointi-ikkunaa ennen linnoitustaistelua",
+				"[ominaisuus] Poista City-painikkeen vilkkuminen, jos kaupunkifoorumilla on uusi viesti"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[ominaisuus] Lisää rakentamisen edistyminen rakennusvälilehdelle",
+				"[ominaisuus] Lisää kirkon tasoja",
+				"[ominaisuus] Lisää toiminto näyttääksesi vain rakennukset, jotka eivät ole täysin valmiita kaupungintalossa",
+				"[ominaisuus] Lisätty uusi painike, joka avaa helposti Kirkon rakennus -välilehden",
+				"[ominaisuus] Lisää painike sulkeaksesi vain Varasto-ikkunat"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[virheenkorjaus] Hups! Korjaa rakennuskoodi"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[virheenkorjaus] Korjaa uuden version linkki"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[bugikorjaus] Versiokorjaus joissain paikoissa, toivotaan!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[virheenkorjaus] Versiokorjaus joissain paikoissa"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[pää] Poista versio"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[virheenkorjaus] Uusi ominaisuuden version linkki muutettu"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[virheenkorjaus] Korjaa vanhentunut koodi, joka käytti UserScriptiä"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": [
+				"[main] Poista ylimääräinen koodi",
+				"[main] Muuttuneet tiedot Rekrytointi-ikkunassa"
+			]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[virheenkorjaus] Hups! Korjattu UserScript"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[virheenkorjaus] Korjaa väärä versio"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": ["[main] Poistettu tarpeeton koodi Recruit-ikkunasta", "[main] Change Updater"]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[virheenkorjaus] Korjaa nimikkeen nasta, joka näkyy oikein vanilja- ja TWIR-inventaariossa",
+				"[virheenkorjaus] Korjaa julkaisumääritteiden sanan bugikorjauksen kirjoitusvirheet"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": ["[pää] Koodin puhdistus – osa 2", "[main] Muutettiin joitain hyperlinkkejä"]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[pää] Koodin puhdistus – osa 1"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[virheenkorjaus] Päivitä linkit automaattista päivitystä varten"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[virheenkorjaus] Muutettiin hyperlinkkejä"]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[virheenkorjaus] Hups! Korjattu UserScript"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[virheenkorjaus] Ominaisuuden poiston korjaus"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[main] Poistettu monia hyödyttömiä ominaisuuksia"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": [
+				"[virheenkorjaus] Korjattu joitain kirjoitusvirheitä",
+				"[main] Muuta kaavan versiota"
+			]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** Luo UserScript from clothcalc_sk **"]
+		}
+	]
+}

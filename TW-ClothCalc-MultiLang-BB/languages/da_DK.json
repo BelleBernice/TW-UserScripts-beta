@@ -1,0 +1,509 @@
+{
+	"common": {
+		"ok": "OK",
+		"cancel": "Annuller",
+		"yes": "Ja",
+		"no": "Nej",
+		"not_now": "Ikke nu",
+		"close": "Luk",
+		"delete": "Slet",
+		"select_file": "Vælg fil",
+		"listen": "Lyt",
+		"save_error": "Kunne ikke gemme",
+		"save_success": "Gemt korrekt",
+		"save": "Gem",
+		"preview": "Forhåndsvisning",
+		"edit": "Rediger",
+		"search": "Søg"
+	},
+	"misc": {
+		"notes_title": "Noter",
+		"color_dialog_bold": "fed",
+		"color_dialog_caps": "STORE BOGSTAVER",
+		"color_dialog_history": "Historik",
+		"color_dialog_title": "Farve",
+		"button_church_title": "Byg kirke",
+		"button_market_title": "Åbn marked",
+		"pin_toggle_tooltip": "Skift fastgørelsestilstand",
+		"telegram_toggle_tooltip": "Skift mellem uformateret besked og original",
+		"wear_close_tooltip": "Luk kun inventarvinduer",
+		"sort_by": "Sorter efter",
+		"name": "Navn",
+		"country": "Amt",
+		"sound_default": "Standardlyd",
+		"sleep": "Søvn",
+		"hotel": "Hotel",
+		"stage": "Niveau",
+		"your_position": "Din position",
+		"levels": "Niveauer",
+		"count": "Antal",
+		"duration": "Varighed",
+		"experience": "Erfaring",
+		"money": "Penge",
+		"bonds": "Obligationer",
+		"motivation": "Motivation",
+		"danger": "Fare",
+		"killed": "Bevidstløs",
+		"yield": "Udbytte",
+		"items": "Genstande",
+		"luck": "Held",
+		"reset": "Nulstil",
+		"import": "Importer",
+		"export": "Eksporter",
+		"hours_lowercase": "timer",
+		"jobs": "Arbejder",
+		"construction": "Konstruktion",
+		"category": "Kategori",
+		"rank": "Rang",
+		"distance": "Afstand",
+		"health_points": "Sundhedspoint",
+		"labor_points": "Arbejdspoint"
+	},
+	"script": {
+		"duplicate": "UserScript ClothCalc er installeret to gange med forskellige sprog. Du skal deaktivere et af dem for at scriptet fungerer korrekt.",
+		"description": "UserScript ClothCalc er et projekt skabt af TW-DB.info-teamet. Det tilbyder mange funktioner og udvidelser, der forbedrer spiloplevelsen, sparer tid og optimerer visse aktiviteter.",
+		"thank_you": "Tak!",
+		"paypal_alt": "PayPal – Den sikreste og nemmeste måde at betale online!",
+		"lang": "Sprog",
+		"error_message": "Besked",
+		"error_type": "Fejl",
+		"error_copy": "Kopiér",
+		"error_copied": "Kopieret!",
+		"api_registration_failed": "Registrering af TW-DB.info UserScript på TheWestApi mislykkedes.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "Ved at trykke på \"OK\" genindlæses siden automatisk for at anvende dine ændringer.",
+		"title": "Indstillinger",
+		"category_inventory": "Inventar",
+		"category_quests": "Missioner",
+		"category_jobs": "Arbejder",
+		"category_task_list": "Opgaveliste",
+		"category_fort": "Fort",
+		"category_town": "By",
+		"category_market": "Marked",
+		"category_graphics": "Grafik",
+		"category_minimap": "Minikort",
+		"category_premium": "Premium-indstillinger",
+		"category_misc": "Diverse",
+		"collector": "Markerer hos handleren og på markedet genstande, som du endnu ikke har i dit inventar",
+		"collector_sell": "Tilføjer en knap til at sælge alt undtagen én valgt genstand hos handleren",
+		"pin_items": "Fastgør genstande i inventarvinduet",
+		"quest_cancel": "Bekræft annullering af mission",
+		"instant_quest": "Fuldfør en mission øjeblikkeligt, hvis alle krav er opfyldt",
+		"colored_quest": "Ændr farven på missioner, der kan fuldføres",
+		"job_lp": "Tilføj arbejdspoint til arbejdsvinduer",
+		"task_points": "Tilføj indikator for arbejdspoint og sundhedstip til opgavelisten – [nederst til højre]",
+		"forts_import": "Tilføj knap til import af fortkampe på websitet (westforts)",
+		"fort_recruit": "Tilføj oversigt over fortrekruttering",
+		"fort_recruit_enhanced": "Forbedr rekrutteringsfanen før en fortkamp",
+		"declare_report": "Knyt rapporten om udgravning af krigsøkse til det angribende fort",
+		"forts_owned": "Vis ejerskab af forter på byprofiler",
+		"cemetery_critical": "Kritiske træffere og spøgelsesrunder på fortkirkegården",
+		"battle_damage": "Samlet forårsaget skade i hver spillers beskrivelse under fortkamp",
+		"battle_round": "Træffere, missere, modtagne træffere og undvigelser i hver runde",
+		"building_progress": "Vis byggefremskridt i bygningsvinduet",
+		"church_levels": "Vis ekstra kirkeniveauer, du kan bygge",
+		"improved_cityhall_tab": "Vis kun bygninger, der ikke er fuldt bygget",
+		"forum_blink": "Fjern blink fra byknappen, hvis der er en ny forum-besked",
+		"market_map": "Tilføj markedskort-vindue",
+		"market_reminder": "Tilføj påmindelse for markedsauktioner",
+		"market_sell": "Forbedr markedets salgsvindue",
+		"market_report": "Forbedr ikonet for salgsrapport på markedet",
+		"market_improved": "Forbedr markedets købsvindue",
+		"duel_motivation": "Tilføj permanent indikator for duelmotivation – [under energibaren]",
+		"sleep_direct": "Tilføj knap til direkte adgang til hotel eller kaserne",
+		"deposit": "Tilføj knap til at indsætte penge i den aktuelle bank",
+		"shop_sale_off": "Deaktivér SALG-notifikation – [under saloon-knappen]",
+		"exp_bar": "Tilføj værdier til erfaringsbaren",
+		"mini_chat": "Tilføj knap til at minimere chatrum",
+		"event_counter": "Flyt begivenhedstælleren på store skærme",
+		"scrollbars_off": "Deaktivér rullebjælker på små skærme eller når vinduer flyttes langt",
+		"wear_close": "Tilføj knap til automatisk kun at lukke inventarvinduer",
+		"profile_duel_exp": "Vis duel-erfaring på spillerprofiler",
+		"regen_timers": "Tilføj regenerationstimere til spillerportrættet",
+		"button_church": "Tilføj knap for lettere åbning af kirkebyggevinduet",
+		"button_market": "Tilføj knap for lettere åbning af markedet",
+		"automation_buttons": "Automatiseringsknapper til højre",
+		"bonus_jobs": "Tilføj mulighed for at vise arbejder med bonus",
+		"coordinates_input": "Tilføj mulighed for at bevæge sig til angivne koordinater",
+		"work_queue_off": "Deaktivér notifikationer for køb af premium-automatisering",
+		"fetch_all_off": "Deaktivér premium-prompt ved afhentning af genstande fra markedet",
+		"wof_nuggets_off": "Deaktivér nuggets som standardbetalingsmetode ved begivenheder",
+		"chat": "Aktivér chatforbedringer – [chatfarver]",
+		"notes": "Tilføj noter til Telegraf/Rapporter-vinduet",
+		"auto_deposit": "Tilføj indbetalingspåmindelse, når du ankommer til din by med penge",
+		"chest_analyzer": "Tilføj Kiste-analysator til Telegraf/Rapporter-vinduet",
+		"weekly_crafting": "Tilføj påmindelse om udløb af fremstillingens cooldown",
+		"telegram_bb_codes": "Tilføj knap til at skifte til uformateret tekst i telegrammer",
+		"enhanced_rankings": "Forbedr ranglistefaner og tilføj forskel mellem spillere",
+		"translation_texts": "Oversæt bestemte forkerte tekststrenge",
+		"forum_select": "Aktivér tekstmarkering i byforum",
+		"pin_important": "Hold menu, erfaringsbjælke og script altid øverst",
+		"fortbattle_reminder": "Deaktivér påmindelse om fortkamp til venstre",
+		"night_mode": "Mørk tilstand for The-West-kortet",
+		"blink_events": "Stop blink af begivenheder og forlystelsespark i venstre side",
+		"whisper_improved": "Forbedr hviskelyd i forskellige saloon-chats"
+	},
+	"debug": {
+		"failed_to_copy": "Kunne ikke kopiere:",
+		"key_saved": "Nøgle $key$ gemt.",
+		"needs": "kræver",
+		"current_statistic_data": "Aktuelle statistikdata:",
+		"current_sort_display_state": "Aktuel sorterings-/visningstilstand:",
+		"report_queue": "Rapportkø:",
+		"failed_report_ids": "Mislykkede rapport-ID’er:"
+	},
+	"cache": {
+		"reset": "Nulstil TWDB-cache - BB",
+		"reset_key": "Funktionsnøgle",
+		"reset_all_keys": "Nulstil alle funktionsindstillinger",
+		"reset_complete": "Nulstilling fuldført, siden genindlæses",
+		"reset_confirm": "Er du sikker på, at du vil nulstille hele {$script$}-UserScript-cachen?"
+	},
+	"io": {
+		"settings": "Indstillinger",
+		"export_copy_failed": "Automatisk kopiering mislykkedes eller understøttes ikke. Kopiér manuelt indstillingerne fra feltet nedenfor.",
+		"import_paste_instructions": "Indsæt dine indstillinger i feltet nedenfor og klik på Importer.",
+		"import_placeholder": "Indsæt dine indstillinger her...",
+		"import_cancelled": "Import af indstillinger blev annulleret.",
+		"export_start": "START EKSPORT AF INDSTILLINGER",
+		"export_end": "SLUT EKSPORT AF INDSTILLINGER",
+		"export_clipboard_success": "Indstillingerne blev automatisk kopieret til udklipsholderen.",
+		"export_clipboard_failed": "Automatisk kopiering mislykkedes",
+		"import_warning": "Advarsel: Import vil overskrive de nuværende indstillinger. Har du læst advarslen?",
+		"import_no_data": "Ingen indstillinger indsat. Import annulleret.",
+		"import_start": "IMPORTER INDSTILLINGER",
+		"import_json_preview": "Følgende JSON vil blive importeret",
+		"import_success_reload": "Genindlæs spillet for at gemme.",
+		"import_error": "Fejl ved import af indstillinger. Kontrollér at teksten er gyldig JSON.",
+		"import_error_log": "Fejl ved import af indstillinger",
+		"import_clipboard_success": "Indstillinger læst fra udklipsholderen. Starter import...",
+		"import_clipboard_failed": "Automatisk læsning af udklipsholder mislykkedes."
+	},
+	"updater": {
+		"version_features_title": "Versionsfunktioner",
+		"script_updated": "UserScript er blevet opdateret!",
+		"script_updated_message": "UserScript $script$ er blevet opdateret. Vil du se de nye funktioner?",
+		"script_needs_update": "UserScript kræver opdatering",
+		"new_version_available": "En ny version af UserScript $script$ er tilgængelig. Klik på OK for at opdatere.",
+		"current_version": "Nuværende version",
+		"new_version": "Ny version",
+		"reload_after_install": "Genindlæs spillet efter installation.",
+		"version_label": "Version"
+	},
+	"market": {
+		"reminder_title": "Markedspåmindelse",
+		"rights_town": "By",
+		"rights_alliance": "Alliance",
+		"rights_anyone": "Alle",
+		"sell_multiply": "Indstil (multiplicer) den aktuelle pris med dette tal",
+		"sell_save_desc": "Gem beskrivelse til fremtidige auktioner",
+		"sell_reset_desc": "Nulstil beskrivelse",
+		"sell_reset_sel": "Nulstil valg",
+		"sell_buy_price": "Købspris",
+		"sell_sell_price": "Salgspris",
+		"sell_save_duration": "Gem varighed og rettigheder til fremtidige auktioner",
+		"map_tab_title": "Markedskort",
+		"auction_label": "Auktion",
+		"reminder_before_expiry": "Påmindelse før auktionens udløb",
+		"reminder_minutes": "minutter",
+		"auction_ends": ", Slutter",
+		"auction_ends_label": "Auktion slutter",
+		"use_as_default_price": "Brug som standardpris",
+		"reminder_late": "Påmindelsen kom for sent, auktionen er allerede afsluttet."
+	},
+	"fort": {
+		"forts": "Forte",
+		"forts_owned": "Egne forte",
+		"forts_members": "Allianceforte",
+		"size": "Størrelse",
+		"sizes": {
+			"0": "Lille",
+			"1": "Mellem",
+			"2": "Stor"
+		},
+		"sort_by_health": "Sorter efter helbred",
+		"sort_asc_current_health": "Nuværende helbred stigende",
+		"sort_desc_current_health": "Nuværende helbred faldende",
+		"sort_asc_max_health": "Maks. helbred stigende",
+		"sort_desc_max_health": "Maks. helbred faldende",
+		"sort_asc_distance": "Afstand stigende",
+		"sort_desc_distance": "Afstand faldende",
+		"show_players_at_fort": "Vis spillere ved fortet",
+		"hide_players_at_fort": "Skjul spillere ved fortet",
+		"show_players_near_fort": "Vis spillere nær fortet",
+		"hide_players_near_fort": "Skjul spillere nær fortet",
+		"show_players_away_fort": "Vis fjerne spillere",
+		"hide_players_away_fort": "Skjul fjerne spillere"
+	},
+	"battle": {
+		"critical_hits": "Kritiske træffere",
+		"ghost_rounds": "Spøgelsesrunder",
+		"stats_total": "Total",
+		"stats_hits": "Træffere",
+		"stats_missed": "Missere",
+		"stats_got_shot": "Modtagne træffere",
+		"stats_dodge": "Undvigelser",
+		"total_damage_tooltip": "Forårsaget skade"
+	},
+	"jobs": {
+		"show_gold_jobs": "Vis guld-bonusarbejder",
+		"gold_jobs": "Guld-bonusarbejder",
+		"show_silver_jobs": "Vis sølv-bonusarbejder",
+		"silver_jobs": "Sølv-bonusarbejder",
+		"with_bonus": "Arbejder med bonus",
+		"reset_jobs_bonus_confirm": "Vælg hvilken arbejdskategori der skal nulstilles, eller annullér nulstilling.",
+		"reset_all_jobs_bonus": "Alle",
+		"reset_silver_jobs_bonus": "Sølv",
+		"reset_gold_jobs_bonus": "Guld",
+		"lp_remaining": "$lp$ A.P."
+	},
+	"analyzer": {
+		"reset_confirm_title": "Er du sikker på, at du vil nulstille Arbejds-analysatorens statistikker?",
+		"reset_confirm_message": "Angiv linket til den første rapport, der skal læses efter nulstilling",
+		"job_title": "Arbejds-analysator",
+		"chest_title": "Kiste-analysator",
+		"duel_coming_soon": "Duel-analysatoren kommer i fremtiden!",
+		"table_sum_tooltip": "Skift til gennemsnit Ø",
+		"table_avg_tooltip": "Skift til total Σ",
+		"toggle_rewards_items": "Skift mellem belønninger og fundne genstande",
+		"reset_report_analyzer": "Nulstil analysatorrapporter",
+		"report_link_label": "Rapportlink:",
+		"use_all_reports": "eller brug alle rapporter",
+		"use_future_reports": "eller brug kun fremtidige rapporter"
+	},
+	"quests": {
+		"cancel_title": "Annullér mission?",
+		"cancel_message": "Er du sikker på, at du vil annullere denne mission?",
+		"accept_finish": "Acceptér og fuldfør mission"
+	},
+	"building": {
+		"progress_tooltip": "Fremskridtet viser, hvor meget byggeri der mangler til næste niveau",
+		"progress_label": "Fremskridt"
+	},
+	"map": {
+		"coordinates_tooltip": "Vis koordinater på kortet",
+		"coordinates_button": "Flyt kortet til de angivne koordinater",
+		"show_town_tooltip": "Vis by på kortet",
+		"show_coordinates": "Vis koordinater på kortet"
+	},
+	"duel": {
+		"levels_duel": "Dueller, du kan udfordre: $min$ - $max$",
+		"levels_exp": "Nuværende duel-erfaring, du vil få: $min$ - $max$",
+		"potion_label": "Mystisk eliksir",
+		"levels_potion": "Duelniveau $min$$max$",
+		"motivation": "Duelmotivation",
+		"ko_time": "KO-tid",
+		"ko_suspension": "KO – Duel suspenderet indtil $time$",
+		"ko_protection": "KO – Duelbeskyttelse indtil $time$",
+		"profile_duel_exp": "Vis duel-erfaring på spillerprofiler",
+		"protection_changed": "Duelbeskyttelsen er ændret"
+	},
+	"town": {
+		"move_tooltip": "Flyt til byen"
+	},
+	"banking": {
+		"money": "Penge",
+		"deposit_message": "Du er ankommet til din by. Vil du indsætte dine penge?",
+		"deposit_money": "Indsæt penge"
+	},
+	"crafting": {
+		"notification": "Fremstilling",
+		"can_craft_again": "Du kan fremstille igen!"
+	},
+	"collector": {
+		"item_not_owned": "Du ejer endnu ikke denne genstand"
+	},
+	"regen": {
+		"full_health": "Tid til fuldt helbred",
+		"full_energy": "Tid til fuld energi",
+		"missing": "Mangler",
+		"per_hour": "Regeneration pr. time",
+		"next_health": "Næste helbredspunkt om",
+		"next_energy": "Næste energipunkt om"
+	},
+	"task": {
+		"negative_lp": "negative arbejdspoint",
+		"low_lp": "lave arbejdspoint",
+		"suboptimal_lp": "ikke-optimale arbejdspoint"
+	},
+	"westforts": {
+		"open_import": "Åbn import af kampe i West Forts",
+		"close_import": "Luk import af kampe i West Forts",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[bugfix] Ret den gamle kode for funktionen Skift sprog",
+				"[main] Refaktorering og oprydning af UserScript-koden"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[funktion] Tilføj \"midlertidig\" sprogændringsfunktion",
+				"[funktion] Ryd op Indstillinger fanekode",
+				"[funktion] Oprydning af farvetilstandskode i Saloon (chat)",
+				"[funktion] Oprydningskode til job med bonusser på minikortet",
+				"[funktion] Ryd op Job/Brystanalysator funktionskode",
+				"[feature] Moderniser forskellige funktioner i UserScript-koden"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[funktion] Tilføj import/eksportindstillinger-funktion"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[feature] Tilføj fort battle-indgang til webstedets database (westforts.com)",
+				"[funktion] Tilføj Whisper-lydændringsfunktion",
+				"[feature] Tilføj skader givet til hver spiller under en fæstningskamp",
+				"[funktion] Tilføj skud hver tur under en fæstningskamp",
+				"[feature] Tilføj farve til de quests, der kan fuldføres",
+				"[funktion] Tilføj knap for automatisk at acceptere og fuldføre quests, der kan fuldføres",
+				"[bugfix] Gendan kode for at sælge alt undtagen en valgt vare til sælgeren",
+				"[bugfix] Rettet gammel kode for indstillingen, der viser jobpunkterne i jobvinduet",
+				"[bugfix] Ret koden for Market auto-open-indstillingen, så tøjvinduet minimeres",
+				"[bugfix] Ret kode i build-fanen, hvis TWIR er til stede",
+				"[main] Omarrangering af kategorierne på fanen Indstillinger"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[funktion] Tilføj mørkt temaindstilling til The-West Map",
+				"[feature] Forbedrede salgsrapportikonet i købsvinduet i Market-bygningen",
+				"[funktion] Tilføj ikon for, om markedstilbud er offentlige, kun for alliance- eller bymedlemmer",
+				"[funktion] Tilføj en ny knap for nemt at åbne Market-vinduet"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[feature] Tilføjet regenereringstider til spillerportræt",
+				"[feature] Tilføj tekstfremhævning til byfora",
+				"[funktion] Tilføj mulighed for at fastgøre menulinje, oplevelse og brugerscript til skærmen",
+				"[funktion] Tilføj dueloplevelse til spillerprofilen",
+				"[bugfix] Rekruttering af fanen",
+				"[bugfix] Deaktiver automatisk aktivering af nogle funktioner"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": ["[bugfix] Ret nogle indstillingsmeddelelser", "[bugfix] Rekruttering af fanen"]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[feature] Tilføjet kritiske hits og spøgelsesrunder til fæstningskirkegården",
+				"[feature] Tilføj vindue for ejede og allierede forter til byvinduet",
+				"[funktion] Tilføj automatisk åbning af økse unbury-fæstningen fra dens rapport",
+				"[feature] Forbedrede alle rangeringstabeller",
+				"[feature] Forbedrede rekrutteringsvinduet før fæstningsslaget",
+				"[funktion] Fjern blinkende by-knap, hvis der er en ny besked i byforumet"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[feature] Tilføj bygningsfremskridt til bygningsfanen",
+				"[funktion] Tilføj ekstra kirkeniveauer",
+				"[funktion] Tilføj funktion for kun at vise bygninger, der ikke er fuldt opført i rådhuset",
+				"[funktion] Tilføjet en ny knap for nemt at åbne fanen Kirkebygning",
+				"[funktion] Tilføj en knap for kun at lukke inventarvinduerne"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[bugfix] Ups! Ret byggekode"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[bugfix] Rette nyt versionslink"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[bugfix] Version rettelse nogle steder, lad os håbe!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[bugfix] Versionsrettelse nogle steder"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[main] Fjern revision"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[bugfix] Ændret link til ny funktionsversion"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[bugfix] Ret forældet kode, der brugte UserScript"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": ["[main] Fjern overflødig kode", "[main] Ændrede detaljer i rekrutteringsvinduet"]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[bugfix] Ups! Rettet UserScript"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[bugfix] Rette forkert version"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": ["[main] Fjernede unødvendig kode i rekrutteringsvinduet", "[main] Skift opdatering"]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[bugfix] Ret elementstiften til at blive vist korrekt i vanilje- og TWIR-inventarvinduet",
+				"[bugfix] Ret stavefejl af ordet bugfix i Release Attributes"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": ["[main] Kodeoprydning - del 2", "[main] Ændrede nogle hyperlinks"]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[main] Kodeoprydning - del 1"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[bugfix] Opdater links til automatisk opdatering"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[bugfix] Ændrede nogle hyperlinks"]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[bugfix] Ups! Rettet UserScript"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[bugfix] Rettelse til fjernelse af funktioner"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[main] Fjernede mange ubrugelige funktioner"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": ["[bugfix] Rettede nogle stavefejl", "[main] Skift formelversion"]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** Generer UserScript fra clothcalc_sk **"]
+		}
+	]
+}

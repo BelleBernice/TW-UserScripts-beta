@@ -1,0 +1,326 @@
+{
+	"common": {
+		"ok": "OK",
+		"cancel": "Cancelar",
+		"yes": "Sí",
+		"no": "No",
+		"not_now": "Ahora no",
+		"close": "Cerrar",
+		"delete": "Eliminar",
+		"select_file": "Seleccionar archivo",
+		"listen": "Escuchar",
+		"save_error": "Error al guardar",
+		"save_success": "Guardado correctamente",
+		"save": "Guardar",
+		"preview": "Vista previa",
+		"edit": "Editar",
+		"search": "Buscar"
+	},
+	"misc": {
+		"notes_title": "Notas",
+		"color_dialog_bold": "negrita",
+		"color_dialog_caps": "MAYÚSCULAS",
+		"color_dialog_history": "Historial",
+		"color_dialog_title": "Color",
+		"button_church_title": "Construir iglesia",
+		"button_market_title": "Abrir mercado",
+		"pin_toggle_tooltip": "Alternar modo de fijado",
+		"telegram_toggle_tooltip": "Alternar entre mensaje sin formato y el original",
+		"wear_close_tooltip": "Cerrar solo las ventanas del inventario",
+		"sort_by": "Ordenar por",
+		"name": "Nombre",
+		"country": "Condado",
+		"sound_default": "Sonido predeterminado",
+		"sleep": "Dormir",
+		"hotel": "Hotel",
+		"stage": "Nivel",
+		"your_position": "Tu posición",
+		"levels": "Niveles",
+		"count": "Cantidad",
+		"duration": "Duración",
+		"experience": "Experiencia",
+		"money": "Dinero",
+		"bonds": "Bonos",
+		"motivation": "Motivación",
+		"danger": "Peligro",
+		"killed": "Inconsciente",
+		"yield": "Producción",
+		"items": "Objetos",
+		"luck": "Suerte",
+		"reset": "Restablecer",
+		"import": "Importar",
+		"export": "Exportar",
+		"hours_lowercase": "horas",
+		"jobs": "Trabajos",
+		"construction": "Construcción",
+		"category": "Categoría",
+		"rank": "Rango",
+		"distance": "Distancia",
+		"health_points": "Puntos de salud",
+		"labor_points": "Puntos de trabajo"
+	},
+	"script": {
+		"duplicate": "El UserScript ClothCalc está instalado dos veces con idiomas diferentes. Debes desactivar uno para que el script funcione correctamente.",
+		"description": "UserScript ClothCalc es un proyecto creado por el equipo de TW-DB.info. Ofrece muchas funciones y extensiones que mejoran la experiencia de juego, ahorran tiempo y optimizan ciertas actividades.",
+		"thank_you": "¡Gracias!",
+		"paypal_alt": "PayPal: ¡la forma más segura y fácil de pagar en línea!",
+		"lang": "Idioma",
+		"error_message": "Mensaje",
+		"error_type": "Error",
+		"error_copy": "Copiar",
+		"error_copied": "¡Copiado!",
+		"api_registration_failed": "El registro del UserScript TW-DB.info en TheWestApi falló.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "Al presionar \"OK\", la página se recargará automáticamente para aplicar los cambios.",
+		"title": "Configuración",
+		"category_inventory": "Inventario",
+		"category_quests": "Misiones",
+		"category_jobs": "Trabajos",
+		"category_task_list": "Lista de tareas",
+		"category_fort": "Fuerte",
+		"category_town": "Ciudad",
+		"category_market": "Mercado",
+		"category_graphics": "Gráficos",
+		"category_minimap": "Minimapa",
+		"category_premium": "Configuración Premium",
+		"category_misc": "Varios",
+		"collector": "Marca los objetos del comerciante y del mercado que aún no tienes en tu inventario",
+		"collector_sell": "Agrega un botón para vender todo excepto un objeto seleccionado",
+		"pin_items": "Fijar objetos en la ventana del inventario",
+		"quest_cancel": "Confirmar cancelación de misión",
+		"instant_quest": "Completar una misión inmediatamente si se cumplen todos los requisitos",
+		"colored_quest": "Cambiar el color de las misiones que pueden completarse",
+		"job_lp": "Agregar puntos de trabajo a las ventanas de trabajo",
+		"task_points": "Agregar indicador de puntos de trabajo y consejos de salud a la lista de tareas",
+		"market_map": "Agregar mapa del mercado",
+		"market_reminder": "Agregar recordatorio para subastas del mercado",
+		"duel_motivation": "Agregar un indicador permanente de motivación de duelo",
+		"sleep_direct": "Agregar un botón para ir directamente al hotel o al cuartel",
+		"deposit": "Agregar un botón para depositar dinero en el banco",
+		"exp_bar": "Agregar valores a la barra de experiencia",
+		"mini_chat": "Agregar un botón para minimizar los chats",
+		"night_mode": "Modo oscuro para el mapa de The-West"
+	},
+	"debug": {
+		"failed_to_copy": "No se pudo copiar:",
+		"key_saved": "La clave $key$ ha sido guardada.",
+		"needs": "necesita"
+	},
+	"cache": {
+		"reset": "Restablecer caché TWDB - BB",
+		"reset_key": "Clave de función",
+		"reset_all_keys": "Restablecer todas las configuraciones de funciones",
+		"reset_complete": "Restablecimiento completado, la página se recargará",
+		"reset_confirm": "¿Estás seguro de que deseas restablecer toda la caché del UserScript {$script$}?"
+	},
+	"banking": {
+		"money": "Dinero",
+		"deposit_message": "Has llegado a tu ciudad. ¿Deseas depositar el dinero?",
+		"deposit_money": "Depositar dinero"
+	},
+	"crafting": {
+		"notification": "Fabricación",
+		"can_craft_again": "¡Puedes fabricar de nuevo!"
+	},
+	"collector": {
+		"item_not_owned": "Aún no tienes este objeto"
+	},
+	"town": {
+		"move_tooltip": "Moverse a la ciudad"
+	},
+	"westforts": {
+		"open_import": "Abrir importación de batallas en West Forts",
+		"close_import": "Cerrar importación de batallas en West Forts",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[corrección de error] Se corrigió el código antiguo de la función Cambiar idioma",
+				"[principal] Refactorización y limpieza del código UserScript"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[función] Agregar función de cambio de idioma \"temporal\"",
+				"[función] Limpiar el código de la pestaña Configuración",
+				"[función] Limpieza de código de modo de color en Saloon (chat)",
+				"[función] Código de limpieza para trabajos con bonificaciones en el minimapa",
+				"[función] Código de función de limpieza de trabajo/analizador de tórax",
+				"[característica] Moderniza varias funciones del código UserScript"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[función] Agregar función de configuración de importación/exportación"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[función] Agregue la entrada de Fort Battle a la base de datos del sitio web (westforts.com)",
+				"[función] Agregar función de cambio de sonido Whisper",
+				"[característica] Agrega el daño infligido a cada jugador durante una batalla de fortaleza",
+				"[característica] Agrega disparos en cada turno durante una batalla de fortaleza",
+				"[característica] Añade color a las misiones que se pueden completar.",
+				"[función] Botón Agregar para aceptar y completar automáticamente misiones que se pueden completar",
+				"[corrección de error] Restaurar código para vender todos los artículos excepto uno seleccionado al comerciante",
+				"[corrección de error] Se corrigió el código antiguo de la opción que muestra los puntos de trabajo en la ventana de trabajos",
+				"[corrección de error] Se corrigió el código de la opción de apertura automática de Market para que la ventana de ropa se minimice",
+				"[corrección de error] Se corrige el código en la pestaña de compilación si TWIR está presente",
+				"[principal] Reordenar las categorías en la pestaña Configuración"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[función] Agregar opción de tema oscuro para el mapa The-West",
+				"[función] Se mejoró el ícono del informe de ventas en la ventana de compra del edificio del Mercado.",
+				"[característica] Agregar ícono para indicar si las ofertas del mercado son públicas, solo para miembros de la alianza o de la ciudad",
+				"[función] Agregue un nuevo botón para abrir fácilmente la ventana de Market"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[característica] Se agregaron tiempos de regeneración al retrato del jugador",
+				"[función] Agregar texto resaltado a los foros de la ciudad",
+				"[función] Agregar opción para fijar la barra de menú, la experiencia y el UserScript a la pantalla",
+				"[función] Agregar experiencia de duelo al perfil del jugador",
+				"[corrección de error] Corrección de la pestaña Reclutar",
+				"[corrección de error] Desactiva la activación automática de algunas funciones"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": [
+				"[corrección de errores] Corregir algunos mensajes de configuración",
+				"[corrección de error] Corrección de la pestaña Reclutar"
+			]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[característica] Se agregaron golpes críticos y rondas fantasma al cementerio de la fortaleza",
+				"[función] Agregar ventana para fuertes propios y aliados a la ventana de ciudades",
+				"[característica] Agregue la apertura automática de Axe Unbury Fortress desde su informe",
+				"[característica] Se mejoraron todas las tablas de clasificación.",
+				"[característica] Se mejoró la ventana de reclutamiento antes de la batalla de la fortaleza.",
+				"[función] Elimina el parpadeo del botón Ciudad si hay un mensaje nuevo en el Foro de la ciudad"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[función] Agregar progreso de construcción a la pestaña de construcción",
+				"[función] Agregar niveles de iglesia adicionales",
+				"[característica] Agregar función para mostrar solo los edificios que no están completamente construidos en el Ayuntamiento",
+				"[función] Se agregó un nuevo botón para abrir fácilmente la pestaña del edificio de la Iglesia",
+				"[función] Agregue un botón para cerrar solo las ventanas de Inventario"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[corrección de error] ¡Ups! Reparar código de compilación"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[corrección de error] Arreglar enlace de nueva versión"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[corrección de errores] Corrección de versión en algunos lugares, ¡esperemos!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[corrección de error] Corrección de versión en algunos lugares"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[principal] Eliminar revisión"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[corrección de error] Se modificó el enlace de la versión de nueva característica"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[corrección de error] Se corrigió el código obsoleto que usaba UserScript"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": [
+				"[principal] Eliminar código redundante",
+				"[principal] Detalles modificados en la ventana de Reclutar"
+			]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[corrección de error] ¡Ups! Script de usuario fijo"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[corrección de errores] Arreglar la versión incorrecta"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": [
+				"[principal] Se eliminó el código innecesario en la ventana de Reclutamiento.",
+				"[principal] Actualizador de cambios"
+			]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[corrección de error] Se corrigió el pin del elemento para que se muestre correctamente en la ventana Vanilla y TWIR Inventory",
+				"[corrección de error] Corregir errores de ortografía de la palabra corrección de error en Atributos de versión"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": [
+				"[principal] Limpieza de código - parte 2",
+				"[principal] Se cambiaron algunos hipervínculos."
+			]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[principal] Limpieza de código - parte 1"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[corrección de error] Actualizar enlaces para actualización automática"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[corrección de error] Se cambiaron algunos hipervínculos."]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[corrección de error] ¡Ups! Script de usuario fijo"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[corrección de error] Corrección para la eliminación de funciones"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[principal] Se eliminaron muchas funciones inútiles"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": [
+				"[corrección de errores] Se corrigieron algunos errores tipográficos.",
+				"[principal] Cambiar versión de fórmula"
+			]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** Generar UserScript desde Clothcalc_sk **"]
+		}
+	]
+}

@@ -1,0 +1,518 @@
+{
+	"common": {
+		"ok": "OK",
+		"cancel": "Mégse",
+		"yes": "Igen",
+		"no": "Nem",
+		"not_now": "Most nem",
+		"close": "Bezárás",
+		"delete": "Törlés",
+		"select_file": "Fájl kiválasztása",
+		"listen": "Hallgatás",
+		"save_error": "Sikertelen mentés",
+		"save_success": "Sikeres mentés",
+		"save": "Mentés",
+		"preview": "Előnézet",
+		"edit": "Szerkesztés",
+		"search": "Keresés"
+	},
+	"misc": {
+		"notes_title": "Jegyzetek",
+		"color_dialog_bold": "félkövér",
+		"color_dialog_caps": "NAGYBETŰS",
+		"color_dialog_history": "Előzmények",
+		"color_dialog_title": "Szín",
+		"button_church_title": "Templom építése",
+		"button_market_title": "Piac megnyitása",
+		"pin_toggle_tooltip": "Rögzítési mód váltása",
+		"telegram_toggle_tooltip": "Váltás formázatlan üzenet és az eredeti között",
+		"wear_close_tooltip": "Csak a készletablakok bezárása",
+		"sort_by": "Rendezés",
+		"name": "Név",
+		"country": "Megye",
+		"sound_default": "Alapértelmezett hang",
+		"sleep": "Alvás",
+		"hotel": "Szálloda",
+		"stage": "Szint",
+		"your_position": "Pozíciód",
+		"levels": "Szintek",
+		"count": "Darabszám",
+		"duration": "Időtartam",
+		"experience": "Tapasztalat",
+		"money": "Pénz",
+		"bonds": "Kötvények",
+		"motivation": "Motiváció",
+		"danger": "Veszély",
+		"killed": "Eszméletlen",
+		"yield": "Hozam",
+		"items": "Tárgyak",
+		"luck": "Szerencse",
+		"reset": "Visszaállítás",
+		"import": "Importálás",
+		"export": "Exportálás",
+		"hours_lowercase": "órák",
+		"jobs": "Munkák",
+		"construction": "Építés",
+		"category": "Kategória",
+		"rank": "Rang",
+		"distance": "Távolság",
+		"health_points": "Életerőpontok",
+		"labor_points": "Munkapontok"
+	},
+	"script": {
+		"duplicate": "A ClothCalc UserScript kétszer van telepítve, két különböző nyelven. A megfelelő működéshez az egyik nyelvet ki kell kapcsolni.",
+		"description": "A ClothCalc UserScript a TW-DB.info csapatának projektje. Számos funkciót és bővítést kínál, amelyek javítják a játékélményt, időt takarítanak meg és optimalizálnak bizonyos tevékenységeket.",
+		"thank_you": "Köszönjük!",
+		"paypal_alt": "PayPal – A legbiztonságosabb és legegyszerűbb módja az online fizetésnek!",
+		"lang": "Nyelv",
+		"error_message": "Üzenet",
+		"error_type": "Hiba",
+		"error_copy": "Másolás",
+		"error_copied": "Kimásolva!",
+		"api_registration_failed": "A TW-DB.info UserScript regisztrációja a TheWestApi-n sikertelen volt.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "Az „OK” megnyomásával az oldal automatikusan újratöltődik a módosítások alkalmazásához.",
+		"title": "Beállítások",
+		"category_inventory": "Készlet",
+		"category_quests": "Küldetések",
+		"category_jobs": "Munkák",
+		"category_task_list": "Feladatlista",
+		"category_fort": "Erőd",
+		"category_town": "Város",
+		"category_market": "Piac",
+		"category_graphics": "Grafika",
+		"category_minimap": "Minimap",
+		"category_premium": "Prémium beállítások",
+		"category_misc": "Egyéb",
+		"collector": "Megjelöli a kereskedőnél és a piacon azokat a tárgyakat, amelyek még nincsenek a készletedben",
+		"collector_sell": "Gomb hozzáadása a kereskedőnél az összes eladásához egy kiválasztott kivételével",
+		"pin_items": "Tárgyak rögzítése a készletablakban",
+		"quest_cancel": "Küldetés megszakításának megerősítése",
+		"instant_quest": "Küldetés azonnali befejezése, ha minden feltétel teljesül",
+		"colored_quest": "Befejezhető küldetések színének megváltoztatása",
+		"job_lp": "Munkapontok hozzáadása a munkablakokhoz",
+		"task_points": "Munkapont-jelző és életerő tippek hozzáadása a feladatlistához – [jobb alsó sarok]",
+		"forts_import": "Erődcata-import gomb hozzáadása az oldalhoz (westforts)",
+		"fort_recruit": "Erőd toborzási áttekintés hozzáadása",
+		"fort_recruit_enhanced": "A toborzási fül fejlesztése erődcata előtt",
+		"declare_report": "A harci balta kiásási jelentés összekapcsolása a támadó erőddel",
+		"forts_owned": "Erődtulajdon megjelenítése a városi profilokban",
+		"cemetery_critical": "Kritikus találatok és szellemkörök az erőd temetőjében",
+		"battle_damage": "Összes kiosztott sebzés megjelenítése minden játékos leírásában erődcata során",
+		"battle_round": "Találatok, mellélövések, kapott találatok és kitérések körönként",
+		"building_progress": "Építési folyamat megjelenítése az épületablakban",
+		"church_levels": "További építhető templomszintek megjelenítése",
+		"improved_cityhall_tab": "Csak a még nem teljesen felépített épületek megjelenítése",
+		"forum_blink": "A város gomb villogásának eltávolítása új fórumbejegyzés esetén",
+		"market_map": "Piaci térkép ablak hozzáadása",
+		"market_reminder": "Emlékeztető hozzáadása a piaci aukciókhoz",
+		"market_sell": "A piaci eladási ablak fejlesztése",
+		"market_report": "A piaci eladási jelentés ikonjának fejlesztése",
+		"market_improved": "A piaci vásárlási ablak fejlesztése",
+		"duel_motivation": "Állandó párbajmotiváció-jelző hozzáadása – [az energiasáv alatt]",
+		"sleep_direct": "Gomb hozzáadása a közvetlen belépéshez a szállodába vagy a laktanyába",
+		"deposit": "Gomb hozzáadása a pénz befizetéséhez az aktuális bankban",
+		"shop_sale_off": "AKCIÓ értesítés kikapcsolása – [a szaloon gomb alatt]",
+		"exp_bar": "Értékek hozzáadása a tapasztalati sávhoz – köszönet (Leones/Slygoxx/Belle Bernice)",
+		"mini_chat": "Gomb hozzáadása a chatszobák minimalizálásához",
+		"event_counter": "Eseményszámláló áthelyezése nagy képernyőkön (eseményvaluta, Hiro&#38;#39;s script)",
+		"scrollbars_off": "Görgetősávok kikapcsolása kis képernyőkön vagy túl messzire mozgatott ablakoknál",
+		"wear_close": "Gomb hozzáadása csak a készletablakok automatikus bezárásához",
+		"profile_duel_exp": "Párbajtapasztalat megjelenítése a játékosprofilokban",
+		"regen_timers": "Regenerációs időzítők hozzáadása a játékos portréhoz",
+		"button_church": "Gomb hozzáadása a templomépítési ablak könnyebb megnyitásához",
+		"button_market": "Gomb hozzáadása a piaci ablak könnyebb megnyitásához",
+		"automation_buttons": "Automatizálási gombok jobb oldalon",
+		"bonus_jobs": "Bónuszos munkák megjelenítésének lehetősége",
+		"coordinates_input": "Lehetőség hozzáadása megadott koordinátákra való mozgáshoz",
+		"work_queue_off": "Prémium automatizálás vásárlási értesítések kikapcsolása",
+		"fetch_all_off": "Prémium felugró üzenet kikapcsolása piaci tárgyak átvételekor",
+		"wof_nuggets_off": "Nuggetek alapértelmezett fizetési módként való kikapcsolása eseményeken (ha elérhető)",
+		"chat": "Chat fejlesztés engedélyezése – [chat színek]",
+		"notes": "Jegyzetek hozzáadása a Távíró/Jelentések ablakhoz",
+		"auto_deposit": "Befizetési emlékeztető hozzáadása, amikor pénzzel érkezel a városodba",
+		"chest_analyzer": "Ládaelemző hozzáadása a Távíró/Jelentések ablakhoz",
+		"weekly_crafting": "Emlékeztető hozzáadása a készítési várakozási idő lejártához",
+		"telegram_bb_codes": "Gomb hozzáadása a formázatlan szövegre váltáshoz a táviratokban",
+		"enhanced_rankings": "Rangsor fülek fejlesztése és játékos-különbség hozzáadása",
+		"translation_texts": "Bizonyos hibás szövegláncok fordítása",
+		"forum_select": "Szövegkijelölés engedélyezése a városi fórumban",
+		"pin_important": "A menü, tapasztalati sáv és a script mindig felül maradjon",
+		"fortbattle_reminder": "Erődcata emlékeztető kikapcsolása bal oldalon",
+		"night_mode": "Sötét mód a The-West térképhez",
+		"blink_events": "Események és a vidámpark villogásának leállítása bal oldalon",
+		"whisper_improved": "Suttogás hangjának fejlesztése különböző szaloon chatekben (bekapcsolva a hang közvetlenül alul meghallgatható és módosítható)"
+	},
+	"debug": {
+		"failed_to_copy": "Másolás sikertelen:",
+		"key_saved": "A(z) $key$ kulcs mentve.",
+		"needs": "szükséges",
+		"current_statistic_data": "Jelenlegi statisztikai adatok:",
+		"current_sort_display_state": "Jelenlegi rendezési/megjelenítési állapot:",
+		"report_queue": "Jelentéssor:",
+		"failed_report_ids": "Sikertelen jelentésazonosítók:"
+	},
+	"cache": {
+		"reset": "TWDB gyorsítótár visszaállítása - BB",
+		"reset_key": "Funkciókulcs",
+		"reset_all_keys": "Összes funkcióbeállítás visszaállítása",
+		"reset_complete": "A visszaállítás kész, az oldal újratöltődik",
+		"reset_confirm": "Biztosan vissza szeretnéd állítani a(z) {$script$} UserScript teljes gyorsítótárát?"
+	},
+	"io": {
+		"settings": "Beállítások",
+		"export_copy_failed": "Az automatikus másolás sikertelen vagy nem támogatott. Kérjük, másold ki kézzel az alábbi mezőből.",
+		"import_paste_instructions": "Illeszd be a beállításaidat az alábbi mezőbe, majd kattints az Importálás gombra.",
+		"import_placeholder": "Ide illeszd be a beállításaidat...",
+		"import_cancelled": "Beállítások importálása megszakítva.",
+		"export_start": "BEÁLLÍTÁSOK EXPORTÁLÁSÁNAK KEZDETE",
+		"export_end": "BEÁLLÍTÁSOK EXPORTÁLÁSÁNAK VÉGE",
+		"export_clipboard_success": "A beállítások automatikusan a vágólapra kerültek.",
+		"export_clipboard_failed": "Automatikus másolás sikertelen",
+		"import_warning": "Figyelem: az importálás felülírja a jelenlegi beállításokat. Elolvastad a figyelmeztetést?",
+		"import_no_data": "Nem lettek megadva beállítások. Importálás megszakítva.",
+		"import_start": "BEÁLLÍTÁSOK IMPORTÁLÁSA",
+		"import_json_preview": "A következő JSON kerül importálásra",
+		"import_success_reload": "A mentéshez töltsd újra a játékot.",
+		"import_error": "Hiba a beállítások importálásakor. Ellenőrizd, hogy a szöveg érvényes JSON-e.",
+		"import_error_log": "Beállításimportálási hiba",
+		"import_clipboard_success": "Beállítások beolvasva a vágólapról. Importálás folyamatban...",
+		"import_clipboard_failed": "A vágólap automatikus beolvasása sikertelen."
+	},
+	"updater": {
+		"version_features_title": "Verzió funkciói",
+		"script_updated": "A UserScript frissült!",
+		"script_updated_message": "A(z) $script$ UserScript frissült. Szeretnéd megtekinteni az újdonságokat?",
+		"script_needs_update": "A UserScript frissítést igényel",
+		"new_version_available": "Új verzió érhető el a(z) $script$ UserScripthez. Kattints az OK-ra a frissítéshez.",
+		"current_version": "Jelenlegi verzió",
+		"new_version": "Új verzió",
+		"reload_after_install": "Telepítés után töltsd újra a játékot.",
+		"version_label": "Verzió"
+	},
+	"market": {
+		"reminder_title": "Piaci emlékeztető",
+		"rights_town": "Város",
+		"rights_alliance": "Szövetség",
+		"rights_anyone": "Bárki",
+		"sell_multiply": "Az aktuális ár szorzása ezzel a számmal",
+		"sell_save_desc": "Leírás mentése jövőbeli aukciókhoz",
+		"sell_reset_desc": "Leírás visszaállítása",
+		"sell_reset_sel": "Kijelölés visszaállítása",
+		"sell_buy_price": "Vételi ár",
+		"sell_sell_price": "Eladási ár",
+		"sell_save_duration": "Időtartam és jogosultságok mentése jövőbeli aukciókhoz",
+		"map_tab_title": "Piaci térkép",
+		"auction_label": "Aukció",
+		"reminder_before_expiry": "Emlékeztető az aukció vége előtt",
+		"reminder_minutes": "perc",
+		"auction_ends": ", Véget ér",
+		"auction_ends_label": "Aukció vége",
+		"use_as_default_price": "Használat alapértelmezett árként",
+		"reminder_late": "Az emlékeztető elkésett, az aukció már véget ért."
+	},
+	"fort": {
+		"forts": "Erődök",
+		"forts_owned": "Birtokolt erődök",
+		"forts_members": "Szövetségi erődök",
+		"size": "Méret",
+		"sizes": {
+			"0": "Kicsi",
+			"1": "Közepes",
+			"2": "Nagy"
+		},
+		"sort_by_health": "Rendezés életerő szerint",
+		"sort_asc_current_health": "Jelenlegi életerő növekvő",
+		"sort_desc_current_health": "Jelenlegi életerő csökkenő",
+		"sort_asc_max_health": "Maximális életerő növekvő",
+		"sort_desc_max_health": "Maximális életerő csökkenő",
+		"sort_asc_distance": "Távolság növekvő",
+		"sort_desc_distance": "Távolság csökkenő",
+		"show_players_at_fort": "Játékosok megjelenítése az erődnél",
+		"hide_players_at_fort": "Játékosok elrejtése az erődnél",
+		"show_players_near_fort": "Játékosok megjelenítése az erőd közelében",
+		"hide_players_near_fort": "Játékosok elrejtése az erőd közelében",
+		"show_players_away_fort": "Távoli játékosok megjelenítése",
+		"hide_players_away_fort": "Távoli játékosok elrejtése"
+	},
+	"battle": {
+		"critical_hits": "Kritikus találatok",
+		"ghost_rounds": "Szellemkörök",
+		"stats_total": "Összesen",
+		"stats_hits": "Találatok",
+		"stats_missed": "Mellélövések",
+		"stats_got_shot": "Kapott találatok",
+		"stats_dodge": "Kitérések",
+		"total_damage_tooltip": "Kiosztott sebzés"
+	},
+	"jobs": {
+		"show_gold_jobs": "Arany bónuszos munkák megjelenítése",
+		"gold_jobs": "Arany bónuszos munkák",
+		"show_silver_jobs": "Ezüst bónuszos munkák megjelenítése",
+		"silver_jobs": "Ezüst bónuszos munkák",
+		"with_bonus": "Bónuszos munkák",
+		"reset_jobs_bonus_confirm": "Válaszd ki, mely munkakategóriát szeretnéd visszaállítani, vagy szakítsd meg a visszaállítást.",
+		"reset_all_jobs_bonus": "Összes",
+		"reset_silver_jobs_bonus": "Ezüst",
+		"reset_gold_jobs_bonus": "Arany",
+		"lp_remaining": "$lp$ M.P."
+	},
+	"analyzer": {
+		"reset_confirm_title": "Biztosan vissza szeretnéd állítani a Munkák Elemzőjének statisztikáit?",
+		"reset_confirm_message": "Add meg az első jelentés linkjét, amelyet a visszaállítás után kell beolvasni",
+		"job_title": "Munkák elemzője",
+		"chest_title": "Ládaelemző",
+		"duel_coming_soon": "A Párbajelemző a jövőben érkezik!",
+		"table_sum_tooltip": "Váltás Ø átlagra",
+		"table_avg_tooltip": "Váltás Σ összegre",
+		"toggle_rewards_items": "Váltás jutalmak és talált tárgyak között",
+		"reset_report_analyzer": "Elemző jelentések visszaállítása",
+		"report_link_label": "Jelentés link:",
+		"use_all_reports": "vagy az összes jelentés használata",
+		"use_future_reports": "vagy csak a jövőbeli jelentések használata"
+	},
+	"quests": {
+		"cancel_title": "Küldetés megszakítása?",
+		"cancel_message": "Biztosan megszakítod ezt a küldetést?",
+		"accept_finish": "Küldetés elfogadása és befejezése"
+	},
+	"building": {
+		"progress_tooltip": "A folyamat megmutatja, mennyi építés szükséges a következő szinthez",
+		"progress_label": "Folyamat"
+	},
+	"map": {
+		"coordinates_tooltip": "Koordináták megjelenítése a térképen",
+		"coordinates_button": "Térkép mozgatása a megadott koordinátákra",
+		"show_town_tooltip": "Város megjelenítése a térképen",
+		"show_coordinates": "Koordináták megjelenítése a térképen"
+	},
+	"duel": {
+		"levels_duel": "Párbajszintek, amelyekkel párbajozhatsz: $min$ - $max$",
+		"levels_exp": "Jelenlegi párbajtapasztalat, amit kapsz: $min$ - $max$",
+		"potion_label": "Rejtélyes bájital",
+		"levels_potion": "Párbajszint $min$$max$",
+		"motivation": "Párbajmotiváció",
+		"ko_time": "Kiütés ideje",
+		"ko_suspension": "KO – Párbaj felfüggesztve eddig: $time$",
+		"ko_protection": "KO – Párbajvédelem eddig: $time$",
+		"profile_duel_exp": "Párbajtapasztalat megjelenítése a játékosprofilokban",
+		"protection_changed": "A párbajvédelem megváltozott"
+	},
+	"town": {
+		"move_tooltip": "Mozgás a városba"
+	},
+	"banking": {
+		"money": "Pénz",
+		"deposit_message": "Megérkeztél a városodba. Szeretnéd befizetni a pénzed?",
+		"deposit_money": "Pénz befizetése"
+	},
+	"crafting": {
+		"notification": "Készítés",
+		"can_craft_again": "Újra készíthetsz!"
+	},
+	"collector": {
+		"item_not_owned": "Még nem rendelkezel ezzel a tárggyal"
+	},
+	"regen": {
+		"full_health": "Idő a teljes életerőig",
+		"full_energy": "Idő a teljes energiáig",
+		"missing": "Hiányzik",
+		"per_hour": "Regeneráció óránként",
+		"next_health": "Következő életerőpont ennyi idő múlva",
+		"next_energy": "Következő energiapont ennyi idő múlva"
+	},
+	"task": {
+		"negative_lp": "negatív munkapontok",
+		"low_lp": "alacsony munkapontok",
+		"suboptimal_lp": "nem optimális munkapontok"
+	},
+	"westforts": {
+		"open_import": "Csaták importálásának megnyitása a West Forts-ban",
+		"close_import": "Csaták importálásának bezárása a West Forts-ban",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[hibajavítás] A Change Language funkció régi kódjának javítása",
+				"[fő] A UserScript kód újrafaktorálása és tisztítása"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[feature] Add hozzá az \"ideiglenes\" nyelvváltoztatási funkciót",
+				"[feature] Clean up Settings lap kódja",
+				"[funkció] Színmód kódtisztítás a szalonban (csevegés)",
+				"[feature] Tisztító kód a bónuszokat tartalmazó állásokhoz a Mini térképen",
+				"[feature] Clean up Job/Chest Analyzer funkciókód",
+				"[feature] Modernizálja a UserScript kód különböző funkcióit"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[funkció] Importálási/exportálási beállítások hozzáadása"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[funkció] Fort battle bejegyzés hozzáadása a webhely adatbázisához (westforts.com)",
+				"[funkció] Suttogó hangváltás funkció hozzáadása",
+				"[feature] Adj sebzést minden játékosnak az erődcsata során",
+				"[funkció] Adj hozzá lövéseket minden fordulóban az erődcsata során",
+				"[feature] Színezd a teljesíthető küldetéseket",
+				"[funkció] Hozzáadás gomb a teljesíthető küldetések automatikus elfogadásához és teljesítéséhez",
+				"[hibajavítás] Állítsa vissza a kódot, hogy egy kiválasztott terméket eladjon a kereskedőnek",
+				"[hibajavítás] Javítottuk annak az opciónak a régi kódját, amely a jobok ablakában mutatja a jobpontokat",
+				"[hibajavítás] Javítsa ki a Market automatikus megnyitása opció kódját, hogy a ruházati ablak minimális legyen",
+				"[hibajavítás] Javítsa ki a kódot a build lapon, ha a TWIR jelen van",
+				"[fő] Kategóriák átrendezése a Beállítások lapon"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[feature] Sötét téma hozzáadása a Nyugati térképhez",
+				"[feature] Javítottuk az eladási jelentés ikonját a Market épületének vásárlási ablakában",
+				"[funkció] Ikon hozzáadása, amely megmutatja, hogy a piaci ajánlatok nyilvánosak-e, csak a szövetség vagy a város tagjai számára",
+				"[feature] Adjon hozzá egy új gombot a Market ablak egyszerű megnyitásához"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[funkció] Újjászületési idők hozzáadva a játékos portréjához",
+				"[feature] Szövegkiemelés hozzáadása a városi fórumokhoz",
+				"[feature] Opció hozzáadása a Menüsor, az Experience és a UserScript képernyőhöz rögzítéséhez",
+				"[funkció] A párbaj élmény hozzáadása a játékos profiljához",
+				"[hibajavítás] Toborzás lap javítás",
+				"[hibajavítás] Egyes funkciók automatikus aktiválásának letiltása"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": [
+				"[hibajavítás] Javítson ki néhány beállítási üzenetet",
+				"[hibajavítás] Toborzás lap javítás"
+			]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[feature] Kritikus slágerek és szellemkörök hozzáadva az erőd temetőjéhez",
+				"[funkció] A tulajdonolt és szövetséges erődök ablakának hozzáadása a városok ablakához",
+				"[feature] Adja hozzá az Axe Unbury Fortress automatikus megnyitását a jelentéshez",
+				"[funkció] Az összes rangsoroló táblázat továbbfejlesztése",
+				"[funkció] Javította a toborzási ablakot az erődcsata előtt",
+				"[feature] Távolítsa el a City gomb villogását, ha új üzenet érkezik a Városi Fórumba"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[feature] Az építési folyamat hozzáadása az építési laphoz",
+				"[feature] Adjon hozzá további templomi szinteket",
+				"[feature] Funkció hozzáadása, hogy csak azokat az épületeket jelenítse meg, amelyek még nem épültek fel teljesen a Városházán",
+				"[feature] Új gomb hozzáadva az Egyházépület lap egyszerű megnyitásához",
+				"[feature] Adjon hozzá egy gombot, amely csak a készletablakokat zárja be"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[hibajavítás] Hoppá! Javítsa ki a build kódot"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[hibajavítás] Az új verzió hivatkozásának javítása"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[hibajavítás] Verziójavítás néhány helyen, reménykedjünk!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[hibajavítás] Verziójavítás néhány helyen"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[fő] Verzió eltávolítása"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[hibajavítás] Módosult az új szolgáltatásverzió hivatkozása"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[hibajavítás] A UserScriptet használó elavult kód javítása"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": ["[fő] Redundáns kód eltávolítása", "[fő] Módosult a részletek a Recruit ablakban"]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[hibajavítás] Hoppá! Javítva a UserScript"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[hibajavítás] Hibás verzió javítása"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": [
+				"[main] A szükségtelen kód eltávolítva a Recruit ablakból",
+				"[fő] Frissítő módosítása"
+			]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[hibajavítás] Javítsa ki a tételt, hogy megfelelően jelenjen meg a vanília és a TWIR készlet ablakban",
+				"[hibajavítás] Javítsa ki a hibajavítás szó helyesírási hibáit a kiadási attribútumokban"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": ["[fő] Kódtisztítás – 2. rész", "[fő] Néhány hiperhivatkozás megváltozott"]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[fő] Kódtisztítás – 1. rész"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[hibajavítás] Frissítse a hivatkozásokat az automatikus frissítéshez"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[hibajavítás] Néhány hiperhivatkozás módosult"]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[hibajavítás] Hoppá! Javítva a UserScript"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[hibajavítás] Javítás a funkció eltávolításához"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[main] Sok haszontalan funkciót eltávolítottunk"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": [
+				"[hibajavítás] Javítottunk néhány elírási hibát",
+				"[fő] Képlet verziójának módosítása"
+			]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** UserScript generálása a clothcalc_sk fájlból **"]
+		}
+	]
+}

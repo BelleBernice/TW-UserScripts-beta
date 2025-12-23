@@ -1,0 +1,320 @@
+{
+	"common": {
+		"ok": "U redu",
+		"cancel": "Otkaži",
+		"yes": "Da",
+		"no": "Ne",
+		"not_now": "Ne sada",
+		"close": "Zatvori",
+		"delete": "Izbriši",
+		"select_file": "Odaberi datoteku",
+		"listen": "Slušaj",
+		"save_error": "Spremanje nije uspjelo",
+		"save_success": "Uspješno spremljeno",
+		"save": "Spremi",
+		"preview": "Pregled",
+		"edit": "Uredi",
+		"search": "Pretraži"
+	},
+	"misc": {
+		"notes_title": "Bilješke",
+		"color_dialog_bold": "podebljano",
+		"color_dialog_caps": "VELIKA SLOVA",
+		"color_dialog_history": "Povijest",
+		"color_dialog_title": "Boja",
+		"button_church_title": "Izgradi crkvu",
+		"button_market_title": "Otvori tržnicu",
+		"pin_toggle_tooltip": "Uključi/isključi način pribadanja",
+		"telegram_toggle_tooltip": "Prebaci između neformatirane poruke i originala",
+		"wear_close_tooltip": "Zatvori samo prozore inventara",
+		"sort_by": "Sortiraj po",
+		"name": "Naziv",
+		"country": "Okrug",
+		"sound_default": "Zadani zvuk",
+		"sleep": "Spavanje",
+		"hotel": "Hotel",
+		"stage": "Razina",
+		"your_position": "Tvoja pozicija",
+		"levels": "Razine",
+		"count": "Broj",
+		"duration": "Trajanje",
+		"experience": "Iskustvo",
+		"money": "Novac",
+		"bonds": "Obveznice",
+		"motivation": "Motivacija",
+		"danger": "Opasnost",
+		"killed": "Bez svijesti",
+		"yield": "Učinak",
+		"items": "Predmeti",
+		"luck": "Sreća",
+		"reset": "Poništi",
+		"import": "Uvezi",
+		"export": "Izvezi",
+		"hours_lowercase": "sati",
+		"jobs": "Poslovi",
+		"construction": "Izgradnja",
+		"category": "Kategorija",
+		"rank": "Rang",
+		"distance": "Udaljenost",
+		"health_points": "Bodovi zdravlja",
+		"labor_points": "Radni bodovi"
+	},
+	"script": {
+		"duplicate": "UserScript ClothCalc instaliran je dvaput s različitim jezicima. Morate onemogućiti jedan kako bi skripta ispravno radila.",
+		"description": "UserScript ClothCalc projekt je tima TW-DB.info. Nudi mnoge mogućnosti i proširenja koja poboljšavaju iskustvo igranja, štede vrijeme i optimiziraju određene aktivnosti.",
+		"thank_you": "Hvala!",
+		"paypal_alt": "PayPal – Najsigurniji i najjednostavniji način plaćanja na mreži!",
+		"lang": "Jezik",
+		"error_message": "Poruka",
+		"error_type": "Greška",
+		"error_copy": "Kopiraj",
+		"error_copied": "Kopirano!",
+		"api_registration_failed": "Registracija UserScript TW-DB.info u TheWestApi nije uspjela.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "Klikom na \"U redu\" stranica će se automatski ponovno učitati kako bi se primijenile promjene.",
+		"title": "Postavke",
+		"category_inventory": "Inventar",
+		"category_quests": "Zadaci",
+		"category_jobs": "Poslovi",
+		"category_task_list": "Popis zadataka",
+		"category_fort": "Utvrda",
+		"category_town": "Grad",
+		"category_market": "Tržnica",
+		"category_graphics": "Grafika",
+		"category_minimap": "Mini-karta",
+		"category_premium": "Premium postavke",
+		"category_misc": "Razno",
+		"collector": "Označava predmete kod trgovca i na tržnici koje još nemate u inventaru",
+		"collector_sell": "Dodaje gumb za prodaju svega osim jednog odabranog predmeta",
+		"pin_items": "Pribodi predmete u prozoru inventara",
+		"quest_cancel": "Potvrda otkazivanja zadatka",
+		"instant_quest": "Završi zadatak odmah ako su svi uvjeti ispunjeni",
+		"colored_quest": "Promijeni boju zadataka koji se mogu završiti",
+		"job_lp": "Dodaj radne bodove u prozore poslova",
+		"task_points": "Dodaj pokazatelj radnih bodova i savjete za zdravlje u popis zadataka",
+		"market_map": "Dodaj kartu tržnice",
+		"market_reminder": "Dodaj podsjetnik za aukcije na tržnici",
+		"duel_motivation": "Dodaj trajni pokazatelj motivacije za dvoboj",
+		"sleep_direct": "Dodaj gumb za izravan odlazak u hotel ili kasarnu",
+		"deposit": "Dodaj gumb za polaganje novca u banku",
+		"exp_bar": "Dodaj vrijednosti u traku iskustva",
+		"mini_chat": "Dodaj gumb za minimiziranje chatova",
+		"night_mode": "Tamni način rada za kartu The-West"
+	},
+	"debug": {
+		"failed_to_copy": "Kopiranje nije uspjelo:",
+		"key_saved": "Ključ $key$ je spremljen.",
+		"needs": "potrebno"
+	},
+	"cache": {
+		"reset": "Poništi TWDB predmemoriju - BB",
+		"reset_key": "Funkcijska tipka",
+		"reset_all_keys": "Poništi sve funkcijske postavke",
+		"reset_complete": "Poništavanje dovršeno, stranica će se ponovno učitati",
+		"reset_confirm": "Jeste li sigurni da želite poništiti cijelu predmemoriju UserScript {$script$}?"
+	},
+	"banking": {
+		"money": "Novac",
+		"deposit_message": "Stigli ste u svoj grad. Želite li položiti novac?",
+		"deposit_money": "Položi novac"
+	},
+	"crafting": {
+		"notification": "Izrada",
+		"can_craft_again": "Možete ponovno izrađivati!"
+	},
+	"collector": {
+		"item_not_owned": "Još nemate ovaj predmet"
+	},
+	"town": {
+		"move_tooltip": "Premjesti se u grad"
+	},
+	"westforts": {
+		"open_import": "Otvori uvoz bitaka u West Forts",
+		"close_import": "Zatvori uvoz bitaka u West Forts",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[popravak greške] Popravite stari kod funkcije Promjena jezika",
+				"[main] Refactoring i čišćenje UserScript koda"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[značajka] Dodajte \"privremenu\" funkciju promjene jezika",
+				"[značajka] Čišćenje koda kartice postavki",
+				"[značajka] Čišćenje koda načina boja u Saloonu (chat)",
+				"[značajka] Kôd čišćenja za poslove s bonusima na mini karti",
+				"[značajka] Očistite kod funkcije analizatora poslova/prsiju",
+				"[značajka] Modernizirajte razne funkcije koda UserScript"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[značajka] Dodaj funkciju postavki uvoza/izvoza"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[značajka] Dodavanje unosa bitke za utvrdu u bazu podataka web stranice (westforts.com)",
+				"[značajka] Dodajte funkciju promjene zvuka Whisper",
+				"[značajka] Dodajte štetu nanesenu svakom igraču tijekom bitke za tvrđavu",
+				"[značajka] Dodajte snimke svaki korak tijekom bitke za tvrđavu",
+				"[značajka] Dodajte boju misijama koje je moguće dovršiti",
+				"[značajka] Dodaj gumb za automatsko prihvaćanje i dovršavanje misija koje je moguće dovršiti",
+				"[popravak greške] Vratite kod za prodaju trgovcu svega osim odabrane stavke",
+				"[popravak greške] Popravljen stari kod opcije koja prikazuje bodove poslova u prozoru poslova",
+				"[popravak greške] Popravite kod opcije automatskog otvaranja Marketa tako da prozor s odjećom bude minimiziran",
+				"[popravak pogreške] Popravite kod na kartici za izradu ako je prisutan TWIR",
+				"[glavno] Promjena redoslijeda kategorija u kartici Postavke"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[značajka] Dodajte opciju tamne teme za The-West Map",
+				"[značajka] Poboljšana ikona izvješća o prodaji u prozoru kupnje zgrade Tržnice",
+				"[značajka] Dodajte ikonu za jesu li tržišne ponude javne, samo za članove saveza ili grada",
+				"[značajka] Dodajte novi gumb za jednostavno otvaranje prozora Market"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[značajka] Portretu igrača dodana su vremena regeneracije",
+				"[značajka] Dodajte isticanje teksta na gradske forume",
+				"[značajka] Dodaj opciju za prikvačivanje trake izbornika, Experience i UserScript na zaslon",
+				"[značajka] Dodajte iskustvo dvoboja na profil igrača",
+				"[ispravak greške] Ispravak kartice Regrut",
+				"[popravak pogreške] Onemogući automatsku aktivaciju nekih funkcija"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": [
+				"[popravak greške] Popravi neke poruke postavki",
+				"[ispravak greške] Ispravak kartice Regrut"
+			]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[značajka] Dodani su kritični pogoci i runde duhova na groblje tvrđave",
+				"[značajka] Dodajte prozor za utvrde u vlasništvu i saveznike u prozor gradova",
+				"[značajka] Dodajte automatsko otvaranje tvrđave Axe Unbury iz izvješća",
+				"[značajka] Poboljšane sve tablice poretka",
+				"[značajka] Poboljšan prozor za novačenje prije bitke za tvrđavu",
+				"[značajka] Uklonite treptanje gumba City ako postoji nova poruka na City Forumu"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[značajka] Dodajte napredak izgradnje na karticu izgradnje",
+				"[značajka] Dodajte dodatne crkvene razine",
+				"[značajka] Dodajte funkciju za prikaz samo zgrada koje nisu u potpunosti izgrađene u Gradskoj vijećnici",
+				"[značajka] Dodan novi gumb za jednostavno otvaranje kartice Crkvene zgrade",
+				"[značajka] Dodajte gumb za zatvaranje samo prozora inventara"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[ispravak greške] Ups! Popravite kod izrade"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[popravak greške] Veza za popravak nove verzije"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[pogreška] Popravak verzije na nekim mjestima, nadajmo se!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[bugfix] Ispravak verzije na nekim mjestima"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[glavno] Ukloni reviziju"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[popravak greške] Promijenjena veza na verziju nove značajke"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[popravak pogreške] Popravite zastarjeli kod koji je koristio UserScript"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": ["[main] Ukloni suvišni kod", "[glavno] Promijenjeni detalji u prozoru Regrut"]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[ispravak greške] Ups! Popravljen UserScript"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[ispravak greške] Ispravite pogrešnu verziju"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": [
+				"[main] Uklonjen je nepotreban kod u prozoru Regrut",
+				"[glavno] Promjena ažuriranja"
+			]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[popravak pogreške] Popravite pribadaču stavke za ispravan prikaz u vanilla i TWIR prozoru inventara",
+				"[popravak greške] Popravi pravopisne pogreške riječi bugfix u atributima izdanja"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": ["[glavno] Čišćenje koda - 2. dio", "[main] Promijenjene su neke hiperveze"]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[glavno] Čišćenje koda - 1. dio"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[popravak greške] Osvježi veze za automatsko ažuriranje"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[popravak greške] Promijenjene su neke hiperveze"]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[ispravak greške] Ups! Popravljen UserScript"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[popravak greške] Popravak za uklanjanje značajke"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[main] Uklonjene mnoge beskorisne značajke"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": [
+				"[ispravak bugova] Ispravljene su neke pogreške pri upisu",
+				"[glavno] Promjena verzije formule"
+			]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** Generirajte UserScript iz clothcalc_sk **"]
+		}
+	]
+}

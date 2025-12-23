@@ -1,0 +1,509 @@
+{
+	"common": {
+		"ok": "OK",
+		"cancel": "Avbryt",
+		"yes": "Ja",
+		"no": "Nej",
+		"not_now": "Inte nu",
+		"close": "Stäng",
+		"delete": "Ta bort",
+		"select_file": "Välj fil",
+		"listen": "Lyssna",
+		"save_error": "Misslyckades att spara",
+		"save_success": "Sparades framgångsrikt",
+		"save": "Spara",
+		"preview": "Förhandsgranskning",
+		"edit": "Redigera",
+		"search": "Sök"
+	},
+	"misc": {
+		"notes_title": "Anteckningar",
+		"color_dialog_bold": "fet",
+		"color_dialog_caps": "VERSALER",
+		"color_dialog_history": "Historik",
+		"color_dialog_title": "Färg",
+		"button_church_title": "Bygg kyrka",
+		"button_market_title": "Öppna marknad",
+		"pin_toggle_tooltip": "Växla fästläge",
+		"telegram_toggle_tooltip": "Växla mellan oformaterat meddelande och original",
+		"wear_close_tooltip": "Stäng endast inventariefönster",
+		"sort_by": "Sortera efter",
+		"name": "Namn",
+		"country": "Län",
+		"sound_default": "Standardljud",
+		"sleep": "Sömn",
+		"hotel": "Hotell",
+		"stage": "Nivå",
+		"your_position": "Din position",
+		"levels": "Nivåer",
+		"count": "Antal",
+		"duration": "Varaktighet",
+		"experience": "Erfarenhet",
+		"money": "Pengar",
+		"bonds": "Obligationer",
+		"motivation": "Motivation",
+		"danger": "Fara",
+		"killed": "Medvetslös",
+		"yield": "Utbyte",
+		"items": "Föremål",
+		"luck": "Tur",
+		"reset": "Återställ",
+		"import": "Importera",
+		"export": "Exportera",
+		"hours_lowercase": "timmar",
+		"jobs": "Arbeten",
+		"construction": "Byggnation",
+		"category": "Kategori",
+		"rank": "Rang",
+		"distance": "Avstånd",
+		"health_points": "Hälsopoäng",
+		"labor_points": "Arbetspoäng"
+	},
+	"script": {
+		"duplicate": "UserScript ClothCalc är installerat två gånger med olika språk. Du måste inaktivera ett av dem för att skriptet ska fungera korrekt.",
+		"description": "UserScript ClothCalc är ett projekt skapat av TW-DB.info-teamet. Det erbjuder många funktioner och utökningar som förbättrar spelupplevelsen, sparar tid och optimerar vissa aktiviteter.",
+		"thank_you": "Tack!",
+		"paypal_alt": "PayPal – Det säkraste och enklaste sättet att betala online!",
+		"lang": "Språk",
+		"error_message": "Meddelande",
+		"error_type": "Fel",
+		"error_copy": "Kopiera",
+		"error_copied": "Kopierat!",
+		"api_registration_failed": "Registreringen av TW-DB.info UserScript i TheWestApi misslyckades.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "Genom att trycka på \"OK\" laddas sidan om automatiskt för att tillämpa dina ändringar.",
+		"title": "Inställningar",
+		"category_inventory": "Inventarie",
+		"category_quests": "Uppdrag",
+		"category_jobs": "Arbeten",
+		"category_task_list": "Uppgiftslista",
+		"category_fort": "Fort",
+		"category_town": "Stad",
+		"category_market": "Marknad",
+		"category_graphics": "Grafik",
+		"category_minimap": "Minikarta",
+		"category_premium": "Premiuminställningar",
+		"category_misc": "Övrigt",
+		"collector": "Markerar föremål hos handlaren och på marknaden som du ännu inte äger i ditt inventarie",
+		"collector_sell": "Lägger till en knapp för att sälja allt utom ett valt föremål hos handlaren",
+		"pin_items": "Fäst föremål i inventariefönstret",
+		"quest_cancel": "Bekräfta avbrytning av uppdrag",
+		"instant_quest": "Slutför ett uppdrag direkt om alla krav är uppfyllda",
+		"colored_quest": "Ändra färgen på uppdrag som kan slutföras",
+		"job_lp": "Lägg till arbetspoäng i arbetsfönster",
+		"task_points": "Lägg till indikator för arbetspoäng och hälsotips i uppgiftslistan – [nedre högra hörnet]",
+		"forts_import": "Lägg till knapp för import av fortstrider på webbplatsen (westforts)",
+		"fort_recruit": "Lägg till översikt för fortrekrytering",
+		"fort_recruit_enhanced": "Förbättra rekryteringsfliken före en fortstrid",
+		"declare_report": "Koppla rapporten om uppgrävning av stridsyxa till det attackerande fortet",
+		"forts_owned": "Visa ägda fort i stadsprofiler",
+		"cemetery_critical": "Kritiska träffar och spökrundor på fortkyrkogården",
+		"battle_damage": "Total orsakad skada i varje spelares beskrivning under fortstrid",
+		"battle_round": "Träffar, missar, mottagna träffar och undvikanden i varje runda",
+		"building_progress": "Visa byggframsteg i byggnadsfönstret",
+		"church_levels": "Visa extra kyrkonivåer som kan byggas",
+		"improved_cityhall_tab": "Visa endast byggnader som inte är helt färdigbyggda",
+		"forum_blink": "Ta bort blinkning på stadsknappen om det finns ett nytt foruminlägg",
+		"market_map": "Lägg till marknadskarta",
+		"market_reminder": "Lägg till påminnelse för marknadsauktioner",
+		"market_sell": "Förbättra försäljningsfönstret på marknaden",
+		"market_report": "Förbättra ikonen för försäljningsrapport på marknaden",
+		"market_improved": "Förbättra köp-fönstret på marknaden",
+		"duel_motivation": "Lägg till permanent indikator för duellmotivation – [under energimätaren]",
+		"sleep_direct": "Lägg till knapp för direkt åtkomst till hotell eller kasern",
+		"deposit": "Lägg till knapp för att sätta in pengar i den aktuella banken",
+		"shop_sale_off": "Inaktivera REA-notifiering – [under saloon-knappen]",
+		"exp_bar": "Lägg till värden i erfarenhetsfältet",
+		"mini_chat": "Lägg till knapp för att minimera chattrum",
+		"event_counter": "Flytta händelseräknaren på stora skärmar",
+		"scrollbars_off": "Inaktivera rullningslister på små skärmar eller när fönster flyttas långt",
+		"wear_close": "Lägg till knapp för att automatiskt stänga endast inventariefönster",
+		"profile_duel_exp": "Visa duellerfarenhet i spelarprofiler",
+		"regen_timers": "Lägg till regenereringstimers i spelarporträttet",
+		"button_church": "Lägg till knapp för att enkelt öppna kyrkobyggnadsfönstret",
+		"button_market": "Lägg till knapp för att enkelt öppna marknadsfönstret",
+		"automation_buttons": "Automationsknappar till höger",
+		"bonus_jobs": "Lägg till alternativ för att visa arbeten med bonus",
+		"coordinates_input": "Lägg till alternativ för att flytta till angivna koordinater",
+		"work_queue_off": "Inaktivera notifieringar för köp av premiumautomation",
+		"fetch_all_off": "Inaktivera premium-prompt vid hämtning av föremål från marknaden",
+		"wof_nuggets_off": "Inaktivera nuggets som standardbetalningsmetod vid evenemang",
+		"chat": "Aktivera chattförbättringar – [chattfärger]",
+		"notes": "Lägg till anteckningar i fönstret Telegraf/Rapporter",
+		"auto_deposit": "Lägg till insättningspåminnelse när du når din stad med pengar",
+		"chest_analyzer": "Lägg till Kistanalysator i fönstret Telegraf/Rapporter",
+		"weekly_crafting": "Lägg till påminnelse för slut på tillverkningsnedkylning",
+		"telegram_bb_codes": "Lägg till knapp för att växla till oformaterad text i telegram",
+		"enhanced_rankings": "Förbättra rankingflikar och lägg till spelarskillnad",
+		"translation_texts": "Översätt vissa felaktiga textsträngar",
+		"forum_select": "Aktivera textmarkering i stadsforum",
+		"pin_important": "Håll meny, erfarenhetsfält och skript alltid överst",
+		"fortbattle_reminder": "Inaktivera påminnelse om fortstrid till vänster",
+		"night_mode": "Mörkt läge för The-West-kartan",
+		"blink_events": "Stoppa blinkning av evenemang och nöjespark till vänster",
+		"whisper_improved": "Förbättra viskningsljud i saloon-chattar"
+	},
+	"debug": {
+		"failed_to_copy": "Misslyckades att kopiera:",
+		"key_saved": "Nyckel $key$ sparad.",
+		"needs": "behöver",
+		"current_statistic_data": "Aktuella statistikdata:",
+		"current_sort_display_state": "Aktuellt sorterings-/visningsläge:",
+		"report_queue": "Rapportkö:",
+		"failed_report_ids": "Misslyckade rapport-ID:n:"
+	},
+	"cache": {
+		"reset": "Återställ TWDB-cache - BB",
+		"reset_key": "Funktionsnyckel",
+		"reset_all_keys": "Återställ alla funktionsinställningar",
+		"reset_complete": "Återställning klar, sidan laddas om",
+		"reset_confirm": "Är du säker på att du vill återställa hela {$script$}-UserScript-cachen?"
+	},
+	"io": {
+		"settings": "Inställningar",
+		"export_copy_failed": "Automatisk kopiering misslyckades eller stöds inte. Kopiera inställningarna manuellt nedan.",
+		"import_paste_instructions": "Klistra in dina inställningar i fältet nedan och klicka på Importera.",
+		"import_placeholder": "Klistra in dina inställningar här...",
+		"import_cancelled": "Import av inställningar avbröts.",
+		"export_start": "START EXPORT AV INSTÄLLNINGAR",
+		"export_end": "SLUT EXPORT AV INSTÄLLNINGAR",
+		"export_clipboard_success": "Inställningarna kopierades automatiskt till urklipp.",
+		"export_clipboard_failed": "Automatisk kopiering misslyckades",
+		"import_warning": "Varning: Import kommer att skriva över nuvarande inställningar. Har du läst varningen?",
+		"import_no_data": "Inga inställningar angavs. Import avbröts.",
+		"import_start": "IMPORTERA INSTÄLLNINGAR",
+		"import_json_preview": "Följande JSON kommer att importeras",
+		"import_success_reload": "Ladda om spelet för att spara.",
+		"import_error": "Fel vid import av inställningar. Kontrollera att texten är giltig JSON.",
+		"import_error_log": "Fel vid import av inställningar",
+		"import_clipboard_success": "Inställningar lästa från urklipp. Startar import...",
+		"import_clipboard_failed": "Misslyckades att läsa urklipp automatiskt."
+	},
+	"updater": {
+		"version_features_title": "Versionsfunktioner",
+		"script_updated": "UserScript har uppdaterats!",
+		"script_updated_message": "UserScript $script$ har uppdaterats. Vill du se nyheterna?",
+		"script_needs_update": "UserScript behöver uppdateras",
+		"new_version_available": "En ny version av UserScript $script$ finns tillgänglig. Klicka på OK för att uppdatera.",
+		"current_version": "Nuvarande version",
+		"new_version": "Ny version",
+		"reload_after_install": "Ladda om spelet efter installation.",
+		"version_label": "Version"
+	},
+	"market": {
+		"reminder_title": "Marknadspåminnelse",
+		"rights_town": "Stad",
+		"rights_alliance": "Allians",
+		"rights_anyone": "Alla",
+		"sell_multiply": "Ställ in (multiplicera) aktuellt pris med detta nummer",
+		"sell_save_desc": "Spara beskrivning för framtida auktioner",
+		"sell_reset_desc": "Återställ beskrivning",
+		"sell_reset_sel": "Återställ val",
+		"sell_buy_price": "Köpespris",
+		"sell_sell_price": "Försäljningspris",
+		"sell_save_duration": "Spara varaktighet och rättigheter för framtida auktioner",
+		"map_tab_title": "Marknadskarta",
+		"auction_label": "Auktion",
+		"reminder_before_expiry": "Påminnelse före auktionens slut",
+		"reminder_minutes": "minuter",
+		"auction_ends": ", Slutar",
+		"auction_ends_label": "Auktionen slutar",
+		"use_as_default_price": "Använd som standardpris",
+		"reminder_late": "Påminnelsen kom för sent, auktionen har redan avslutats."
+	},
+	"fort": {
+		"forts": "Forts",
+		"forts_owned": "Ägda fort",
+		"forts_members": "Alliansfort",
+		"size": "Storlek",
+		"sizes": {
+			"0": "Litet",
+			"1": "Medel",
+			"2": "Stort"
+		},
+		"sort_by_health": "Sortera efter hälsa",
+		"sort_asc_current_health": "Nuvarande hälsa stigande",
+		"sort_desc_current_health": "Nuvarande hälsa fallande",
+		"sort_asc_max_health": "Max hälsa stigande",
+		"sort_desc_max_health": "Max hälsa fallande",
+		"sort_asc_distance": "Avstånd stigande",
+		"sort_desc_distance": "Avstånd fallande",
+		"show_players_at_fort": "Visa spelare vid fortet",
+		"hide_players_at_fort": "Dölj spelare vid fortet",
+		"show_players_near_fort": "Visa spelare nära fortet",
+		"hide_players_near_fort": "Dölj spelare nära fortet",
+		"show_players_away_fort": "Visa spelare längre bort",
+		"hide_players_away_fort": "Dölj spelare längre bort"
+	},
+	"battle": {
+		"critical_hits": "Kritiska träffar",
+		"ghost_rounds": "Spökrundor",
+		"stats_total": "Totalt",
+		"stats_hits": "Träffar",
+		"stats_missed": "Missar",
+		"stats_got_shot": "Mottagna träffar",
+		"stats_dodge": "Undvikanden",
+		"total_damage_tooltip": "Orsakad skada"
+	},
+	"jobs": {
+		"show_gold_jobs": "Visa guld-bonusarbeten",
+		"gold_jobs": "Guld-bonusarbeten",
+		"show_silver_jobs": "Visa silver-bonusarbeten",
+		"silver_jobs": "Silver-bonusarbeten",
+		"with_bonus": "Arbeten med bonus",
+		"reset_jobs_bonus_confirm": "Välj vilken arbetskategori som ska återställas eller avbryt återställningen.",
+		"reset_all_jobs_bonus": "Alla",
+		"reset_silver_jobs_bonus": "Silver",
+		"reset_gold_jobs_bonus": "Guld",
+		"lp_remaining": "$lp$ A.P."
+	},
+	"analyzer": {
+		"reset_confirm_title": "Vill du verkligen återställa statistik för Arbetsanalysatorn?",
+		"reset_confirm_message": "Ange länken till den första rapporten som ska läsas efter återställning",
+		"job_title": "Arbetsanalysator",
+		"chest_title": "Kistanalysator",
+		"duel_coming_soon": "Duellanalysatorn kommer i framtiden!",
+		"table_sum_tooltip": "Växla till genomsnitt Ø",
+		"table_avg_tooltip": "Växla till summa Σ",
+		"toggle_rewards_items": "Växla mellan belöningar och hittade föremål",
+		"reset_report_analyzer": "Återställ analysatorrapporter",
+		"report_link_label": "Rapportlänk:",
+		"use_all_reports": "eller använd alla rapporter",
+		"use_future_reports": "eller använd endast framtida rapporter"
+	},
+	"quests": {
+		"cancel_title": "Avbryt uppdrag?",
+		"cancel_message": "Är du säker på att du vill avbryta detta uppdrag?",
+		"accept_finish": "Acceptera och slutför uppdrag"
+	},
+	"building": {
+		"progress_tooltip": "Framsteg visar hur mycket byggnation som återstår till nästa nivå",
+		"progress_label": "Framsteg"
+	},
+	"map": {
+		"coordinates_tooltip": "Visa koordinater på kartan",
+		"coordinates_button": "Flytta kartan till angivna koordinater",
+		"show_town_tooltip": "Visa stad på kartan",
+		"show_coordinates": "Visa koordinater på kartan"
+	},
+	"duel": {
+		"levels_duel": "Duellnivåer du kan utmana: $min$ - $max$",
+		"levels_exp": "Duellerfarenhet du kommer att få: $min$ - $max$",
+		"potion_label": "Mystisk dryck",
+		"levels_potion": "Duellnivå $min$$max$",
+		"motivation": "Duellmotivation",
+		"ko_time": "KO-tid",
+		"ko_suspension": "KO – Duell avstängd till $time$",
+		"ko_protection": "KO – Duellskydd till $time$",
+		"profile_duel_exp": "Visa duellerfarenhet i spelarprofiler",
+		"protection_changed": "Duellskyddet har ändrats"
+	},
+	"town": {
+		"move_tooltip": "Flytta till stad"
+	},
+	"banking": {
+		"money": "Pengar",
+		"deposit_message": "Du har nått din stad. Vill du sätta in pengarna?",
+		"deposit_money": "Sätt in pengar"
+	},
+	"crafting": {
+		"notification": "Tillverkning",
+		"can_craft_again": "Du kan tillverka igen!"
+	},
+	"collector": {
+		"item_not_owned": "Du äger inte detta föremål ännu"
+	},
+	"regen": {
+		"full_health": "Tid till full hälsa",
+		"full_energy": "Tid till full energi",
+		"missing": "Saknas",
+		"per_hour": "Regenerering per timme",
+		"next_health": "Nästa hälsopoäng om",
+		"next_energy": "Nästa energipoäng om"
+	},
+	"task": {
+		"negative_lp": "negativa arbetspoäng",
+		"low_lp": "låga arbetspoäng",
+		"suboptimal_lp": "icke-optimala arbetspoäng"
+	},
+	"westforts": {
+		"open_import": "Öppna import av strider i West Forts",
+		"close_import": "Stäng import av strider i West Forts",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[bugfix] Fixa gammal kod för funktionen Ändra språk",
+				"[main] Refaktorering och rengöring av UserScript-koden"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[funktion] Lägg till \"tillfällig\" språkändringsfunktion",
+				"[funktion] Kod för fliken Rensa Inställningar",
+				"[funktion] Rengöring av färglägeskod i Saloon (chatt)",
+				"[funktion] Rensningskod för jobb med bonusar på minikartan",
+				"[funktion] Funktionskod för rengöring av jobb/bröstanalysator",
+				"[funktion] Modernisera olika funktioner i UserScript-koden"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[funktion] Lägg till funktion för import/exportinställningar"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[funktion] Lägg till fort battle-post till webbplatsens databas (westforts.com)",
+				"[funktion] Lägg till funktion för ändring av viskningsljud",
+				"[funktion] Lägg till skada som delas ut till varje spelare under en fästningsstrid",
+				"[funktion] Lägg till skott varje tur under en fästningsstrid",
+				"[funktion] Lägg till färg på uppdragen som kan slutföras",
+				"[funktion] Lägg till-knapp för att automatiskt acceptera och slutföra uppdrag som kan slutföras",
+				"[bugfix] Återställ kod för att sälja allt utom ett utvalt föremål till säljaren",
+				"[bugfix] Fixad gammal kod för alternativet som visar jobbpunkterna i jobbfönstret",
+				"[bugfix] Fixa koden för alternativet för att öppna marknaden automatiskt så att klädfönstret minimeras",
+				"[bugfix] Fixa kod i build-fliken om TWIR finns",
+				"[main] Ordna om kategorierna på fliken Inställningar"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[funktion] Lägg till mörkt temaalternativ för The-West Map",
+				"[funktion] Förbättrade försäljningsrapportikonen i köpfönstret i marknadsbyggnaden",
+				"[funktion] Lägg till ikon för om marknadserbjudanden är offentliga, endast för allians- eller stadsmedlemmar",
+				"[funktion] Lägg till en ny knapp för att enkelt öppna Market-fönstret"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[funktion] Lade till regenereringstider till spelarporträtt",
+				"[funktion] Lägg till textmarkering till stadsforum",
+				"[funktion] Lägg till alternativ för att fästa menyraden, upplevelsen och användarskriptet på skärmen",
+				"[funktion] Lägg till duellupplevelse till spelarprofilen",
+				"[buggfix] Rekryteringsfliken fix",
+				"[bugfix] Inaktivera automatisk aktivering av vissa funktioner"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": ["[buggfix] Fixa några inställningsmeddelanden", "[buggfix] Rekryteringsfliken fix"]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[funktion] Lade till kritiska träffar och spökrundor till fästningskyrkogården",
+				"[funktion] Lägg till fönster för ägda och allierade fort till stadsfönstret",
+				"[funktion] Lägg till automatisk öppning av ax unbury fästning från dess rapport",
+				"[funktion] Förbättrade alla rankningstabeller",
+				"[funktion] Förbättrade rekryteringsfönstret innan fästningsstriden",
+				"[funktion] Ta bort blinkande stadsknapp om det finns ett nytt meddelande i stadsforumet"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[funktion] Lägg till byggnadsförlopp på byggnadsfliken",
+				"[funktion] Lägg till extra kyrkliga nivåer",
+				"[funktion] Lägg till funktion för att endast visa byggnader som inte är färdigbyggda i stadshuset",
+				"[funktion] Lade till en ny knapp för att enkelt öppna fliken Kyrkobyggnad",
+				"[funktion] Lägg till en knapp för att endast stänga inventeringsfönstren"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[buggfix] Hoppsan! Fixa byggkoden"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[bugfix] Fixa ny versionslänk"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[bugfix] Versionsfix på vissa ställen, låt oss hoppas!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[bugfix] Versionsfix på vissa ställen"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[main] Ta bort revision"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[bugfix] Ändrad länk för ny funktionsversion"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[bugfix] Åtgärda föråldrad kod som använde UserScript"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": ["[main] Ta bort redundant kod", "[huvud] Ändrade detaljer i rekryteringsfönstret"]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[buggfix] Hoppsan! Fixat UserScript"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[buggfix] Fixa fel version"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": ["[main] Tog bort onödig kod i rekryteringsfönstret", "[main] Ändra Updater"]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[bugfix] Fixa artikelnål så att den visas korrekt i vanilj- och TWIR-inventeringsfönstret",
+				"[bugfix] Åtgärda stavfel för ordet bugfix i Release Attributes"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": ["[huvud] Kodrensning - del 2", "[main] Ändrade några hyperlänkar"]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[huvud] Kodrensning - del 1"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[bugfix] Uppdatera länkar för automatisk uppdatering"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[bugfix] Ändrade några hyperlänkar"]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[buggfix] Hoppsan! Fixat UserScript"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[bugfix] Fix för borttagning av funktioner"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[main] Tog bort många värdelösa funktioner"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": ["[buggfix] Fixade några stavfel", "[main] Ändra formelversion"]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** Generera UserScript från clothcalc_sk **"]
+		}
+	]
+}

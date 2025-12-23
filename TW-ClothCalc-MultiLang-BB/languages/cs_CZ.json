@@ -1,0 +1,509 @@
+{
+	"common": {
+		"ok": "OK",
+		"cancel": "Zrušit",
+		"yes": "Ano",
+		"no": "Ne",
+		"not_now": "Teď ne",
+		"close": "Zavřít",
+		"delete": "Smazat",
+		"select_file": "Vybrat soubor",
+		"listen": "Poslouchat",
+		"save_error": "Uložení se nezdařilo",
+		"save_success": "Úspěšně uloženo",
+		"save": "Uložit",
+		"preview": "Náhled",
+		"edit": "Upravit",
+		"search": "Hledat"
+	},
+	"misc": {
+		"notes_title": "Poznámky",
+		"color_dialog_bold": "tučně",
+		"color_dialog_caps": "VELKÁ PÍSMENA",
+		"color_dialog_history": "Historie",
+		"color_dialog_title": "Barva",
+		"button_church_title": "Postavit kostel",
+		"button_market_title": "Otevřít trh",
+		"pin_toggle_tooltip": "Přepnout režim připnutí",
+		"telegram_toggle_tooltip": "Přepnout mezi neformátovanou zprávou a originálem",
+		"wear_close_tooltip": "Zavřít pouze okna inventáře",
+		"sort_by": "Seřadit podle",
+		"name": "Název",
+		"country": "Okres",
+		"sound_default": "Výchozí zvuk",
+		"sleep": "Spánek",
+		"hotel": "Hotel",
+		"stage": "Úroveň",
+		"your_position": "Tvoje pozice",
+		"levels": "Úrovně",
+		"count": "Počet",
+		"duration": "Doba trvání",
+		"experience": "Zkušenosti",
+		"money": "Peníze",
+		"bonds": "Dluhopisy",
+		"motivation": "Motivace",
+		"danger": "Nebezpečí",
+		"killed": "Omdlen",
+		"yield": "Výnos",
+		"items": "Předměty",
+		"luck": "Štěstí",
+		"reset": "Resetovat",
+		"import": "Importovat",
+		"export": "Exportovat",
+		"hours_lowercase": "hodiny",
+		"jobs": "Práce",
+		"construction": "Stavba",
+		"category": "Kategorie",
+		"rank": "Hodnost",
+		"distance": "Vzdálenost",
+		"health_points": "Životy",
+		"labor_points": "Pracovní body"
+	},
+	"script": {
+		"duplicate": "UserScript ClothCalc je nainstalován dvakrát s různými jazyky. Pro správnou funkci je nutné jeden jazyk deaktivovat.",
+		"description": "UserScript ClothCalc je projekt týmu TW-DB.info. Nabízí mnoho funkcí a rozšíření, která zlepší herní zážitek – ušetří čas a optimalizují některé činnosti.",
+		"thank_you": "Děkujeme!",
+		"paypal_alt": "PayPal – Nejbezpečnější a nejjednodušší způsob placení online!",
+		"lang": "Jazyk",
+		"error_message": "Zpráva",
+		"error_type": "Chyba",
+		"error_copy": "Kopírovat",
+		"error_copied": "Zkopírováno!",
+		"api_registration_failed": "Registrace UserScriptu TW-DB.info u TheWestApi se nezdařila.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "Stisknutím „OK“ se stránka automaticky znovu načte a změny se projeví.",
+		"title": "Nastavení",
+		"category_inventory": "Inventář",
+		"category_quests": "Úkoly",
+		"category_jobs": "Práce",
+		"category_task_list": "Seznam úkolů",
+		"category_fort": "Pevnost",
+		"category_town": "Město",
+		"category_market": "Trh",
+		"category_graphics": "Grafika",
+		"category_minimap": "Minimapa",
+		"category_premium": "Prémiová nastavení",
+		"category_misc": "Různé",
+		"collector": "Označí u obchodníka a na trhu předměty, které ještě nemáte v inventáři",
+		"collector_sell": "Přidá tlačítko pro prodej všech kromě jednoho vybraného předmětu u obchodníka",
+		"pin_items": "Připnout předměty v okně inventáře",
+		"quest_cancel": "Potvrdit zrušení úkolu",
+		"instant_quest": "Okamžitě dokončit úkol, pokud jsou splněny všechny podmínky",
+		"colored_quest": "Změnit barvu dokončitelných úkolů",
+		"job_lp": "Zobrazit pracovní body v oknech prací",
+		"task_points": "Přidat indikátor pracovních bodů a tipy k životům do seznamu úkolů – [vpravo dole]",
+		"forts_import": "Přidat tlačítko pro import bitev pevností na web (westforts)",
+		"fort_recruit": "Přidat přehled náboru do pevnosti",
+		"fort_recruit_enhanced": "Vylepšit kartu náboru před bitvou o pevnost",
+		"declare_report": "Propojit zprávu o vykopání válečné sekery s útočící pevností",
+		"forts_owned": "Zobrazit vlastnictví pevností v profilech měst",
+		"cemetery_critical": "Kritické zásahy a duchovní kola na hřbitově pevnosti",
+		"battle_damage": "Celkové způsobené poškození v popisu každého hráče během bitvy o pevnost",
+		"battle_round": "Zásahy, minutí, přijaté zásahy a úhyby v každém kole",
+		"building_progress": "Zobrazit průběh stavby v okně budovy",
+		"church_levels": "Zobrazit další úrovně kostela, které lze postavit",
+		"improved_cityhall_tab": "Zobrazit pouze budovy, které nejsou plně postavené",
+		"forum_blink": "Odstranit blikání tlačítka města při nové zprávě ve fóru",
+		"market_map": "Přidat okno mapy trhu",
+		"market_reminder": "Přidat připomínku aukcí na trhu",
+		"market_sell": "Vylepšit okno prodeje na trhu",
+		"market_report": "Vylepšit ikonu prodejní zprávy na trhu",
+		"market_improved": "Vylepšit okno nákupu na trhu",
+		"duel_motivation": "Přidat trvalý ukazatel motivace k duelu – [pod ukazatelem energie]",
+		"sleep_direct": "Přidat tlačítko pro přímý vstup do hotelu nebo kasáren",
+		"deposit": "Přidat tlačítko pro vložení peněz do aktuální banky",
+		"shop_sale_off": "Vypnout upozornění PRODEJ – [pod tlačítkem Saloon]",
+		"exp_bar": "Přidat hodnoty do lišty zkušeností – poděkování (Leones/Slygoxx/Belle Bernice)",
+		"mini_chat": "Přidat tlačítko pro minimalizaci chatovacích místností",
+		"event_counter": "Přesunout počítadlo událostí na velkých obrazovkách (měna událostí, Hiro&#38;#39;s script)",
+		"scrollbars_off": "Vypnout posuvníky na malých obrazovkách nebo při velkém posunu oken",
+		"wear_close": "Přidat tlačítko pro automatické zavření pouze oken inventáře",
+		"profile_duel_exp": "Zobrazit zkušenosti z duelů v profilech hráčů",
+		"regen_timers": "Přidat časovače regenerace k portrétu hráče",
+		"button_church": "Přidat tlačítko pro snadnější otevření okna stavby kostela",
+		"button_market": "Přidat tlačítko pro snadnější otevření okna trhu",
+		"automation_buttons": "Automatizační tlačítka vpravo",
+		"bonus_jobs": "Přidat možnost zobrazení prací s bonusem",
+		"coordinates_input": "Přidat možnost přesunu na zadané souřadnice",
+		"work_queue_off": "Vypnout upozornění na nákup prémiové automatizace",
+		"fetch_all_off": "Vypnout prémiovou výzvu při vyzvedávání předmětů z trhu",
+		"wof_nuggets_off": "Vypnout Nuggety jako výchozí platební metodu při událostech (pokud je k dispozici)",
+		"chat": "Povolit vylepšení chatu – [barvy chatu]",
+		"notes": "Přidat poznámky do okna Telegraf/Zprávy",
+		"auto_deposit": "Přidat připomínku vkladu při příjezdu do města s penězi",
+		"chest_analyzer": "Přidat analyzátor truhel do okna Telegraf/Zprávy",
+		"weekly_crafting": "Přidat připomínku vypršení doby výroby",
+		"telegram_bb_codes": "Přidat tlačítko pro přepnutí na neformátovaný text v telegramech",
+		"enhanced_rankings": "Vylepšit karty žebříčku a přidat rozdíl hráčů",
+		"translation_texts": "Přeložit konkrétní chybné textové řetězce",
+		"forum_select": "Povolit výběr textu ve městském fóru",
+		"pin_important": "Udržovat menu, lištu zkušeností a skript vždy nahoře",
+		"fortbattle_reminder": "Vypnout připomínku bitvy o pevnost vlevo",
+		"night_mode": "Tmavý režim mapy The-West",
+		"blink_events": "Zastavit blikání událostí a lunaparku na levé straně",
+		"whisper_improved": "Vylepšit zvuk šeptání v různých saloon chatech (při zapnutí lze zvuk přímo poslouchat a měnit níže)"
+	},
+	"debug": {
+		"failed_to_copy": "Kopírování se nezdařilo:",
+		"key_saved": "Klíč $key$ uložen.",
+		"needs": "potřebuje",
+		"current_statistic_data": "Aktuální statistická data:",
+		"current_sort_display_state": "Aktuální stav řazení/zobrazení:",
+		"report_queue": "Fronta zpráv:",
+		"failed_report_ids": "ID neúspěšných zpráv:"
+	},
+	"cache": {
+		"reset": "Resetovat TWDB cache - BB",
+		"reset_key": "Klíč funkce",
+		"reset_all_keys": "Resetovat všechna nastavení funkcí",
+		"reset_complete": "Reset dokončen, stránka se znovu načte",
+		"reset_confirm": "Opravdu chcete resetovat celou cache UserScriptu {$script$}?"
+	},
+	"io": {
+		"settings": "Nastavení",
+		"export_copy_failed": "Automatické kopírování selhalo nebo není podporováno. Nastavení prosím zkopírujte ručně z pole níže.",
+		"import_paste_instructions": "Vložte prosím svá nastavení do pole níže a stiskněte Importovat.",
+		"import_placeholder": "Vložte zde svá nastavení...",
+		"import_cancelled": "Import nastavení byl zrušen.",
+		"export_start": "ZAČÁTEK EXPORTU NASTAVENÍ",
+		"export_end": "KONEC EXPORTU NASTAVENÍ",
+		"export_clipboard_success": "Nastavení byla automaticky zkopírována do schránky.",
+		"export_clipboard_failed": "Automatické kopírování selhalo",
+		"import_warning": "Varování: Import nastavení přepíše aktuální nastavení. Přečetli jste si varování?",
+		"import_no_data": "Nebyla zadána žádná nastavení. Import zrušen.",
+		"import_start": "IMPORT NASTAVENÍ",
+		"import_json_preview": "Následující JSON bude importován",
+		"import_success_reload": "Pro uložení znovu načtěte hru.",
+		"import_error": "Chyba při importu nastavení. Zkontrolujte, zda je text platný JSON.",
+		"import_error_log": "Chyba importu nastavení",
+		"import_clipboard_success": "Nastavení načtena ze schránky. Pokračuje se v importu...",
+		"import_clipboard_failed": "Automatické čtení schránky se nezdařilo."
+	},
+	"updater": {
+		"version_features_title": "Funkce verze",
+		"script_updated": "UserScript byl aktualizován!",
+		"script_updated_message": "UserScript $script$ byl aktualizován. Chcete zobrazit nové funkce?",
+		"script_needs_update": "UserScript potřebuje aktualizaci",
+		"new_version_available": "Je k dispozici nová verze UserScriptu $script$. Klikněte na OK pro aktualizaci.",
+		"current_version": "Aktuální verze",
+		"new_version": "Nová verze",
+		"reload_after_install": "Po instalaci znovu načtěte hru.",
+		"version_label": "Verze"
+	},
+	"market": {
+		"reminder_title": "Připomínka trhu",
+		"rights_town": "Město",
+		"rights_alliance": "Aliance",
+		"rights_anyone": "Kdokoliv",
+		"sell_multiply": "Nastavit (vynásobit) aktuální cenu tímto číslem",
+		"sell_save_desc": "Uložit popis pro budoucí aukce",
+		"sell_reset_desc": "Resetovat popis",
+		"sell_reset_sel": "Resetovat výběr",
+		"sell_buy_price": "Kupní cena",
+		"sell_sell_price": "Prodejní cena",
+		"sell_save_duration": "Uložit dobu trvání a práva pro budoucí aukce",
+		"map_tab_title": "Mapa trhu",
+		"auction_label": "Aukce",
+		"reminder_before_expiry": "Připomínka před koncem aukce",
+		"reminder_minutes": "minuty",
+		"auction_ends": ", Končí",
+		"auction_ends_label": "Konec aukce",
+		"use_as_default_price": "Použít jako výchozí cenu",
+		"reminder_late": "Připomínka přišla pozdě, aukce již skončila."
+	},
+	"fort": {
+		"forts": "Pevnosti",
+		"forts_owned": "Vlastněné pevnosti",
+		"forts_members": "Aliancní pevnosti",
+		"size": "Velikost",
+		"sizes": {
+			"0": "Malá",
+			"1": "Střední",
+			"2": "Velká"
+		},
+		"sort_by_health": "Seřadit podle zdraví",
+		"sort_asc_current_health": "Vzestupně podle aktuálního zdraví",
+		"sort_desc_current_health": "Sestupně podle aktuálního zdraví",
+		"sort_asc_max_health": "Vzestupně podle maximálního zdraví",
+		"sort_desc_max_health": "Sestupně podle maximálního zdraví",
+		"sort_asc_distance": "Vzestupně podle vzdálenosti",
+		"sort_desc_distance": "Sestupně podle vzdálenosti",
+		"show_players_at_fort": "Zobrazit hráče v pevnosti",
+		"hide_players_at_fort": "Skrýt hráče v pevnosti",
+		"show_players_near_fort": "Zobrazit hráče poblíž pevnosti",
+		"hide_players_near_fort": "Skrýt hráče poblíž pevnosti",
+		"show_players_away_fort": "Zobrazit vzdálené hráče",
+		"hide_players_away_fort": "Skrýt vzdálené hráče"
+	},
+	"battle": {
+		"critical_hits": "Kritické zásahy",
+		"ghost_rounds": "Duchovní kola",
+		"stats_total": "Celkem",
+		"stats_hits": "Zásahy",
+		"stats_missed": "Minutí",
+		"stats_got_shot": "Utržené zásahy",
+		"stats_dodge": "Úhyby",
+		"total_damage_tooltip": "Způsobené poškození"
+	},
+	"jobs": {
+		"show_gold_jobs": "Zobrazit zlaté bonusové práce",
+		"gold_jobs": "Zlaté bonusové práce",
+		"show_silver_jobs": "Zobrazit stříbrné bonusové práce",
+		"silver_jobs": "Stříbrné bonusové práce",
+		"with_bonus": "Práce s bonusem",
+		"reset_jobs_bonus_confirm": "Vyberte kategorii prací k resetu nebo reset zrušte.",
+		"reset_all_jobs_bonus": "Vše",
+		"reset_silver_jobs_bonus": "Stříbrné",
+		"reset_gold_jobs_bonus": "Zlaté",
+		"lp_remaining": "$lp$ P.B."
+	},
+	"analyzer": {
+		"reset_confirm_title": "Opravdu chcete resetovat statistiky Analyzátoru prací?",
+		"reset_confirm_message": "Zadejte odkaz na první zprávu, která se má po resetu načíst",
+		"job_title": "Analyzátor prací",
+		"chest_title": "Analyzátor truhel",
+		"duel_coming_soon": "Analyzátor duelů přijde v budoucnu!",
+		"table_sum_tooltip": "Přepnout na Ø průměr",
+		"table_avg_tooltip": "Přepnout na Σ součet",
+		"toggle_rewards_items": "Přepnout mezi odměnami a nalezenými předměty",
+		"reset_report_analyzer": "Resetovat zprávy analyzátoru",
+		"report_link_label": "Odkaz na zprávu:",
+		"use_all_reports": "nebo použít všechny zprávy",
+		"use_future_reports": "nebo použít pouze budoucí zprávy"
+	},
+	"quests": {
+		"cancel_title": "Zrušit úkol?",
+		"cancel_message": "Opravdu chcete tento úkol zrušit?",
+		"accept_finish": "Přijmout a dokončit úkol"
+	},
+	"building": {
+		"progress_tooltip": "Průběh ukazuje, kolik stavby ještě zbývá do další úrovně",
+		"progress_label": "Průběh"
+	},
+	"map": {
+		"coordinates_tooltip": "Zobrazit souřadnice na mapě",
+		"coordinates_button": "Přesunout mapu na zadané souřadnice",
+		"show_town_tooltip": "Zobrazit město na mapě",
+		"show_coordinates": "Zobrazit souřadnice na mapě"
+	},
+	"duel": {
+		"levels_duel": "Úrovně duelů, které můžeš vyzvat: $min$ - $max$",
+		"levels_exp": "Aktuální zkušenosti z duelů, které získáš: $min$ - $max$",
+		"potion_label": "Tajemný lektvar",
+		"levels_potion": "Úroveň duelu $min$$max$",
+		"motivation": "Motivace k duelu",
+		"ko_time": "Čas omdlení",
+		"ko_suspension": "KO – Zákaz duelů do $time$",
+		"ko_protection": "KO – Ochrana v duelech do $time$",
+		"profile_duel_exp": "Zobrazit zkušenosti z duelů v profilech hráčů",
+		"protection_changed": "Ochrana v duelech byla změněna"
+	},
+	"town": {
+		"move_tooltip": "Přesunout se do města"
+	},
+	"banking": {
+		"money": "Peníze",
+		"deposit_message": "Dorazil(a) jsi do svého města. Chceš vložit své peníze?",
+		"deposit_money": "Vložit peníze"
+	},
+	"crafting": {
+		"notification": "Výroba",
+		"can_craft_again": "Můžeš znovu vyrábět!"
+	},
+	"collector": {
+		"item_not_owned": "Tento předmět ještě nevlastníš"
+	},
+	"regen": {
+		"full_health": "Čas do plného zdraví",
+		"full_energy": "Čas do plné energie",
+		"missing": "Chybí",
+		"per_hour": "Regenerace za hodinu",
+		"next_health": "Další bod zdraví za",
+		"next_energy": "Další bod energie za"
+	},
+	"task": {
+		"negative_lp": "záporné pracovní body",
+		"low_lp": "nízké pracovní body",
+		"suboptimal_lp": "neoptimální pracovní body"
+	},
+	"westforts": {
+		"open_import": "Otevřít import bitev ve West Forts",
+		"close_import": "Zavřít import bitev ve West Forts",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[bugfix] Opravte starý kód funkce Change Language",
+				"[main] Refaktorování a čištění kódu UserScript"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[funkce] Přidejte \"dočasnou\" funkci změny jazyka",
+				"[funkce] Kód karty Vyčistit Nastavení",
+				"[funkce] Vyčištění kódu barevného režimu v Saloonu (chat)",
+				"[funkce] Čistící kód pro Úlohy s bonusy na Minimapě",
+				"[funkce] Kód funkce Clean Up Job/Chest Analyzer",
+				"[feature] Modernizace různých funkcí kódu UserScript"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[funkce] Přidat funkci nastavení importu/exportu"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[funkce] Přidat záznam o bitvě o pevnost do webové databáze (westforts.com)",
+				"[funkce] Přidejte funkci změny zvuku Whisper",
+				"[vlastnost] Přidejte poškození způsobené každému hráči během bitvy o pevnost",
+				"[funkce] Během bitvy o pevnost přidávejte v každém kole výstřely",
+				"[vlastnost] Přidejte barvu k úkolům, které lze splnit",
+				"[funkce] Přidat tlačítko pro automatické přijetí a dokončení úkolů, které lze splnit",
+				"[bugfix] Obnovte kód pro prodej všech položek kromě vybraného obchodníkovi",
+				"[bugfix] Opraven starý kód možnosti, která zobrazuje body úlohy v okně úloh",
+				"[bugfix] Opravte kód možnosti automatického otevírání Market, aby se okno s oblečením minimalizovalo",
+				"[bugfix] Opravte kód na kartě sestavení, pokud je přítomen TWIR",
+				"[hlavní] Změna pořadí kategorií na kartě Nastavení"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[funkce] Přidat možnost tmavého motivu pro mapu Západu",
+				"[funkce] Vylepšena ikona zprávy o prodeji v nákupním okně budovy Market",
+				"[funkce] Přidejte ikonu pro to, zda jsou tržní nabídky veřejné, pouze pro členy aliance nebo města",
+				"[funkce] Přidejte nové tlačítko pro snadné otevření okna Market"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[funkce] Do portrétu hráče byly přidány doby regenerace",
+				"[funkce] Přidejte zvýraznění textu do městských fór",
+				"[funkce] Přidat možnost k připnutí lišty nabídek, zkušeností a uživatelského skriptu na obrazovku",
+				"[funkce] Přidejte do profilu hráče soubojový zážitek",
+				"[bugfix] Oprava karty Recruit",
+				"[bugfix] Zakázat automatickou aktivaci některých funkcí"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": ["[bugfix] Opravte některé zprávy o nastavení", "[bugfix] Oprava karty Recruit"]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[funkce] Přidány kritické zásahy a duchy na hřbitov pevnosti",
+				"[funkce] Přidat okno pro vlastněné a spojenecké pevnosti do okna města",
+				"[funkce] Přidejte automatické otevírání sekery unbury pevnosti z její zprávy",
+				"[funkce] Vylepšeny všechny tabulky hodnocení",
+				"[funkce] Vylepšeno okno Recruitment před bitvou o pevnost",
+				"[funkce] Odstraňte blikání tlačítka Město, pokud je ve fóru města nová zpráva"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[funkce] Přidejte postup stavby na kartu Stavění",
+				"[funkce] Přidejte další úrovně kostela",
+				"[funkce] Přidat funkci pro zobrazení pouze budov, které nejsou zcela postavené na radnici",
+				"[funkce] Přidáno nové tlačítko pro snadné otevření karty Budova kostela",
+				"[funkce] Přidejte tlačítko pro zavření pouze oken Inventář"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[chyba] Jejda! Opravte kód sestavení"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[bugfix] Opravit odkaz na novou verzi"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[bugfix] Oprava verze na některých místech, doufejme!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[bugfix] Oprava verze na některých místech"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[hlavní] Odebrat revizi"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[bugfix] Změněn odkaz na novou verzi funkce"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[bugfix] Oprava zastaralého kódu, který používal UserScript"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": ["[hlavní] Odstraňte nadbytečný kód", "[hlavní] Změněny podrobnosti v okně Recruit"]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[chyba] Jejda! Opraven UserScript"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[bugfix] Opravte špatnou verzi"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": ["[main] Odstraněn nepotřebný kód v okně Recruit", "[hlavní] Change Updater"]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[bugfix] Opravte pin položky, aby se správně zobrazoval v okně Vanilla a TWIR Inventory",
+				"[bugfix] Opravte pravopisné chyby slova bugfix v Release Attributes"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": ["[hlavní] Vyčištění kódu – část 2", "[main] Změněny některé hypertextové odkazy"]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[hlavní] Vyčištění kódu – část 1"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[bugfix] Obnovit odkazy pro automatickou aktualizaci"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[bugfix] Změněny některé hypertextové odkazy"]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[chyba] Jejda! Opraven UserScript"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[bugfix] Oprava odstranění funkce"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[hlavní] Odstraněno mnoho zbytečných funkcí"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": ["[bugfix] Opraveny některé překlepy", "[hlavní] Změnit verzi vzorce"]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** Vygenerujte UserScript z clothcalc_sk **"]
+		}
+	]
+}

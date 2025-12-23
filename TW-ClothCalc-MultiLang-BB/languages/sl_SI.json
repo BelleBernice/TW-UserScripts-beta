@@ -1,0 +1,515 @@
+{
+	"common": {
+		"ok": "V redu",
+		"cancel": "Prekliči",
+		"yes": "Da",
+		"no": "Ne",
+		"not_now": "Ne zdaj",
+		"close": "Zapri",
+		"delete": "Izbriši",
+		"select_file": "Izberi datoteko",
+		"listen": "Poslušaj",
+		"save_error": "Shranjevanje ni uspelo",
+		"save_success": "Uspešno shranjeno",
+		"save": "Shrani",
+		"preview": "Predogled",
+		"edit": "Uredi",
+		"search": "Išči"
+	},
+	"misc": {
+		"notes_title": "Opombe",
+		"color_dialog_bold": "krepko",
+		"color_dialog_caps": "VELIKE ČRKE",
+		"color_dialog_history": "Zgodovina",
+		"color_dialog_title": "Barva",
+		"button_church_title": "Zgradi cerkev",
+		"button_market_title": "Odpri trg",
+		"pin_toggle_tooltip": "Preklopi način pripenjanja",
+		"telegram_toggle_tooltip": "Preklopi med neoblikovanim sporočilom in izvirnikom",
+		"wear_close_tooltip": "Zapri samo okna inventarja",
+		"sort_by": "Razvrsti po",
+		"name": "Ime",
+		"country": "Okrožje",
+		"sound_default": "Privzeti zvok",
+		"sleep": "Spanje",
+		"hotel": "Hotel",
+		"stage": "Raven",
+		"your_position": "Tvoj položaj",
+		"levels": "Ravni",
+		"count": "Število",
+		"duration": "Trajanje",
+		"experience": "Izkušnje",
+		"money": "Denar",
+		"bonds": "Obveznice",
+		"motivation": "Motivacija",
+		"danger": "Nevarnost",
+		"killed": "Nezavesten",
+		"yield": "Donos",
+		"items": "Predmeti",
+		"luck": "Sreča",
+		"reset": "Ponastavi",
+		"import": "Uvozi",
+		"export": "Izvozi",
+		"hours_lowercase": "ure",
+		"jobs": "Dela",
+		"construction": "Gradnja",
+		"category": "Kategorija",
+		"rank": "Rang",
+		"distance": "Razdalja",
+		"health_points": "Točke zdravja",
+		"labor_points": "Delovne točke"
+	},
+	"script": {
+		"duplicate": "UserScript ClothCalc je nameščen dvakrat z različnima jezikoma. Za pravilno delovanje morate enega onemogočiti.",
+		"description": "UserScript ClothCalc je projekt ekipe TW-DB.info. Ponuja številne funkcije in razširitve, ki izboljšajo igralno izkušnjo, prihranijo čas in optimizirajo določene aktivnosti.",
+		"thank_you": "Hvala!",
+		"paypal_alt": "PayPal – Najvarnejši in najlažji način spletnega plačevanja!",
+		"lang": "Jezik",
+		"error_message": "Sporočilo",
+		"error_type": "Napaka",
+		"error_copy": "Kopiraj",
+		"error_copied": "Kopirano!",
+		"api_registration_failed": "Registracija UserScript TW-DB.info v TheWestApi ni uspela.",
+		"twdb_title": "TW-DB.info",
+		"twdb_title_with": "TW-DB.info - $title$"
+	},
+	"settings": {
+		"save_to_reload": "S klikom na »V redu« se bo stran samodejno ponovno naložila za uveljavitev sprememb.",
+		"title": "Nastavitve",
+		"category_inventory": "Inventar",
+		"category_quests": "Naloge",
+		"category_jobs": "Dela",
+		"category_task_list": "Seznam opravil",
+		"category_fort": "Trdnjava",
+		"category_town": "Mesto",
+		"category_market": "Trg",
+		"category_graphics": "Grafika",
+		"category_minimap": "Mini zemljevid",
+		"category_premium": "Premium nastavitve",
+		"category_misc": "Razno",
+		"collector": "Označi predmete pri trgovcu in na trgu, ki jih še nimaš v inventarju",
+		"collector_sell": "Doda gumb za prodajo vsega razen enega izbranega predmeta pri trgovcu",
+		"pin_items": "Pripni predmete v oknu inventarja",
+		"quest_cancel": "Potrditev preklica naloge",
+		"instant_quest": "Takoj zaključi nalogo, če so izpolnjeni vsi pogoji",
+		"colored_quest": "Spremeni barvo nalog, ki jih je mogoče zaključiti",
+		"job_lp": "Dodaj delovne točke v okna del",
+		"task_points": "Dodaj indikator delovnih točk in namige za zdravje v seznam opravil – [spodaj desno]",
+		"forts_import": "Dodaj gumb za uvoz bitk trdnjav na spletno stran (westforts)",
+		"fort_recruit": "Dodaj pregled rekrutiranja trdnjave",
+		"fort_recruit_enhanced": "Izboljšaj zavihek rekrutiranja pred bitko za trdnjavo",
+		"declare_report": "Poveži poročilo o izkopu bojne sekire z napadalno trdnjavo",
+		"forts_owned": "Prikaži lastne trdnjave v profilih mest",
+		"cemetery_critical": "Kritični udarci in krogi duhov na pokopališču trdnjave",
+		"battle_damage": "Skupna povzročena škoda v opisu vsakega igralca med bitko za trdnjavo",
+		"battle_round": "Zadetki, zgrešeni streli, prejeti zadetki in izmiki v vsakem krogu",
+		"building_progress": "Prikaži napredek gradnje v oknu stavbe",
+		"church_levels": "Prikaži dodatne ravni cerkve, ki jih lahko zgradiš",
+		"improved_cityhall_tab": "Prikaži samo stavbe, ki še niso v celoti zgrajene",
+		"forum_blink": "Odstrani utripanje gumba mesta ob novem sporočilu na forumu",
+		"market_map": "Dodaj zemljevid trga",
+		"market_reminder": "Dodaj opomnik za dražbe na trgu",
+		"market_sell": "Izboljšaj prodajno okno na trgu",
+		"market_report": "Izboljšaj ikono poročila o prodaji na trgu",
+		"market_improved": "Izboljšaj nakupno okno na trgu",
+		"duel_motivation": "Dodaj stalni indikator motivacije za dvoboj – [pod vrstico energije]",
+		"sleep_direct": "Dodaj gumb za neposreden dostop do hotela ali kasarne",
+		"deposit": "Dodaj gumb za polog denarja v trenutno banko",
+		"shop_sale_off": "Onemogoči obvestilo o RAZPRODAJI – [pod gumbom saloona]",
+		"exp_bar": "Dodaj vrednosti v vrstico izkušenj",
+		"mini_chat": "Dodaj gumb za pomanjšanje klepetalnic",
+		"event_counter": "Premakni števec dogodkov na velikih zaslonih",
+		"scrollbars_off": "Onemogoči drsnike na majhnih zaslonih ali ob velikem premiku oken",
+		"wear_close": "Dodaj gumb za samodejno zapiranje samo oken inventarja",
+		"profile_duel_exp": "Prikaži izkušnje iz dvobojev v profilih igralcev",
+		"regen_timers": "Dodaj časovnike regeneracije na portret igralca",
+		"button_church": "Dodaj gumb za lažje odpiranje okna gradnje cerkve",
+		"button_market": "Dodaj gumb za lažje odpiranje okna trga",
+		"automation_buttons": "Gumbi za avtomatizacijo na desni",
+		"bonus_jobs": "Dodaj možnost prikaza del z bonusom",
+		"coordinates_input": "Dodaj možnost premika na določene koordinate",
+		"work_queue_off": "Onemogoči obvestila o nakupu premium avtomatizacije",
+		"fetch_all_off": "Onemogoči premium opozorilo ob prevzemu predmetov s trga",
+		"wof_nuggets_off": "Onemogoči nuggete kot privzeto plačilno sredstvo pri dogodkih",
+		"chat": "Omogoči izboljšave klepeta – [barve klepeta]",
+		"notes": "Dodaj opombe v okno Telegraf/Poročila",
+		"auto_deposit": "Dodaj opomnik za polog ob prihodu v mesto z denarjem",
+		"chest_analyzer": "Dodaj analizator skrinj v okno Telegraf/Poročila",
+		"weekly_crafting": "Dodaj opomnik za konec čakanja izdelave",
+		"telegram_bb_codes": "Dodaj gumb za preklop na neoblikovano besedilo v telegramih",
+		"enhanced_rankings": "Izboljšaj zavihke lestvic in dodaj razliko med igralci",
+		"translation_texts": "Prevedi določene napačne besedilne nize",
+		"forum_select": "Omogoči označevanje besedila na mestnem forumu",
+		"pin_important": "Vedno drži meni, vrstico izkušenj in skripto na vrhu",
+		"fortbattle_reminder": "Onemogoči opomnik za bitko trdnjave na levi strani",
+		"night_mode": "Temni način za zemljevid The-West",
+		"blink_events": "Ustavi utripanje dogodkov in lunaparka na levi strani",
+		"whisper_improved": "Izboljšaj zvok šepeta v salon klepetih"
+	},
+	"debug": {
+		"failed_to_copy": "Kopiranje ni uspelo:",
+		"key_saved": "Ključ $key$ je shranjen.",
+		"needs": "potrebuje",
+		"current_statistic_data": "Trenutni statistični podatki:",
+		"current_sort_display_state": "Trenutno stanje razvrščanja/prikaza:",
+		"report_queue": "Čakalna vrsta poročil:",
+		"failed_report_ids": "Neuspešni ID-ji poročil:"
+	},
+	"cache": {
+		"reset": "Ponastavi TWDB predpomnilnik - BB",
+		"reset_key": "Funkcijski ključ",
+		"reset_all_keys": "Ponastavi vse funkcijske nastavitve",
+		"reset_complete": "Ponastavitev končana, stran se bo ponovno naložila",
+		"reset_confirm": "Ali ste prepričani, da želite ponastaviti celoten {$script$} UserScript predpomnilnik?"
+	},
+	"io": {
+		"settings": "Nastavitve",
+		"export_copy_failed": "Samodejno kopiranje ni uspelo ali ni podprto. Ročno kopirajte nastavitve spodaj.",
+		"import_paste_instructions": "Prilepite svoje nastavitve v spodnje polje in kliknite Uvozi.",
+		"import_placeholder": "Prilepite svoje nastavitve tukaj...",
+		"import_cancelled": "Uvoz nastavitev je bil preklican.",
+		"export_start": "ZAČETEK IZVOZA NASTAVITEV",
+		"export_end": "KONEC IZVOZA NASTAVITEV",
+		"export_clipboard_success": "Nastavitve so bile samodejno kopirane v odložišče.",
+		"export_clipboard_failed": "Samodejno kopiranje ni uspelo",
+		"import_warning": "Opozorilo: Uvoz bo prepisal trenutne nastavitve. Ste prebrali opozorilo?",
+		"import_no_data": "Ni bilo vnesenih nastavitev. Uvoz preklican.",
+		"import_start": "UVOZI NASTAVITVE",
+		"import_json_preview": "Naslednji JSON bo uvožen",
+		"import_success_reload": "Za shranjevanje ponovno naložite igro.",
+		"import_error": "Napaka pri uvozu nastavitev. Preverite, ali je besedilo veljaven JSON.",
+		"import_error_log": "Napaka pri uvozu nastavitev",
+		"import_clipboard_success": "Nastavitve prebrane iz odložišča. Začetek uvoza...",
+		"import_clipboard_failed": "Samodejno branje odložišča ni uspelo."
+	},
+	"updater": {
+		"version_features_title": "Funkcije različice",
+		"script_updated": "UserScript je posodobljen!",
+		"script_updated_message": "UserScript $script$ je posodobljen. Želite videti novosti?",
+		"script_needs_update": "UserScript potrebuje posodobitev",
+		"new_version_available": "Na voljo je nova različica UserScript $script$. Kliknite V redu za posodobitev.",
+		"current_version": "Trenutna različica",
+		"new_version": "Nova različica",
+		"reload_after_install": "Po namestitvi ponovno naložite igro.",
+		"version_label": "Različica"
+	},
+	"market": {
+		"reminder_title": "Opomnik trga",
+		"rights_town": "Mesto",
+		"rights_alliance": "Zveza",
+		"rights_anyone": "Kdorkoli",
+		"sell_multiply": "Nastavi (pomnoži) trenutno ceno s to številko",
+		"sell_save_desc": "Shrani opis za prihodnje dražbe",
+		"sell_reset_desc": "Ponastavi opis",
+		"sell_reset_sel": "Ponastavi izbiro",
+		"sell_buy_price": "Nakupna cena",
+		"sell_sell_price": "Prodajna cena",
+		"sell_save_duration": "Shrani trajanje in pravice za prihodnje dražbe",
+		"map_tab_title": "Zemljevid trga",
+		"auction_label": "Dražba",
+		"reminder_before_expiry": "Opomnik pred iztekom dražbe",
+		"reminder_minutes": "minute",
+		"auction_ends": ", Konča se",
+		"auction_ends_label": "Konec dražbe",
+		"use_as_default_price": "Uporabi kot privzeto ceno",
+		"reminder_late": "Opomnik je prišel prepozno, dražba se je že končala."
+	},
+	"fort": {
+		"forts": "Trdnjave",
+		"forts_owned": "Lastne trdnjave",
+		"forts_members": "Zavezniške trdnjave",
+		"size": "Velikost",
+		"sizes": {
+			"0": "Majhna",
+			"1": "Srednja",
+			"2": "Velika"
+		},
+		"sort_by_health": "Razvrsti po zdravju",
+		"sort_asc_current_health": "Trenutno zdravje naraščajoče",
+		"sort_desc_current_health": "Trenutno zdravje padajoče",
+		"sort_asc_max_health": "Najv. zdravje naraščajoče",
+		"sort_desc_max_health": "Najv. zdravje padajoče",
+		"sort_asc_distance": "Razdalja naraščajoče",
+		"sort_desc_distance": "Razdalja padajoče",
+		"show_players_at_fort": "Prikaži igralce pri trdnjavi",
+		"hide_players_at_fort": "Skrij igralce pri trdnjavi",
+		"show_players_near_fort": "Prikaži igralce blizu trdnjave",
+		"hide_players_near_fort": "Skrij igralce blizu trdnjave",
+		"show_players_away_fort": "Prikaži oddaljene igralce",
+		"hide_players_away_fort": "Skrij oddaljene igralce"
+	},
+	"battle": {
+		"critical_hits": "Kritični udarci",
+		"ghost_rounds": "Krogi duhov",
+		"stats_total": "Skupaj",
+		"stats_hits": "Zadetki",
+		"stats_missed": "Zgrešeni streli",
+		"stats_got_shot": "Prejeti zadetki",
+		"stats_dodge": "Izmiki",
+		"total_damage_tooltip": "Povzročena škoda"
+	},
+	"jobs": {
+		"show_gold_jobs": "Prikaži zlate bonus naloge",
+		"gold_jobs": "Zlate bonus naloge",
+		"show_silver_jobs": "Prikaži srebrne bonus naloge",
+		"silver_jobs": "Srebrne bonus naloge",
+		"with_bonus": "Naloge z bonusom",
+		"reset_jobs_bonus_confirm": "Izberite kategorijo nalog za ponastavitev ali prekličite.",
+		"reset_all_jobs_bonus": "Vse",
+		"reset_silver_jobs_bonus": "Srebrne",
+		"reset_gold_jobs_bonus": "Zlate",
+		"lp_remaining": "$lp$ D.T."
+	},
+	"analyzer": {
+		"reset_confirm_title": "Ali res želite ponastaviti statistiko Analizatorja del?",
+		"reset_confirm_message": "Vnesite povezavo do prvega poročila, ki bo prebrano po ponastavitvi",
+		"job_title": "Analizator del",
+		"chest_title": "Analizator skrinj",
+		"duel_coming_soon": "Analizator dvobojev bo na voljo v prihodnosti!",
+		"table_sum_tooltip": "Preklopi na povprečje Ø",
+		"table_avg_tooltip": "Preklopi na vsoto Σ",
+		"toggle_rewards_items": "Preklopi med nagradami in najdenimi predmeti",
+		"reset_report_analyzer": "Ponastavi poročila analizatorja",
+		"report_link_label": "Povezava poročila:",
+		"use_all_reports": "ali uporabi vsa poročila",
+		"use_future_reports": "ali uporabi samo prihodnja poročila"
+	},
+	"quests": {
+		"cancel_title": "Preklic naloge?",
+		"cancel_message": "Ali ste prepričani, da želite preklicati to nalogo?",
+		"accept_finish": "Sprejmi in zaključi nalogo"
+	},
+	"building": {
+		"progress_tooltip": "Napredek prikazuje, koliko gradnje je še potrebno do naslednje ravni",
+		"progress_label": "Napredek"
+	},
+	"map": {
+		"coordinates_tooltip": "Prikaži koordinate na zemljevidu",
+		"coordinates_button": "Premakni zemljevid na dane koordinate",
+		"show_town_tooltip": "Prikaži mesto na zemljevidu",
+		"show_coordinates": "Prikaži koordinate na zemljevidu"
+	},
+	"duel": {
+		"levels_duel": "Ravni dvobojev, ki jih lahko izzoveš: $min$ - $max$",
+		"levels_exp": "Izkušnje iz dvoboja, ki jih boš prejel: $min$ - $max$",
+		"potion_label": "Skrivnostni napoj",
+		"levels_potion": "Raven dvoboja $min$$max$",
+		"motivation": "Motivacija dvoboja",
+		"ko_time": "Čas KO",
+		"ko_suspension": "KO – Dvoboj prekinjen do $time$",
+		"ko_protection": "KO – Zaščita dvoboja do $time$",
+		"profile_duel_exp": "Prikaži izkušnje iz dvobojev v profilih igralcev",
+		"protection_changed": "Zaščita dvoboja je bila spremenjena"
+	},
+	"town": {
+		"move_tooltip": "Premakni se v mesto"
+	},
+	"banking": {
+		"money": "Denar",
+		"deposit_message": "Prišel si v svoje mesto. Želiš položiti denar?",
+		"deposit_money": "Položi denar"
+	},
+	"crafting": {
+		"notification": "Izdelava",
+		"can_craft_again": "Lahko ponovno izdeluješ!"
+	},
+	"collector": {
+		"item_not_owned": "Tega predmeta še nimaš"
+	},
+	"regen": {
+		"full_health": "Čas do polnega zdravja",
+		"full_energy": "Čas do polne energije",
+		"missing": "Manjka",
+		"per_hour": "Regeneracija na uro",
+		"next_health": "Naslednja točka zdravja",
+		"next_energy": "Naslednja točka energije"
+	},
+	"task": {
+		"negative_lp": "negativne delovne točke",
+		"low_lp": "nizke delovne točke",
+		"suboptimal_lp": "neoptimalne delovne točke"
+	},
+	"westforts": {
+		"open_import": "Odpri uvoz bitk v West Forts",
+		"close_import": "Zapri uvoz bitk v West Forts",
+		"button_label": "West Forts"
+	},
+	"changelog": [
+		{
+			"version": "0.29.0",
+			"notes": [
+				"[popravek napak] Popravi staro kodo funkcije Spremeni jezik",
+				"[main] Preoblikovanje in čiščenje kode UserScript"
+			]
+		},
+		{
+			"version": "0.28.0",
+			"notes": [
+				"[funkcija] Dodajte \"začasno\" funkcijo za spremembo jezika",
+				"[funkcija] Čiščenje kode zavihka Nastavitve",
+				"[funkcija] Čiščenje kode barvnega načina v Saloonu (klepet)",
+				"[funkcija] Koda za čiščenje delovnih mest z bonusi na mini zemljevidu",
+				"[funkcija] Očisti kodo funkcije Job/Chest Analyzer",
+				"[funkcija] Posodobite različne funkcije kode UserScript"
+			]
+		},
+		{
+			"version": "0.27.0",
+			"notes": ["[funkcija] Dodajte funkcijo za uvoz/izvoz nastavitev"]
+		},
+		{
+			"version": "0.26.0",
+			"notes": [
+				"[funkcija] Dodajte vnos bitke za utrdbo v zbirko podatkov spletnega mesta (westforts.com)",
+				"[funkcija] Dodajte funkcijo spreminjanja zvoka Whisper",
+				"[funkcija] Dodajte škodo, povzročeno vsakemu igralcu med bitko za trdnjavo",
+				"[funkcija] Dodajte strele vsak korak med bitko v trdnjavi",
+				"[funkcija] Dodajte barvo nalogam, ki jih je mogoče dokončati",
+				"[funkcija] Dodaj gumb za samodejno sprejemanje in dokončanje nalog, ki jih je mogoče dokončati",
+				"[popravek hrošča] Obnovite kodo za prodajo vseh predmetov razen izbranega trgovcu",
+				"[popravek napak] Popravljena stara koda možnosti, ki prikazuje točke opravil v oknu opravil",
+				"[popravek napak] Popravite kodo možnosti samodejnega odpiranja tržnice, tako da je okno z oblačili pomanjšano",
+				"[popravek napak] Popravi kodo na zavihku gradnje, če je prisoten TWIR",
+				"[glavno] Preurejanje kategorij v zavihku Nastavitve"
+			]
+		},
+		{
+			"version": "0.25.0",
+			"notes": [
+				"[funkcija] Dodajte možnost temne teme za The-West Map",
+				"[funkcija] Izboljšana ikona poročila o prodaji v nakupovalnem oknu stavbe Market",
+				"[funkcija] Dodajte ikono za to, ali so tržne ponudbe javne, samo za člane zavezništva ali mesta",
+				"[funkcija] Dodajte nov gumb za enostavno odpiranje okna Market"
+			]
+		},
+		{
+			"version": "0.24.0",
+			"notes": [
+				"[funkcija] Portretu igralca so dodani časi regeneracije",
+				"[funkcija] Dodajte označevanje besedila mestnim forumom",
+				"[funkcija] Dodaj možnost za pripenjanje menijske vrstice, izkušenj in uporabniškega skripta na zaslon",
+				"[funkcija] Dodajte izkušnjo dvoboja v profil igralca",
+				"[popravek napak] Popravek zavihka Recruit",
+				"[popravek napak] Onemogoči samodejno aktiviranje nekaterih funkcij"
+			]
+		},
+		{
+			"version": "0.23.0",
+			"notes": [
+				"[popravek napak] Popravi nekaj sporočil o nastavitvah",
+				"[popravek napak] Popravek zavihka Recruit"
+			]
+		},
+		{
+			"version": "0.22.0",
+			"notes": [
+				"[funkcija] Dodani kritični zadetki in krogi duhov na pokopališče trdnjave",
+				"[funkcija] Dodajte okno za lastne in zavezniške utrdbe v okno mest",
+				"[funkcija] Dodajte samodejno odpiranje trdnjave Axe Unbury iz njenega poročila",
+				"[funkcija] Izboljšane vse razvrstitvene tabele",
+				"[funkcija] Izboljšano okno Rekrutacija pred bitko za trdnjavo",
+				"[funkcija] Odstrani utripanje gumba City, če je na forumu City novo sporočilo"
+			]
+		},
+		{
+			"version": "0.21.0",
+			"notes": [
+				"[funkcija] Dodajte napredek gradnje na zavihek gradnje",
+				"[funkcija] Dodajte dodatne ravni cerkve",
+				"[funkcija] Dodajte funkcijo za prikaz samo stavb, ki niso v celoti zgrajene v Mestni hiši",
+				"[funkcija] Dodan nov gumb za preprosto odpiranje zavihka Cerkvena zgradba",
+				"[funkcija] Dodajte gumb za zapiranje samo oken inventarja"
+			]
+		},
+		{
+			"version": "0.20.0",
+			"notes": ["[popravek napak] Ups! Popravi gradbeno kodo"]
+		},
+		{
+			"version": "0.19.0",
+			"notes": ["[bugfix] Popravi novo različico povezave"]
+		},
+		{
+			"version": "0.18.0",
+			"notes": ["[bugfix] Popravek različice na nekaterih mestih, upajmo!"]
+		},
+		{
+			"version": "0.17.1",
+			"notes": ["[popravek napak] Popravek različice na nekaterih mestih"]
+		},
+		{
+			"version": "0.17.0",
+			"notes": ["[glavno] Odstrani revizijo"]
+		},
+		{
+			"version": "0.16.0",
+			"notes": ["[popravek napak] Spremenjena povezava do različice nove funkcije"]
+		},
+		{
+			"version": "0.15.0",
+			"notes": ["[popravek napak] Popravite zastarelo kodo, ki je uporabljala UserScript"]
+		},
+		{
+			"version": "0.14.0",
+			"notes": ["[main] Odstranite odvečno kodo", "[main] Spremenjene podrobnosti v oknu Recruit"]
+		},
+		{
+			"version": "0.13.0",
+			"notes": ["[popravek napak] Ups! Popravljen UserScript"]
+		},
+		{
+			"version": "0.12.0",
+			"notes": ["[bugfix] Popravi napačno različico"]
+		},
+		{
+			"version": "0.11.0",
+			"notes": ["[main] Odstranjena nepotrebna koda v oknu Recruit", "[main] Change Updater"]
+		},
+		{
+			"version": "0.10.0",
+			"notes": [
+				"[popravek hrošča] Popravi žebljiček elementa za pravilen prikaz v oknu Vanilla in TWIR Inventory",
+				"[popravek napak] Popravi črkovalne napake besede bugfix v atributih izdaje"
+			]
+		},
+		{
+			"version": "0.9.0",
+			"notes": ["[main] Čiščenje kode – 2. del", "[main] Spremenjenih nekaj hiperpovezav"]
+		},
+		{
+			"version": "0.8.0",
+			"notes": ["[main] Čiščenje kode – 1. del"]
+		},
+		{
+			"version": "0.7.0",
+			"notes": ["[popravek napak] Osveži povezave za samodejno posodobitev"]
+		},
+		{
+			"version": "0.6.0",
+			"notes": ["[popravek napak] Spremenjene nekatere hiperpovezave"]
+		},
+		{
+			"version": "0.5.0",
+			"notes": ["[popravek napak] Ups! Popravljen UserScript"]
+		},
+		{
+			"version": "0.4.0",
+			"notes": ["[popravek napak] Popravek za odstranitev funkcije"]
+		},
+		{
+			"version": "0.3.0",
+			"notes": ["[main] Odstranjenih veliko neuporabnih funkcij"]
+		},
+		{
+			"version": "0.2.0",
+			"notes": [
+				"[popravek napak] Popravljenih nekaj tipkarskih napak",
+				"[main] Spremenite različico formule"
+			]
+		},
+		{
+			"version": "0.1.0",
+			"notes": ["** Ustvari uporabniški skript iz clothcalc_sk **"]
+		}
+	]
+}
