@@ -1,0 +1,71 @@
+{
+    "$schema": "https://biomejs.dev/schemas/2.3.10/schema.json",
+    "vcs": {
+        "enabled": true,
+        "clientKind": "git",
+        "useIgnoreFile": true,
+        "defaultBranch": "main"
+    },
+    "files": {
+        "ignoreUnknown": false,
+        "includes": [
+            "**",
+            "!**/*.generated.js",
+            "!!**/dist",
+            "!**/node_modules",
+            "!**/*.user.js"
+        ]
+    },
+    "formatter": {
+        "enabled": true,
+        "indentStyle": "tab",
+        "lineWidth": 100,
+        "lineEnding": "lf"
+    },
+    "linter": {
+        "enabled": true,
+        "rules": {
+            "nursery": {
+                "noDuplicateDependencies": "error",
+                "useSortedClasses": {
+                    "level": "error",
+                    "fix": "safe",
+                    "options": {
+                        "attributes": [
+                            "className"
+                        ],
+                        "functions": [
+                            "cn",
+                            "clxs",
+                            "twMerge"
+                        ]
+                    }
+                }
+            },
+            "correctness": {
+                "noInnerDeclarations": "off"
+            },
+            "complexity": {
+                "useArrowFunction": "off"
+            },
+            "recommended": true
+        }
+    },
+    "javascript": {
+        "formatter": {
+            "quoteStyle": "double",
+            "semicolons": "asNeeded",
+            "arrowParentheses": "asNeeded",
+            "trailingCommas": "es5"
+        }
+    },
+    "assist": {
+        "enabled": true,
+        "actions": {
+            "source": {
+                "organizeImports": "on",
+                "useSortedAttributes": "on"
+            }
+        }
+    }
+}
