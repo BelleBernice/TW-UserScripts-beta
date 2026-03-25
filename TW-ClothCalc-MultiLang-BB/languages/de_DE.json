@@ -118,6 +118,7 @@
 		"collector": "Markiert Gegenstände beim Händler und auf dem Markt, die sich noch nicht in deinem Inventar befinden",
 		"collector_sell": "Fügt eine Schaltfläche hinzu, um beim Händler alle bis auf einen ausgewählten Gegenstand zu verkaufen",
 		"pin_items": "Gegenstände im Inventarfenster anheften",
+		"inventory_highlighter": "Mehrere Gegenstände hervorheben, die Sie bei Aufträgen gefunden haben und verkauft werden können",
 		"quest_cancel": "Questabbruch bestätigen",
 		"instant_quest": "Quest sofort abschließen, wenn alle Anforderungen erfüllt sind",
 		"colored_quest": "Farbe von abschließbaren Quests ändern",

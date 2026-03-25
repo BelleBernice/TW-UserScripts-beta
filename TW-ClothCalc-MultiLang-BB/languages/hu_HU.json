@@ -118,6 +118,7 @@
 		"collector": "Megjelöli a kereskedőnél és a piacon azokat a tárgyakat, amelyek még nincsenek a készletedben",
 		"collector_sell": "Gomb hozzáadása a kereskedőnél az összes eladásához egy kiválasztott kivételével",
 		"pin_items": "Tárgyak rögzítése a készletablakban",
+		"inventory_highlighter": "Több, munkákból származó, eladható tárgy kiemelése",
 		"quest_cancel": "Küldetés megszakításának megerősítése",
 		"instant_quest": "Küldetés azonnali befejezése, ha minden feltétel teljesül",
 		"colored_quest": "Befejezhető küldetések színének megváltoztatása",

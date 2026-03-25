@@ -118,6 +118,7 @@
 		"collector": "Contrassegna presso il mercante e il mercato gli oggetti che non possiedi ancora nell’inventario",
 		"collector_sell": "Aggiunge un pulsante per vendere tutto tranne un oggetto selezionato dal mercante",
 		"pin_items": "Fissa gli oggetti nella finestra dell’inventario",
+		"inventory_highlighter": "Evidenzia più oggetti che hai trovato dai lavori che possono essere venduti",
 		"quest_cancel": "Conferma annullamento missione",
 		"instant_quest": "Completa una missione istantaneamente se tutti i requisiti sono soddisfatti",
 		"colored_quest": "Cambia il colore delle missioni completabili",

@@ -118,6 +118,7 @@
 		"collector": "Marque chez le marchand et au marché les objets que vous ne possédez pas encore dans votre inventaire",
 		"collector_sell": "Ajoute un bouton pour vendre tous les objets sauf un sélectionné chez le marchand",
 		"pin_items": "Épingler les objets dans la fenêtre d’inventaire",
+		"inventory_highlighter": "Mettre en évidence plusieurs objets que vous avez trouvés lors de missions et qui peuvent être vendus",
 		"quest_cancel": "Confirmer l’annulation de la quête",
 		"instant_quest": "Terminer une quête instantanément si toutes les conditions sont remplies",
 		"colored_quest": "Changer la couleur des quêtes pouvant être terminées",

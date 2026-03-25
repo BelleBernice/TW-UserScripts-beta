@@ -118,6 +118,7 @@
 		"collector": "Mark items at the trader and market that you do not yet own in your inventory",
 		"collector_sell": "Add a button to sell all except one selected item at the trader",
 		"pin_items": "Pin items in the inventory window",
+		"inventory_highlighter": "Highlight multiple items you have found from jobs that can be sold",
 		"quest_cancel": "Confirm quest cancellation",
 		"instant_quest": "Complete a quest instantly if all requirements are met",
 		"colored_quest": "Change the color of quests that can be completed",

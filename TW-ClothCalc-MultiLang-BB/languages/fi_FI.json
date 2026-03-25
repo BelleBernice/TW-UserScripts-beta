@@ -118,6 +118,7 @@
 		"collector": "Merkitsee kauppiaalla ja torilla esineet, joita sinulla ei vielä ole inventaariossa",
 		"collector_sell": "Lisää painikkeen, jolla myydään kaikki paitsi yksi valittu esine kauppiaalla",
 		"pin_items": "Kiinnitä esineet inventaarioikkunaan",
+		"inventory_highlighter": "Korosta useita töistä löytämiäsi esineitä, jotka voidaan myydä",
 		"quest_cancel": "Vahvista tehtävän peruutus",
 		"instant_quest": "Suorita tehtävä heti, jos kaikki vaatimukset täyttyvät",
 		"colored_quest": "Vaihda suoritettavien tehtävien väriä",

@@ -118,6 +118,7 @@
 		"collector": "Markerer hos handleren og på markedet genstande, som du endnu ikke har i dit inventar",
 		"collector_sell": "Tilføjer en knap til at sælge alt undtagen én valgt genstand hos handleren",
 		"pin_items": "Fastgør genstande i inventarvinduet",
+		"inventory_highlighter": "Fremhæv flere genstande, du har fundet fra jobs, der kan sælges",
 		"quest_cancel": "Bekræft annullering af mission",
 		"instant_quest": "Fuldfør en mission øjeblikkeligt, hvis alle krav er opfyldt",
 		"colored_quest": "Ændr farven på missioner, der kan fuldføres",

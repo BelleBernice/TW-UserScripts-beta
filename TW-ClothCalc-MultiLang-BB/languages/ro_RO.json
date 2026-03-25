@@ -118,6 +118,7 @@
 		"collector": "Marchează la comerciant și pe piață obiectele pe care nu le ai încă în inventar",
 		"collector_sell": "Adaugă un buton pentru a vinde totul, cu excepția unui obiect selectat, la comerciant",
 		"pin_items": "Fixează obiecte în fereastra inventarului",
+		"inventory_highlighter": "Evidențiază multiple obiecte pe care le-ai găsit din joburi și care pot fi vândute",
 		"quest_cancel": "Confirmare anulare misiune",
 		"instant_quest": "Finalizează instant o misiune dacă toate cerințele sunt îndeplinite",
 		"colored_quest": "Schimbă culoarea misiunilor ce pot fi finalizate",

@@ -118,6 +118,7 @@
 		"collector": "Označi predmete pri trgovcu in na trgu, ki jih še nimaš v inventarju",
 		"collector_sell": "Doda gumb za prodajo vsega razen enega izbranega predmeta pri trgovcu",
 		"pin_items": "Pripni predmete v oknu inventarja",
+		"inventory_highlighter": "Označi več predmetov, ki si jih našel pri delu in jih je mogoče prodati",
 		"quest_cancel": "Potrditev preklica naloge",
 		"instant_quest": "Takoj zaključi nalogo, če so izpolnjeni vsi pogoji",
 		"colored_quest": "Spremeni barvo nalog, ki jih je mogoče zaključiti",

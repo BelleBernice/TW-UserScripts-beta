@@ -118,6 +118,7 @@
 		"collector": "Označuje u obchodníka a na trhu predmety, ktoré ešte nemáte v inventári",
 		"collector_sell": "Pridá tlačidlo na predaj všetkého okrem jedného vybraného predmetu u obchodníka",
 		"pin_items": "Pripnúť predmety v okne inventára",
+		"inventory_highlighter": "Zvýrazniť viacero predmetov, ktoré ste našli z práce a ktoré sa dajú predať",
 		"quest_cancel": "Potvrdenie zrušenia úlohy",
 		"instant_quest": "Okamžite dokončiť úlohu, ak sú splnené všetky požiadavky",
 		"colored_quest": "Zmeniť farbu úloh, ktoré je možné dokončiť",

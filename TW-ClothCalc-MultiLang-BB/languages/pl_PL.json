@@ -118,6 +118,7 @@
 		"collector": "Oznacza u handlarza i na targu przedmioty, których jeszcze nie posiadasz w ekwipunku",
 		"collector_sell": "Dodaje przycisk do sprzedaży wszystkiego oprócz jednego wybranego przedmiotu u handlarza",
 		"pin_items": "Przypinanie przedmiotów w oknie ekwipunku",
+		"inventory_highlighter": "Wyróżnij wiele przedmiotów, które znalazłeś w pracy i które można sprzedać",
 		"quest_cancel": "Potwierdzenie anulowania zadania",
 		"instant_quest": "Natychmiastowe ukończenie zadania, jeśli spełnione są wszystkie wymagania",
 		"colored_quest": "Zmiana koloru zadań możliwych do ukończenia",

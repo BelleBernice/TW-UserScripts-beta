@@ -118,6 +118,7 @@
 		"collector": "Označava predmete kod trgovca i na pijaci koje još nemate u inventaru",
 		"collector_sell": "Dodaje dugme za prodaju svega osim jednog izabranog predmeta kod trgovca",
 		"pin_items": "Zakači predmete u prozoru inventara",
+		"inventory_highlighter": "Istaknite više predmeta koje ste pronašli sa poslova i koji se mogu prodati",
 		"quest_cancel": "Potvrda otkazivanja zadatka",
 		"instant_quest": "Završi zadatak odmah ako su svi uslovi ispunjeni",
 		"colored_quest": "Promeni boju zadataka koji se mogu završiti",

@@ -118,6 +118,7 @@
 		"collector": "Marca los objetos del comerciante y del mercado que todavía no tenés en tu inventario",
 		"collector_sell": "Agrega un botón para vender todo excepto un objeto seleccionado",
 		"pin_items": "Fijar objetos en la ventana del inventario",
+		"inventory_highlighter": "Resaltar múltiples objetos que has encontrado en trabajos que se pueden vender",
 		"quest_cancel": "Confirmar cancelación de misión",
 		"instant_quest": "Completar una misión inmediatamente si se cumplen todos los requisitos",
 		"colored_quest": "Cambiar el color de las misiones que pueden completarse",

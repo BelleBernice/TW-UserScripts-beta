@@ -118,6 +118,7 @@
 		"collector": "Markerer gjenstander hos kjøpmannen og på markedet som du ennå ikke eier",
 		"collector_sell": "Legger til en knapp for å selge alt unntatt én valgt gjenstand hos kjøpmannen",
 		"pin_items": "Fest gjenstander i inventarvinduet",
+		"inventory_highlighter": "Fremhev flere gjenstander du har funnet fra jobber som kan selges",
 		"quest_cancel": "Bekreft avbrytelse av oppdrag",
 		"instant_quest": "Fullfør oppdrag direkte hvis alle krav er oppfylt",
 		"colored_quest": "Endre fargen på oppdrag som kan fullføres",

@@ -118,6 +118,7 @@
 		"collector": "Mark items at the trader and market that you do not yet own in your inventory",
 		"collector_sell": "Add a button to sell all except one selected item at the trader",
 		"pin_items": "Pin items in the inventory window",
+		"inventory_highlighter": "Realçar múltiplos itens que encontrou em trabalhos e que podem ser vendidos",
 		"quest_cancel": "Confirmar cancelamento da missão",
 		"instant_quest": "Concluir missão automaticamente se todos os requisitos forem cumpridos",
 		"colored_quest": "Alterar a cor das missões que podem ser concluídas",

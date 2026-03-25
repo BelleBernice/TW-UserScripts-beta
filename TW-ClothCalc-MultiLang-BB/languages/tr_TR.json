@@ -118,6 +118,7 @@
 		"collector": "Envanterinizde henüz olmayan eşyaları tüccar ve pazarda işaretler",
 		"collector_sell": "Tüccarda seçilen bir eşya hariç tümünü satmak için bir düğme ekler",
 		"pin_items": "Envanter penceresinde eşyaları sabitle",
+		"inventory_highlighter": "İşlerden bulduğunuz ve satılabilir olan birden fazla eşyayı vurgula",
 		"quest_cancel": "Görev iptalini onayla",
 		"instant_quest": "Tüm gereksinimler karşılanıyorsa görevi anında tamamla",
 		"colored_quest": "Tamamlanabilir görevlerin rengini değiştir",

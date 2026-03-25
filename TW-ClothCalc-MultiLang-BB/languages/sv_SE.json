@@ -118,6 +118,7 @@
 		"collector": "Markerar föremål hos handlaren och på marknaden som du ännu inte äger i ditt inventarie",
 		"collector_sell": "Lägger till en knapp för att sälja allt utom ett valt föremål hos handlaren",
 		"pin_items": "Fäst föremål i inventariefönstret",
+		"inventory_highlighter": "Markera flera föremål du har hittat från jobb som kan säljas",
 		"quest_cancel": "Bekräfta avbrytning av uppdrag",
 		"instant_quest": "Slutför ett uppdrag direkt om alla krav är uppfyllda",
 		"colored_quest": "Ändra färgen på uppdrag som kan slutföras",
