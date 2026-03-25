@@ -117,6 +117,8 @@
 		"fort_enhance_recruitment": "Error enhancing fort recruitment",
 		"fort_battle_info_per_round": "Error in battle info per round",
 		"snippets_initialize": "Error initializing Snippets",
+		"inventory_highlighter_initialize": "Error initializing inventory highlighter",
+		"inventory_highlighter_setup": "Error setting up inventory highlighter",
 		"copy_failed": "Error copying to clipboard",
 		"clipboard_import_failed": "Error reading from clipboard",
 		"inject_showlink": "Error injecting showlink modification",
