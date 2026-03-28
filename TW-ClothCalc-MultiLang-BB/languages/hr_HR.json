@@ -363,23 +363,20 @@
 		"close_import": "Zatvori uvoz bitaka u West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Funkcionalnost",
+		"bugfix": "Ispravak",
+		"main": "Održavanje"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Dodaj boju više predmeta za prodaju u Inventaru"
+				],
+				"main": [
+					"Redizajn stranice značajki dnevnika promjena UserScripta"
 				]
 			}
 		},

@@ -363,23 +363,20 @@
 		"close_import": "Gevechtsimport sluiten in West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Functionaliteit",
+		"bugfix": "Correctie",
+		"main": "Onderhoud"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Voeg kleurcodering toe aan meerdere te koop staande items in Voorraad"
+				],
+				"main": [
+					"Herontwerp van de functiespagina van de UserScript-changelog"
 				]
 			}
 		},

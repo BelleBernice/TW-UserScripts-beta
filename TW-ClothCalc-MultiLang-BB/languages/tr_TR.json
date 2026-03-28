@@ -363,23 +363,20 @@
 		"close_import": "West Forts'ta savaş içe aktarmayı kapat",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Özellik",
+		"bugfix": "Düzeltme",
+		"main": "Bakım"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Envanter'de satılık birden fazla eşyaya renklendirme ekle"
+				],
+				"main": [
+					"UserScript değişiklik günlüğü özellikleri sayfasının yeniden tasarlanması"
 				]
 			}
 		},

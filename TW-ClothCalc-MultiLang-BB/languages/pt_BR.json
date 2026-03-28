@@ -363,23 +363,20 @@
 		"close_import": "Fechar importação de batalhas no West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Funcionalidade",
+		"bugfix": "Correção",
+		"main": "Manutenção"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Adicionar coloração a múltiplos itens à venda no Inventário"
+				],
+				"main": [
+					"Redesign da página de recursos do changelog do UserScript"
 				]
 			}
 		},

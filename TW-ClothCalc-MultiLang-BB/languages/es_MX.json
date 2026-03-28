@@ -363,23 +363,20 @@
 		"close_import": "Cerrar importación de batallas en West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Funcionalidad",
+		"bugfix": "Corrección",
+		"main": "Mantenimiento"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Añadir color a múltiples objetos en venta en el Inventario"
+				],
+				"main": [
+					"Rediseño de la página de funciones del registro de cambios del UserScript"
 				]
 			}
 		},

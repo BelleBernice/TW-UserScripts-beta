@@ -363,23 +363,20 @@
 		"close_import": "Închide importul de bătălii în West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Funcționalitate",
+		"bugfix": "Corecție",
+		"main": "Mentenanță"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Adaugă colorare pentru multiple obiecte de vânzare în Inventar"
+				],
+				"main": [
+					"Reproiectarea paginii funcționalităților jurnalului de modificări al UserScriptului"
 				]
 			}
 		},

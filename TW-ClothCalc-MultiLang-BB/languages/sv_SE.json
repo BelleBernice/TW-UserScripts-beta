@@ -363,23 +363,20 @@
 		"close_import": "Stäng import av strider i West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Funktion",
+		"bugfix": "Rättning",
+		"main": "Underhåll"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Lägg till färgkodning på flera föremål till salu i Förrådet"
+				],
+				"main": [
+					"Omdesign av UserScripts ändringsloggfunktionssida"
 				]
 			}
 		},

@@ -363,23 +363,20 @@
 		"close_import": "Zavrieť import bitiek vo West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Funkcia",
+		"bugfix": "Oprava",
+		"main": "Údržba"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Pridať zafarbenie viacerých predmetov na predaj v Inventári"
+				],
+				"main": [
+					"Prepracovanie stránky funkcií zoznamu zmien UserScriptu"
 				]
 			}
 		},

@@ -363,23 +363,20 @@
 		"close_import": "Csaták importálásának bezárása a West Forts-ban",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Funkció",
+		"bugfix": "Javítás",
+		"main": "Karbantartás"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Színezés hozzáadása több eladó tárgyhoz a Leltárban"
+				],
+				"main": [
+					"A UserScript változásnapló funkciók oldalának újratervezése"
 				]
 			}
 		},

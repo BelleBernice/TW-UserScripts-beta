@@ -363,23 +363,20 @@
 		"close_import": "Luk import af kampe i West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Funktion",
+		"bugfix": "Rettelse",
+		"main": "Vedligeholdelse"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Tilføj farvemarkering til flere genstande til salg i inventaret"
+				],
+				"main": [
+					"Redesign af UserScript changelog-funktionssiden"
 				]
 			}
 		},

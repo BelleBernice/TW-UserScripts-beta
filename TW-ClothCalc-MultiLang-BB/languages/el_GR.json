@@ -364,9 +364,9 @@
 		"button_label": "West Forts"
 	},
 	"changelog_types": {
-		"feature": "Feature",
-		"bugfix": "Bugfix",
-		"main": "Maintenance"
+		"feature": "Λειτουργία",
+		"bugfix": "Διόρθωση",
+		"main": "Συντήρηση"
 	},
 	"changelog": [
 		{

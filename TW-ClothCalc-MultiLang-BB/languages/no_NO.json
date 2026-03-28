@@ -363,23 +363,20 @@
 		"close_import": "Lukk kampimport i West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Funksjon",
+		"bugfix": "Rettelse",
+		"main": "Vedlikehold"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Legg til fargekoding på flere gjenstander til salgs i Inventaret"
+				],
+				"main": [
+					"Redesignet av funksjonssiden for UserScript-endringsloggen"
 				]
 			}
 		},

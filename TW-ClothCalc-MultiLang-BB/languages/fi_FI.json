@@ -363,23 +363,20 @@
 		"close_import": "Sulje taistelujen tuonti West Fortsissa",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Ominaisuus",
+		"bugfix": "Korjaus",
+		"main": "Ylläpito"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Lisää väritys useille myytäville esineille varastossa"
+				],
+				"main": [
+					"UserScriptin muutoslokin ominaisuussivun uudelleensuunnittelu"
 				]
 			}
 		},

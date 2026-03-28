@@ -363,23 +363,20 @@
 		"close_import": "Закрыть импорт боёв в West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Функция",
+		"bugfix": "Исправление",
+		"main": "Обслуживание"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Добавить окраску нескольких предметов для продажи в Инвентаре"
+				],
+				"main": [
+					"Переработка страницы функций журнала изменений UserScript"
 				]
 			}
 		},

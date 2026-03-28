@@ -363,23 +363,20 @@
 		"close_import": "Zamknij import bitew w West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Funkcja",
+		"bugfix": "Poprawka",
+		"main": "Utrzymanie"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Dodaj kolorowanie wielu przedmiotów na sprzedaż w Ekwipunku"
+				],
+				"main": [
+					"Przeprojektowanie strony funkcji dziennika zmian UserScriptu"
 				]
 			}
 		},

@@ -363,23 +363,20 @@
 		"close_import": "Kampfimport in West Forts schließen",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Funktion",
+		"bugfix": "Korrektur",
+		"main": "Wartung"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Färbung für mehrere zum Verkauf stehende Gegenstände im Inventar hinzufügen"
+				],
+				"main": [
+					"Neugestaltung der Seite „Changelog-Funktionen“ des UserScripts"
 				]
 			}
 		},

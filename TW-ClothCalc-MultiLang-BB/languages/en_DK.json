@@ -363,23 +363,20 @@
 		"close_import": "Close battle import in West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Feature",
+		"bugfix": "Bugfix",
+		"main": "Maintenance"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Add coloring to multiple items for sale in Inventory"
+				],
+				"main": [
+					"Redesign the Changelog Features page of the UserScript"
 				]
 			}
 		},

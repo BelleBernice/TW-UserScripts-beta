@@ -363,23 +363,20 @@
 		"close_import": "Zapri uvoz bitk v West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Funkcionalnost",
+		"bugfix": "Popravek",
+		"main": "Vzdrževanje"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Dodaj barvanje več predmetov za prodajo v Inventarju"
+				],
+				"main": [
+					"Prenova strani funkcij dnevnika sprememb UserScripta"
 				]
 			}
 		},
