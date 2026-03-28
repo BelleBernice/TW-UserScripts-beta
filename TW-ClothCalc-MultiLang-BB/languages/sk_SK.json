@@ -363,176 +363,314 @@
 		"close_import": "Zavrieť import bitiek vo West Forts",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Pridať zafarbenie viacerých predmetov na predaj v Inventári"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[bugfix] Opravte starý kód funkcie Change Language",
-				"[main] Refaktorovanie a čistenie kódu UserScript"
-			]
+			"notes": {
+				"bugfix": [
+					"Opravte starý kód funkcie Change Language"
+				],
+				"main": [
+					"Refaktorovanie a čistenie kódu UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[funkcia] Pridajte \"dočasnú\" funkciu zmeny jazyka",
-				"[funkcia] Kód karty Nastavenia čistenia",
-				"[funkcia] Čistenie kódu farebného režimu v salóne (chat)",
-				"[funkcia] Kód čistenia pre úlohy s bonusmi na minimape",
-				"[funkcia] Kód funkcie Cleanup Job/Chest Analyzer",
-				"[funkcia] Modernizácia rôznych funkcií kódu UserScript"
-			]
+			"notes": {
+				"feature": [
+					"Pridajte \"dočasnú\" funkciu zmeny jazyka",
+					"Kód karty Nastavenia čistenia",
+					"Čistenie kódu farebného režimu v salóne (chat)",
+					"Kód čistenia pre úlohy s bonusmi na minimape",
+					"Kód funkcie Cleanup Job/Chest Analyzer",
+					"Modernizácia rôznych funkcií kódu UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[funkcia] Pridať funkciu nastavenia importu/exportu"]
+			"notes": {
+				"feature": [
+					"Pridať funkciu nastavenia importu/exportu"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[funkcia] Pridať záznam o bitke o pevnosť do databázy webovej stránky (westforts.com)",
-				"[funkcia] Pridajte funkciu zmeny zvuku Whisper",
-				"[vlastnosť] Pridajte poškodenie udelené každému hráčovi počas bitky o pevnosť",
-				"[funkcia] Pridajte výstrely každé kolo počas bitky o pevnosť",
-				"[vlastnosť] Pridajte farbu k úlohám, ktoré je možné splniť",
-				"[funkcia] Tlačidlo Pridať na automatické prijatie a dokončenie úloh, ktoré je možné splniť",
-				"[bugfix] Obnovte kód na predaj všetkých položiek okrem vybranej obchodníkovi",
-				"[bugfix] Opravený starý kód možnosti, ktorá zobrazuje body úloh v okne úloh",
-				"[bugfix] Opravte kód možnosti automatického otvárania Market, aby sa okno oblečenia minimalizovalo",
-				"[bugfix] Opravte kód na karte zostavy, ak je prítomný TWIR",
-				"[hlavné] Zmena poradia kategórií na karte Nastavenia"
-			]
+			"notes": {
+				"feature": [
+					"Pridať záznam o bitke o pevnosť do databázy webovej stránky (westforts.com)",
+					"Pridajte funkciu zmeny zvuku Whisper",
+					"Pridajte poškodenie udelené každému hráčovi počas bitky o pevnosť",
+					"Pridajte výstrely každé kolo počas bitky o pevnosť",
+					"Pridajte farbu k úlohám, ktoré je možné splniť",
+					"Tlačidlo Pridať na automatické prijatie a dokončenie úloh, ktoré je možné splniť"
+				],
+				"bugfix": [
+					"Obnovte kód na predaj všetkých položiek okrem vybranej obchodníkovi",
+					"Opravený starý kód možnosti, ktorá zobrazuje body úloh v okne úloh",
+					"Opravte kód možnosti automatického otvárania Market, aby sa okno oblečenia minimalizovalo",
+					"Opravte kód na karte zostavy, ak je prítomný TWIR"
+				],
+				"main": [
+					"Zmena poradia kategórií na karte Nastavenia"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[funkcia] Pridajte možnosť tmavého motívu pre mapu Západu",
-				"[funkcia] Vylepšená ikona správy o predaji v okne nákupu budovy Market",
-				"[funkcia] Pridať ikonu, či sú trhové ponuky verejné, iba pre členov aliancie alebo mesta",
-				"[funkcia] Pridajte nové tlačidlo na jednoduché otvorenie okna Market"
-			]
+			"notes": {
+				"feature": [
+					"Pridajte možnosť tmavého motívu pre mapu Západu",
+					"Vylepšená ikona správy o predaji v okne nákupu budovy Market",
+					"Pridať ikonu, či sú trhové ponuky verejné, iba pre členov aliancie alebo mesta",
+					"Pridajte nové tlačidlo na jednoduché otvorenie okna Market"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[funkcia] Do portrétu hráča boli pridané časy regenerácie",
-				"[funkcia] Pridajte zvýraznenie textu do mestských fór",
-				"[funkcia] Pridajte možnosť na pripnutie panela s ponukami, skúseností a používateľského skriptu na obrazovku",
-				"[funkcia] Pridajte do profilu hráča zážitok zo súbojov",
-				"[bugfix] Oprava karty Recruit",
-				"[bugfix] Zakázať automatickú aktiváciu niektorých funkcií"
-			]
+			"notes": {
+				"feature": [
+					"Do portrétu hráča boli pridané časy regenerácie",
+					"Pridajte zvýraznenie textu do mestských fór",
+					"Pridajte možnosť na pripnutie panela s ponukami, skúseností a používateľského skriptu na obrazovku",
+					"Pridajte do profilu hráča zážitok zo súbojov"
+				],
+				"bugfix": [
+					"Oprava karty Recruit",
+					"Zakázať automatickú aktiváciu niektorých funkcií"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": ["[bugfix] Opravte niektoré správy s nastaveniami", "[bugfix] Oprava karty Recruit"]
+			"notes": {
+				"bugfix": [
+					"Opravte niektoré správy s nastaveniami",
+					"Oprava karty Recruit"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[funkcia] Na cintorín pevnosti boli pridané kritické zásahy a ghost rounds",
-				"[funkcia] Pridajte okno pre vlastnené a spojenecké pevnosti do okna miest",
-				"[funkcia] Pridajte automatické otváranie pevnosti na odstránenie sekery z jej správy",
-				"[funkcia] Vylepšené všetky hodnotiace tabuľky",
-				"[funkcia] Vylepšené okno náboru pred bitkou o pevnosť",
-				"[funkcia] Odstráňte blikanie tlačidla Mesto, ak je v mestskom fóre nová správa"
-			]
+			"notes": {
+				"feature": [
+					"Na cintorín pevnosti boli pridané kritické zásahy a ghost rounds",
+					"Pridajte okno pre vlastnené a spojenecké pevnosti do okna miest",
+					"Pridajte automatické otváranie pevnosti na odstránenie sekery z jej správy",
+					"Vylepšené všetky hodnotiace tabuľky",
+					"Vylepšené okno náboru pred bitkou o pevnosť",
+					"Odstráňte blikanie tlačidla Mesto, ak je v mestskom fóre nová správa"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[funkcia] Pridajte postup budovania na kartu budovania",
-				"[funkcia] Pridajte ďalšie úrovne kostola",
-				"[funkcia] Pridať funkciu na zobrazenie iba budov, ktoré nie sú úplne postavené na radnici",
-				"[funkcia] Pridané nové tlačidlo na jednoduché otvorenie karty Budova kostola",
-				"[funkcia] Pridajte tlačidlo na zatvorenie iba okien inventára"
-			]
+			"notes": {
+				"feature": [
+					"Pridajte postup budovania na kartu budovania",
+					"Pridajte ďalšie úrovne kostola",
+					"Pridať funkciu na zobrazenie iba budov, ktoré nie sú úplne postavené na radnici",
+					"Pridané nové tlačidlo na jednoduché otvorenie karty Budova kostola",
+					"Pridajte tlačidlo na zatvorenie iba okien inventára"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[bugfix] Ojoj! Opravte kód zostavy"]
+			"notes": {
+				"bugfix": [
+					"Ojoj! Opravte kód zostavy"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[bugfix] Opravte odkaz na novú verziu"]
+			"notes": {
+				"bugfix": [
+					"Opravte odkaz na novú verziu"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[bugfix] Oprava verzie na niektorých miestach, dúfajme!"]
+			"notes": {
+				"bugfix": [
+					"Oprava verzie na niektorých miestach, dúfajme!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[bugfix] Oprava verzie na niektorých miestach"]
+			"notes": {
+				"bugfix": [
+					"Oprava verzie na niektorých miestach"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[hlavná] Odstrániť revíziu"]
+			"notes": {
+				"main": [
+					"Odstrániť revíziu"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[bugfix] Zmenený odkaz na novú verziu funkcie"]
+			"notes": {
+				"bugfix": [
+					"Zmenený odkaz na novú verziu funkcie"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[bugfix] Opravte zastaraný kód, ktorý používal UserScript"]
+			"notes": {
+				"bugfix": [
+					"Opravte zastaraný kód, ktorý používal UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": ["[hlavný] Odstráňte nadbytočný kód", "[hlavné] Zmenené podrobnosti v okne Nábor"]
+			"notes": {
+				"main": [
+					"Odstráňte nadbytočný kód",
+					"Zmenené podrobnosti v okne Nábor"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[bugfix] Ojoj! Opravený UserScript"]
+			"notes": {
+				"bugfix": [
+					"Ojoj! Opravený UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[bugfix] Opravte nesprávnu verziu"]
+			"notes": {
+				"bugfix": [
+					"Opravte nesprávnu verziu"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": ["[main] Odstránil sa nepotrebný kód v okne Recruit", "[hlavný] Change Updater"]
+			"notes": {
+				"main": [
+					"Odstránil sa nepotrebný kód v okne Recruit",
+					"Change Updater"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[bugfix] Opravte pin položky, aby sa správne zobrazoval v okne vanilla a TWIR Inventory",
-				"[bugfix] Opravte pravopisné chyby slova bugfix v Atribútoch vydania"
-			]
+			"notes": {
+				"bugfix": [
+					"Opravte pin položky, aby sa správne zobrazoval v okne vanilla a TWIR Inventory",
+					"Opravte pravopisné chyby slova bugfix v Atribútoch vydania"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": ["[hlavný] Čistenie kódu – 2. časť", "[main] Zmenené niektoré hypertextové odkazy"]
+			"notes": {
+				"main": [
+					"Čistenie kódu – 2. časť",
+					"Zmenené niektoré hypertextové odkazy"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[hlavný] Čistenie kódu – 1. časť"]
+			"notes": {
+				"main": [
+					"Čistenie kódu – 1. časť"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[bugfix] Obnovte odkazy pre automatickú aktualizáciu"]
+			"notes": {
+				"bugfix": [
+					"Obnovte odkazy pre automatickú aktualizáciu"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[bugfix] Zmenené niektoré hypertextové odkazy"]
+			"notes": {
+				"bugfix": [
+					"Zmenené niektoré hypertextové odkazy"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[bugfix] Ojoj! Opravený UserScript"]
+			"notes": {
+				"bugfix": [
+					"Ojoj! Opravený UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[bugfix] Oprava pre odstránenie funkcie"]
+			"notes": {
+				"bugfix": [
+					"Oprava pre odstránenie funkcie"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[main] Odstránilo sa veľa zbytočných funkcií"]
+			"notes": {
+				"main": [
+					"Odstránilo sa veľa zbytočných funkcií"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": ["[bugfix] Opravené niektoré preklepy", "[hlavný] Zmeniť verziu vzorca"]
+			"notes": {
+				"bugfix": [
+					"Opravené niektoré preklepy"
+				],
+				"main": [
+					"Zmeniť verziu vzorca"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Vygenerujte UserScript z clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Vygenerujte UserScript z clothcalc_sk **"
+				]
+			}
 		}
 	]
 }

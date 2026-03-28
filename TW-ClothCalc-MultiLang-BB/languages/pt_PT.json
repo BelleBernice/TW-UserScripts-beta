@@ -363,191 +363,314 @@
 		"close_import": "Fechar importação de batalhas no West Forts",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Adicionar coloração a múltiplos itens à venda no Inventário"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[correção de bug] Corrigido código antigo da função Alterar Idioma",
-				"[principal] Refatorando e limpando o código UserScript"
-			]
+			"notes": {
+				"bugfix": [
+					"Corrigido código antigo da função Alterar Idioma"
+				],
+				"main": [
+					"Refatorando e limpando o código UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[recurso] Adicionar função de mudança de idioma \"temporária\"",
-				"[recurso] Limpar código da guia Configurações",
-				"[recurso] Limpeza de código do modo de cor no Saloon (chat)",
-				"[recurso] Código de limpeza para trabalhos com bônus no minimapa",
-				"[recurso] Limpar código de função do analisador de trabalho/tórax",
-				"[recurso] Modernize várias funções do código UserScript"
-			]
+			"notes": {
+				"feature": [
+					"Adicionar função de mudança de idioma \"temporária\"",
+					"Limpar código da guia Configurações",
+					"Limpeza de código do modo de cor no Saloon (chat)",
+					"Código de limpeza para trabalhos com bônus no minimapa",
+					"Limpar código de função do analisador de trabalho/tórax",
+					"Modernize várias funções do código UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[recurso] Adicionar função de configurações de importação/exportação"]
+			"notes": {
+				"feature": [
+					"Adicionar função de configurações de importação/exportação"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[recurso] Adicionar entrada de batalha do forte ao banco de dados do site (westforts.com)",
-				"[recurso] Adicionar função de mudança de som Whisper",
-				"[recurso] Adiciona dano causado a cada jogador durante uma batalha na fortaleza",
-				"[recurso] Adicione tiros a cada turno durante uma batalha na fortaleza",
-				"[recurso] Adicione cor às missões que podem ser concluídas",
-				"[recurso] Adicionar botão para aceitar e completar automaticamente missões que podem ser concluídas",
-				"[correção de bug] Código de restauração para vender todos os itens, exceto um item selecionado, ao Comerciante",
-				"[correção de bug] Corrigido código antigo da opção que mostra os pontos de trabalho na janela de trabalhos",
-				"[correção de bug] Corrigido o código da opção de abertura automática do Mercado para que a janela de roupas seja minimizada",
-				"[correção de bug] Corrigido código na aba build se TWIR estiver presente",
-				"[principal] Reordenando as categorias na aba Configurações"
-			]
+			"notes": {
+				"feature": [
+					"Adicionar entrada de batalha do forte ao banco de dados do site (westforts.com)",
+					"Adicionar função de mudança de som Whisper",
+					"Adiciona dano causado a cada jogador durante uma batalha na fortaleza",
+					"Adicione tiros a cada turno durante uma batalha na fortaleza",
+					"Adicione cor às missões que podem ser concluídas",
+					"Adicionar botão para aceitar e completar automaticamente missões que podem ser concluídas"
+				],
+				"bugfix": [
+					"Código de restauração para vender todos os itens, exceto um item selecionado, ao Comerciante",
+					"Corrigido código antigo da opção que mostra os pontos de trabalho na janela de trabalhos",
+					"Corrigido o código da opção de abertura automática do Mercado para que a janela de roupas seja minimizada",
+					"Corrigido código na aba build se TWIR estiver presente"
+				],
+				"main": [
+					"Reordenando as categorias na aba Configurações"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[recurso] Adicionar opção de tema escuro para o mapa The-West",
-				"[recurso] Melhorado o ícone do relatório de venda na janela de compra do edifício do Mercado",
-				"[recurso] Adicionado ícone para saber se as ofertas de mercado são públicas, apenas para membros da aliança ou da cidade",
-				"[recurso] Adicione um novo botão para abrir facilmente a janela do Market"
-			]
+			"notes": {
+				"feature": [
+					"Adicionar opção de tema escuro para o mapa The-West",
+					"Melhorado o ícone do relatório de venda na janela de compra do edifício do Mercado",
+					"Adicionado ícone para saber se as ofertas de mercado são públicas, apenas para membros da aliança ou da cidade",
+					"Adicione um novo botão para abrir facilmente a janela do Market"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[recurso] Adicionados tempos de regeneração ao retrato do jogador",
-				"[recurso] Adicionar destaque de texto aos fóruns da cidade",
-				"[recurso] Adicionar opção para fixar barra de menu, experiência e UserScript na tela",
-				"[recurso] Adicione experiência de duelo ao perfil do jogador",
-				"[correção de bug] Correção da guia Recrutar",
-				"[bugfix] Desativa a ativação automática de algumas funções"
-			]
+			"notes": {
+				"feature": [
+					"Adicionados tempos de regeneração ao retrato do jogador",
+					"Adicionar destaque de texto aos fóruns da cidade",
+					"Adicionar opção para fixar barra de menu, experiência e UserScript na tela",
+					"Adicione experiência de duelo ao perfil do jogador"
+				],
+				"bugfix": [
+					"Correção da guia Recrutar",
+					"Desativa a ativação automática de algumas funções"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[correção de bug] Corrigida algumas mensagens de configurações",
-				"[correção de bug] Correção da guia Recrutar"
-			]
+			"notes": {
+				"bugfix": [
+					"Corrigida algumas mensagens de configurações",
+					"Correção da guia Recrutar"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[recurso] Adicionados acertos críticos e rodadas fantasmas ao cemitério da fortaleza",
-				"[recurso] Adicionada janela para fortes próprios e aliados à janela das cidades",
-				"[recurso] Adicionada abertura automática do machado unbury fortress a partir de seu relatório",
-				"[recurso] Todas as tabelas de classificação foram melhoradas",
-				"[recurso] Janela de recrutamento melhorada antes da batalha na fortaleza",
-				"[recurso] Remova o botão Cidade piscando se houver uma nova mensagem no Fórum da Cidade"
-			]
+			"notes": {
+				"feature": [
+					"Adicionados acertos críticos e rodadas fantasmas ao cemitério da fortaleza",
+					"Adicionada janela para fortes próprios e aliados à janela das cidades",
+					"Adicionada abertura automática do machado unbury fortress a partir de seu relatório",
+					"Todas as tabelas de classificação foram melhoradas",
+					"Janela de recrutamento melhorada antes da batalha na fortaleza",
+					"Remova o botão Cidade piscando se houver uma nova mensagem no Fórum da Cidade"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[recurso] Adicionar progresso de construção à guia de construção",
-				"[recurso] Adicione níveis extras de igreja",
-				"[recurso] Adicionada função para exibir apenas edifícios que não foram totalmente construídos na Prefeitura",
-				"[recurso] Adicionado um novo botão para abrir facilmente a guia Edifício da Igreja",
-				"[recurso] Adicione um botão para fechar apenas as janelas de inventário"
-			]
+			"notes": {
+				"feature": [
+					"Adicionar progresso de construção à guia de construção",
+					"Adicione níveis extras de igreja",
+					"Adicionada função para exibir apenas edifícios que não foram totalmente construídos na Prefeitura",
+					"Adicionado um novo botão para abrir facilmente a guia Edifício da Igreja",
+					"Adicione um botão para fechar apenas as janelas de inventário"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[correção de bug] Ops! Corrigir código de compilação"]
+			"notes": {
+				"bugfix": [
+					"Ops! Corrigir código de compilação"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[correção de bug] Correção do link da nova versão"]
+			"notes": {
+				"bugfix": [
+					"Correção do link da nova versão"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[correção de bug] Correção de versão em alguns lugares, esperemos!"]
+			"notes": {
+				"bugfix": [
+					"Correção de versão em alguns lugares, esperemos!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[bugfix] Correção de versão em alguns lugares"]
+			"notes": {
+				"bugfix": [
+					"Correção de versão em alguns lugares"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[principal] Remover revisão"]
+			"notes": {
+				"main": [
+					"Remover revisão"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[correção de bug] Alterado o link da nova versão do recurso"]
+			"notes": {
+				"bugfix": [
+					"Alterado o link da nova versão do recurso"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[correção de bug] Corrige código obsoleto que usava UserScript"]
+			"notes": {
+				"bugfix": [
+					"Corrige código obsoleto que usava UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": [
-				"[principal] Remover código redundante",
-				"[principal] Detalhes alterados na janela Recrutar"
-			]
+			"notes": {
+				"main": [
+					"Remover código redundante",
+					"Detalhes alterados na janela Recrutar"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[correção de bug] Ops! UserScript corrigido"]
+			"notes": {
+				"bugfix": [
+					"Ops! UserScript corrigido"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[correção de bug] Corrigir versão errada"]
+			"notes": {
+				"bugfix": [
+					"Corrigir versão errada"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": [
-				"[principal] Removido código desnecessário na janela Recruit",
-				"[principal] Atualizador de alterações"
-			]
+			"notes": {
+				"main": [
+					"Removido código desnecessário na janela Recruit",
+					"Atualizador de alterações"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[correção de bug] Corrigido o pino do item para ser exibido corretamente na janela Vanilla e TWIR Inventory",
-				"[bugfix] Corrigido erros ortográficos da palavra bugfix em Release Attributes"
-			]
+			"notes": {
+				"bugfix": [
+					"Corrigido o pino do item para ser exibido corretamente na janela Vanilla e TWIR Inventory",
+					"Corrigido erros ortográficos da palavra bugfix em Release Attributes"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": [
-				"[principal] Limpeza de código - parte 2",
-				"[principal] Alguns hiperlinks foram alterados"
-			]
+			"notes": {
+				"main": [
+					"Limpeza de código - parte 2",
+					"Alguns hiperlinks foram alterados"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[principal] Limpeza de código - parte 1"]
+			"notes": {
+				"main": [
+					"Limpeza de código - parte 1"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[correção de bug] Atualizar links para atualização automática"]
+			"notes": {
+				"bugfix": [
+					"Atualizar links para atualização automática"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[correção de bug] Alguns hiperlinks foram alterados"]
+			"notes": {
+				"bugfix": [
+					"Alguns hiperlinks foram alterados"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[correção de bug] Ops! UserScript corrigido"]
+			"notes": {
+				"bugfix": [
+					"Ops! UserScript corrigido"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[bugfix] Correção para remoção de recursos"]
+			"notes": {
+				"bugfix": [
+					"Correção para remoção de recursos"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[principal] Muitos recursos inúteis foram removidos"]
+			"notes": {
+				"main": [
+					"Muitos recursos inúteis foram removidos"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": [
-				"[correção de bug] Corrigidos alguns erros de digitação",
-				"[principal] Alterar versão da fórmula"
-			]
+			"notes": {
+				"bugfix": [
+					"Corrigidos alguns erros de digitação"
+				],
+				"main": [
+					"Alterar versão da fórmula"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Gere UserScript a partir de Clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Gere UserScript a partir de Clothcalc_sk **"
+				]
+			}
 		}
 	]
 }

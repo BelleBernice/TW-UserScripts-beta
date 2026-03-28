@@ -363,182 +363,314 @@
 		"close_import": "Kampfimport in West Forts schließen",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Färbung für mehrere zum Verkauf stehende Gegenstände im Inventar hinzufügen"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[Bugfix] Korrigieren Sie den alten Code der Funktion „Sprache ändern“.",
-				"[main] Refactoring und Bereinigen des UserScript-Codes"
-			]
+			"notes": {
+				"bugfix": [
+					"Korrigieren Sie den alten Code der Funktion „Sprache ändern“."
+				],
+				"main": [
+					"Refactoring und Bereinigen des UserScript-Codes"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[Feature] „Temporäre“ Sprachwechselfunktion hinzufügen",
-				"[Feature] Bereinigen Sie den Tab-Code „Einstellungen“.",
-				"[Feature] Bereinigung des Farbmoduscodes in Saloon (Chat)",
-				"[Feature] Bereinigungscode für Jobs mit Boni auf der Minikarte",
-				"[feature] Funktionscode Job/Brustanalyse bereinigen",
-				"[Feature] Modernisieren Sie verschiedene Funktionen des UserScript-Codes"
-			]
+			"notes": {
+				"feature": [
+					"„Temporäre“ Sprachwechselfunktion hinzufügen",
+					"Bereinigen Sie den Tab-Code „Einstellungen“.",
+					"Bereinigung des Farbmoduscodes in Saloon (Chat)",
+					"Bereinigungscode für Jobs mit Boni auf der Minikarte",
+					"Funktionscode Job/Brustanalyse bereinigen",
+					"Modernisieren Sie verschiedene Funktionen des UserScript-Codes"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[Funktion] Import-/Export-Einstellungsfunktion hinzufügen"]
+			"notes": {
+				"feature": [
+					"Import-/Export-Einstellungsfunktion hinzufügen"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[Feature] Festungskampfeintrag zur Website-Datenbank hinzufügen (westforts.com)",
-				"[Funktion] Whisper-Sound-Änderungsfunktion hinzufügen",
-				"[Feature] Fügen Sie den Schaden hinzu, der jedem Spieler während eines Festungskampfs zugefügt wird",
-				"[Funktion] Fügen Sie während einer Festungsschlacht in jeder Runde Schüsse hinzu",
-				"[Feature] Fügen Sie Farbe zu den Quests hinzu, die abgeschlossen werden können",
-				"[Feature] Schaltfläche „Hinzufügen“, um Quests, die abgeschlossen werden können, automatisch anzunehmen und abzuschließen",
-				"[Bugfix] Wiederherstellungscode, um alle bis auf einen ausgewählten Artikel an den Händler zu verkaufen",
-				"[Bugfix] Der alte Code der Option, die die Jobpunkte im Jobfenster anzeigt, wurde korrigiert",
-				"[Bugfix] Korrigieren Sie den Code der Option zum automatischen Öffnen des Marktes, sodass das Kleidungsfenster minimiert wird",
-				"[Bugfix] Code im Build-Tab korrigiert, wenn TWIR vorhanden ist",
-				"[main] Neuordnung der Kategorien auf der Registerkarte „Einstellungen“."
-			]
+			"notes": {
+				"feature": [
+					"Festungskampfeintrag zur Website-Datenbank hinzufügen (westforts.com)",
+					"Whisper-Sound-Änderungsfunktion hinzufügen",
+					"Fügen Sie den Schaden hinzu, der jedem Spieler während eines Festungskampfs zugefügt wird",
+					"Fügen Sie während einer Festungsschlacht in jeder Runde Schüsse hinzu",
+					"Fügen Sie Farbe zu den Quests hinzu, die abgeschlossen werden können",
+					"Schaltfläche „Hinzufügen“, um Quests, die abgeschlossen werden können, automatisch anzunehmen und abzuschließen"
+				],
+				"bugfix": [
+					"Wiederherstellungscode, um alle bis auf einen ausgewählten Artikel an den Händler zu verkaufen",
+					"Der alte Code der Option, die die Jobpunkte im Jobfenster anzeigt, wurde korrigiert",
+					"Korrigieren Sie den Code der Option zum automatischen Öffnen des Marktes, sodass das Kleidungsfenster minimiert wird",
+					"Code im Build-Tab korrigiert, wenn TWIR vorhanden ist"
+				],
+				"main": [
+					"Neuordnung der Kategorien auf der Registerkarte „Einstellungen“."
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[Feature] Dunkle Designoption für die The-West-Karte hinzufügen",
-				"[Feature] Das Symbol für den Verkaufsbericht im Kauffenster des Marktgebäudes wurde verbessert",
-				"[Feature] Symbol hinzufügen, um anzuzeigen, ob Marktangebote öffentlich sind, nur für Allianz- oder Stadtmitglieder",
-				"[Funktion] Fügen Sie eine neue Schaltfläche hinzu, um das Marktfenster einfach zu öffnen"
-			]
+			"notes": {
+				"feature": [
+					"Dunkle Designoption für die The-West-Karte hinzufügen",
+					"Das Symbol für den Verkaufsbericht im Kauffenster des Marktgebäudes wurde verbessert",
+					"Symbol hinzufügen, um anzuzeigen, ob Marktangebote öffentlich sind, nur für Allianz- oder Stadtmitglieder",
+					"Fügen Sie eine neue Schaltfläche hinzu, um das Marktfenster einfach zu öffnen"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[Feature] Regenerationszeiten zum Spielerporträt hinzugefügt",
-				"[Funktion] Texthervorhebung zu Stadtforen hinzufügen",
-				"[Feature] Option hinzufügen, um Menüleiste, Experience und UserScript an den Bildschirm anzuheften",
-				"[Feature] Duell-Erfahrung zum Spielerprofil hinzufügen",
-				"[Bugfix] Fehlerbehebung für die Registerkarte „Rekrutieren“.",
-				"[Bugfix] Deaktivieren Sie die automatische Aktivierung einiger Funktionen"
-			]
+			"notes": {
+				"feature": [
+					"Regenerationszeiten zum Spielerporträt hinzugefügt",
+					"Texthervorhebung zu Stadtforen hinzufügen",
+					"Option hinzufügen, um Menüleiste, Experience und UserScript an den Bildschirm anzuheften",
+					"Duell-Erfahrung zum Spielerprofil hinzufügen"
+				],
+				"bugfix": [
+					"Fehlerbehebung für die Registerkarte „Rekrutieren“.",
+					"Deaktivieren Sie die automatische Aktivierung einiger Funktionen"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[Bugfix] Einige Einstellungsmeldungen behoben",
-				"[Bugfix] Fehlerbehebung für die Registerkarte „Rekrutieren“."
-			]
+			"notes": {
+				"bugfix": [
+					"Einige Einstellungsmeldungen behoben",
+					"Fehlerbehebung für die Registerkarte „Rekrutieren“."
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[Feature] Kritische Treffer und Geistergeschosse zum Festungsfriedhof hinzugefügt",
-				"[Feature] Fenster für eigene und verbündete Festungen zum Städtefenster hinzufügen",
-				"[Feature] Automatisches Öffnen der Axt-Unbury-Festung aus dem Bericht hinzugefügt",
-				"[Feature] Alle Ranglisten wurden verbessert",
-				"[Feature] Das Rekrutierungsfenster vor der Festungsschlacht wurde verbessert",
-				"[Funktion] Das Blinken der City-Schaltfläche entfernen, wenn im City-Forum eine neue Nachricht vorhanden ist"
-			]
+			"notes": {
+				"feature": [
+					"Kritische Treffer und Geistergeschosse zum Festungsfriedhof hinzugefügt",
+					"Fenster für eigene und verbündete Festungen zum Städtefenster hinzufügen",
+					"Automatisches Öffnen der Axt-Unbury-Festung aus dem Bericht hinzugefügt",
+					"Alle Ranglisten wurden verbessert",
+					"Das Rekrutierungsfenster vor der Festungsschlacht wurde verbessert",
+					"Das Blinken der City-Schaltfläche entfernen, wenn im City-Forum eine neue Nachricht vorhanden ist"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[Feature] Baufortschritt zur Registerkarte „Bauen“ hinzufügen",
-				"[Feature] Fügen Sie zusätzliche Kirchenebenen hinzu",
-				"[Feature] Funktion hinzufügen, um im Rathaus nur Gebäude anzuzeigen, die noch nicht vollständig gebaut sind",
-				"[Feature] Es wurde eine neue Schaltfläche hinzugefügt, um die Registerkarte „Kirchengebäude“ einfach zu öffnen",
-				"[Funktion] Fügen Sie eine Schaltfläche hinzu, um nur die Inventarfenster zu schließen"
-			]
+			"notes": {
+				"feature": [
+					"Baufortschritt zur Registerkarte „Bauen“ hinzufügen",
+					"Fügen Sie zusätzliche Kirchenebenen hinzu",
+					"Funktion hinzufügen, um im Rathaus nur Gebäude anzuzeigen, die noch nicht vollständig gebaut sind",
+					"Es wurde eine neue Schaltfläche hinzugefügt, um die Registerkarte „Kirchengebäude“ einfach zu öffnen",
+					"Fügen Sie eine Schaltfläche hinzu, um nur die Inventarfenster zu schließen"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[Bugfix] Ups! Build-Code korrigieren"]
+			"notes": {
+				"bugfix": [
+					"Ups! Build-Code korrigieren"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[Bugfix] Link zur neuen Version korrigiert"]
+			"notes": {
+				"bugfix": [
+					"Link zur neuen Version korrigiert"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[Bugfix] Versionskorrektur an einigen Stellen, hoffen wir!"]
+			"notes": {
+				"bugfix": [
+					"Versionskorrektur an einigen Stellen, hoffen wir!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[Bugfix] Versionskorrektur an einigen Stellen"]
+			"notes": {
+				"bugfix": [
+					"Versionskorrektur an einigen Stellen"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[main] Revision entfernen"]
+			"notes": {
+				"main": [
+					"Revision entfernen"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[Bugfix] Link zur neuen Funktionsversion geändert"]
+			"notes": {
+				"bugfix": [
+					"Link zur neuen Funktionsversion geändert"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[Bugfix] Behebung veralteten Codes, der UserScript verwendete"]
+			"notes": {
+				"bugfix": [
+					"Behebung veralteten Codes, der UserScript verwendete"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": [
-				"[main] Redundanten Code entfernen",
-				"[main] Details im Rekrutierungsfenster geändert"
-			]
+			"notes": {
+				"main": [
+					"Redundanten Code entfernen",
+					"Details im Rekrutierungsfenster geändert"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[Bugfix] Ups! UserScript korrigiert"]
+			"notes": {
+				"bugfix": [
+					"Ups! UserScript korrigiert"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[Bugfix] Falsche Version beheben"]
+			"notes": {
+				"bugfix": [
+					"Falsche Version beheben"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": ["[main] Unnötiger Code im Rekrutierungsfenster entfernt", "[main] Updater ändern"]
+			"notes": {
+				"main": [
+					"Unnötiger Code im Rekrutierungsfenster entfernt",
+					"Updater ändern"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[Bugfix] Die Artikel-Pin wurde korrigiert, damit sie im Vanilla- und TWIR-Inventarfenster korrekt angezeigt wird",
-				"[Bugfix] Korrigieren Sie Rechtschreibfehler des Wortes Bugfix in den Release-Attributen"
-			]
+			"notes": {
+				"bugfix": [
+					"Die Artikel-Pin wurde korrigiert, damit sie im Vanilla- und TWIR-Inventarfenster korrekt angezeigt wird",
+					"Korrigieren Sie Rechtschreibfehler des Wortes Bugfix in den Release-Attributen"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": ["[main] Codebereinigung – Teil 2", "[main] Einige Hyperlinks geändert"]
+			"notes": {
+				"main": [
+					"Codebereinigung – Teil 2",
+					"Einige Hyperlinks geändert"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[main] Codebereinigung – Teil 1"]
+			"notes": {
+				"main": [
+					"Codebereinigung – Teil 1"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[Bugfix] Links für automatisches Update aktualisieren"]
+			"notes": {
+				"bugfix": [
+					"Links für automatisches Update aktualisieren"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[Bugfix] Einige Hyperlinks geändert"]
+			"notes": {
+				"bugfix": [
+					"Einige Hyperlinks geändert"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[Bugfix] Ups! UserScript korrigiert"]
+			"notes": {
+				"bugfix": [
+					"Ups! UserScript korrigiert"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[Bugfix] Fix für das Entfernen von Funktionen"]
+			"notes": {
+				"bugfix": [
+					"Fix für das Entfernen von Funktionen"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[main] Viele nutzlose Funktionen entfernt"]
+			"notes": {
+				"main": [
+					"Viele nutzlose Funktionen entfernt"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": ["[Bugfix] Einige Tippfehler behoben", "[main] Formelversion ändern"]
+			"notes": {
+				"bugfix": [
+					"Einige Tippfehler behoben"
+				],
+				"main": [
+					"Formelversion ändern"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** UserScript aus Clothcalc_sk generieren **"]
+			"notes": {
+				"main": [
+					"** UserScript aus Clothcalc_sk generieren **"
+				]
+			}
 		}
 	]
 }

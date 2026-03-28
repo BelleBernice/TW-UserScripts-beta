@@ -363,176 +363,314 @@
 		"close_import": "Stäng import av strider i West Forts",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Lägg till färgkodning på flera föremål till salu i Förrådet"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[bugfix] Fixa gammal kod för funktionen Ändra språk",
-				"[main] Refaktorering och rengöring av UserScript-koden"
-			]
+			"notes": {
+				"bugfix": [
+					"Fixa gammal kod för funktionen Ändra språk"
+				],
+				"main": [
+					"Refaktorering och rengöring av UserScript-koden"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[funktion] Lägg till \"tillfällig\" språkändringsfunktion",
-				"[funktion] Kod för fliken Rensa Inställningar",
-				"[funktion] Rengöring av färglägeskod i Saloon (chatt)",
-				"[funktion] Rensningskod för jobb med bonusar på minikartan",
-				"[funktion] Funktionskod för rengöring av jobb/bröstanalysator",
-				"[funktion] Modernisera olika funktioner i UserScript-koden"
-			]
+			"notes": {
+				"feature": [
+					"Lägg till \"tillfällig\" språkändringsfunktion",
+					"Kod för fliken Rensa Inställningar",
+					"Rengöring av färglägeskod i Saloon (chatt)",
+					"Rensningskod för jobb med bonusar på minikartan",
+					"Funktionskod för rengöring av jobb/bröstanalysator",
+					"Modernisera olika funktioner i UserScript-koden"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[funktion] Lägg till funktion för import/exportinställningar"]
+			"notes": {
+				"feature": [
+					"Lägg till funktion för import/exportinställningar"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[funktion] Lägg till fort battle-post till webbplatsens databas (westforts.com)",
-				"[funktion] Lägg till funktion för ändring av viskningsljud",
-				"[funktion] Lägg till skada som delas ut till varje spelare under en fästningsstrid",
-				"[funktion] Lägg till skott varje tur under en fästningsstrid",
-				"[funktion] Lägg till färg på uppdragen som kan slutföras",
-				"[funktion] Lägg till-knapp för att automatiskt acceptera och slutföra uppdrag som kan slutföras",
-				"[bugfix] Återställ kod för att sälja allt utom ett utvalt föremål till säljaren",
-				"[bugfix] Fixad gammal kod för alternativet som visar jobbpunkterna i jobbfönstret",
-				"[bugfix] Fixa koden för alternativet för att öppna marknaden automatiskt så att klädfönstret minimeras",
-				"[bugfix] Fixa kod i build-fliken om TWIR finns",
-				"[main] Ordna om kategorierna på fliken Inställningar"
-			]
+			"notes": {
+				"feature": [
+					"Lägg till fort battle-post till webbplatsens databas (westforts.com)",
+					"Lägg till funktion för ändring av viskningsljud",
+					"Lägg till skada som delas ut till varje spelare under en fästningsstrid",
+					"Lägg till skott varje tur under en fästningsstrid",
+					"Lägg till färg på uppdragen som kan slutföras",
+					"Lägg till-knapp för att automatiskt acceptera och slutföra uppdrag som kan slutföras"
+				],
+				"bugfix": [
+					"Återställ kod för att sälja allt utom ett utvalt föremål till säljaren",
+					"Fixad gammal kod för alternativet som visar jobbpunkterna i jobbfönstret",
+					"Fixa koden för alternativet för att öppna marknaden automatiskt så att klädfönstret minimeras",
+					"Fixa kod i build-fliken om TWIR finns"
+				],
+				"main": [
+					"Ordna om kategorierna på fliken Inställningar"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[funktion] Lägg till mörkt temaalternativ för The-West Map",
-				"[funktion] Förbättrade försäljningsrapportikonen i köpfönstret i marknadsbyggnaden",
-				"[funktion] Lägg till ikon för om marknadserbjudanden är offentliga, endast för allians- eller stadsmedlemmar",
-				"[funktion] Lägg till en ny knapp för att enkelt öppna Market-fönstret"
-			]
+			"notes": {
+				"feature": [
+					"Lägg till mörkt temaalternativ för The-West Map",
+					"Förbättrade försäljningsrapportikonen i köpfönstret i marknadsbyggnaden",
+					"Lägg till ikon för om marknadserbjudanden är offentliga, endast för allians- eller stadsmedlemmar",
+					"Lägg till en ny knapp för att enkelt öppna Market-fönstret"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[funktion] Lade till regenereringstider till spelarporträtt",
-				"[funktion] Lägg till textmarkering till stadsforum",
-				"[funktion] Lägg till alternativ för att fästa menyraden, upplevelsen och användarskriptet på skärmen",
-				"[funktion] Lägg till duellupplevelse till spelarprofilen",
-				"[buggfix] Rekryteringsfliken fix",
-				"[bugfix] Inaktivera automatisk aktivering av vissa funktioner"
-			]
+			"notes": {
+				"feature": [
+					"Lade till regenereringstider till spelarporträtt",
+					"Lägg till textmarkering till stadsforum",
+					"Lägg till alternativ för att fästa menyraden, upplevelsen och användarskriptet på skärmen",
+					"Lägg till duellupplevelse till spelarprofilen"
+				],
+				"bugfix": [
+					"Rekryteringsfliken fix",
+					"Inaktivera automatisk aktivering av vissa funktioner"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": ["[buggfix] Fixa några inställningsmeddelanden", "[buggfix] Rekryteringsfliken fix"]
+			"notes": {
+				"bugfix": [
+					"Fixa några inställningsmeddelanden",
+					"Rekryteringsfliken fix"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[funktion] Lade till kritiska träffar och spökrundor till fästningskyrkogården",
-				"[funktion] Lägg till fönster för ägda och allierade fort till stadsfönstret",
-				"[funktion] Lägg till automatisk öppning av ax unbury fästning från dess rapport",
-				"[funktion] Förbättrade alla rankningstabeller",
-				"[funktion] Förbättrade rekryteringsfönstret innan fästningsstriden",
-				"[funktion] Ta bort blinkande stadsknapp om det finns ett nytt meddelande i stadsforumet"
-			]
+			"notes": {
+				"feature": [
+					"Lade till kritiska träffar och spökrundor till fästningskyrkogården",
+					"Lägg till fönster för ägda och allierade fort till stadsfönstret",
+					"Lägg till automatisk öppning av ax unbury fästning från dess rapport",
+					"Förbättrade alla rankningstabeller",
+					"Förbättrade rekryteringsfönstret innan fästningsstriden",
+					"Ta bort blinkande stadsknapp om det finns ett nytt meddelande i stadsforumet"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[funktion] Lägg till byggnadsförlopp på byggnadsfliken",
-				"[funktion] Lägg till extra kyrkliga nivåer",
-				"[funktion] Lägg till funktion för att endast visa byggnader som inte är färdigbyggda i stadshuset",
-				"[funktion] Lade till en ny knapp för att enkelt öppna fliken Kyrkobyggnad",
-				"[funktion] Lägg till en knapp för att endast stänga inventeringsfönstren"
-			]
+			"notes": {
+				"feature": [
+					"Lägg till byggnadsförlopp på byggnadsfliken",
+					"Lägg till extra kyrkliga nivåer",
+					"Lägg till funktion för att endast visa byggnader som inte är färdigbyggda i stadshuset",
+					"Lade till en ny knapp för att enkelt öppna fliken Kyrkobyggnad",
+					"Lägg till en knapp för att endast stänga inventeringsfönstren"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[buggfix] Hoppsan! Fixa byggkoden"]
+			"notes": {
+				"bugfix": [
+					"Hoppsan! Fixa byggkoden"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[bugfix] Fixa ny versionslänk"]
+			"notes": {
+				"bugfix": [
+					"Fixa ny versionslänk"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[bugfix] Versionsfix på vissa ställen, låt oss hoppas!"]
+			"notes": {
+				"bugfix": [
+					"Versionsfix på vissa ställen, låt oss hoppas!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[bugfix] Versionsfix på vissa ställen"]
+			"notes": {
+				"bugfix": [
+					"Versionsfix på vissa ställen"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[main] Ta bort revision"]
+			"notes": {
+				"main": [
+					"Ta bort revision"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[bugfix] Ändrad länk för ny funktionsversion"]
+			"notes": {
+				"bugfix": [
+					"Ändrad länk för ny funktionsversion"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[bugfix] Åtgärda föråldrad kod som använde UserScript"]
+			"notes": {
+				"bugfix": [
+					"Åtgärda föråldrad kod som använde UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": ["[main] Ta bort redundant kod", "[huvud] Ändrade detaljer i rekryteringsfönstret"]
+			"notes": {
+				"main": [
+					"Ta bort redundant kod",
+					"Ändrade detaljer i rekryteringsfönstret"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[buggfix] Hoppsan! Fixat UserScript"]
+			"notes": {
+				"bugfix": [
+					"Hoppsan! Fixat UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[buggfix] Fixa fel version"]
+			"notes": {
+				"bugfix": [
+					"Fixa fel version"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": ["[main] Tog bort onödig kod i rekryteringsfönstret", "[main] Ändra Updater"]
+			"notes": {
+				"main": [
+					"Tog bort onödig kod i rekryteringsfönstret",
+					"Ändra Updater"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[bugfix] Fixa artikelnål så att den visas korrekt i vanilj- och TWIR-inventeringsfönstret",
-				"[bugfix] Åtgärda stavfel för ordet bugfix i Release Attributes"
-			]
+			"notes": {
+				"bugfix": [
+					"Fixa artikelnål så att den visas korrekt i vanilj- och TWIR-inventeringsfönstret",
+					"Åtgärda stavfel för ordet bugfix i Release Attributes"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": ["[huvud] Kodrensning - del 2", "[main] Ändrade några hyperlänkar"]
+			"notes": {
+				"main": [
+					"Kodrensning - del 2",
+					"Ändrade några hyperlänkar"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[huvud] Kodrensning - del 1"]
+			"notes": {
+				"main": [
+					"Kodrensning - del 1"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[bugfix] Uppdatera länkar för automatisk uppdatering"]
+			"notes": {
+				"bugfix": [
+					"Uppdatera länkar för automatisk uppdatering"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[bugfix] Ändrade några hyperlänkar"]
+			"notes": {
+				"bugfix": [
+					"Ändrade några hyperlänkar"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[buggfix] Hoppsan! Fixat UserScript"]
+			"notes": {
+				"bugfix": [
+					"Hoppsan! Fixat UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[bugfix] Fix för borttagning av funktioner"]
+			"notes": {
+				"bugfix": [
+					"Fix för borttagning av funktioner"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[main] Tog bort många värdelösa funktioner"]
+			"notes": {
+				"main": [
+					"Tog bort många värdelösa funktioner"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": ["[buggfix] Fixade några stavfel", "[main] Ändra formelversion"]
+			"notes": {
+				"bugfix": [
+					"Fixade några stavfel"
+				],
+				"main": [
+					"Ändra formelversion"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Generera UserScript från clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Generera UserScript från clothcalc_sk **"
+				]
+			}
 		}
 	]
 }

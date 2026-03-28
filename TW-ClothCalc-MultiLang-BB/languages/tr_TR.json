@@ -363,185 +363,314 @@
 		"close_import": "West Forts'ta savaş içe aktarmayı kapat",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Envanter'de satılık birden fazla eşyaya renklendirme ekle"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[hata düzeltmesi] Dili Değiştirme işlevinin eski kodunu düzeltin",
-				"[ana] UserScript kodunu yeniden düzenleme ve temizleme"
-			]
+			"notes": {
+				"bugfix": [
+					"Dili Değiştirme işlevinin eski kodunu düzeltin"
+				],
+				"main": [
+					"UserScript kodunu yeniden düzenleme ve temizleme"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[özellik] \"Geçici\" Dil değiştirme işlevi ekle",
-				"[özellik] Ayarlar sekme kodunu temizleme",
-				"[özellik] Salon'da renk modu kodu temizleme (sohbet)",
-				"[özellik] Mini Haritadaki bonuslara sahip İşler için temizleme kodu",
-				"[özellik] İş/Göğüs Analiz Cihazı fonksiyon kodunu temizleme",
-				"[özellik] UserScript kodunun çeşitli işlevlerini modernleştirin"
-			]
+			"notes": {
+				"feature": [
+					"\"Geçici\" Dil değiştirme işlevi ekle",
+					"Ayarlar sekme kodunu temizleme",
+					"Salon'da renk modu kodu temizleme (sohbet)",
+					"Mini Haritadaki bonuslara sahip İşler için temizleme kodu",
+					"İş/Göğüs Analiz Cihazı fonksiyon kodunu temizleme",
+					"UserScript kodunun çeşitli işlevlerini modernleştirin"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[özellik] İçe/Dışa Aktarma Ayarlarını Ekle işlevi"]
+			"notes": {
+				"feature": [
+					"İçe/Dışa Aktarma Ayarlarını Ekle işlevi"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[özellik] Web sitesi veritabanına kale savaşı girişi ekleyin (westforts.com)",
-				"[özellik] Fısıltı sesi değiştirme işlevini ekleme",
-				"[özellik] Bir kale savaşı sırasında her oyuncuya verilen hasarı ekleyin",
-				"[özellik] Bir kale savaşı sırasında her fırsatta atış ekleyin",
-				"[özellik] Tamamlanabilecek görevlere renk katın",
-				"[özellik] Tamamlanabilecek görevleri otomatik olarak kabul etmek ve tamamlamak için ekle düğmesi",
-				"[hata düzeltmesi] Seçilen bir öğe dışındaki tüm öğeleri Satıcıya satmak için kodu geri yükleyin",
-				"[hata düzeltmesi] İşler penceresinde iş noktalarını gösteren seçeneğin eski kodu düzeltildi",
-				"[hata düzeltmesi] Giyim penceresinin simge durumuna küçültülmesi için Market otomatik açma seçeneğinin kodunu düzeltin",
-				"[hata düzeltmesi] TWIR mevcutsa derleme sekmesindeki kodu düzeltin",
-				"[ana] Ayarlar sekmesindeki kategorileri yeniden sıralama"
-			]
+			"notes": {
+				"feature": [
+					"Web sitesi veritabanına kale savaşı girişi ekleyin (westforts.com)",
+					"Fısıltı sesi değiştirme işlevini ekleme",
+					"Bir kale savaşı sırasında her oyuncuya verilen hasarı ekleyin",
+					"Bir kale savaşı sırasında her fırsatta atış ekleyin",
+					"Tamamlanabilecek görevlere renk katın",
+					"Tamamlanabilecek görevleri otomatik olarak kabul etmek ve tamamlamak için ekle düğmesi"
+				],
+				"bugfix": [
+					"Seçilen bir öğe dışındaki tüm öğeleri Satıcıya satmak için kodu geri yükleyin",
+					"İşler penceresinde iş noktalarını gösteren seçeneğin eski kodu düzeltildi",
+					"Giyim penceresinin simge durumuna küçültülmesi için Market otomatik açma seçeneğinin kodunu düzeltin",
+					"TWIR mevcutsa derleme sekmesindeki kodu düzeltin"
+				],
+				"main": [
+					"Ayarlar sekmesindeki kategorileri yeniden sıralama"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[özellik] The-West Haritası için Koyu tema seçeneği ekleyin",
-				"[özellik] Pazar binasının satın alma penceresindeki satış raporu simgesi iyileştirildi",
-				"[özellik] Pazar tekliflerinin yalnızca ittifak veya şehir üyeleri için herkese açık olup olmadığını belirten simge ekleyin",
-				"[özellik] Market penceresini kolayca açmak için yeni bir düğme ekleyin"
-			]
+			"notes": {
+				"feature": [
+					"The-West Haritası için Koyu tema seçeneği ekleyin",
+					"Pazar binasının satın alma penceresindeki satış raporu simgesi iyileştirildi",
+					"Pazar tekliflerinin yalnızca ittifak veya şehir üyeleri için herkese açık olup olmadığını belirten simge ekleyin",
+					"Market penceresini kolayca açmak için yeni bir düğme ekleyin"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[özellik] Oyuncu portresine Yenilenme Süreleri eklendi",
-				"[özellik] Şehir Forumlarına metin vurgulama ekleme",
-				"[özellik] Menü çubuğunu, Deneyimi ve UserScript'i ekrana sabitleme seçeneği ekleyin",
-				"[özellik] Oyuncu profiline düello deneyimi ekleyin",
-				"[hata düzeltmesi] İşe alma sekmesi düzeltmesi",
-				"[hata düzeltmesi] Bazı işlevlerin otomatik etkinleştirilmesini devre dışı bırakın"
-			]
+			"notes": {
+				"feature": [
+					"Oyuncu portresine Yenilenme Süreleri eklendi",
+					"Şehir Forumlarına metin vurgulama ekleme",
+					"Menü çubuğunu, Deneyimi ve UserScript'i ekrana sabitleme seçeneği ekleyin",
+					"Oyuncu profiline düello deneyimi ekleyin"
+				],
+				"bugfix": [
+					"İşe alma sekmesi düzeltmesi",
+					"Bazı işlevlerin otomatik etkinleştirilmesini devre dışı bırakın"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[hata düzeltmesi] Bazı ayar mesajlarını düzeltin",
-				"[hata düzeltmesi] İşe alma sekmesi düzeltmesi"
-			]
+			"notes": {
+				"bugfix": [
+					"Bazı ayar mesajlarını düzeltin",
+					"İşe alma sekmesi düzeltmesi"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[özellik] Kale mezarlığına kritik vuruşlar ve hayalet turlar eklendi",
-				"[özellik] Sahip olunan ve müttefik kaleler için şehirler penceresine pencere ekle",
-				"[özellik] Raporundan baltayla kaldırılan kalenin otomatik açılmasını ekleyin",
-				"[özellik] Tüm Sıralama tabloları iyileştirildi",
-				"[özellik] Kale savaşından önceki Üye Alım penceresi iyileştirildi",
-				"[özellik] Şehir Forumunda yeni bir mesaj varsa Şehir düğmesinin yanıp sönmesini kaldırın"
-			]
+			"notes": {
+				"feature": [
+					"Kale mezarlığına kritik vuruşlar ve hayalet turlar eklendi",
+					"Sahip olunan ve müttefik kaleler için şehirler penceresine pencere ekle",
+					"Raporundan baltayla kaldırılan kalenin otomatik açılmasını ekleyin",
+					"Tüm Sıralama tabloları iyileştirildi",
+					"Kale savaşından önceki Üye Alım penceresi iyileştirildi",
+					"Şehir Forumunda yeni bir mesaj varsa Şehir düğmesinin yanıp sönmesini kaldırın"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[özellik] Bina sekmesine inşaat ilerleme durumu ekleme",
-				"[özellik] Ekstra kilise seviyeleri ekleyin",
-				"[özellik] Yalnızca Belediye Binasında tamamen inşa edilmemiş binaları görüntüleme işlevi eklendi",
-				"[özellik] Kilise inşası sekmesini kolayca açmak için yeni bir düğme eklendi",
-				"[özellik] Yalnızca Envanter pencerelerini kapatmak için bir düğme ekleyin"
-			]
+			"notes": {
+				"feature": [
+					"Bina sekmesine inşaat ilerleme durumu ekleme",
+					"Ekstra kilise seviyeleri ekleyin",
+					"Yalnızca Belediye Binasında tamamen inşa edilmemiş binaları görüntüleme işlevi eklendi",
+					"Kilise inşası sekmesini kolayca açmak için yeni bir düğme eklendi",
+					"Yalnızca Envanter pencerelerini kapatmak için bir düğme ekleyin"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[hata düzeltmesi] Hata! Derleme kodunu düzeltin"]
+			"notes": {
+				"bugfix": [
+					"Hata! Derleme kodunu düzeltin"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[hata düzeltmesi] Yeni sürüm bağlantısını düzeltin"]
+			"notes": {
+				"bugfix": [
+					"Yeni sürüm bağlantısını düzeltin"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[bugfix] Bazı yerlerde sürüm düzeltildi, umarım!"]
+			"notes": {
+				"bugfix": [
+					"Bazı yerlerde sürüm düzeltildi, umarım!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[bugfix] Bazı yerlerde sürüm düzeltmesi"]
+			"notes": {
+				"bugfix": [
+					"Bazı yerlerde sürüm düzeltmesi"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[ana] Düzeltmeyi kaldır"]
+			"notes": {
+				"main": [
+					"Düzeltmeyi kaldır"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[hata düzeltmesi] Yeni özellik sürümü bağlantısı değiştirildi"]
+			"notes": {
+				"bugfix": [
+					"Yeni özellik sürümü bağlantısı değiştirildi"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[hata düzeltmesi] UserScript'i kullanan kullanımdan kaldırılmış kodu düzeltin"]
+			"notes": {
+				"bugfix": [
+					"UserScript'i kullanan kullanımdan kaldırılmış kodu düzeltin"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": ["[ana] Gereksiz kodu kaldır", "[ana] Üye Al penceresindeki ayrıntılar değiştirildi"]
+			"notes": {
+				"main": [
+					"Gereksiz kodu kaldır",
+					"Üye Al penceresindeki ayrıntılar değiştirildi"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[hata düzeltmesi] Hata! Sabit Kullanıcı Komut Dosyası"]
+			"notes": {
+				"bugfix": [
+					"Hata! Sabit Kullanıcı Komut Dosyası"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[hata düzeltmesi] Yanlış sürümü düzeltin"]
+			"notes": {
+				"bugfix": [
+					"Yanlış sürümü düzeltin"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": [
-				"[ana] Üye Al penceresindeki gereksiz kod kaldırıldı",
-				"[ana] Güncelleyiciyi Değiştir"
-			]
+			"notes": {
+				"main": [
+					"Üye Al penceresindeki gereksiz kod kaldırıldı",
+					"Güncelleyiciyi Değiştir"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[hata düzeltmesi] Öğe pininin Vanilya ve TWIR Envanteri penceresinde doğru görüntülenmesi için düzeltildi",
-				"[bugfix] Sürüm Niteliklerindeki hata düzeltme kelimesindeki yazım hatalarını düzeltin"
-			]
+			"notes": {
+				"bugfix": [
+					"Öğe pininin Vanilya ve TWIR Envanteri penceresinde doğru görüntülenmesi için düzeltildi",
+					"Sürüm Niteliklerindeki hata düzeltme kelimesindeki yazım hatalarını düzeltin"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": ["[ana] Kod temizleme - bölüm 2", "[ana] Bazı köprüler değiştirildi"]
+			"notes": {
+				"main": [
+					"Kod temizleme - bölüm 2",
+					"Bazı köprüler değiştirildi"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[ana] Kod temizleme - bölüm 1"]
+			"notes": {
+				"main": [
+					"Kod temizleme - bölüm 1"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[hata düzeltmesi] Otomatik güncelleme için bağlantıları yenileyin"]
+			"notes": {
+				"bugfix": [
+					"Otomatik güncelleme için bağlantıları yenileyin"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[hata düzeltmesi] Bazı köprüler değiştirildi"]
+			"notes": {
+				"bugfix": [
+					"Bazı köprüler değiştirildi"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[hata düzeltmesi] Hata! Sabit Kullanıcı Komut Dosyası"]
+			"notes": {
+				"bugfix": [
+					"Hata! Sabit Kullanıcı Komut Dosyası"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[hata düzeltmesi] Özelliğin kaldırılmasına yönelik düzeltme"]
+			"notes": {
+				"bugfix": [
+					"Özelliğin kaldırılmasına yönelik düzeltme"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[ana] Pek çok işe yaramaz özellik kaldırıldı"]
+			"notes": {
+				"main": [
+					"Pek çok işe yaramaz özellik kaldırıldı"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": [
-				"[hata düzeltmesi] Bazı yazım hataları düzeltildi",
-				"[ana] Formül sürümünü değiştir"
-			]
+			"notes": {
+				"bugfix": [
+					"Bazı yazım hataları düzeltildi"
+				],
+				"main": [
+					"Formül sürümünü değiştir"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Clothcalc_sk'tan UserScript oluşturun **"]
+			"notes": {
+				"main": [
+					"** Clothcalc_sk'tan UserScript oluşturun **"
+				]
+			}
 		}
 	]
 }

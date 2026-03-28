@@ -363,191 +363,314 @@
 		"close_import": "Chiudi importazione battaglie in West Forts",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Aggiungi colorazione a più oggetti in vendita nell'Inventario"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[bugfix] Correzione del vecchio codice della funzione Cambia lingua",
-				"[main] Refactoring e pulizia del codice UserScript"
-			]
+			"notes": {
+				"bugfix": [
+					"Correzione del vecchio codice della funzione Cambia lingua"
+				],
+				"main": [
+					"Refactoring e pulizia del codice UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[caratteristica] Aggiunta la funzione di cambio lingua \"temporanea\".",
-				"[funzione] Pulisci il codice della scheda Impostazioni",
-				"[caratteristica] Pulizia del codice della modalità colore in Saloon (chat)",
-				"[caratteristica] Codice di pulizia per lavori con bonus sulla minimappa",
-				"[caratteristica] Pulisci il codice funzione Job/Chest Analyser",
-				"[caratteristica] Modernizza varie funzioni del codice UserScript"
-			]
+			"notes": {
+				"feature": [
+					"Aggiunta la funzione di cambio lingua \"temporanea\".",
+					"Pulisci il codice della scheda Impostazioni",
+					"Pulizia del codice della modalità colore in Saloon (chat)",
+					"Codice di pulizia per lavori con bonus sulla minimappa",
+					"Pulisci il codice funzione Job/Chest Analyser",
+					"Modernizza varie funzioni del codice UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[funzione] Aggiungi la funzione Impostazioni di importazione/esportazione"]
+			"notes": {
+				"feature": [
+					"Aggiungi la funzione Impostazioni di importazione/esportazione"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[funzione] Aggiungi la voce della battaglia del forte al database del sito web (westforts.com)",
-				"[caratteristica] Aggiunta la funzione di modifica del suono Whisper",
-				"[caratteristica] Aggiungi il danno inflitto a ciascun giocatore durante una battaglia della fortezza",
-				"[caratteristica] Aggiungi colpi ogni turno durante una battaglia della fortezza",
-				"[caratteristica] Aggiungi colore alle missioni che possono essere completate",
-				"[funzione] Aggiungi pulsante per accettare e completare automaticamente le missioni che possono essere completate",
-				"[bugfix] Ripristina il codice per vendere al commerciante tutti gli oggetti tranne uno selezionato",
-				"[bugfix] Risolto il vecchio codice dell'opzione che mostra i punti di lavoro nella finestra dei lavori",
-				"[bugfix] Correggi il codice dell'opzione di apertura automatica del mercato in modo che la finestra dell'abbigliamento sia ridotta a icona",
-				"[bugfix] Correggi il codice nella scheda build se TWIR è presente",
-				"[principale] Riordinare le categorie nella scheda Impostazioni"
-			]
+			"notes": {
+				"feature": [
+					"Aggiungi la voce della battaglia del forte al database del sito web (westforts.com)",
+					"Aggiunta la funzione di modifica del suono Whisper",
+					"Aggiungi il danno inflitto a ciascun giocatore durante una battaglia della fortezza",
+					"Aggiungi colpi ogni turno durante una battaglia della fortezza",
+					"Aggiungi colore alle missioni che possono essere completate",
+					"Aggiungi pulsante per accettare e completare automaticamente le missioni che possono essere completate"
+				],
+				"bugfix": [
+					"Ripristina il codice per vendere al commerciante tutti gli oggetti tranne uno selezionato",
+					"Risolto il vecchio codice dell'opzione che mostra i punti di lavoro nella finestra dei lavori",
+					"Correggi il codice dell'opzione di apertura automatica del mercato in modo che la finestra dell'abbigliamento sia ridotta a icona",
+					"Correggi il codice nella scheda build se TWIR è presente"
+				],
+				"main": [
+					"Riordinare le categorie nella scheda Impostazioni"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[funzionalità] Aggiungi l'opzione Tema scuro per la mappa The-West",
-				"[funzionalità] Migliorata l'icona del rapporto sulle vendite nella finestra di acquisto dell'edificio del mercato",
-				"[funzione] Aggiungi un'icona per indicare se le offerte di mercato sono pubbliche, solo per i membri dell'alleanza o della città",
-				"[funzione] Aggiungi un nuovo pulsante per aprire facilmente la finestra del mercato"
-			]
+			"notes": {
+				"feature": [
+					"Aggiungi l'opzione Tema scuro per la mappa The-West",
+					"Migliorata l'icona del rapporto sulle vendite nella finestra di acquisto dell'edificio del mercato",
+					"Aggiungi un'icona per indicare se le offerte di mercato sono pubbliche, solo per i membri dell'alleanza o della città",
+					"Aggiungi un nuovo pulsante per aprire facilmente la finestra del mercato"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[caratteristica] Aggiunti tempi di rigenerazione al ritratto del giocatore",
-				"[funzione] Aggiungi l'evidenziazione del testo ai forum cittadini",
-				"[funzione] Aggiungi un'opzione per bloccare la barra dei menu, l'esperienza e lo script utente sullo schermo",
-				"[caratteristica] Aggiungi l'esperienza di duello al profilo del giocatore",
-				"[bugfix] Correzione della scheda Recluta",
-				"[bugfix] Disabilita l'attivazione automatica di alcune funzioni"
-			]
+			"notes": {
+				"feature": [
+					"Aggiunti tempi di rigenerazione al ritratto del giocatore",
+					"Aggiungi l'evidenziazione del testo ai forum cittadini",
+					"Aggiungi un'opzione per bloccare la barra dei menu, l'esperienza e lo script utente sullo schermo",
+					"Aggiungi l'esperienza di duello al profilo del giocatore"
+				],
+				"bugfix": [
+					"Correzione della scheda Recluta",
+					"Disabilita l'attivazione automatica di alcune funzioni"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[bugfix] Correggi alcuni messaggi di impostazione",
-				"[bugfix] Correzione della scheda Recluta"
-			]
+			"notes": {
+				"bugfix": [
+					"Correggi alcuni messaggi di impostazione",
+					"Correzione della scheda Recluta"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[caratteristica] Aggiunti colpi critici e colpi fantasma al cimitero della fortezza",
-				"[funzionalità] Aggiungi una finestra per i forti posseduti e alleati alla finestra delle città",
-				"[caratteristica] Aggiungi l'apertura automatica della fortezza dissotterrata dall'ascia dal suo rapporto",
-				"[caratteristica] Migliorate tutte le tabelle di classifica",
-				"[caratteristica] Migliorata la finestra di reclutamento prima della battaglia della fortezza",
-				"[funzione] Rimuovi il lampeggio del pulsante Città se c'è un nuovo messaggio nel forum cittadino"
-			]
+			"notes": {
+				"feature": [
+					"Aggiunti colpi critici e colpi fantasma al cimitero della fortezza",
+					"Aggiungi una finestra per i forti posseduti e alleati alla finestra delle città",
+					"Aggiungi l'apertura automatica della fortezza dissotterrata dall'ascia dal suo rapporto",
+					"Migliorate tutte le tabelle di classifica",
+					"Migliorata la finestra di reclutamento prima della battaglia della fortezza",
+					"Rimuovi il lampeggio del pulsante Città se c'è un nuovo messaggio nel forum cittadino"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[funzione] Aggiungi i progressi della costruzione alla scheda costruzione",
-				"[caratteristica] Aggiungi ulteriori livelli di chiesa",
-				"[caratteristica] Aggiungi una funzione per visualizzare solo gli edifici che non sono completamente costruiti nel municipio",
-				"[funzione] Aggiunto un nuovo pulsante per aprire facilmente la scheda Costruzione della chiesa",
-				"[funzione] Aggiungi un pulsante per chiudere solo le finestre Inventario"
-			]
+			"notes": {
+				"feature": [
+					"Aggiungi i progressi della costruzione alla scheda costruzione",
+					"Aggiungi ulteriori livelli di chiesa",
+					"Aggiungi una funzione per visualizzare solo gli edifici che non sono completamente costruiti nel municipio",
+					"Aggiunto un nuovo pulsante per aprire facilmente la scheda Costruzione della chiesa",
+					"Aggiungi un pulsante per chiudere solo le finestre Inventario"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[correzione bug] Spiacenti! Correggi il codice di build"]
+			"notes": {
+				"bugfix": [
+					"Spiacenti! Correggi il codice di build"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[bugfix] Correzione del collegamento alla nuova versione"]
+			"notes": {
+				"bugfix": [
+					"Correzione del collegamento alla nuova versione"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[bugfix] Correzione della versione in alcuni punti, speriamo!"]
+			"notes": {
+				"bugfix": [
+					"Correzione della versione in alcuni punti, speriamo!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[bugfix] Correzione della versione in alcuni punti"]
+			"notes": {
+				"bugfix": [
+					"Correzione della versione in alcuni punti"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[principale] Rimuovi la revisione"]
+			"notes": {
+				"main": [
+					"Rimuovi la revisione"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[bugfix] Modificato il collegamento alla nuova versione della funzionalità"]
+			"notes": {
+				"bugfix": [
+					"Modificato il collegamento alla nuova versione della funzionalità"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[bugfix] Correggi il codice deprecato che utilizzava UserScript"]
+			"notes": {
+				"bugfix": [
+					"Correggi il codice deprecato che utilizzava UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": [
-				"[principale] Rimuovi il codice ridondante",
-				"[main] Dettagli modificati nella finestra Recluta"
-			]
+			"notes": {
+				"main": [
+					"Rimuovi il codice ridondante",
+					"Dettagli modificati nella finestra Recluta"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[correzione bug] Spiacenti! Risolto il problema con lo script utente"]
+			"notes": {
+				"bugfix": [
+					"Spiacenti! Risolto il problema con lo script utente"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[bugfix] Correggi la versione errata"]
+			"notes": {
+				"bugfix": [
+					"Correggi la versione errata"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": [
-				"[principale] Rimosso il codice non necessario nella finestra Recluta",
-				"[principale] Modifica aggiornamento"
-			]
+			"notes": {
+				"main": [
+					"Rimosso il codice non necessario nella finestra Recluta",
+					"Modifica aggiornamento"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[bugfix] Corretta la visualizzazione corretta del pin dell'oggetto nella finestra Vanilla e Inventario TWIR",
-				"[bugfix] Correggi gli errori di ortografia della parola bugfix negli attributi di rilascio"
-			]
+			"notes": {
+				"bugfix": [
+					"Corretta la visualizzazione corretta del pin dell'oggetto nella finestra Vanilla e Inventario TWIR",
+					"Correggi gli errori di ortografia della parola bugfix negli attributi di rilascio"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": [
-				"[principale] Pulizia del codice - parte 2",
-				"[main] Modificati alcuni collegamenti ipertestuali"
-			]
+			"notes": {
+				"main": [
+					"Pulizia del codice - parte 2",
+					"Modificati alcuni collegamenti ipertestuali"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[principale] Pulizia del codice - parte 1"]
+			"notes": {
+				"main": [
+					"Pulizia del codice - parte 1"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[bugfix] Aggiorna i collegamenti per l'aggiornamento automatico"]
+			"notes": {
+				"bugfix": [
+					"Aggiorna i collegamenti per l'aggiornamento automatico"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[bugfix] Modificati alcuni collegamenti ipertestuali"]
+			"notes": {
+				"bugfix": [
+					"Modificati alcuni collegamenti ipertestuali"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[correzione bug] Spiacenti! Risolto il problema con lo script utente"]
+			"notes": {
+				"bugfix": [
+					"Spiacenti! Risolto il problema con lo script utente"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[bugfix] Correzione per la rimozione delle funzionalità"]
+			"notes": {
+				"bugfix": [
+					"Correzione per la rimozione delle funzionalità"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[principale] Rimosse molte funzionalità inutili"]
+			"notes": {
+				"main": [
+					"Rimosse molte funzionalità inutili"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": [
-				"[bugfix] Risolti alcuni errori di battitura",
-				"[principale] Cambia la versione della formula"
-			]
+			"notes": {
+				"bugfix": [
+					"Risolti alcuni errori di battitura"
+				],
+				"main": [
+					"Cambia la versione della formula"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Genera UserScript da Clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Genera UserScript da Clothcalc_sk **"
+				]
+			}
 		}
 	]
 }

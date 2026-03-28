@@ -363,185 +363,314 @@
 		"close_import": "Csaták importálásának bezárása a West Forts-ban",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Színezés hozzáadása több eladó tárgyhoz a Leltárban"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[hibajavítás] A Change Language funkció régi kódjának javítása",
-				"[fő] A UserScript kód újrafaktorálása és tisztítása"
-			]
+			"notes": {
+				"bugfix": [
+					"A Change Language funkció régi kódjának javítása"
+				],
+				"main": [
+					"A UserScript kód újrafaktorálása és tisztítása"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[feature] Add hozzá az \"ideiglenes\" nyelvváltoztatási funkciót",
-				"[feature] Clean up Settings lap kódja",
-				"[funkció] Színmód kódtisztítás a szalonban (csevegés)",
-				"[feature] Tisztító kód a bónuszokat tartalmazó állásokhoz a Mini térképen",
-				"[feature] Clean up Job/Chest Analyzer funkciókód",
-				"[feature] Modernizálja a UserScript kód különböző funkcióit"
-			]
+			"notes": {
+				"feature": [
+					"Add hozzá az \"ideiglenes\" nyelvváltoztatási funkciót",
+					"Clean up Settings lap kódja",
+					"Színmód kódtisztítás a szalonban (csevegés)",
+					"Tisztító kód a bónuszokat tartalmazó állásokhoz a Mini térképen",
+					"Clean up Job/Chest Analyzer funkciókód",
+					"Modernizálja a UserScript kód különböző funkcióit"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[funkció] Importálási/exportálási beállítások hozzáadása"]
+			"notes": {
+				"feature": [
+					"Importálási/exportálási beállítások hozzáadása"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[funkció] Fort battle bejegyzés hozzáadása a webhely adatbázisához (westforts.com)",
-				"[funkció] Suttogó hangváltás funkció hozzáadása",
-				"[feature] Adj sebzést minden játékosnak az erődcsata során",
-				"[funkció] Adj hozzá lövéseket minden fordulóban az erődcsata során",
-				"[feature] Színezd a teljesíthető küldetéseket",
-				"[funkció] Hozzáadás gomb a teljesíthető küldetések automatikus elfogadásához és teljesítéséhez",
-				"[hibajavítás] Állítsa vissza a kódot, hogy egy kiválasztott terméket eladjon a kereskedőnek",
-				"[hibajavítás] Javítottuk annak az opciónak a régi kódját, amely a jobok ablakában mutatja a jobpontokat",
-				"[hibajavítás] Javítsa ki a Market automatikus megnyitása opció kódját, hogy a ruházati ablak minimális legyen",
-				"[hibajavítás] Javítsa ki a kódot a build lapon, ha a TWIR jelen van",
-				"[fő] Kategóriák átrendezése a Beállítások lapon"
-			]
+			"notes": {
+				"feature": [
+					"Fort battle bejegyzés hozzáadása a webhely adatbázisához (westforts.com)",
+					"Suttogó hangváltás funkció hozzáadása",
+					"Adj sebzést minden játékosnak az erődcsata során",
+					"Adj hozzá lövéseket minden fordulóban az erődcsata során",
+					"Színezd a teljesíthető küldetéseket",
+					"Hozzáadás gomb a teljesíthető küldetések automatikus elfogadásához és teljesítéséhez"
+				],
+				"bugfix": [
+					"Állítsa vissza a kódot, hogy egy kiválasztott terméket eladjon a kereskedőnek",
+					"Javítottuk annak az opciónak a régi kódját, amely a jobok ablakában mutatja a jobpontokat",
+					"Javítsa ki a Market automatikus megnyitása opció kódját, hogy a ruházati ablak minimális legyen",
+					"Javítsa ki a kódot a build lapon, ha a TWIR jelen van"
+				],
+				"main": [
+					"Kategóriák átrendezése a Beállítások lapon"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[feature] Sötét téma hozzáadása a Nyugati térképhez",
-				"[feature] Javítottuk az eladási jelentés ikonját a Market épületének vásárlási ablakában",
-				"[funkció] Ikon hozzáadása, amely megmutatja, hogy a piaci ajánlatok nyilvánosak-e, csak a szövetség vagy a város tagjai számára",
-				"[feature] Adjon hozzá egy új gombot a Market ablak egyszerű megnyitásához"
-			]
+			"notes": {
+				"feature": [
+					"Sötét téma hozzáadása a Nyugati térképhez",
+					"Javítottuk az eladási jelentés ikonját a Market épületének vásárlási ablakában",
+					"Ikon hozzáadása, amely megmutatja, hogy a piaci ajánlatok nyilvánosak-e, csak a szövetség vagy a város tagjai számára",
+					"Adjon hozzá egy új gombot a Market ablak egyszerű megnyitásához"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[funkció] Újjászületési idők hozzáadva a játékos portréjához",
-				"[feature] Szövegkiemelés hozzáadása a városi fórumokhoz",
-				"[feature] Opció hozzáadása a Menüsor, az Experience és a UserScript képernyőhöz rögzítéséhez",
-				"[funkció] A párbaj élmény hozzáadása a játékos profiljához",
-				"[hibajavítás] Toborzás lap javítás",
-				"[hibajavítás] Egyes funkciók automatikus aktiválásának letiltása"
-			]
+			"notes": {
+				"feature": [
+					"Újjászületési idők hozzáadva a játékos portréjához",
+					"Szövegkiemelés hozzáadása a városi fórumokhoz",
+					"Opció hozzáadása a Menüsor, az Experience és a UserScript képernyőhöz rögzítéséhez",
+					"A párbaj élmény hozzáadása a játékos profiljához"
+				],
+				"bugfix": [
+					"Toborzás lap javítás",
+					"Egyes funkciók automatikus aktiválásának letiltása"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[hibajavítás] Javítson ki néhány beállítási üzenetet",
-				"[hibajavítás] Toborzás lap javítás"
-			]
+			"notes": {
+				"bugfix": [
+					"Javítson ki néhány beállítási üzenetet",
+					"Toborzás lap javítás"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[feature] Kritikus slágerek és szellemkörök hozzáadva az erőd temetőjéhez",
-				"[funkció] A tulajdonolt és szövetséges erődök ablakának hozzáadása a városok ablakához",
-				"[feature] Adja hozzá az Axe Unbury Fortress automatikus megnyitását a jelentéshez",
-				"[funkció] Az összes rangsoroló táblázat továbbfejlesztése",
-				"[funkció] Javította a toborzási ablakot az erődcsata előtt",
-				"[feature] Távolítsa el a City gomb villogását, ha új üzenet érkezik a Városi Fórumba"
-			]
+			"notes": {
+				"feature": [
+					"Kritikus slágerek és szellemkörök hozzáadva az erőd temetőjéhez",
+					"A tulajdonolt és szövetséges erődök ablakának hozzáadása a városok ablakához",
+					"Adja hozzá az Axe Unbury Fortress automatikus megnyitását a jelentéshez",
+					"Az összes rangsoroló táblázat továbbfejlesztése",
+					"Javította a toborzási ablakot az erődcsata előtt",
+					"Távolítsa el a City gomb villogását, ha új üzenet érkezik a Városi Fórumba"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[feature] Az építési folyamat hozzáadása az építési laphoz",
-				"[feature] Adjon hozzá további templomi szinteket",
-				"[feature] Funkció hozzáadása, hogy csak azokat az épületeket jelenítse meg, amelyek még nem épültek fel teljesen a Városházán",
-				"[feature] Új gomb hozzáadva az Egyházépület lap egyszerű megnyitásához",
-				"[feature] Adjon hozzá egy gombot, amely csak a készletablakokat zárja be"
-			]
+			"notes": {
+				"feature": [
+					"Az építési folyamat hozzáadása az építési laphoz",
+					"Adjon hozzá további templomi szinteket",
+					"Funkció hozzáadása, hogy csak azokat az épületeket jelenítse meg, amelyek még nem épültek fel teljesen a Városházán",
+					"Új gomb hozzáadva az Egyházépület lap egyszerű megnyitásához",
+					"Adjon hozzá egy gombot, amely csak a készletablakokat zárja be"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[hibajavítás] Hoppá! Javítsa ki a build kódot"]
+			"notes": {
+				"bugfix": [
+					"Hoppá! Javítsa ki a build kódot"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[hibajavítás] Az új verzió hivatkozásának javítása"]
+			"notes": {
+				"bugfix": [
+					"Az új verzió hivatkozásának javítása"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[hibajavítás] Verziójavítás néhány helyen, reménykedjünk!"]
+			"notes": {
+				"bugfix": [
+					"Verziójavítás néhány helyen, reménykedjünk!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[hibajavítás] Verziójavítás néhány helyen"]
+			"notes": {
+				"bugfix": [
+					"Verziójavítás néhány helyen"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[fő] Verzió eltávolítása"]
+			"notes": {
+				"main": [
+					"Verzió eltávolítása"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[hibajavítás] Módosult az új szolgáltatásverzió hivatkozása"]
+			"notes": {
+				"bugfix": [
+					"Módosult az új szolgáltatásverzió hivatkozása"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[hibajavítás] A UserScriptet használó elavult kód javítása"]
+			"notes": {
+				"bugfix": [
+					"A UserScriptet használó elavult kód javítása"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": ["[fő] Redundáns kód eltávolítása", "[fő] Módosult a részletek a Recruit ablakban"]
+			"notes": {
+				"main": [
+					"Redundáns kód eltávolítása",
+					"Módosult a részletek a Recruit ablakban"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[hibajavítás] Hoppá! Javítva a UserScript"]
+			"notes": {
+				"bugfix": [
+					"Hoppá! Javítva a UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[hibajavítás] Hibás verzió javítása"]
+			"notes": {
+				"bugfix": [
+					"Hibás verzió javítása"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": [
-				"[main] A szükségtelen kód eltávolítva a Recruit ablakból",
-				"[fő] Frissítő módosítása"
-			]
+			"notes": {
+				"main": [
+					"A szükségtelen kód eltávolítva a Recruit ablakból",
+					"Frissítő módosítása"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[hibajavítás] Javítsa ki a tételt, hogy megfelelően jelenjen meg a vanília és a TWIR készlet ablakban",
-				"[hibajavítás] Javítsa ki a hibajavítás szó helyesírási hibáit a kiadási attribútumokban"
-			]
+			"notes": {
+				"bugfix": [
+					"Javítsa ki a tételt, hogy megfelelően jelenjen meg a vanília és a TWIR készlet ablakban",
+					"Javítsa ki a hibajavítás szó helyesírási hibáit a kiadási attribútumokban"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": ["[fő] Kódtisztítás – 2. rész", "[fő] Néhány hiperhivatkozás megváltozott"]
+			"notes": {
+				"main": [
+					"Kódtisztítás – 2. rész",
+					"Néhány hiperhivatkozás megváltozott"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[fő] Kódtisztítás – 1. rész"]
+			"notes": {
+				"main": [
+					"Kódtisztítás – 1. rész"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[hibajavítás] Frissítse a hivatkozásokat az automatikus frissítéshez"]
+			"notes": {
+				"bugfix": [
+					"Frissítse a hivatkozásokat az automatikus frissítéshez"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[hibajavítás] Néhány hiperhivatkozás módosult"]
+			"notes": {
+				"bugfix": [
+					"Néhány hiperhivatkozás módosult"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[hibajavítás] Hoppá! Javítva a UserScript"]
+			"notes": {
+				"bugfix": [
+					"Hoppá! Javítva a UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[hibajavítás] Javítás a funkció eltávolításához"]
+			"notes": {
+				"bugfix": [
+					"Javítás a funkció eltávolításához"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[main] Sok haszontalan funkciót eltávolítottunk"]
+			"notes": {
+				"main": [
+					"Sok haszontalan funkciót eltávolítottunk"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": [
-				"[hibajavítás] Javítottunk néhány elírási hibát",
-				"[fő] Képlet verziójának módosítása"
-			]
+			"notes": {
+				"bugfix": [
+					"Javítottunk néhány elírási hibát"
+				],
+				"main": [
+					"Képlet verziójának módosítása"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** UserScript generálása a clothcalc_sk fájlból **"]
+			"notes": {
+				"main": [
+					"** UserScript generálása a clothcalc_sk fájlból **"
+				]
+			}
 		}
 	]
 }

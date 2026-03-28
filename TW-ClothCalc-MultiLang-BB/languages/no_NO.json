@@ -363,179 +363,314 @@
 		"close_import": "Lukk kampimport i West Forts",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Legg til fargekoding på flere gjenstander til salgs i Inventaret"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[bugfix] Fiks den gamle koden til funksjonen Change Language",
-				"[main] Refaktorering og opprydding av UserScript-koden"
-			]
+			"notes": {
+				"bugfix": [
+					"Fiks den gamle koden til funksjonen Change Language"
+				],
+				"main": [
+					"Refaktorering og opprydding av UserScript-koden"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[funksjon] Legg til \"midlertidig\" språkendringsfunksjon",
-				"[funksjon] Rydd opp Innstillinger-fanekode",
-				"[funksjon] Fargemoduskodeopprydding i Saloon (chat)",
-				"[funksjon] Oppryddingskode for jobber med bonuser på minikartet",
-				"[funksjon] Rydd opp jobb-/brystanalysatorfunksjonskode",
-				"[funksjon] Moderniser ulike funksjoner i UserScript-koden"
-			]
+			"notes": {
+				"feature": [
+					"Legg til \"midlertidig\" språkendringsfunksjon",
+					"Rydd opp Innstillinger-fanekode",
+					"Fargemoduskodeopprydding i Saloon (chat)",
+					"Oppryddingskode for jobber med bonuser på minikartet",
+					"Rydd opp jobb-/brystanalysatorfunksjonskode",
+					"Moderniser ulike funksjoner i UserScript-koden"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[funksjon] Legg til funksjon for import/eksportinnstillinger"]
+			"notes": {
+				"feature": [
+					"Legg til funksjon for import/eksportinnstillinger"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[funksjon] Legg til fort battle-oppføring i nettsidedatabasen (westforts.com)",
-				"[funksjon] Legg til funksjon for endring av hviskelyd",
-				"[funksjon] Legg til skader gitt til hver spiller under en festningskamp",
-				"[funksjon] Legg til skudd hver sving under en festningskamp",
-				"[funksjon] Legg farge til oppdragene som kan fullføres",
-				"[funksjon] Legg til-knapp for automatisk å godta og fullføre oppdrag som kan fullføres",
-				"[bugfix] Gjenopprett kode for å selge alt unntatt en valgt vare til selgeren",
-				"[bugfix] Rettet gammel kode for alternativet som viser jobbpunktene i jobbvinduet",
-				"[bugfix] Fiks koden til alternativet for automatisk åpning av Market slik at klesvinduet minimeres",
-				"[bugfix] Fiks kode i build-fanen hvis TWIR er til stede",
-				"[main] Omorganisere kategoriene i Innstillinger-fanen"
-			]
+			"notes": {
+				"feature": [
+					"Legg til fort battle-oppføring i nettsidedatabasen (westforts.com)",
+					"Legg til funksjon for endring av hviskelyd",
+					"Legg til skader gitt til hver spiller under en festningskamp",
+					"Legg til skudd hver sving under en festningskamp",
+					"Legg farge til oppdragene som kan fullføres",
+					"Legg til-knapp for automatisk å godta og fullføre oppdrag som kan fullføres"
+				],
+				"bugfix": [
+					"Gjenopprett kode for å selge alt unntatt en valgt vare til selgeren",
+					"Rettet gammel kode for alternativet som viser jobbpunktene i jobbvinduet",
+					"Fiks koden til alternativet for automatisk åpning av Market slik at klesvinduet minimeres",
+					"Fiks kode i build-fanen hvis TWIR er til stede"
+				],
+				"main": [
+					"Omorganisere kategoriene i Innstillinger-fanen"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[funksjon] Legg til mørkt temaalternativ for The-West Map",
-				"[funksjon] Forbedret salgsrapportikonet i kjøpsvinduet til Market-bygningen",
-				"[funksjon] Legg til ikon for om markedstilbud er offentlige, kun for allianse- eller bymedlemmer",
-				"[funksjon] Legg til en ny knapp for å enkelt åpne Market-vinduet"
-			]
+			"notes": {
+				"feature": [
+					"Legg til mørkt temaalternativ for The-West Map",
+					"Forbedret salgsrapportikonet i kjøpsvinduet til Market-bygningen",
+					"Legg til ikon for om markedstilbud er offentlige, kun for allianse- eller bymedlemmer",
+					"Legg til en ny knapp for å enkelt åpne Market-vinduet"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[funksjon] Lagt til regenereringstider til spillerportrett",
-				"[funksjon] Legg til tekstutheving til byfora",
-				"[funksjon] Legg til alternativ for å feste menylinje, opplevelse og brukerskript til skjermen",
-				"[funksjon] Legg til duellopplevelse til spillerprofilen",
-				"[feilretting] Rekruttere-faneretting",
-				"[bugfix] Deaktiver automatisk aktivering av enkelte funksjoner"
-			]
+			"notes": {
+				"feature": [
+					"Lagt til regenereringstider til spillerportrett",
+					"Legg til tekstutheving til byfora",
+					"Legg til alternativ for å feste menylinje, opplevelse og brukerskript til skjermen",
+					"Legg til duellopplevelse til spillerprofilen"
+				],
+				"bugfix": [
+					"Rekruttere-faneretting",
+					"Deaktiver automatisk aktivering av enkelte funksjoner"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[feilretting] Rett opp noen innstillingsmeldinger",
-				"[feilretting] Rekruttere-faneretting"
-			]
+			"notes": {
+				"bugfix": [
+					"Rett opp noen innstillingsmeldinger",
+					"Rekruttere-faneretting"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[funksjon] Lagt til kritiske treff og spøkelsesrunder til festningskirkegården",
-				"[funksjon] Legg til vindu for eide og allierte forter til byvinduet",
-				"[funksjon] Legg til automatisk åpning av økse unbury festning fra rapporten",
-				"[funksjon] Forbedret alle rangeringstabeller",
-				"[funksjon] Forbedret rekrutteringsvinduet før festningskampen",
-				"[funksjon] Fjern blinkende by-knapp hvis det er en ny melding i byforumet"
-			]
+			"notes": {
+				"feature": [
+					"Lagt til kritiske treff og spøkelsesrunder til festningskirkegården",
+					"Legg til vindu for eide og allierte forter til byvinduet",
+					"Legg til automatisk åpning av økse unbury festning fra rapporten",
+					"Forbedret alle rangeringstabeller",
+					"Forbedret rekrutteringsvinduet før festningskampen",
+					"Fjern blinkende by-knapp hvis det er en ny melding i byforumet"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[funksjon] Legg til byggefremdrift i byggefanen",
-				"[funksjon] Legg til ekstra kirkenivåer",
-				"[funksjon] Legg til funksjon for å vise kun bygninger som ikke er ferdig bygget i rådhuset",
-				"[funksjon] Lagt til en ny knapp for enkelt å åpne Kirkebygning-fanen",
-				"[funksjon] Legg til en knapp for å lukke bare inventarvinduene"
-			]
+			"notes": {
+				"feature": [
+					"Legg til byggefremdrift i byggefanen",
+					"Legg til ekstra kirkenivåer",
+					"Legg til funksjon for å vise kun bygninger som ikke er ferdig bygget i rådhuset",
+					"Lagt til en ny knapp for enkelt å åpne Kirkebygning-fanen",
+					"Legg til en knapp for å lukke bare inventarvinduene"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[feilretting] Beklager! Fiks byggekode"]
+			"notes": {
+				"bugfix": [
+					"Beklager! Fiks byggekode"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[bugfix] Fiks ny versjonslenke"]
+			"notes": {
+				"bugfix": [
+					"Fiks ny versjonslenke"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[bugfix] Versjonsfiks noen steder, la oss håpe!"]
+			"notes": {
+				"bugfix": [
+					"Versjonsfiks noen steder, la oss håpe!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[feilretting] Versjonsretting noen steder"]
+			"notes": {
+				"bugfix": [
+					"Versjonsretting noen steder"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[main] Fjern revisjon"]
+			"notes": {
+				"main": [
+					"Fjern revisjon"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[feilretting] Endret lenke til ny funksjonsversjon"]
+			"notes": {
+				"bugfix": [
+					"Endret lenke til ny funksjonsversjon"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[bugfix] Rett opp utdatert kode som brukte UserScript"]
+			"notes": {
+				"bugfix": [
+					"Rett opp utdatert kode som brukte UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": ["[main] Fjern overflødig kode", "[hoved] Endret detaljer i rekrutteringsvinduet"]
+			"notes": {
+				"main": [
+					"Fjern overflødig kode",
+					"Endret detaljer i rekrutteringsvinduet"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[feilretting] Beklager! Fikset UserScript"]
+			"notes": {
+				"bugfix": [
+					"Beklager! Fikset UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[feilretting] Rett opp feil versjon"]
+			"notes": {
+				"bugfix": [
+					"Rett opp feil versjon"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": ["[main] Fjernet unødvendig kode i rekrutteringsvinduet", "[main] Endre oppdatering"]
+			"notes": {
+				"main": [
+					"Fjernet unødvendig kode i rekrutteringsvinduet",
+					"Endre oppdatering"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[bugfix] Fiks varepinnen for å vises riktig i vanilje- og TWIR-inventarvinduet",
-				"[bugfix] Rett opp stavefeil for ordet bugfix i utgivelsesattributter"
-			]
+			"notes": {
+				"bugfix": [
+					"Fiks varepinnen for å vises riktig i vanilje- og TWIR-inventarvinduet",
+					"Rett opp stavefeil for ordet bugfix i utgivelsesattributter"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": ["[hoved] Kodeopprydding – del 2", "[main] Endret noen hyperkoblinger"]
+			"notes": {
+				"main": [
+					"Kodeopprydding – del 2",
+					"Endret noen hyperkoblinger"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[hoved] Kodeopprydding - del 1"]
+			"notes": {
+				"main": [
+					"Kodeopprydding - del 1"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[bugfix] Oppdater lenker for automatisk oppdatering"]
+			"notes": {
+				"bugfix": [
+					"Oppdater lenker for automatisk oppdatering"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[bugfix] Endret noen hyperkoblinger"]
+			"notes": {
+				"bugfix": [
+					"Endret noen hyperkoblinger"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[feilretting] Beklager! Fikset UserScript"]
+			"notes": {
+				"bugfix": [
+					"Beklager! Fikset UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[feilretting] Retting for fjerning av funksjoner"]
+			"notes": {
+				"bugfix": [
+					"Retting for fjerning av funksjoner"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[main] Fjernet mange ubrukelige funksjoner"]
+			"notes": {
+				"main": [
+					"Fjernet mange ubrukelige funksjoner"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": ["[feilretting] Rettet noen skrivefeil", "[main] Endre formelversjon"]
+			"notes": {
+				"bugfix": [
+					"Rettet noen skrivefeil"
+				],
+				"main": [
+					"Endre formelversjon"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Generer UserScript fra clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Generer UserScript fra clothcalc_sk **"
+				]
+			}
 		}
 	]
 }

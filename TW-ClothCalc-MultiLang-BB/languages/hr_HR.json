@@ -363,185 +363,314 @@
 		"close_import": "Zatvori uvoz bitaka u West Forts",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Dodaj boju više predmeta za prodaju u Inventaru"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[popravak greške] Popravite stari kod funkcije Promjena jezika",
-				"[main] Refactoring i čišćenje UserScript koda"
-			]
+			"notes": {
+				"bugfix": [
+					"Popravite stari kod funkcije Promjena jezika"
+				],
+				"main": [
+					"Refactoring i čišćenje UserScript koda"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[značajka] Dodajte \"privremenu\" funkciju promjene jezika",
-				"[značajka] Čišćenje koda kartice postavki",
-				"[značajka] Čišćenje koda načina boja u Saloonu (chat)",
-				"[značajka] Kôd čišćenja za poslove s bonusima na mini karti",
-				"[značajka] Očistite kod funkcije analizatora poslova/prsiju",
-				"[značajka] Modernizirajte razne funkcije koda UserScript"
-			]
+			"notes": {
+				"feature": [
+					"Dodajte \"privremenu\" funkciju promjene jezika",
+					"Čišćenje koda kartice postavki",
+					"Čišćenje koda načina boja u Saloonu (chat)",
+					"Kôd čišćenja za poslove s bonusima na mini karti",
+					"Očistite kod funkcije analizatora poslova/prsiju",
+					"Modernizirajte razne funkcije koda UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[značajka] Dodaj funkciju postavki uvoza/izvoza"]
+			"notes": {
+				"feature": [
+					"Dodaj funkciju postavki uvoza/izvoza"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[značajka] Dodavanje unosa bitke za utvrdu u bazu podataka web stranice (westforts.com)",
-				"[značajka] Dodajte funkciju promjene zvuka Whisper",
-				"[značajka] Dodajte štetu nanesenu svakom igraču tijekom bitke za tvrđavu",
-				"[značajka] Dodajte snimke svaki korak tijekom bitke za tvrđavu",
-				"[značajka] Dodajte boju misijama koje je moguće dovršiti",
-				"[značajka] Dodaj gumb za automatsko prihvaćanje i dovršavanje misija koje je moguće dovršiti",
-				"[popravak greške] Vratite kod za prodaju trgovcu svega osim odabrane stavke",
-				"[popravak greške] Popravljen stari kod opcije koja prikazuje bodove poslova u prozoru poslova",
-				"[popravak greške] Popravite kod opcije automatskog otvaranja Marketa tako da prozor s odjećom bude minimiziran",
-				"[popravak pogreške] Popravite kod na kartici za izradu ako je prisutan TWIR",
-				"[glavno] Promjena redoslijeda kategorija u kartici Postavke"
-			]
+			"notes": {
+				"feature": [
+					"Dodavanje unosa bitke za utvrdu u bazu podataka web stranice (westforts.com)",
+					"Dodajte funkciju promjene zvuka Whisper",
+					"Dodajte štetu nanesenu svakom igraču tijekom bitke za tvrđavu",
+					"Dodajte snimke svaki korak tijekom bitke za tvrđavu",
+					"Dodajte boju misijama koje je moguće dovršiti",
+					"Dodaj gumb za automatsko prihvaćanje i dovršavanje misija koje je moguće dovršiti"
+				],
+				"bugfix": [
+					"Vratite kod za prodaju trgovcu svega osim odabrane stavke",
+					"Popravljen stari kod opcije koja prikazuje bodove poslova u prozoru poslova",
+					"Popravite kod opcije automatskog otvaranja Marketa tako da prozor s odjećom bude minimiziran",
+					"Popravite kod na kartici za izradu ako je prisutan TWIR"
+				],
+				"main": [
+					"Promjena redoslijeda kategorija u kartici Postavke"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[značajka] Dodajte opciju tamne teme za The-West Map",
-				"[značajka] Poboljšana ikona izvješća o prodaji u prozoru kupnje zgrade Tržnice",
-				"[značajka] Dodajte ikonu za jesu li tržišne ponude javne, samo za članove saveza ili grada",
-				"[značajka] Dodajte novi gumb za jednostavno otvaranje prozora Market"
-			]
+			"notes": {
+				"feature": [
+					"Dodajte opciju tamne teme za The-West Map",
+					"Poboljšana ikona izvješća o prodaji u prozoru kupnje zgrade Tržnice",
+					"Dodajte ikonu za jesu li tržišne ponude javne, samo za članove saveza ili grada",
+					"Dodajte novi gumb za jednostavno otvaranje prozora Market"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[značajka] Portretu igrača dodana su vremena regeneracije",
-				"[značajka] Dodajte isticanje teksta na gradske forume",
-				"[značajka] Dodaj opciju za prikvačivanje trake izbornika, Experience i UserScript na zaslon",
-				"[značajka] Dodajte iskustvo dvoboja na profil igrača",
-				"[ispravak greške] Ispravak kartice Regrut",
-				"[popravak pogreške] Onemogući automatsku aktivaciju nekih funkcija"
-			]
+			"notes": {
+				"feature": [
+					"Portretu igrača dodana su vremena regeneracije",
+					"Dodajte isticanje teksta na gradske forume",
+					"Dodaj opciju za prikvačivanje trake izbornika, Experience i UserScript na zaslon",
+					"Dodajte iskustvo dvoboja na profil igrača"
+				],
+				"bugfix": [
+					"Ispravak kartice Regrut",
+					"Onemogući automatsku aktivaciju nekih funkcija"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[popravak greške] Popravi neke poruke postavki",
-				"[ispravak greške] Ispravak kartice Regrut"
-			]
+			"notes": {
+				"bugfix": [
+					"Popravi neke poruke postavki",
+					"Ispravak kartice Regrut"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[značajka] Dodani su kritični pogoci i runde duhova na groblje tvrđave",
-				"[značajka] Dodajte prozor za utvrde u vlasništvu i saveznike u prozor gradova",
-				"[značajka] Dodajte automatsko otvaranje tvrđave Axe Unbury iz izvješća",
-				"[značajka] Poboljšane sve tablice poretka",
-				"[značajka] Poboljšan prozor za novačenje prije bitke za tvrđavu",
-				"[značajka] Uklonite treptanje gumba City ako postoji nova poruka na City Forumu"
-			]
+			"notes": {
+				"feature": [
+					"Dodani su kritični pogoci i runde duhova na groblje tvrđave",
+					"Dodajte prozor za utvrde u vlasništvu i saveznike u prozor gradova",
+					"Dodajte automatsko otvaranje tvrđave Axe Unbury iz izvješća",
+					"Poboljšane sve tablice poretka",
+					"Poboljšan prozor za novačenje prije bitke za tvrđavu",
+					"Uklonite treptanje gumba City ako postoji nova poruka na City Forumu"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[značajka] Dodajte napredak izgradnje na karticu izgradnje",
-				"[značajka] Dodajte dodatne crkvene razine",
-				"[značajka] Dodajte funkciju za prikaz samo zgrada koje nisu u potpunosti izgrađene u Gradskoj vijećnici",
-				"[značajka] Dodan novi gumb za jednostavno otvaranje kartice Crkvene zgrade",
-				"[značajka] Dodajte gumb za zatvaranje samo prozora inventara"
-			]
+			"notes": {
+				"feature": [
+					"Dodajte napredak izgradnje na karticu izgradnje",
+					"Dodajte dodatne crkvene razine",
+					"Dodajte funkciju za prikaz samo zgrada koje nisu u potpunosti izgrađene u Gradskoj vijećnici",
+					"Dodan novi gumb za jednostavno otvaranje kartice Crkvene zgrade",
+					"Dodajte gumb za zatvaranje samo prozora inventara"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[ispravak greške] Ups! Popravite kod izrade"]
+			"notes": {
+				"bugfix": [
+					"Ups! Popravite kod izrade"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[popravak greške] Veza za popravak nove verzije"]
+			"notes": {
+				"bugfix": [
+					"Veza za popravak nove verzije"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[pogreška] Popravak verzije na nekim mjestima, nadajmo se!"]
+			"notes": {
+				"bugfix": [
+					"Popravak verzije na nekim mjestima, nadajmo se!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[bugfix] Ispravak verzije na nekim mjestima"]
+			"notes": {
+				"bugfix": [
+					"Ispravak verzije na nekim mjestima"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[glavno] Ukloni reviziju"]
+			"notes": {
+				"main": [
+					"Ukloni reviziju"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[popravak greške] Promijenjena veza na verziju nove značajke"]
+			"notes": {
+				"bugfix": [
+					"Promijenjena veza na verziju nove značajke"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[popravak pogreške] Popravite zastarjeli kod koji je koristio UserScript"]
+			"notes": {
+				"bugfix": [
+					"Popravite zastarjeli kod koji je koristio UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": ["[main] Ukloni suvišni kod", "[glavno] Promijenjeni detalji u prozoru Regrut"]
+			"notes": {
+				"main": [
+					"Ukloni suvišni kod",
+					"Promijenjeni detalji u prozoru Regrut"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[ispravak greške] Ups! Popravljen UserScript"]
+			"notes": {
+				"bugfix": [
+					"Ups! Popravljen UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[ispravak greške] Ispravite pogrešnu verziju"]
+			"notes": {
+				"bugfix": [
+					"Ispravite pogrešnu verziju"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": [
-				"[main] Uklonjen je nepotreban kod u prozoru Regrut",
-				"[glavno] Promjena ažuriranja"
-			]
+			"notes": {
+				"main": [
+					"Uklonjen je nepotreban kod u prozoru Regrut",
+					"Promjena ažuriranja"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[popravak pogreške] Popravite pribadaču stavke za ispravan prikaz u vanilla i TWIR prozoru inventara",
-				"[popravak greške] Popravi pravopisne pogreške riječi bugfix u atributima izdanja"
-			]
+			"notes": {
+				"bugfix": [
+					"Popravite pribadaču stavke za ispravan prikaz u vanilla i TWIR prozoru inventara",
+					"Popravi pravopisne pogreške riječi bugfix u atributima izdanja"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": ["[glavno] Čišćenje koda - 2. dio", "[main] Promijenjene su neke hiperveze"]
+			"notes": {
+				"main": [
+					"Čišćenje koda - 2. dio",
+					"Promijenjene su neke hiperveze"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[glavno] Čišćenje koda - 1. dio"]
+			"notes": {
+				"main": [
+					"Čišćenje koda - 1. dio"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[popravak greške] Osvježi veze za automatsko ažuriranje"]
+			"notes": {
+				"bugfix": [
+					"Osvježi veze za automatsko ažuriranje"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[popravak greške] Promijenjene su neke hiperveze"]
+			"notes": {
+				"bugfix": [
+					"Promijenjene su neke hiperveze"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[ispravak greške] Ups! Popravljen UserScript"]
+			"notes": {
+				"bugfix": [
+					"Ups! Popravljen UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[popravak greške] Popravak za uklanjanje značajke"]
+			"notes": {
+				"bugfix": [
+					"Popravak za uklanjanje značajke"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[main] Uklonjene mnoge beskorisne značajke"]
+			"notes": {
+				"main": [
+					"Uklonjene mnoge beskorisne značajke"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": [
-				"[ispravak bugova] Ispravljene su neke pogreške pri upisu",
-				"[glavno] Promjena verzije formule"
-			]
+			"notes": {
+				"bugfix": [
+					"Ispravljene su neke pogreške pri upisu"
+				],
+				"main": [
+					"Promjena verzije formule"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Generirajte UserScript iz clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Generirajte UserScript iz clothcalc_sk **"
+				]
+			}
 		}
 	]
 }

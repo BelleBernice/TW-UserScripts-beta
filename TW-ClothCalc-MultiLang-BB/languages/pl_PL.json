@@ -363,182 +363,318 @@
 		"close_import": "Zamknij import bitew w West Forts",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Dodaj kolorowanie wielu przedmiotów na sprzedaż w Ekwipunku"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[poprawka] Napraw stary kod funkcji Zmień język",
-				"[main] Refaktoryzacja i czyszczenie kodu UserScript"
-			]
+			"notes": {
+				"bugfix": [
+					"Napraw stary kod funkcji Zmień język"
+				],
+				"main": [
+					"Refaktoryzacja i czyszczenie kodu UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[funkcja] Dodaj „tymczasową” funkcję zmiany języka",
-				"[funkcja] Oczyść kod karty Ustawienia",
-				"[funkcja] Czyszczenie kodu trybu koloru w Saloon (czat)",
-				"[funkcja] Kod porządkowy dla zawodów z bonusami na minimapie",
-				"[funkcja] Oczyść kod funkcji analizatora pracy/klatki piersiowej",
-				"[funkcja] Modernizacja różnych funkcji kodu UserScript"
-			]
+			"notes": {
+				"feature": [
+					"Dodaj „tymczasową” funkcję zmiany języka",
+					"Oczyść kod karty Ustawienia",
+					"Czyszczenie kodu trybu koloru w Saloon (czat)",
+					"Kod porządkowy dla zawodów z bonusami na minimapie",
+					"Oczyść kod funkcji analizatora pracy/klatki piersiowej",
+					"Modernizacja różnych funkcji kodu UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[funkcja] Dodaj funkcję importu/eksportu ustawień"]
+			"notes": {
+				"feature": [
+					"Dodaj funkcję importu/eksportu ustawień"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[funkcja] Dodaj wpis bitwy o fort do bazy danych witryny (westforts.com)",
-				"[funkcja] Dodaj funkcję zmiany dźwięku szeptu",
-				"[funkcja] Dodaj obrażenia zadane każdemu graczowi podczas bitwy o twierdzę",
-				"[funkcja] Dodawaj strzały w każdej turze podczas bitwy o twierdzę",
-				"[funkcja] Dodaj koloru do zadań, które można ukończyć",
-				"[funkcja] Dodaj przycisk, aby automatycznie akceptować i wykonywać zadania, które można ukończyć",
-				"[poprawka] Przywróć kod, aby sprzedać handlarzowi wszystkie przedmioty oprócz wybranego",
-				"[poprawka] Naprawiono stary kod opcji pokazującej punkty pracy w oknie zadań",
-				"[poprawka] Napraw kod opcji automatycznego otwierania Marketu, aby zminimalizować okno odzieży",
-				"[poprawka] Napraw kod w zakładce kompilacji, jeśli obecny jest TWIR",
-				"[main] Zmiana kolejności kategorii w zakładce Ustawienia"
-			]
+			"notes": {
+				"feature": [
+					"Dodaj wpis bitwy o fort do bazy danych witryny (westforts.com)",
+					"Dodaj funkcję zmiany dźwięku szeptu",
+					"Dodaj obrażenia zadane każdemu graczowi podczas bitwy o twierdzę",
+					"Dodawaj strzały w każdej turze podczas bitwy o twierdzę",
+					"Dodaj koloru do zadań, które można ukończyć",
+					"Dodaj przycisk, aby automatycznie akceptować i wykonywać zadania, które można ukończyć"
+				],
+				"bugfix": [
+					"Przywróć kod, aby sprzedać handlarzowi wszystkie przedmioty oprócz wybranego",
+					"Naprawiono stary kod opcji pokazującej punkty pracy w oknie zadań",
+					"Napraw kod opcji automatycznego otwierania Marketu, aby zminimalizować okno odzieży",
+					"Napraw kod w zakładce kompilacji, jeśli obecny jest TWIR"
+				],
+				"main": [
+					"Zmiana kolejności kategorii w zakładce Ustawienia"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[funkcja] Dodaj opcję ciemnego motywu dla mapy The-West",
-				"[funkcja] Poprawiono ikonę raportu sprzedaży w oknie zakupu budynku Targowiska",
-				"[funkcja] Dodaj ikonę informującą, czy oferty rynkowe są publiczne, tylko dla członków sojuszu lub miasta",
-				"[funkcja] Dodaj nowy przycisk, aby łatwo otworzyć okno Marketu"
-			]
+			"notes": {
+				"feature": [
+					"Dodaj opcję ciemnego motywu dla mapy The-West",
+					"Poprawiono ikonę raportu sprzedaży w oknie zakupu budynku Targowiska",
+					"Dodaj ikonę informującą, czy oferty rynkowe są publiczne, tylko dla członków sojuszu lub miasta",
+					"Dodaj nowy przycisk, aby łatwo otworzyć okno Marketu"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[funkcja] Dodano czasy regeneracji do portretu gracza",
-				"[funkcja] Dodaj podświetlanie tekstu do forów miejskich",
-				"[funkcja] Dodano opcję przypinania paska menu, środowiska i skryptu użytkownika do ekranu",
-				"[funkcja] Dodaj doświadczenie pojedynków do profilu gracza",
-				"[poprawka] Naprawa zakładki Rekrutacja",
-				"[poprawka] Wyłącz automatyczną aktywację niektórych funkcji"
-			]
+			"notes": {
+				"feature": [
+					"Dodano czasy regeneracji do portretu gracza",
+					"Dodaj podświetlanie tekstu do forów miejskich",
+					"Dodano opcję przypinania paska menu, środowiska i skryptu użytkownika do ekranu",
+					"Dodaj doświadczenie pojedynków do profilu gracza"
+				],
+				"bugfix": [
+					"Naprawa zakładki Rekrutacja",
+					"Wyłącz automatyczną aktywację niektórych funkcji"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[poprawka] Napraw niektóre komunikaty dotyczące ustawień",
-				"[poprawka] Naprawa zakładki Rekrutacja"
-			]
+			"notes": {
+				"bugfix": [
+					"Napraw niektóre komunikaty dotyczące ustawień",
+					"Naprawa zakładki Rekrutacja"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[funkcja] Dodano trafienia krytyczne i rundy duchów na cmentarzu fortecy",
-				"[funkcja] Dodano okno dla posiadanych i sojuszniczych fortów do okna miast",
-				"[funkcja] Dodano automatyczne otwieranie twierdzy Axe Unbury z jej raportu",
-				"[funkcja] Poprawiono wszystkie tabele rankingowe",
-				"[funkcja] Poprawiono okno Rekrutacji przed bitwą o twierdzę",
-				"[funkcja] Usuń miganie przycisku Miasto, jeśli na Forum Miasta pojawiła się nowa wiadomość"
-			]
+			"notes": {
+				"feature": [
+					"Dodano trafienia krytyczne i rundy duchów na cmentarzu fortecy",
+					"Dodano okno dla posiadanych i sojuszniczych fortów do okna miast",
+					"Dodano automatyczne otwieranie twierdzy Axe Unbury z jej raportu",
+					"Poprawiono wszystkie tabele rankingowe",
+					"Poprawiono okno Rekrutacji przed bitwą o twierdzę",
+					"Usuń miganie przycisku Miasto, jeśli na Forum Miasta pojawiła się nowa wiadomość"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[funkcja] Dodaj postęp budowy do zakładki budowy",
-				"[funkcja] Dodaj dodatkowe poziomy kościoła",
-				"[funkcja] Dodaj funkcję wyświetlającą tylko budynki, które nie są w pełni wybudowane w ratuszu",
-				"[funkcja] Dodano nowy przycisk umożliwiający łatwe otwarcie zakładki budowy kościoła",
-				"[funkcja] Dodaj przycisk zamykający tylko okna Ekwipunku"
-			]
+			"notes": {
+				"feature": [
+					"Dodaj postęp budowy do zakładki budowy",
+					"Dodaj dodatkowe poziomy kościoła",
+					"Dodaj funkcję wyświetlającą tylko budynki, które nie są w pełni wybudowane w ratuszu",
+					"Dodano nowy przycisk umożliwiający łatwe otwarcie zakładki budowy kościoła",
+					"Dodaj przycisk zamykający tylko okna Ekwipunku"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[poprawka] Ups! Napraw kod kompilacji"]
+			"notes": {
+				"bugfix": [
+					"Ups! Napraw kod kompilacji"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[poprawka] Napraw link do nowej wersji"]
+			"notes": {
+				"bugfix": [
+					"Napraw link do nowej wersji"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[poprawka] Poprawka wersji w niektórych miejscach, miejmy nadzieję!"]
+			"notes": {
+				"bugfix": [
+					"Poprawka wersji w niektórych miejscach, miejmy nadzieję!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[poprawka] Poprawka wersji w niektórych miejscach"]
+			"notes": {
+				"bugfix": [
+					"Poprawka wersji w niektórych miejscach"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[główny] Usuń wersję"]
+			"notes": {
+				"feature": [
+					"Usuń wersję"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[poprawka] Zmieniono link do nowej wersji funkcji"]
+			"notes": {
+				"bugfix": [
+					"Zmieniono link do nowej wersji funkcji"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[poprawka] Napraw przestarzały kod korzystający z UserScript"]
+			"notes": {
+				"bugfix": [
+					"Napraw przestarzały kod korzystający z UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": ["[main] Usuń zbędny kod", "[main] Zmieniono szczegóły w oknie Rekrutacji"]
+			"notes": {
+				"main": [
+					"Usuń zbędny kod",
+					"Zmieniono szczegóły w oknie Rekrutacji"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[poprawka] Ups! Naprawiono skrypt użytkownika"]
+			"notes": {
+				"bugfix": [
+					"Ups! Naprawiono skrypt użytkownika"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[poprawka] Napraw błędną wersję"]
+			"notes": {
+				"bugfix": [
+					"Napraw błędną wersję"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": [
-				"[main] Usunięto niepotrzebny kod w oknie Rekrutacji",
-				"[główny] Zmień aktualizator"
-			]
+			"notes": {
+				"feature": [
+					"Zmień aktualizator"
+				],
+				"main": [
+					"Usunięto niepotrzebny kod w oknie Rekrutacji"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[poprawka] Naprawiono pinezkę przedmiotu, aby poprawnie wyświetlała się w oknie ekwipunku TWIR",
-				"[poprawka] Napraw błędy ortograficzne słowa „poprawka” w atrybutach wydania"
-			]
+			"notes": {
+				"bugfix": [
+					"Naprawiono pinezkę przedmiotu, aby poprawnie wyświetlała się w oknie ekwipunku TWIR",
+					"Napraw błędy ortograficzne słowa „poprawka” w atrybutach wydania"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": ["[główny] Oczyszczanie kodu - część 2", "[main] Zmieniono niektóre hiperłącza"]
+			"notes": {
+				"feature": [
+					"Oczyszczanie kodu - część 2"
+				],
+				"main": [
+					"Zmieniono niektóre hiperłącza"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[główny] Oczyszczanie kodu - część 1"]
+			"notes": {
+				"feature": [
+					"Oczyszczanie kodu - część 1"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[poprawka] Odśwież linki do automatycznej aktualizacji"]
+			"notes": {
+				"bugfix": [
+					"Odśwież linki do automatycznej aktualizacji"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[poprawka] Zmieniono niektóre hiperłącza"]
+			"notes": {
+				"bugfix": [
+					"Zmieniono niektóre hiperłącza"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[poprawka] Ups! Naprawiono skrypt użytkownika"]
+			"notes": {
+				"bugfix": [
+					"Ups! Naprawiono skrypt użytkownika"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[poprawka] Poprawka dotycząca usuwania funkcji"]
+			"notes": {
+				"bugfix": [
+					"Poprawka dotycząca usuwania funkcji"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[główny] Usunięto wiele bezużytecznych funkcji"]
+			"notes": {
+				"feature": [
+					"Usunięto wiele bezużytecznych funkcji"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": ["[poprawka] Naprawiono kilka literówek", "[main] Zmień wersję formuły"]
+			"notes": {
+				"bugfix": [
+					"Naprawiono kilka literówek"
+				],
+				"main": [
+					"Zmień wersję formuły"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Wygeneruj skrypt użytkownika z Clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Wygeneruj skrypt użytkownika z Clothcalc_sk **"
+				]
+			}
 		}
 	]
 }

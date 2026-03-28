@@ -363,185 +363,314 @@
 		"close_import": "Sulje taistelujen tuonti West Fortsissa",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Lisää väritys useille myytäville esineille varastossa"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[virheenkorjaus] Korjaa Change Language -toiminnon vanha koodi",
-				"[main] UserScript-koodin uudelleenfaktorointi ja puhdistaminen"
-			]
+			"notes": {
+				"bugfix": [
+					"Korjaa Change Language -toiminnon vanha koodi"
+				],
+				"main": [
+					"UserScript-koodin uudelleenfaktorointi ja puhdistaminen"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[ominaisuus] Lisää \"väliaikainen\" kielenvaihtotoiminto",
-				"[ominaisuus] Puhdista Asetukset-välilehden koodi",
-				"[ominaisuus] Väritilan koodin puhdistus sedanissa (chat)",
-				"[ominaisuus] Siivouskoodi työpaikoille, joissa on bonuksia minikartassa",
-				"[ominaisuus] Clean up Job/Chest Analyzer -toimintokoodi",
-				"[ominaisuus] Nykyaikaistaa UserScript-koodin eri toimintoja"
-			]
+			"notes": {
+				"feature": [
+					"Lisää \"väliaikainen\" kielenvaihtotoiminto",
+					"Puhdista Asetukset-välilehden koodi",
+					"Väritilan koodin puhdistus sedanissa (chat)",
+					"Siivouskoodi työpaikoille, joissa on bonuksia minikartassa",
+					"Clean up Job/Chest Analyzer -toimintokoodi",
+					"Nykyaikaistaa UserScript-koodin eri toimintoja"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[ominaisuus] Lisää tuonti-/vientiasetukset-toiminto"]
+			"notes": {
+				"feature": [
+					"Lisää tuonti-/vientiasetukset-toiminto"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[ominaisuus] Lisää linnoitustaistelun merkintä verkkosivuston tietokantaan (westforts.com)",
-				"[ominaisuus] Lisää Whisper-äänenvaihtotoiminto",
-				"[ominaisuus] Lisää jokaiselle pelaajalle linnoitustaistelun aikana aiheutettua vahinkoa",
-				"[ominaisuus] Lisää laukauksia joka käänteessä linnoitustaistelun aikana",
-				"[ominaisuus] Lisää väriä tehtävissä, jotka voidaan suorittaa",
-				"[ominaisuus] Lisää-painike hyväksyä ja suorittaa automaattisesti tehtävät, jotka voidaan suorittaa",
-				"[virheenkorjaus] Palauta koodi myydäksesi kaikki paitsi valitut tuotteet kauppiaalle",
-				"[vikakorjaus] Korjattu vanha koodi vaihtoehtoon, joka näyttää työpisteet työikkunassa",
-				"[virheenkorjaus] Korjaa Marketin automaattisen avauksen koodi niin, että vaateikkuna on minimoitu",
-				"[virheenkorjaus] Korjaa koodi rakennusvälilehdellä, jos TWIR on läsnä",
-				"[main] Luokkien järjestys uudelleen Asetukset-välilehdellä"
-			]
+			"notes": {
+				"feature": [
+					"Lisää linnoitustaistelun merkintä verkkosivuston tietokantaan (westforts.com)",
+					"Lisää Whisper-äänenvaihtotoiminto",
+					"Lisää jokaiselle pelaajalle linnoitustaistelun aikana aiheutettua vahinkoa",
+					"Lisää laukauksia joka käänteessä linnoitustaistelun aikana",
+					"Lisää väriä tehtävissä, jotka voidaan suorittaa",
+					"Lisää-painike hyväksyä ja suorittaa automaattisesti tehtävät, jotka voidaan suorittaa"
+				],
+				"bugfix": [
+					"Palauta koodi myydäksesi kaikki paitsi valitut tuotteet kauppiaalle",
+					"Korjattu vanha koodi vaihtoehtoon, joka näyttää työpisteet työikkunassa",
+					"Korjaa Marketin automaattisen avauksen koodi niin, että vaateikkuna on minimoitu",
+					"Korjaa koodi rakennusvälilehdellä, jos TWIR on läsnä"
+				],
+				"main": [
+					"Luokkien järjestys uudelleen Asetukset-välilehdellä"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[ominaisuus] Lisää tumma teemavaihtoehto Länsi-kartalle",
-				"[ominaisuus] Parannettu myyntiraporttikuvaketta Market-rakennuksen ostoikkunassa",
-				"[ominaisuus] Lisää kuvake siitä, ovatko markkinatarjoukset julkisia, vain liittoutuman tai kaupungin jäsenille",
-				"[ominaisuus] Lisää uusi painike avataksesi Market-ikkunan helposti"
-			]
+			"notes": {
+				"feature": [
+					"Lisää tumma teemavaihtoehto Länsi-kartalle",
+					"Parannettu myyntiraporttikuvaketta Market-rakennuksen ostoikkunassa",
+					"Lisää kuvake siitä, ovatko markkinatarjoukset julkisia, vain liittoutuman tai kaupungin jäsenille",
+					"Lisää uusi painike avataksesi Market-ikkunan helposti"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[ominaisuus] Lisätty uusiutumisajat pelaajan muotokuvaan",
-				"[ominaisuus] Lisää tekstin korostus kaupunkifoorumeihin",
-				"[ominaisuus] Lisää vaihtoehto kiinnittääksesi valikkopalkin, Experiencen ja UserScriptin näyttöön",
-				"[ominaisuus] Lisää kaksintaistelukokemus pelaajaprofiiliin",
-				"[virheenkorjaus] Rekrytointi-välilehden korjaus",
-				"[virheenkorjaus] Poista joidenkin toimintojen automaattinen aktivointi käytöstä"
-			]
+			"notes": {
+				"feature": [
+					"Lisätty uusiutumisajat pelaajan muotokuvaan",
+					"Lisää tekstin korostus kaupunkifoorumeihin",
+					"Lisää vaihtoehto kiinnittääksesi valikkopalkin, Experiencen ja UserScriptin näyttöön",
+					"Lisää kaksintaistelukokemus pelaajaprofiiliin"
+				],
+				"bugfix": [
+					"Rekrytointi-välilehden korjaus",
+					"Poista joidenkin toimintojen automaattinen aktivointi käytöstä"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[virheenkorjaus] Korjaa jotkin asetusviestit",
-				"[virheenkorjaus] Rekrytointi-välilehden korjaus"
-			]
+			"notes": {
+				"bugfix": [
+					"Korjaa jotkin asetusviestit",
+					"Rekrytointi-välilehden korjaus"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[ominaisuus] Lisätty kriittisiä osumia ja haamukierroksia linnoituksen hautausmaalle",
-				"[ominaisuus] Lisää ikkuna omistetuille ja liittoutuneille linnoille kaupunkien ikkunaan",
-				"[ominaisuus] Lisää raportistaan ​​axe unbury -linnoituksen automaattinen avautuminen",
-				"[ominaisuus] Parannettu kaikkia Ranking-taulukoita",
-				"[ominaisuus] Paransi Rekrytointi-ikkunaa ennen linnoitustaistelua",
-				"[ominaisuus] Poista City-painikkeen vilkkuminen, jos kaupunkifoorumilla on uusi viesti"
-			]
+			"notes": {
+				"feature": [
+					"Lisätty kriittisiä osumia ja haamukierroksia linnoituksen hautausmaalle",
+					"Lisää ikkuna omistetuille ja liittoutuneille linnoille kaupunkien ikkunaan",
+					"Lisää raportistaan ​​axe unbury -linnoituksen automaattinen avautuminen",
+					"Parannettu kaikkia Ranking-taulukoita",
+					"Paransi Rekrytointi-ikkunaa ennen linnoitustaistelua",
+					"Poista City-painikkeen vilkkuminen, jos kaupunkifoorumilla on uusi viesti"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[ominaisuus] Lisää rakentamisen edistyminen rakennusvälilehdelle",
-				"[ominaisuus] Lisää kirkon tasoja",
-				"[ominaisuus] Lisää toiminto näyttääksesi vain rakennukset, jotka eivät ole täysin valmiita kaupungintalossa",
-				"[ominaisuus] Lisätty uusi painike, joka avaa helposti Kirkon rakennus -välilehden",
-				"[ominaisuus] Lisää painike sulkeaksesi vain Varasto-ikkunat"
-			]
+			"notes": {
+				"feature": [
+					"Lisää rakentamisen edistyminen rakennusvälilehdelle",
+					"Lisää kirkon tasoja",
+					"Lisää toiminto näyttääksesi vain rakennukset, jotka eivät ole täysin valmiita kaupungintalossa",
+					"Lisätty uusi painike, joka avaa helposti Kirkon rakennus -välilehden",
+					"Lisää painike sulkeaksesi vain Varasto-ikkunat"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[virheenkorjaus] Hups! Korjaa rakennuskoodi"]
+			"notes": {
+				"bugfix": [
+					"Hups! Korjaa rakennuskoodi"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[virheenkorjaus] Korjaa uuden version linkki"]
+			"notes": {
+				"bugfix": [
+					"Korjaa uuden version linkki"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[bugikorjaus] Versiokorjaus joissain paikoissa, toivotaan!"]
+			"notes": {
+				"bugfix": [
+					"Versiokorjaus joissain paikoissa, toivotaan!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[virheenkorjaus] Versiokorjaus joissain paikoissa"]
+			"notes": {
+				"bugfix": [
+					"Versiokorjaus joissain paikoissa"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[pää] Poista versio"]
+			"notes": {
+				"main": [
+					"Poista versio"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[virheenkorjaus] Uusi ominaisuuden version linkki muutettu"]
+			"notes": {
+				"bugfix": [
+					"Uusi ominaisuuden version linkki muutettu"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[virheenkorjaus] Korjaa vanhentunut koodi, joka käytti UserScriptiä"]
+			"notes": {
+				"bugfix": [
+					"Korjaa vanhentunut koodi, joka käytti UserScriptiä"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": [
-				"[main] Poista ylimääräinen koodi",
-				"[main] Muuttuneet tiedot Rekrytointi-ikkunassa"
-			]
+			"notes": {
+				"main": [
+					"Poista ylimääräinen koodi",
+					"Muuttuneet tiedot Rekrytointi-ikkunassa"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[virheenkorjaus] Hups! Korjattu UserScript"]
+			"notes": {
+				"bugfix": [
+					"Hups! Korjattu UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[virheenkorjaus] Korjaa väärä versio"]
+			"notes": {
+				"bugfix": [
+					"Korjaa väärä versio"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": ["[main] Poistettu tarpeeton koodi Recruit-ikkunasta", "[main] Change Updater"]
+			"notes": {
+				"main": [
+					"Poistettu tarpeeton koodi Recruit-ikkunasta",
+					"Change Updater"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[virheenkorjaus] Korjaa nimikkeen nasta, joka näkyy oikein vanilja- ja TWIR-inventaariossa",
-				"[virheenkorjaus] Korjaa julkaisumääritteiden sanan bugikorjauksen kirjoitusvirheet"
-			]
+			"notes": {
+				"bugfix": [
+					"Korjaa nimikkeen nasta, joka näkyy oikein vanilja- ja TWIR-inventaariossa",
+					"Korjaa julkaisumääritteiden sanan bugikorjauksen kirjoitusvirheet"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": ["[pää] Koodin puhdistus – osa 2", "[main] Muutettiin joitain hyperlinkkejä"]
+			"notes": {
+				"main": [
+					"Koodin puhdistus – osa 2",
+					"Muutettiin joitain hyperlinkkejä"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[pää] Koodin puhdistus – osa 1"]
+			"notes": {
+				"main": [
+					"Koodin puhdistus – osa 1"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[virheenkorjaus] Päivitä linkit automaattista päivitystä varten"]
+			"notes": {
+				"bugfix": [
+					"Päivitä linkit automaattista päivitystä varten"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[virheenkorjaus] Muutettiin hyperlinkkejä"]
+			"notes": {
+				"bugfix": [
+					"Muutettiin hyperlinkkejä"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[virheenkorjaus] Hups! Korjattu UserScript"]
+			"notes": {
+				"bugfix": [
+					"Hups! Korjattu UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[virheenkorjaus] Ominaisuuden poiston korjaus"]
+			"notes": {
+				"bugfix": [
+					"Ominaisuuden poiston korjaus"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[main] Poistettu monia hyödyttömiä ominaisuuksia"]
+			"notes": {
+				"main": [
+					"Poistettu monia hyödyttömiä ominaisuuksia"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": [
-				"[virheenkorjaus] Korjattu joitain kirjoitusvirheitä",
-				"[main] Muuta kaavan versiota"
-			]
+			"notes": {
+				"bugfix": [
+					"Korjattu joitain kirjoitusvirheitä"
+				],
+				"main": [
+					"Muuta kaavan versiota"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Luo UserScript from clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Luo UserScript from clothcalc_sk **"
+				]
+			}
 		}
 	]
 }

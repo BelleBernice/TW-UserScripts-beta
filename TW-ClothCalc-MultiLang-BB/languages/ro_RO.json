@@ -363,191 +363,314 @@
 		"close_import": "Închide importul de bătălii în West Forts",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Adaugă colorare pentru multiple obiecte de vânzare în Inventar"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[bugfix] Remediați codul vechi al funcției de schimbare a limbii",
-				"[principal] Refactorizarea și curățarea codului UserScript"
-			]
+			"notes": {
+				"bugfix": [
+					"Remediați codul vechi al funcției de schimbare a limbii"
+				],
+				"main": [
+					"Refactorizarea și curățarea codului UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[funcție] Adăugați funcția de schimbare a limbii „temporane”.",
-				"[funcție] Curățați codul filei Setări",
-				"[funcție] Curățarea codului modului de culoare în Saloon (chat)",
-				"[funcție] Cod de curățare pentru locuri de muncă cu bonusuri pe mini hartă",
-				"[funcție] Curățați codul funcției Job/Chest Analyzer",
-				"[funcție] Modernizați diferite funcții ale codului UserScript"
-			]
+			"notes": {
+				"feature": [
+					"Adăugați funcția de schimbare a limbii „temporane”.",
+					"Curățați codul filei Setări",
+					"Curățarea codului modului de culoare în Saloon (chat)",
+					"Cod de curățare pentru locuri de muncă cu bonusuri pe mini hartă",
+					"Curățați codul funcției Job/Chest Analyzer",
+					"Modernizați diferite funcții ale codului UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[funcție] Adăugați funcția Setări de import/export"]
+			"notes": {
+				"feature": [
+					"Adăugați funcția Setări de import/export"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[funcție] Adăugați o intrare de luptă fort la baza de date a site-ului web (westforts.com)",
-				"[funcție] Adăugați funcția de schimbare a sunetului Whisper",
-				"[funcție] Adăugați daunele aduse fiecărui jucător în timpul unei bătălii cu fortăreață",
-				"[funcție] Adaugă lovituri la fiecare rând în timpul unei bătălii cu fortăreață",
-				"[funcție] Adăugați culoare misiunilor care pot fi finalizate",
-				"[funcție] Buton Adaugă pentru a accepta și a finaliza automat misiunile care pot fi finalizate",
-				"[remediere] Restabiliți codul pentru a vinde comerciantului toate articolele, cu excepția unuia selectat",
-				"[bugfix] S-a remediat codul vechi al opțiunii care afișează punctele de lucru în fereastra de joburi",
-				"[bugfix] Remediați codul opțiunii de deschidere automată a pieței, astfel încât fereastra de îmbrăcăminte să fie minimizată",
-				"[remediere] Remediați codul din fila de compilare dacă este prezent TWIR",
-				"[principal] Reordonarea categoriilor în fila Setări"
-			]
+			"notes": {
+				"feature": [
+					"Adăugați o intrare de luptă fort la baza de date a site-ului web (westforts.com)",
+					"Adăugați funcția de schimbare a sunetului Whisper",
+					"Adăugați daunele aduse fiecărui jucător în timpul unei bătălii cu fortăreață",
+					"Adaugă lovituri la fiecare rând în timpul unei bătălii cu fortăreață",
+					"Adăugați culoare misiunilor care pot fi finalizate",
+					"Buton Adaugă pentru a accepta și a finaliza automat misiunile care pot fi finalizate"
+				],
+				"bugfix": [
+					"Restabiliți codul pentru a vinde comerciantului toate articolele, cu excepția unuia selectat",
+					"S-a remediat codul vechi al opțiunii care afișează punctele de lucru în fereastra de joburi",
+					"Remediați codul opțiunii de deschidere automată a pieței, astfel încât fereastra de îmbrăcăminte să fie minimizată",
+					"Remediați codul din fila de compilare dacă este prezent TWIR"
+				],
+				"main": [
+					"Reordonarea categoriilor în fila Setări"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[funcție] Adăugați opțiunea de temă întunecată pentru Harta The-West",
-				"[funcție] S-a îmbunătățit pictograma raportului de vânzare în fereastra de cumpărare a clădirii Market",
-				"[funcție] Adăugați pictogramă pentru a stabili dacă ofertele pieței sunt publice, numai pentru membrii alianței sau a orașului",
-				"[funcție] Adăugați un buton nou pentru a deschide cu ușurință fereastra Piață"
-			]
+			"notes": {
+				"feature": [
+					"Adăugați opțiunea de temă întunecată pentru Harta The-West",
+					"S-a îmbunătățit pictograma raportului de vânzare în fereastra de cumpărare a clădirii Market",
+					"Adăugați pictogramă pentru a stabili dacă ofertele pieței sunt publice, numai pentru membrii alianței sau a orașului",
+					"Adăugați un buton nou pentru a deschide cu ușurință fereastra Piață"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[funcție] Timpii de regenerare adăugat la portretul jucătorului",
-				"[funcție] Adăugați evidențierea textului la forumurile orașului",
-				"[funcție] Adăugați opțiunea pentru fixarea barei de meniu, Experiența și UserScript pe ecran",
-				"[funcție] Adăugați experiență de duel la profilul jucătorului",
-				"[remediere] Fila Recrutare remediată",
-				"[bugfix] Dezactivează activarea automată a unor funcții"
-			]
+			"notes": {
+				"feature": [
+					"Timpii de regenerare adăugat la portretul jucătorului",
+					"Adăugați evidențierea textului la forumurile orașului",
+					"Adăugați opțiunea pentru fixarea barei de meniu, Experiența și UserScript pe ecran",
+					"Adăugați experiență de duel la profilul jucătorului"
+				],
+				"bugfix": [
+					"Fila Recrutare remediată",
+					"Dezactivează activarea automată a unor funcții"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[remediere] Remediați unele mesaje de setări",
-				"[remediere] Fila Recrutare remediată"
-			]
+			"notes": {
+				"bugfix": [
+					"Remediați unele mesaje de setări",
+					"Fila Recrutare remediată"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[funcție] S-au adăugat lovituri critice și runde fantomă în cimitirul cetății",
-				"[funcție] Adăugați o fereastră pentru forturile deținute și aliate în fereastra orașelor",
-				"[funcție] Adăugați deschiderea automată a fortăreței Ax Unbury din raportul său",
-				"[funcție] S-au îmbunătățit toate tabelele de clasare",
-				"[funcție] Fereastra de recrutare a fost îmbunătățită înainte de bătălia cetății",
-				"[funcție] Eliminați clipirea butonului Oraș dacă există un mesaj nou în Forumul orașului"
-			]
+			"notes": {
+				"feature": [
+					"S-au adăugat lovituri critice și runde fantomă în cimitirul cetății",
+					"Adăugați o fereastră pentru forturile deținute și aliate în fereastra orașelor",
+					"Adăugați deschiderea automată a fortăreței Ax Unbury din raportul său",
+					"S-au îmbunătățit toate tabelele de clasare",
+					"Fereastra de recrutare a fost îmbunătățită înainte de bătălia cetății",
+					"Eliminați clipirea butonului Oraș dacă există un mesaj nou în Forumul orașului"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[funcție] Adăugați progresul construcției în fila de construcție",
-				"[funcție] Adăugați niveluri suplimentare de biserică",
-				"[funcție] Adăugați funcția pentru a afișa numai clădirile care nu sunt complet construite în Primărie",
-				"[funcție] S-a adăugat un buton nou pentru a deschide cu ușurință fila Clădirea Bisericii",
-				"[funcție] Adăugați un buton pentru a închide numai ferestrele Inventar"
-			]
+			"notes": {
+				"feature": [
+					"Adăugați progresul construcției în fila de construcție",
+					"Adăugați niveluri suplimentare de biserică",
+					"Adăugați funcția pentru a afișa numai clădirile care nu sunt complet construite în Primărie",
+					"S-a adăugat un buton nou pentru a deschide cu ușurință fila Clădirea Bisericii",
+					"Adăugați un buton pentru a închide numai ferestrele Inventar"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[remediere] Hopa! Remediați codul de construcție"]
+			"notes": {
+				"bugfix": [
+					"Hopa! Remediați codul de construcție"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[remediere] Remediați linkul versiunii noi"]
+			"notes": {
+				"bugfix": [
+					"Remediați linkul versiunii noi"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[bugfix] Versiune remediată în unele locuri, să sperăm!"]
+			"notes": {
+				"bugfix": [
+					"Versiune remediată în unele locuri, să sperăm!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[bugfix] Versiune remediată în unele locuri"]
+			"notes": {
+				"bugfix": [
+					"Versiune remediată în unele locuri"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[principal] Eliminați revizuirea"]
+			"notes": {
+				"main": [
+					"Eliminați revizuirea"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[bugfix] S-a schimbat linkul versiunii noii caracteristici"]
+			"notes": {
+				"bugfix": [
+					"S-a schimbat linkul versiunii noii caracteristici"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[bugfix] Remediați codul depreciat care folosea UserScript"]
+			"notes": {
+				"bugfix": [
+					"Remediați codul depreciat care folosea UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": [
-				"[principal] Eliminați codul redundant",
-				"[principal] Detalii modificate în fereastra Recrutare"
-			]
+			"notes": {
+				"main": [
+					"Eliminați codul redundant",
+					"Detalii modificate în fereastra Recrutare"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[remediere] Hopa! S-a corectat UserScript"]
+			"notes": {
+				"bugfix": [
+					"Hopa! S-a corectat UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[bugfix] Remediați versiunea greșită"]
+			"notes": {
+				"bugfix": [
+					"Remediați versiunea greșită"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": [
-				"[principal] S-a eliminat codul inutil din fereastra Recrutare",
-				"[principal] Schimbare de actualizare"
-			]
+			"notes": {
+				"main": [
+					"S-a eliminat codul inutil din fereastra Recrutare",
+					"Schimbare de actualizare"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[remediere] Remediați codul elementului pentru a fi afișat corect în fereastra vanilie și Inventar TWIR",
-				"[bugfix] Remediați greșelile de ortografie ale cuvântului bugfix în Release Attributes"
-			]
+			"notes": {
+				"bugfix": [
+					"Remediați codul elementului pentru a fi afișat corect în fereastra vanilie și Inventar TWIR",
+					"Remediați greșelile de ortografie ale cuvântului bugfix în Release Attributes"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": [
-				"[principal] Curățarea codului - partea 2",
-				"[principal] S-au schimbat unele hyperlinkuri"
-			]
+			"notes": {
+				"main": [
+					"Curățarea codului - partea 2",
+					"S-au schimbat unele hyperlinkuri"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[principal] Curățarea codului - partea 1"]
+			"notes": {
+				"main": [
+					"Curățarea codului - partea 1"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[remediere] Actualizează linkurile pentru actualizarea automată"]
+			"notes": {
+				"bugfix": [
+					"Actualizează linkurile pentru actualizarea automată"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[bugfix] S-au schimbat unele hyperlinkuri"]
+			"notes": {
+				"bugfix": [
+					"S-au schimbat unele hyperlinkuri"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[remediere] Hopa! S-a corectat UserScript"]
+			"notes": {
+				"bugfix": [
+					"Hopa! S-a corectat UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[remediere] Remediere pentru eliminarea caracteristicilor"]
+			"notes": {
+				"bugfix": [
+					"Remediere pentru eliminarea caracteristicilor"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[principal] S-au eliminat multe caracteristici inutile"]
+			"notes": {
+				"main": [
+					"S-au eliminat multe caracteristici inutile"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": [
-				"[bugfix] S-au remediat unele greșeli de scriere",
-				"[principal] Schimbați versiunea formulei"
-			]
+			"notes": {
+				"bugfix": [
+					"S-au remediat unele greșeli de scriere"
+				],
+				"main": [
+					"Schimbați versiunea formulei"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Generați UserScript din clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Generați UserScript din clothcalc_sk **"
+				]
+			}
 		}
 	]
 }

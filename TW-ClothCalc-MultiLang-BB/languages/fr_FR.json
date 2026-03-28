@@ -363,191 +363,314 @@
 		"close_import": "Fermer l’importation des batailles dans West Forts",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Ajouter une coloration à plusieurs objets en vente dans l'Inventaire"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[bugfix] Correction de l'ancien code de la fonction Changer de langue",
-				"[main] Refactorisation et nettoyage du code UserScript"
-			]
+			"notes": {
+				"bugfix": [
+					"Correction de l'ancien code de la fonction Changer de langue"
+				],
+				"main": [
+					"Refactorisation et nettoyage du code UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[fonctionnalité] Ajouter une fonction de changement de langue \"temporaire\"",
-				"[fonctionnalité] Nettoyer le code de l'onglet Paramètres",
-				"[fonctionnalité] Nettoyage du code du mode couleur dans Saloon (chat)",
-				"[fonctionnalité] Code de nettoyage pour les jobs avec bonus sur la mini-carte",
-				"[fonctionnalité] Nettoyer le code de fonction de l'analyseur de travail/de poitrine",
-				"[fonctionnalité] Moderniser diverses fonctions du code UserScript"
-			]
+			"notes": {
+				"feature": [
+					"Ajouter une fonction de changement de langue \"temporaire\"",
+					"Nettoyer le code de l'onglet Paramètres",
+					"Nettoyage du code du mode couleur dans Saloon (chat)",
+					"Code de nettoyage pour les jobs avec bonus sur la mini-carte",
+					"Nettoyer le code de fonction de l'analyseur de travail/de poitrine",
+					"Moderniser diverses fonctions du code UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[fonctionnalité] Ajouter la fonction de paramètres d'importation/exportation"]
+			"notes": {
+				"feature": [
+					"Ajouter la fonction de paramètres d'importation/exportation"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[fonctionnalité] Ajouter une entrée de bataille de fort à la base de données du site Web (westforts.com)",
-				"[fonctionnalité] Ajouter une fonction de changement de son Whisper",
-				"[fonctionnalité] Ajoutez les dégâts infligés à chaque joueur lors d'une bataille de forteresse",
-				"[fonctionnalité] Ajoutez des tirs à chaque tour pendant une bataille de forteresse",
-				"[fonctionnalité] Ajoutez de la couleur aux quêtes pouvant être complétées",
-				"[fonctionnalité] Ajouter un bouton pour accepter et terminer automatiquement les quêtes qui peuvent être complétées",
-				"[bugfix] Restaurer le code pour vendre tous les articles sauf un sélectionné au marchand",
-				"[bugfix] Correction de l'ancien code de l'option qui affiche les points de travail dans la fenêtre des travaux",
-				"[bugfix] Correction du code de l'option d'ouverture automatique du marché afin que la fenêtre des vêtements soit minimisée",
-				"[bugfix] Correction du code dans l'onglet build si TWIR est présent",
-				"[principal] Réorganisation des catégories dans l'onglet Paramètres"
-			]
+			"notes": {
+				"feature": [
+					"Ajouter une entrée de bataille de fort à la base de données du site Web (westforts.com)",
+					"Ajouter une fonction de changement de son Whisper",
+					"Ajoutez les dégâts infligés à chaque joueur lors d'une bataille de forteresse",
+					"Ajoutez des tirs à chaque tour pendant une bataille de forteresse",
+					"Ajoutez de la couleur aux quêtes pouvant être complétées",
+					"Ajouter un bouton pour accepter et terminer automatiquement les quêtes qui peuvent être complétées"
+				],
+				"bugfix": [
+					"Restaurer le code pour vendre tous les articles sauf un sélectionné au marchand",
+					"Correction de l'ancien code de l'option qui affiche les points de travail dans la fenêtre des travaux",
+					"Correction du code de l'option d'ouverture automatique du marché afin que la fenêtre des vêtements soit minimisée",
+					"Correction du code dans l'onglet build si TWIR est présent"
+				],
+				"main": [
+					"Réorganisation des catégories dans l'onglet Paramètres"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[fonctionnalité] Ajouter une option de thème sombre pour la carte The-West",
-				"[fonctionnalité] Amélioration de l'icône du rapport de vente dans la fenêtre d'achat du bâtiment du marché",
-				"[fonctionnalité] Ajouter une icône indiquant si les offres du marché sont publiques, uniquement pour les membres de l'alliance ou de la ville",
-				"[fonctionnalité] Ajouter un nouveau bouton pour ouvrir facilement la fenêtre Marché"
-			]
+			"notes": {
+				"feature": [
+					"Ajouter une option de thème sombre pour la carte The-West",
+					"Amélioration de l'icône du rapport de vente dans la fenêtre d'achat du bâtiment du marché",
+					"Ajouter une icône indiquant si les offres du marché sont publiques, uniquement pour les membres de l'alliance ou de la ville",
+					"Ajouter un nouveau bouton pour ouvrir facilement la fenêtre Marché"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[fonctionnalité] Ajout des temps de régénération au portrait du joueur",
-				"[fonctionnalité] Ajouter du texte surligné aux forums de la ville",
-				"[fonctionnalité] Ajouter une option pour épingler la barre de menu, l'expérience et le script utilisateur à l'écran",
-				"[fonctionnalité] Ajoutez une expérience de duel au profil du joueur",
-				"[bugfix] Correction de l'onglet Recrutement",
-				"[bugfix] Désactiver l'activation automatique de certaines fonctions"
-			]
+			"notes": {
+				"feature": [
+					"Ajout des temps de régénération au portrait du joueur",
+					"Ajouter du texte surligné aux forums de la ville",
+					"Ajouter une option pour épingler la barre de menu, l'expérience et le script utilisateur à l'écran",
+					"Ajoutez une expérience de duel au profil du joueur"
+				],
+				"bugfix": [
+					"Correction de l'onglet Recrutement",
+					"Désactiver l'activation automatique de certaines fonctions"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[bugfix] Correction de certains messages de paramètres",
-				"[bugfix] Correction de l'onglet Recrutement"
-			]
+			"notes": {
+				"bugfix": [
+					"Correction de certains messages de paramètres",
+					"Correction de l'onglet Recrutement"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[fonctionnalité] Ajout de coups critiques et de rounds fantômes au cimetière de la forteresse",
-				"[fonctionnalité] Ajouter une fenêtre pour les forts possédés et alliés à la fenêtre des villes",
-				"[fonctionnalité] Ajout de l'ouverture automatique de la forteresse de déterrement de la hache à partir de son rapport",
-				"[fonctionnalité] Amélioration de tous les tableaux de classement",
-				"[fonctionnalité] Amélioration de la fenêtre de recrutement avant la bataille de forteresse",
-				"[fonctionnalité] Supprimez le clignotement du bouton City s'il y a un nouveau message dans le City Forum"
-			]
+			"notes": {
+				"feature": [
+					"Ajout de coups critiques et de rounds fantômes au cimetière de la forteresse",
+					"Ajouter une fenêtre pour les forts possédés et alliés à la fenêtre des villes",
+					"Ajout de l'ouverture automatique de la forteresse de déterrement de la hache à partir de son rapport",
+					"Amélioration de tous les tableaux de classement",
+					"Amélioration de la fenêtre de recrutement avant la bataille de forteresse",
+					"Supprimez le clignotement du bouton City s'il y a un nouveau message dans le City Forum"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[fonctionnalité] Ajouter la progression de la construction à l'onglet de construction",
-				"[fonctionnalité] Ajouter des niveaux d'église supplémentaires",
-				"[fonctionnalité] Ajout d'une fonction pour afficher uniquement les bâtiments qui ne sont pas entièrement construits dans l'hôtel de ville",
-				"[fonctionnalité] Ajout d'un nouveau bouton pour ouvrir facilement l'onglet Bâtiment de l'église",
-				"[fonctionnalité] Ajouter un bouton pour fermer uniquement les fenêtres d'inventaire"
-			]
+			"notes": {
+				"feature": [
+					"Ajouter la progression de la construction à l'onglet de construction",
+					"Ajouter des niveaux d'église supplémentaires",
+					"Ajout d'une fonction pour afficher uniquement les bâtiments qui ne sont pas entièrement construits dans l'hôtel de ville",
+					"Ajout d'un nouveau bouton pour ouvrir facilement l'onglet Bâtiment de l'église",
+					"Ajouter un bouton pour fermer uniquement les fenêtres d'inventaire"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[correction de bug] Oups ! Corriger le code de construction"]
+			"notes": {
+				"bugfix": [
+					"Oups ! Corriger le code de construction"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[bugfix] Correction du lien vers la nouvelle version"]
+			"notes": {
+				"bugfix": [
+					"Correction du lien vers la nouvelle version"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[bugfix] Correction de version à certains endroits, espérons-le !"]
+			"notes": {
+				"bugfix": [
+					"Correction de version à certains endroits, espérons-le !"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[bugfix] Correction de version à certains endroits"]
+			"notes": {
+				"bugfix": [
+					"Correction de version à certains endroits"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[principal] Supprimer la révision"]
+			"notes": {
+				"main": [
+					"Supprimer la révision"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[bugfix] Modification du lien vers la nouvelle version de la fonctionnalité"]
+			"notes": {
+				"bugfix": [
+					"Modification du lien vers la nouvelle version de la fonctionnalité"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[bugfix] Correction du code obsolète qui utilisait UserScript"]
+			"notes": {
+				"bugfix": [
+					"Correction du code obsolète qui utilisait UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": [
-				"[principal] Supprimer le code redondant",
-				"[principal] Détails modifiés dans la fenêtre de recrutement"
-			]
+			"notes": {
+				"main": [
+					"Supprimer le code redondant",
+					"Détails modifiés dans la fenêtre de recrutement"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[correction de bug] Oups ! Script utilisateur corrigé"]
+			"notes": {
+				"bugfix": [
+					"Oups ! Script utilisateur corrigé"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[bugfix] Correction d'une mauvaise version"]
+			"notes": {
+				"bugfix": [
+					"Correction d'une mauvaise version"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": [
-				"[main] Suppression du code inutile dans la fenêtre Recruter",
-				"[principal] Changer le programme de mise à jour"
-			]
+			"notes": {
+				"main": [
+					"Suppression du code inutile dans la fenêtre Recruter",
+					"Changer le programme de mise à jour"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[bugfix] Correction de l'affichage correct de l'épingle de l'article dans la fenêtre d'inventaire Vanilla et TWIR.",
-				"[bugfix] Correction des fautes d'orthographe du mot bugfix dans les attributs de version"
-			]
+			"notes": {
+				"bugfix": [
+					"Correction de l'affichage correct de l'épingle de l'article dans la fenêtre d'inventaire Vanilla et TWIR.",
+					"Correction des fautes d'orthographe du mot bugfix dans les attributs de version"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": [
-				"[principal] Nettoyage du code - partie 2",
-				"[main] Modification de certains hyperliens"
-			]
+			"notes": {
+				"main": [
+					"Nettoyage du code - partie 2",
+					"Modification de certains hyperliens"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[principal] Nettoyage du code - partie 1"]
+			"notes": {
+				"main": [
+					"Nettoyage du code - partie 1"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[bugfix] Actualiser les liens pour une mise à jour automatique"]
+			"notes": {
+				"bugfix": [
+					"Actualiser les liens pour une mise à jour automatique"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[bugfix] Modification de certains hyperliens"]
+			"notes": {
+				"bugfix": [
+					"Modification de certains hyperliens"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[correction de bug] Oups ! Script utilisateur corrigé"]
+			"notes": {
+				"bugfix": [
+					"Oups ! Script utilisateur corrigé"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[bugfix] Correction de la suppression de fonctionnalités"]
+			"notes": {
+				"bugfix": [
+					"Correction de la suppression de fonctionnalités"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[main] Suppression de nombreuses fonctionnalités inutiles"]
+			"notes": {
+				"main": [
+					"Suppression de nombreuses fonctionnalités inutiles"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": [
-				"[bugfix] Correction de quelques fautes de frappe",
-				"[principal] Changer la version de la formule"
-			]
+			"notes": {
+				"bugfix": [
+					"Correction de quelques fautes de frappe"
+				],
+				"main": [
+					"Changer la version de la formule"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Générer un UserScript à partir de Clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Générer un UserScript à partir de Clothcalc_sk **"
+				]
+			}
 		}
 	]
 }

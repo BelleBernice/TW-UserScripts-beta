@@ -363,182 +363,314 @@
 		"close_import": "Zapri uvoz bitk v West Forts",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Dodaj barvanje več predmetov za prodajo v Inventarju"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[popravek napak] Popravi staro kodo funkcije Spremeni jezik",
-				"[main] Preoblikovanje in čiščenje kode UserScript"
-			]
+			"notes": {
+				"bugfix": [
+					"Popravi staro kodo funkcije Spremeni jezik"
+				],
+				"main": [
+					"Preoblikovanje in čiščenje kode UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[funkcija] Dodajte \"začasno\" funkcijo za spremembo jezika",
-				"[funkcija] Čiščenje kode zavihka Nastavitve",
-				"[funkcija] Čiščenje kode barvnega načina v Saloonu (klepet)",
-				"[funkcija] Koda za čiščenje delovnih mest z bonusi na mini zemljevidu",
-				"[funkcija] Očisti kodo funkcije Job/Chest Analyzer",
-				"[funkcija] Posodobite različne funkcije kode UserScript"
-			]
+			"notes": {
+				"feature": [
+					"Dodajte \"začasno\" funkcijo za spremembo jezika",
+					"Čiščenje kode zavihka Nastavitve",
+					"Čiščenje kode barvnega načina v Saloonu (klepet)",
+					"Koda za čiščenje delovnih mest z bonusi na mini zemljevidu",
+					"Očisti kodo funkcije Job/Chest Analyzer",
+					"Posodobite različne funkcije kode UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[funkcija] Dodajte funkcijo za uvoz/izvoz nastavitev"]
+			"notes": {
+				"feature": [
+					"Dodajte funkcijo za uvoz/izvoz nastavitev"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[funkcija] Dodajte vnos bitke za utrdbo v zbirko podatkov spletnega mesta (westforts.com)",
-				"[funkcija] Dodajte funkcijo spreminjanja zvoka Whisper",
-				"[funkcija] Dodajte škodo, povzročeno vsakemu igralcu med bitko za trdnjavo",
-				"[funkcija] Dodajte strele vsak korak med bitko v trdnjavi",
-				"[funkcija] Dodajte barvo nalogam, ki jih je mogoče dokončati",
-				"[funkcija] Dodaj gumb za samodejno sprejemanje in dokončanje nalog, ki jih je mogoče dokončati",
-				"[popravek hrošča] Obnovite kodo za prodajo vseh predmetov razen izbranega trgovcu",
-				"[popravek napak] Popravljena stara koda možnosti, ki prikazuje točke opravil v oknu opravil",
-				"[popravek napak] Popravite kodo možnosti samodejnega odpiranja tržnice, tako da je okno z oblačili pomanjšano",
-				"[popravek napak] Popravi kodo na zavihku gradnje, če je prisoten TWIR",
-				"[glavno] Preurejanje kategorij v zavihku Nastavitve"
-			]
+			"notes": {
+				"feature": [
+					"Dodajte vnos bitke za utrdbo v zbirko podatkov spletnega mesta (westforts.com)",
+					"Dodajte funkcijo spreminjanja zvoka Whisper",
+					"Dodajte škodo, povzročeno vsakemu igralcu med bitko za trdnjavo",
+					"Dodajte strele vsak korak med bitko v trdnjavi",
+					"Dodajte barvo nalogam, ki jih je mogoče dokončati",
+					"Dodaj gumb za samodejno sprejemanje in dokončanje nalog, ki jih je mogoče dokončati"
+				],
+				"bugfix": [
+					"Obnovite kodo za prodajo vseh predmetov razen izbranega trgovcu",
+					"Popravljena stara koda možnosti, ki prikazuje točke opravil v oknu opravil",
+					"Popravite kodo možnosti samodejnega odpiranja tržnice, tako da je okno z oblačili pomanjšano",
+					"Popravi kodo na zavihku gradnje, če je prisoten TWIR"
+				],
+				"main": [
+					"Preurejanje kategorij v zavihku Nastavitve"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[funkcija] Dodajte možnost temne teme za The-West Map",
-				"[funkcija] Izboljšana ikona poročila o prodaji v nakupovalnem oknu stavbe Market",
-				"[funkcija] Dodajte ikono za to, ali so tržne ponudbe javne, samo za člane zavezništva ali mesta",
-				"[funkcija] Dodajte nov gumb za enostavno odpiranje okna Market"
-			]
+			"notes": {
+				"feature": [
+					"Dodajte možnost temne teme za The-West Map",
+					"Izboljšana ikona poročila o prodaji v nakupovalnem oknu stavbe Market",
+					"Dodajte ikono za to, ali so tržne ponudbe javne, samo za člane zavezništva ali mesta",
+					"Dodajte nov gumb za enostavno odpiranje okna Market"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[funkcija] Portretu igralca so dodani časi regeneracije",
-				"[funkcija] Dodajte označevanje besedila mestnim forumom",
-				"[funkcija] Dodaj možnost za pripenjanje menijske vrstice, izkušenj in uporabniškega skripta na zaslon",
-				"[funkcija] Dodajte izkušnjo dvoboja v profil igralca",
-				"[popravek napak] Popravek zavihka Recruit",
-				"[popravek napak] Onemogoči samodejno aktiviranje nekaterih funkcij"
-			]
+			"notes": {
+				"feature": [
+					"Portretu igralca so dodani časi regeneracije",
+					"Dodajte označevanje besedila mestnim forumom",
+					"Dodaj možnost za pripenjanje menijske vrstice, izkušenj in uporabniškega skripta na zaslon",
+					"Dodajte izkušnjo dvoboja v profil igralca"
+				],
+				"bugfix": [
+					"Popravek zavihka Recruit",
+					"Onemogoči samodejno aktiviranje nekaterih funkcij"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[popravek napak] Popravi nekaj sporočil o nastavitvah",
-				"[popravek napak] Popravek zavihka Recruit"
-			]
+			"notes": {
+				"bugfix": [
+					"Popravi nekaj sporočil o nastavitvah",
+					"Popravek zavihka Recruit"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[funkcija] Dodani kritični zadetki in krogi duhov na pokopališče trdnjave",
-				"[funkcija] Dodajte okno za lastne in zavezniške utrdbe v okno mest",
-				"[funkcija] Dodajte samodejno odpiranje trdnjave Axe Unbury iz njenega poročila",
-				"[funkcija] Izboljšane vse razvrstitvene tabele",
-				"[funkcija] Izboljšano okno Rekrutacija pred bitko za trdnjavo",
-				"[funkcija] Odstrani utripanje gumba City, če je na forumu City novo sporočilo"
-			]
+			"notes": {
+				"feature": [
+					"Dodani kritični zadetki in krogi duhov na pokopališče trdnjave",
+					"Dodajte okno za lastne in zavezniške utrdbe v okno mest",
+					"Dodajte samodejno odpiranje trdnjave Axe Unbury iz njenega poročila",
+					"Izboljšane vse razvrstitvene tabele",
+					"Izboljšano okno Rekrutacija pred bitko za trdnjavo",
+					"Odstrani utripanje gumba City, če je na forumu City novo sporočilo"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[funkcija] Dodajte napredek gradnje na zavihek gradnje",
-				"[funkcija] Dodajte dodatne ravni cerkve",
-				"[funkcija] Dodajte funkcijo za prikaz samo stavb, ki niso v celoti zgrajene v Mestni hiši",
-				"[funkcija] Dodan nov gumb za preprosto odpiranje zavihka Cerkvena zgradba",
-				"[funkcija] Dodajte gumb za zapiranje samo oken inventarja"
-			]
+			"notes": {
+				"feature": [
+					"Dodajte napredek gradnje na zavihek gradnje",
+					"Dodajte dodatne ravni cerkve",
+					"Dodajte funkcijo za prikaz samo stavb, ki niso v celoti zgrajene v Mestni hiši",
+					"Dodan nov gumb za preprosto odpiranje zavihka Cerkvena zgradba",
+					"Dodajte gumb za zapiranje samo oken inventarja"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[popravek napak] Ups! Popravi gradbeno kodo"]
+			"notes": {
+				"bugfix": [
+					"Ups! Popravi gradbeno kodo"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[bugfix] Popravi novo različico povezave"]
+			"notes": {
+				"bugfix": [
+					"Popravi novo različico povezave"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[bugfix] Popravek različice na nekaterih mestih, upajmo!"]
+			"notes": {
+				"bugfix": [
+					"Popravek različice na nekaterih mestih, upajmo!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[popravek napak] Popravek različice na nekaterih mestih"]
+			"notes": {
+				"bugfix": [
+					"Popravek različice na nekaterih mestih"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[glavno] Odstrani revizijo"]
+			"notes": {
+				"main": [
+					"Odstrani revizijo"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[popravek napak] Spremenjena povezava do različice nove funkcije"]
+			"notes": {
+				"bugfix": [
+					"Spremenjena povezava do različice nove funkcije"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[popravek napak] Popravite zastarelo kodo, ki je uporabljala UserScript"]
+			"notes": {
+				"bugfix": [
+					"Popravite zastarelo kodo, ki je uporabljala UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": ["[main] Odstranite odvečno kodo", "[main] Spremenjene podrobnosti v oknu Recruit"]
+			"notes": {
+				"main": [
+					"Odstranite odvečno kodo",
+					"Spremenjene podrobnosti v oknu Recruit"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[popravek napak] Ups! Popravljen UserScript"]
+			"notes": {
+				"bugfix": [
+					"Ups! Popravljen UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[bugfix] Popravi napačno različico"]
+			"notes": {
+				"bugfix": [
+					"Popravi napačno različico"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": ["[main] Odstranjena nepotrebna koda v oknu Recruit", "[main] Change Updater"]
+			"notes": {
+				"main": [
+					"Odstranjena nepotrebna koda v oknu Recruit",
+					"Change Updater"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[popravek hrošča] Popravi žebljiček elementa za pravilen prikaz v oknu Vanilla in TWIR Inventory",
-				"[popravek napak] Popravi črkovalne napake besede bugfix v atributih izdaje"
-			]
+			"notes": {
+				"bugfix": [
+					"Popravi žebljiček elementa za pravilen prikaz v oknu Vanilla in TWIR Inventory",
+					"Popravi črkovalne napake besede bugfix v atributih izdaje"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": ["[main] Čiščenje kode – 2. del", "[main] Spremenjenih nekaj hiperpovezav"]
+			"notes": {
+				"main": [
+					"Čiščenje kode – 2. del",
+					"Spremenjenih nekaj hiperpovezav"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[main] Čiščenje kode – 1. del"]
+			"notes": {
+				"main": [
+					"Čiščenje kode – 1. del"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[popravek napak] Osveži povezave za samodejno posodobitev"]
+			"notes": {
+				"bugfix": [
+					"Osveži povezave za samodejno posodobitev"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[popravek napak] Spremenjene nekatere hiperpovezave"]
+			"notes": {
+				"bugfix": [
+					"Spremenjene nekatere hiperpovezave"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[popravek napak] Ups! Popravljen UserScript"]
+			"notes": {
+				"bugfix": [
+					"Ups! Popravljen UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[popravek napak] Popravek za odstranitev funkcije"]
+			"notes": {
+				"bugfix": [
+					"Popravek za odstranitev funkcije"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[main] Odstranjenih veliko neuporabnih funkcij"]
+			"notes": {
+				"main": [
+					"Odstranjenih veliko neuporabnih funkcij"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": [
-				"[popravek napak] Popravljenih nekaj tipkarskih napak",
-				"[main] Spremenite različico formule"
-			]
+			"notes": {
+				"bugfix": [
+					"Popravljenih nekaj tipkarskih napak"
+				],
+				"main": [
+					"Spremenite različico formule"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Ustvari uporabniški skript iz clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Ustvari uporabniški skript iz clothcalc_sk **"
+				]
+			}
 		}
 	]
 }

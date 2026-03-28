@@ -363,182 +363,314 @@
 		"close_import": "Gevechtsimport sluiten in West Forts",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Voeg kleurcodering toe aan meerdere te koop staande items in Voorraad"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[bugfix] Oude code van de functie Taal wijzigen repareren",
-				"[main] De UserScript-code opnieuw opbouwen en opschonen"
-			]
+			"notes": {
+				"bugfix": [
+					"Oude code van de functie Taal wijzigen repareren"
+				],
+				"main": [
+					"De UserScript-code opnieuw opbouwen en opschonen"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[feature] Voeg een \"tijdelijke\" taalwijzigingsfunctie toe",
-				"[feature] Tabbladcode Instellingen opschonen",
-				"[feature] Kleurmoduscode opschonen in Saloon (chat)",
-				"[feature] Opruimcode voor banen met bonussen op de minikaart",
-				"[feature] Functiecode taak-/kistanalysator opruimen",
-				"[feature] Moderniseer verschillende functies van de UserScript-code"
-			]
+			"notes": {
+				"feature": [
+					"Voeg een \"tijdelijke\" taalwijzigingsfunctie toe",
+					"Tabbladcode Instellingen opschonen",
+					"Kleurmoduscode opschonen in Saloon (chat)",
+					"Opruimcode voor banen met bonussen op de minikaart",
+					"Functiecode taak-/kistanalysator opruimen",
+					"Moderniseer verschillende functies van de UserScript-code"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[functie] Functie voor import-/exportinstellingen toevoegen"]
+			"notes": {
+				"feature": [
+					"Functie voor import-/exportinstellingen toevoegen"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[feature] Voeg fortgevechtinvoer toe aan websitedatabase (westforts.com)",
-				"[functie] Fluistergeluidsveranderingsfunctie toevoegen",
-				"[functie] Voeg de schade toe die aan elke speler wordt toegebracht tijdens een fortgevecht",
-				"[feature] Voeg elke beurt schoten toe tijdens een fortgevecht",
-				"[feature] Voeg kleur toe aan de missies die kunnen worden voltooid",
-				"[feature] Knop toevoegen om automatisch te voltooien missies te accepteren en te voltooien",
-				"[bugfix] Code herstellen om alles, behalve een geselecteerd item, aan de handelaar te verkopen",
-				"[bugfix] Oude code gerepareerd van de optie die de taakpunten in het takenvenster toont",
-				"[bugfix] Repareer de code van de optie voor automatisch openen van Markt, zodat het kledingvenster wordt geminimaliseerd",
-				"[bugfix] Code op het tabblad Build repareren als TWIR aanwezig is",
-				"[main] De categorieën op het tabblad Instellingen opnieuw ordenen"
-			]
+			"notes": {
+				"feature": [
+					"Voeg fortgevechtinvoer toe aan websitedatabase (westforts.com)",
+					"Fluistergeluidsveranderingsfunctie toevoegen",
+					"Voeg de schade toe die aan elke speler wordt toegebracht tijdens een fortgevecht",
+					"Voeg elke beurt schoten toe tijdens een fortgevecht",
+					"Voeg kleur toe aan de missies die kunnen worden voltooid",
+					"Knop toevoegen om automatisch te voltooien missies te accepteren en te voltooien"
+				],
+				"bugfix": [
+					"Code herstellen om alles, behalve een geselecteerd item, aan de handelaar te verkopen",
+					"Oude code gerepareerd van de optie die de taakpunten in het takenvenster toont",
+					"Repareer de code van de optie voor automatisch openen van Markt, zodat het kledingvenster wordt geminimaliseerd",
+					"Code op het tabblad Build repareren als TWIR aanwezig is"
+				],
+				"main": [
+					"De categorieën op het tabblad Instellingen opnieuw ordenen"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[feature] Donkere thema-optie toegevoegd voor de West-kaart",
-				"[feature] Het verkooprapportpictogram in het aankoopvenster van het marktgebouw verbeterd",
-				"[feature] Voeg een pictogram toe dat aangeeft of marktaanbiedingen openbaar zijn, alleen voor alliantie- of stadsleden",
-				"[feature] Voeg een nieuwe knop toe om eenvoudig het Marktvenster te openen"
-			]
+			"notes": {
+				"feature": [
+					"Donkere thema-optie toegevoegd voor de West-kaart",
+					"Het verkooprapportpictogram in het aankoopvenster van het marktgebouw verbeterd",
+					"Voeg een pictogram toe dat aangeeft of marktaanbiedingen openbaar zijn, alleen voor alliantie- of stadsleden",
+					"Voeg een nieuwe knop toe om eenvoudig het Marktvenster te openen"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[functie] Regeneratietijden toegevoegd aan het spelersportret",
-				"[feature] Voeg tekstmarkering toe aan stadsforums",
-				"[feature] Optie toegevoegd om de menubalk, ervaring en gebruikersscript vast te zetten op het scherm",
-				"[feature] Voeg duelervaring toe aan het spelersprofiel",
-				"[bugfix] Rekruteringstabblad opgelost",
-				"[bugfix] Schakel de automatische activering van sommige functies uit"
-			]
+			"notes": {
+				"feature": [
+					"Regeneratietijden toegevoegd aan het spelersportret",
+					"Voeg tekstmarkering toe aan stadsforums",
+					"Optie toegevoegd om de menubalk, ervaring en gebruikersscript vast te zetten op het scherm",
+					"Voeg duelervaring toe aan het spelersprofiel"
+				],
+				"bugfix": [
+					"Rekruteringstabblad opgelost",
+					"Schakel de automatische activering van sommige functies uit"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": [
-				"[bugfix] Enkele instellingsberichten gerepareerd",
-				"[bugfix] Rekruteringstabblad opgelost"
-			]
+			"notes": {
+				"bugfix": [
+					"Enkele instellingsberichten gerepareerd",
+					"Rekruteringstabblad opgelost"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[functie] Kritieke treffers en spookrondes toegevoegd aan het kerkhof van het fort",
-				"[feature] Voeg een venster voor eigen en geallieerde forten toe aan het stadsvenster",
-				"[feature] Automatische opening van bijl-unbury-fort uit het rapport toegevoegd",
-				"[feature] Alle rangschikkingstabellen verbeterd",
-				"[feature] Het rekruteringsvenster vóór de fortstrijd is verbeterd",
-				"[feature] Verwijder het knipperen van de stadsknop als er een nieuw bericht in het stadsforum is"
-			]
+			"notes": {
+				"feature": [
+					"Kritieke treffers en spookrondes toegevoegd aan het kerkhof van het fort",
+					"Voeg een venster voor eigen en geallieerde forten toe aan het stadsvenster",
+					"Automatische opening van bijl-unbury-fort uit het rapport toegevoegd",
+					"Alle rangschikkingstabellen verbeterd",
+					"Het rekruteringsvenster vóór de fortstrijd is verbeterd",
+					"Verwijder het knipperen van de stadsknop als er een nieuw bericht in het stadsforum is"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[feature] Voeg bouwvoortgang toe aan het tabblad Bouwen",
-				"[feature] Voeg extra kerkniveaus toe",
-				"[feature] Functie toegevoegd om alleen gebouwen weer te geven die nog niet volledig zijn gebouwd in het stadhuis",
-				"[functie] Een nieuwe knop toegevoegd om eenvoudig het tabblad Kerkgebouw te openen",
-				"[feature] Voeg een knop toe om alleen de inventarisvensters te sluiten"
-			]
+			"notes": {
+				"feature": [
+					"Voeg bouwvoortgang toe aan het tabblad Bouwen",
+					"Voeg extra kerkniveaus toe",
+					"Functie toegevoegd om alleen gebouwen weer te geven die nog niet volledig zijn gebouwd in het stadhuis",
+					"Een nieuwe knop toegevoegd om eenvoudig het tabblad Kerkgebouw te openen",
+					"Voeg een knop toe om alleen de inventarisvensters te sluiten"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[bugfix] Oeps! Bouwcode repareren"]
+			"notes": {
+				"bugfix": [
+					"Oeps! Bouwcode repareren"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[bugfix] Nieuwe versielink repareren"]
+			"notes": {
+				"bugfix": [
+					"Nieuwe versielink repareren"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[bugfix] Versieverbetering op sommige plaatsen, laten we hopen!"]
+			"notes": {
+				"bugfix": [
+					"Versieverbetering op sommige plaatsen, laten we hopen!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[bugfix] Versieverbetering op sommige plaatsen"]
+			"notes": {
+				"bugfix": [
+					"Versieverbetering op sommige plaatsen"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[main] Revisie verwijderen"]
+			"notes": {
+				"main": [
+					"Revisie verwijderen"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[bugfix] Link naar nieuwe functieversie gewijzigd"]
+			"notes": {
+				"bugfix": [
+					"Link naar nieuwe functieversie gewijzigd"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[bugfix] Verouderde code repareren die UserScript gebruikte"]
+			"notes": {
+				"bugfix": [
+					"Verouderde code repareren die UserScript gebruikte"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": [
-				"[main] Verwijder overtollige code",
-				"[main] Details gewijzigd in het rekruteringsvenster"
-			]
+			"notes": {
+				"main": [
+					"Verwijder overtollige code",
+					"Details gewijzigd in het rekruteringsvenster"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[bugfix] Oeps! Vast gebruikersscript"]
+			"notes": {
+				"bugfix": [
+					"Oeps! Vast gebruikersscript"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[bugfix] Verkeerde versie repareren"]
+			"notes": {
+				"bugfix": [
+					"Verkeerde versie repareren"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": ["[main] Onnodige code verwijderd in het Recruit-venster", "[main] Updater wijzigen"]
+			"notes": {
+				"main": [
+					"Onnodige code verwijderd in het Recruit-venster",
+					"Updater wijzigen"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[bugfix] Repareer de itempin zodat deze correct wordt weergegeven in het vanille- en TWIR-inventarisvenster",
-				"[bugfix] Repareer spelfouten van het woord bugfix in Release-attributen"
-			]
+			"notes": {
+				"bugfix": [
+					"Repareer de itempin zodat deze correct wordt weergegeven in het vanille- en TWIR-inventarisvenster",
+					"Repareer spelfouten van het woord bugfix in Release-attributen"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": ["[main] Code opschonen - deel 2", "[main] Enkele hyperlinks gewijzigd"]
+			"notes": {
+				"main": [
+					"Code opschonen - deel 2",
+					"Enkele hyperlinks gewijzigd"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[main] Code opschonen - deel 1"]
+			"notes": {
+				"main": [
+					"Code opschonen - deel 1"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[bugfix] Vernieuw koppelingen voor automatische update"]
+			"notes": {
+				"bugfix": [
+					"Vernieuw koppelingen voor automatische update"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[bugfix] Enkele hyperlinks gewijzigd"]
+			"notes": {
+				"bugfix": [
+					"Enkele hyperlinks gewijzigd"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[bugfix] Oeps! Vast gebruikersscript"]
+			"notes": {
+				"bugfix": [
+					"Oeps! Vast gebruikersscript"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[bugfix] Oplossing voor het verwijderen van functies"]
+			"notes": {
+				"bugfix": [
+					"Oplossing voor het verwijderen van functies"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[main] Veel nutteloze functies verwijderd"]
+			"notes": {
+				"main": [
+					"Veel nutteloze functies verwijderd"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": ["[bugfix] Een aantal typefouten opgelost", "[main] Formuleversie wijzigen"]
+			"notes": {
+				"bugfix": [
+					"Een aantal typefouten opgelost"
+				],
+				"main": [
+					"Formuleversie wijzigen"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Genereer gebruikersscript van Clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Genereer gebruikersscript van Clothcalc_sk **"
+				]
+			}
 		}
 	]
 }

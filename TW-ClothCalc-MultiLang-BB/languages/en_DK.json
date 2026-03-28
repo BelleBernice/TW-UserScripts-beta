@@ -363,176 +363,314 @@
 		"close_import": "Close battle import in West Forts",
 		"button_label": "West Forts"
 	},
+	"changelog_types": [
+		{
+			"feature": "Feature"
+		},
+		{
+			"bugfix": "Bugfix"
+		},
+		{
+			"main": "Maintenance"
+		}
+	],
 	"changelog": [
 		{
+			"version": "0.30.0",
+			"notes": {
+				"feature": [
+					"Add coloring to multiple items for sale in Inventory"
+				]
+			}
+		},
+		{
 			"version": "0.29.0",
-			"notes": [
-				"[bugfix] Fixed old code of Change Language function",
-				"[main] Refactoring and cleaning up the UserScript code"
-			]
+			"notes": {
+				"bugfix": [
+					"Fixed old code of Change Language function"
+				],
+				"main": [
+					"Refactoring and cleaning up the UserScript code"
+				]
+			}
 		},
 		{
 			"version": "0.28.0",
-			"notes": [
-				"[feature] Add \"temporary\" Language change function",
-				"[feature] Clean up Settings tab code",
-				"[feature] Color mode code cleanup in Saloon (chat)",
-				"[feature] Cleanup code for Jobs with bonuses on the Mini Map",
-				"[feature] Clean up Job/Chest Analyzer function code",
-				"[feature] Modernize various functions of the UserScript code"
-			]
+			"notes": {
+				"feature": [
+					"Add \"temporary\" Language change function",
+					"Clean up Settings tab code",
+					"Color mode code cleanup in Saloon (chat)",
+					"Cleanup code for Jobs with bonuses on the Mini Map",
+					"Clean up Job/Chest Analyzer function code",
+					"Modernize various functions of the UserScript code"
+				]
+			}
 		},
 		{
 			"version": "0.27.0",
-			"notes": ["[feature] Add Import/Export Settings function"]
+			"notes": {
+				"feature": [
+					"Add Import/Export Settings function"
+				]
+			}
 		},
 		{
 			"version": "0.26.0",
-			"notes": [
-				"[feature] Add fort battle entry to website database (westforts.com)",
-				"[feature] Add Whisper sound change function",
-				"[feature] Add damage dealt to each player during a fortress battle",
-				"[feature] Add shots every turn during a fortress battle",
-				"[feature] Add color to the quests that can be completed",
-				"[feature] Add button to automatically accept and complete quests that can be completed",
-				"[bugfix] Restore code to sell all but a selected item to the Merchant",
-				"[bugfix] Fixed old code of the option that shows the job points in the jobs window",
-				"[bugfix] Fixed the code of the Market auto-open option so that the clothing window is minimized",
-				"[bugfix] Fixed code in build tab if TWIR is present",
-				"[main] Reordering the categories in the Settings tab"
-			]
+			"notes": {
+				"feature": [
+					"Add fort battle entry to website database (westforts.com)",
+					"Add Whisper sound change function",
+					"Add damage dealt to each player during a fortress battle",
+					"Add shots every turn during a fortress battle",
+					"Add color to the quests that can be completed",
+					"Add button to automatically accept and complete quests that can be completed"
+				],
+				"bugfix": [
+					"Restore code to sell all but a selected item to the Merchant",
+					"Fixed old code of the option that shows the job points in the jobs window",
+					"Fixed the code of the Market auto-open option so that the clothing window is minimized",
+					"Fixed code in build tab if TWIR is present"
+				],
+				"main": [
+					"Reordering the categories in the Settings tab"
+				]
+			}
 		},
 		{
 			"version": "0.25.0",
-			"notes": [
-				"[feature] Add Dark theme option for The-West Map",
-				"[feature] Improved the sale report icon in the purchase window of the Market building",
-				"[feature] Add icon for whether market offers are public, only for alliance or city members",
-				"[feature] Add a new button to easily open the Market window"
-			]
+			"notes": {
+				"feature": [
+					"Add Dark theme option for The-West Map",
+					"Improved the sale report icon in the purchase window of the Market building",
+					"Add icon for whether market offers are public, only for alliance or city members",
+					"Add a new button to easily open the Market window"
+				]
+			}
 		},
 		{
 			"version": "0.24.0",
-			"notes": [
-				"[feature] Added Regeneration Times to player portrait",
-				"[feature] Add text highlighting to City Forums",
-				"[feature] Add option to pin Menu bar, Experience and UserScript to screen",
-				"[feature] Add dueling experience to player profile",
-				"[bugfix] Recruit tab fix",
-				"[bugfix] Disable automatic activation of some functions"
-			]
+			"notes": {
+				"feature": [
+					"Added Regeneration Times to player portrait",
+					"Add text highlighting to City Forums",
+					"Add option to pin Menu bar, Experience and UserScript to screen",
+					"Add dueling experience to player profile"
+				],
+				"bugfix": [
+					"Recruit tab fix",
+					"Disable automatic activation of some functions"
+				]
+			}
 		},
 		{
 			"version": "0.23.0",
-			"notes": ["[bugfix] Fixed some settings messages", "[bugfix] Recruit tab fix"]
+			"notes": {
+				"bugfix": [
+					"Fixed some settings messages",
+					"Recruit tab fix"
+				]
+			}
 		},
 		{
 			"version": "0.22.0",
-			"notes": [
-				"[feature] Added critical hits and ghost rounds to fortress graveyard",
-				"[feature] Add window for owned and allied forts to cities window",
-				"[feature] Add auto-opening of digging up an axe in a fortress from its report",
-				"[feature] Improved all Ranking tables",
-				"[feature] Improved the Recruitment window before the fortress battle",
-				"[feature] Remove flashing of City button if there is a new message in the City Forum"
-			]
+			"notes": {
+				"feature": [
+					"Added critical hits and ghost rounds to fortress graveyard",
+					"Add window for owned and allied forts to cities window",
+					"Add auto-opening of digging up an axe in a fortress from its report",
+					"Improved all Ranking tables",
+					"Improved the Recruitment window before the fortress battle",
+					"Remove flashing of City button if there is a new message in the City Forum"
+				]
+			}
 		},
 		{
 			"version": "0.21.0",
-			"notes": [
-				"[feature] Add building progress to building tab",
-				"[feature] Add extra church levels",
-				"[feature] Add function to display only buildings that are not fully constructed in City Hall",
-				"[feature] Added a new button to easily open the Church building tab",
-				"[feature] Add a button to close only the Inventory windows"
-			]
+			"notes": {
+				"feature": [
+					"Add building progress to building tab",
+					"Add extra church levels",
+					"Add function to display only buildings that are not fully constructed in City Hall",
+					"Added a new button to easily open the Church building tab",
+					"Add a button to close only the Inventory windows"
+				]
+			}
 		},
 		{
 			"version": "0.20.0",
-			"notes": ["[bugfix] Oops! Fixed build code"]
+			"notes": {
+				"bugfix": [
+					"Oops! Fixed build code"
+				]
+			}
 		},
 		{
 			"version": "0.19.0",
-			"notes": ["[bugfix] Fixed new version link"]
+			"notes": {
+				"bugfix": [
+					"Fixed new version link"
+				]
+			}
 		},
 		{
 			"version": "0.18.0",
-			"notes": ["[bugfix] Version fixed in some places, let's hope!"]
+			"notes": {
+				"bugfix": [
+					"Version fixed in some places, let's hope!"
+				]
+			}
 		},
 		{
 			"version": "0.17.1",
-			"notes": ["[bugfix] Version fixed in some places"]
+			"notes": {
+				"bugfix": [
+					"Version fixed in some places"
+				]
+			}
 		},
 		{
 			"version": "0.17.0",
-			"notes": ["[main] Remove revision"]
+			"notes": {
+				"main": [
+					"Remove revision"
+				]
+			}
 		},
 		{
 			"version": "0.16.0",
-			"notes": ["[bugfix] Changed new feature version link"]
+			"notes": {
+				"bugfix": [
+					"Changed new feature version link"
+				]
+			}
 		},
 		{
 			"version": "0.15.0",
-			"notes": ["[bugfix] Fixed deprecated code that used UserScript"]
+			"notes": {
+				"bugfix": [
+					"Fixed deprecated code that used UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.14.0",
-			"notes": ["[main] Remove redundant code", "[main] Changed details in Recruit window"]
+			"notes": {
+				"main": [
+					"Remove redundant code",
+					"Changed details in Recruit window"
+				]
+			}
 		},
 		{
 			"version": "0.13.0",
-			"notes": ["[bugfix] Oops! Fixed the UserScript"]
+			"notes": {
+				"bugfix": [
+					"Oops! Fixed the UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.12.0",
-			"notes": ["[bugfix] Fixed wrong version"]
+			"notes": {
+				"bugfix": [
+					"Fixed wrong version"
+				]
+			}
 		},
 		{
 			"version": "0.11.0",
-			"notes": ["[main] Removed unnecessary code in the Recruit window", "[main] Change Updater"]
+			"notes": {
+				"main": [
+					"Removed unnecessary code in the Recruit window",
+					"Change Updater"
+				]
+			}
 		},
 		{
 			"version": "0.10.0",
-			"notes": [
-				"[bugfix] Fixed item pin to display correctly in vanilla and TWIR Inventory window",
-				"[bugfix] Fixed spelling mistakes of the word bugfix in the Changelog Releases"
-			]
+			"notes": {
+				"bugfix": [
+					"Fixed item pin to display correctly in vanilla and TWIR Inventory window",
+					"Fixed spelling mistakes of the word bugfix in the Changelog Releases"
+				]
+			}
 		},
 		{
 			"version": "0.9.0",
-			"notes": ["[main] Code cleanup - part 2", "[main] Changed some hyperlinks"]
+			"notes": {
+				"main": [
+					"Code cleanup - part 2",
+					"Changed some hyperlinks"
+				]
+			}
 		},
 		{
 			"version": "0.8.0",
-			"notes": ["[main] Code cleanup - part 1"]
+			"notes": {
+				"main": [
+					"Code cleanup - part 1"
+				]
+			}
 		},
 		{
 			"version": "0.7.0",
-			"notes": ["[bugfix] Refresh links for automatic update"]
+			"notes": {
+				"bugfix": [
+					"Refresh links for automatic update"
+				]
+			}
 		},
 		{
 			"version": "0.6.0",
-			"notes": ["[bugfix] Changed some hyperlinks"]
+			"notes": {
+				"bugfix": [
+					"Changed some hyperlinks"
+				]
+			}
 		},
 		{
 			"version": "0.5.0",
-			"notes": ["[bugfix] Oops! Fixed the UserScript"]
+			"notes": {
+				"bugfix": [
+					"Oops! Fixed the UserScript"
+				]
+			}
 		},
 		{
 			"version": "0.4.0",
-			"notes": ["[bugfix] Fixed things for feature removal"]
+			"notes": {
+				"bugfix": [
+					"Fixed things for feature removal"
+				]
+			}
 		},
 		{
 			"version": "0.3.0",
-			"notes": ["[main] Removed many useless features"]
+			"notes": {
+				"main": [
+					"Removed many useless features"
+				]
+			}
 		},
 		{
 			"version": "0.2.0",
-			"notes": ["[bugfix] Fixed some typos", "[main] Change formula version"]
+			"notes": {
+				"bugfix": [
+					"Fixed some typos"
+				],
+				"main": [
+					"Change formula version"
+				]
+			}
 		},
 		{
 			"version": "0.1.0",
-			"notes": ["** Generate UserScript from clothcalc_sk **"]
+			"notes": {
+				"main": [
+					"** Generate UserScript from clothcalc_sk **"
+				]
+			}
 		}
 	]
 }
