@@ -363,23 +363,20 @@
 		"close_import": "Κλείσιμο εισαγωγής μαχών στο West Forts",
 		"button_label": "West Forts"
 	},
-	"changelog_types": [
-		{
-			"feature": "Feature"
-		},
-		{
-			"bugfix": "Bugfix"
-		},
-		{
-			"main": "Maintenance"
-		}
-	],
+	"changelog_types": {
+		"feature": "Feature",
+		"bugfix": "Bugfix",
+		"main": "Maintenance"
+	},
 	"changelog": [
 		{
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
 					"Προσθήκη χρωματισμού πολλαπλών αντικειμένων για πώληση στα Αποθέματα"
+				],
+				"main": [
+					"Αναδιαμόρφωση της σελίδας Χαρακτηριστικών έκδοσης του UserScript"
 				]
 			}
 		},
