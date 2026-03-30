@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Usuń zbędny kod",
+				"bugfix": [
 					"Zmieniono szczegóły w oknie Rekrutacji"
+				],
+				"main": [
+					"Usuń zbędny kod"
 				]
 			}
 		},
@@ -578,11 +580,11 @@
 		{
 			"version": "0.11.0",
 			"notes": {
-				"feature": [
-					"Zmień aktualizator"
+				"bugfix": [
+					"Usunięto niepotrzebny kod w oknie Rekrutacji"
 				],
 				"main": [
-					"Usunięto niepotrzebny kod w oknie Rekrutacji"
+					"Zmień aktualizator"
 				]
 			}
 		},

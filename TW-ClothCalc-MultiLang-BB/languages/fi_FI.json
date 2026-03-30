@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Poista ylimääräinen koodi",
+				"bugfix": [
 					"Muuttuneet tiedot Rekrytointi-ikkunassa"
+				],
+				"main": [
+					"Poista ylimääräinen koodi"
 				]
 			}
 		},
@@ -578,8 +580,10 @@
 		{
 			"version": "0.11.0",
 			"notes": {
+				"bugfix": [
+					"Poistettu tarpeeton koodi Recruit-ikkunasta"
+				],
 				"main": [
-					"Poistettu tarpeeton koodi Recruit-ikkunasta",
 					"Change Updater"
 				]
 			}

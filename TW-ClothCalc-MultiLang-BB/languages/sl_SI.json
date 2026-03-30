@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Odstranite odvečno kodo",
+				"bugfix": [
 					"Spremenjene podrobnosti v oknu Recruit"
+				],
+				"main": [
+					"Odstranite odvečno kodo"
 				]
 			}
 		},
@@ -578,8 +580,10 @@
 		{
 			"version": "0.11.0",
 			"notes": {
+				"bugfix": [
+					"Odstranjena nepotrebna koda v oknu Recruit"
+				],
 				"main": [
-					"Odstranjena nepotrebna koda v oknu Recruit",
 					"Change Updater"
 				]
 			}

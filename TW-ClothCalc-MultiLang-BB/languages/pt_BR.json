@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Remover código redundante",
+				"bugfix": [
 					"Detalhes alterados na janela Recrutar"
+				],
+				"main": [
+					"Remover código redundante"
 				]
 			}
 		},
@@ -578,8 +580,10 @@
 		{
 			"version": "0.11.0",
 			"notes": {
+				"bugfix": [
+					"Removido código desnecessário na janela Recruit"
+				],
 				"main": [
-					"Removido código desnecessário na janela Recruit",
 					"Atualizador de alterações"
 				]
 			}

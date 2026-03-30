@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Odstráňte nadbytočný kód",
+				"bugfix": [
 					"Zmenené podrobnosti v okne Nábor"
+				],
+				"main": [
+					"Odstráňte nadbytočný kód"
 				]
 			}
 		},
@@ -578,8 +580,10 @@
 		{
 			"version": "0.11.0",
 			"notes": {
+				"bugfix": [
+					"Odstránil sa nepotrebný kód v okne Recruit"
+				],
 				"main": [
-					"Odstránil sa nepotrebný kód v okne Recruit",
 					"Change Updater"
 				]
 			}

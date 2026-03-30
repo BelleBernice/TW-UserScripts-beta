@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Gereksiz kodu kaldır",
+				"bugfix": [
 					"Üye Al penceresindeki ayrıntılar değiştirildi"
+				],
+				"main": [
+					"Gereksiz kodu kaldır"
 				]
 			}
 		},
@@ -578,8 +580,10 @@
 		{
 			"version": "0.11.0",
 			"notes": {
+				"bugfix": [
+					"Üye Al penceresindeki gereksiz kod kaldırıldı"
+				],
 				"main": [
-					"Üye Al penceresindeki gereksiz kod kaldırıldı",
 					"Güncelleyiciyi Değiştir"
 				]
 			}

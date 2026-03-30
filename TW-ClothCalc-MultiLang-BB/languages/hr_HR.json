@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Ukloni suvišni kod",
+				"bugfix": [
 					"Promijenjeni detalji u prozoru Regrut"
+				],
+				"main": [
+					"Ukloni suvišni kod"
 				]
 			}
 		},
@@ -578,8 +580,10 @@
 		{
 			"version": "0.11.0",
 			"notes": {
+				"bugfix": [
+					"Uklonjen je nepotreban kod u prozoru Regrut"
+				],
 				"main": [
-					"Uklonjen je nepotreban kod u prozoru Regrut",
 					"Promjena ažuriranja"
 				]
 			}

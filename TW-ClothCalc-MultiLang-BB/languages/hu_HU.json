@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Redundáns kód eltávolítása",
+				"bugfix": [
 					"Módosult a részletek a Recruit ablakban"
+				],
+				"main": [
+					"Redundáns kód eltávolítása"
 				]
 			}
 		},
@@ -578,8 +580,10 @@
 		{
 			"version": "0.11.0",
 			"notes": {
+				"bugfix": [
+					"A szükségtelen kód eltávolítva a Recruit ablakból"
+				],
 				"main": [
-					"A szükségtelen kód eltávolítva a Recruit ablakból",
 					"Frissítő módosítása"
 				]
 			}

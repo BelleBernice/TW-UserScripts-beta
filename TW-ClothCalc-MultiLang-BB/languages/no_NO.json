@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Fjern overflødig kode",
+				"bugfix": [
 					"Endret detaljer i rekrutteringsvinduet"
+				],
+				"main": [
+					"Fjern overflødig kode"
 				]
 			}
 		},
@@ -578,8 +580,10 @@
 		{
 			"version": "0.11.0",
 			"notes": {
+				"bugfix": [
+					"Fjernet unødvendig kode i rekrutteringsvinduet"
+				],
 				"main": [
-					"Fjernet unødvendig kode i rekrutteringsvinduet",
 					"Endre oppdatering"
 				]
 			}

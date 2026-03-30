@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Eliminați codul redundant",
+				"bugfix": [
 					"Detalii modificate în fereastra Recrutare"
+				],
+				"main": [
+					"Eliminați codul redundant"
 				]
 			}
 		},
@@ -578,8 +580,10 @@
 		{
 			"version": "0.11.0",
 			"notes": {
+				"bugfix": [
+					"S-a eliminat codul inutil din fereastra Recrutare"
+				],
 				"main": [
-					"S-a eliminat codul inutil din fereastra Recrutare",
 					"Schimbare de actualizare"
 				]
 			}

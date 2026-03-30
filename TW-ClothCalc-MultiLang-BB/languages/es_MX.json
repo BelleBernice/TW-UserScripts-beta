@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Eliminar código redundante",
+				"bugfix": [
 					"Detalles modificados en la ventana de Reclutar"
+				],
+				"main": [
+					"Eliminar código redundante"
 				]
 			}
 		},
@@ -578,8 +580,10 @@
 		{
 			"version": "0.11.0",
 			"notes": {
+				"bugfix": [
+					"Se eliminó el código innecesario en la ventana de Reclutamiento"
+				],
 				"main": [
-					"Se eliminó el código innecesario en la ventana de Reclutamiento.",
 					"Actualizador de cambios"
 				]
 			}

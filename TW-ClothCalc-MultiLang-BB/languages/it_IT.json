@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Rimuovi il codice ridondante",
+				"bugfix": [
 					"Dettagli modificati nella finestra Recluta"
+				],
+				"main": [
+					"Rimuovi il codice ridondante"
 				]
 			}
 		},
@@ -578,8 +580,10 @@
 		{
 			"version": "0.11.0",
 			"notes": {
+				"bugfix": [
+					"Rimosso il codice non necessario nella finestra Recluta"
+				],
 				"main": [
-					"Rimosso il codice non necessario nella finestra Recluta",
 					"Modifica aggiornamento"
 				]
 			}

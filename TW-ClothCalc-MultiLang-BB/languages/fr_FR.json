@@ -553,9 +553,11 @@
 		{
 			"version": "0.14.0",
 			"notes": {
-				"main": [
-					"Supprimer le code redondant",
+				"bugfix": [
 					"Détails modifiés dans la fenêtre de recrutement"
+				],
+				"main": [
+					"Supprimer le code redondant"
 				]
 			}
 		},
@@ -578,8 +580,10 @@
 		{
 			"version": "0.11.0",
 			"notes": {
+				"bugfix": [
+					"Suppression du code inutile dans la fenêtre Recruter"
+				],
 				"main": [
-					"Suppression du code inutile dans la fenêtre Recruter",
 					"Changer le programme de mise à jour"
 				]
 			}
