@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Aggiungi colorazione a più oggetti in vendita nell'Inventario"
+					"Aggiungi colorazione a più oggetti in vendita nell'Inventario",
+					"Aggiungere un'opzione per disattivare il pop-up Premium Energy"
 				],
 				"main": [
 					"Ridisegno della pagina delle funzionalità del changelog del UserScript"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Aggiunta la funzione di cambio lingua \"temporanea\".",
+					"Aggiunta la funzione di cambio lingua \"temporanea\""
+				],
+				"bugfix": [
 					"Pulisci il codice della scheda Impostazioni",
 					"Pulizia del codice della modalità colore in Saloon (chat)",
 					"Codice di pulizia per lavori con bonus sulla minimappa",
-					"Pulisci il codice funzione Job/Chest Analyser",
+					"Pulisci il codice funzione Job/Chest Analyser"
+				],
+				"main": [
 					"Modernizza varie funzioni del codice UserScript"
 				]
 			}

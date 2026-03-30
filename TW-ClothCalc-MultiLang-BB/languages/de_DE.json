@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Färbung für mehrere zum Verkauf stehende Gegenstände im Inventar hinzufügen"
+					"Färbung für mehrere zum Verkauf stehende Gegenstände im Inventar hinzufügen",
+					"Option zum Deaktivieren des Premium-Energy-Pop-up-Fensters hinzufügen"
 				],
 				"main": [
 					"Neugestaltung der Seite „Changelog-Funktionen“ des UserScripts"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"„Temporäre“ Sprachwechselfunktion hinzufügen",
+					"„Temporäre“ Sprachwechselfunktion hinzufügen"
+				],
+				"bugfix": [
 					"Bereinigen Sie den Tab-Code „Einstellungen“.",
 					"Bereinigung des Farbmoduscodes in Saloon (Chat)",
 					"Bereinigungscode für Jobs mit Boni auf der Minikarte",
-					"Funktionscode Job/Brustanalyse bereinigen",
+					"Funktionscode Job/Brustanalyse bereinigen"
+				],
+				"main": [
 					"Modernisieren Sie verschiedene Funktionen des UserScript-Codes"
 				]
 			}

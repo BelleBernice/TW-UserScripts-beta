@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Dodaj barvanje več predmetov za prodajo v Inventarju"
+					"Dodaj barvanje več predmetov za prodajo v Inventarju",
+					"Dodaj možnost za onemogočanje pojavnega okna Premium Energy"
 				],
 				"main": [
 					"Prenova strani funkcij dnevnika sprememb UserScripta"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Dodajte \"začasno\" funkcijo za spremembo jezika",
+					"Dodajte \"začasno\" funkcijo za spremembo jezika"
+				],
+				"bugfix": [
 					"Čiščenje kode zavihka Nastavitve",
 					"Čiščenje kode barvnega načina v Saloonu (klepet)",
 					"Koda za čiščenje delovnih mest z bonusi na mini zemljevidu",
-					"Očisti kodo funkcije Job/Chest Analyzer",
+					"Očisti kodo funkcije Job/Chest Analyzer"
+				],
+				"main": [
 					"Posodobite različne funkcije kode UserScript"
 				]
 			}

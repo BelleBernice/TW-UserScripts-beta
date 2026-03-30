@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Añadir color a múltiples objetos en venta en el Inventario"
+					"Añadir color a múltiples objetos en venta en el Inventario",
+					"Agregar opción para desactivar la ventana emergente de Premium Energy"
 				],
 				"main": [
 					"Rediseño de la página de funciones del registro de cambios del UserScript"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Agregar función de cambio de idioma \"temporal\"",
+					"Agregar función de cambio de idioma \"temporal\""
+				],
+				"bugfix": [
 					"Limpiar el código de la pestaña Configuración",
 					"Limpieza de código de modo de color en Saloon (chat)",
 					"Código de limpieza para trabajos con bonificaciones en el minimapa",
-					"Código de función de limpieza de trabajo/analizador de tórax",
+					"Código de función de limpieza de trabajo/analizador de tórax"
+				],
+				"main": [
 					"Moderniza varias funciones del código UserScript"
 				]
 			}

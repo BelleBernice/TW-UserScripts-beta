@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Tilføj farvemarkering til flere genstande til salg i inventaret"
+					"Tilføj farvemarkering til flere genstande til salg i inventaret",
+					"Tilføj mulighed for at deaktivere Premium Energy-pop op-vinduet"
 				],
 				"main": [
 					"Redesign af UserScript changelog-funktionssiden"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Tilføj \"midlertidig\" sprogændringsfunktion",
+					"Tilføj \"midlertidig\" sprogændringsfunktion"
+				],
+				"bugfix": [
 					"Ryd op Indstillinger fanekode",
 					"Oprydning af farvetilstandskode i Saloon (chat)",
 					"Oprydningskode til job med bonusser på minikortet",
-					"Ryd op Job/Brystanalysator funktionskode",
+					"Ryd op Job/Brystanalysator funktionskode"
+				],
+				"main": [
 					"Moderniser forskellige funktioner i UserScript-koden"
 				]
 			}

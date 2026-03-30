@@ -78,6 +78,7 @@
 		"ui_suppress_notifications": "Error suppressing notifications",
 		"ui_manipulate_notification_bar": "Error manipulating notification bar",
 		"ui_remove_work_queue_pa": "Error removing Premium from work queue",
+		"ui_remove_energy_premium": "Error removing Energy Premium popup",
 		"ui_change_wof_nuggets": "Error changing Wheel of Fortune nuggets",
 		"ui_remove_various_pa": "Error removing various Premium",
 		"ui_activate_fort_recruitment": "Error activating fort recruitment",

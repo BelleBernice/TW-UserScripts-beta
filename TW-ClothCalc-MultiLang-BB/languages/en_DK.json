@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Add coloring to multiple items for sale in Inventory"
+					"Add coloring to multiple items for sale in Inventory",
+					"Add option to disable the Premium Energy pop-up window"
 				],
 				"main": [
 					"Redesign the Changelog Features page of the UserScript"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Add \"temporary\" Language change function",
+					"Add \"temporary\" Language change function"
+				],
+				"bugfix": [
 					"Clean up Settings tab code",
 					"Color mode code cleanup in Saloon (chat)",
 					"Cleanup code for Jobs with bonuses on the Mini Map",
-					"Clean up Job/Chest Analyzer function code",
+					"Clean up Job/Chest Analyzer function code"
+				],
+				"main": [
 					"Modernize various functions of the UserScript code"
 				]
 			}

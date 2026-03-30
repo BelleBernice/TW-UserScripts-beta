@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Dodaj boju više predmeta za prodaju u Inventaru"
+					"Dodaj boju više predmeta za prodaju u Inventaru",
+					"Dodati opciju za onemogućavanje skočnog prozora Premium Energy"
 				],
 				"main": [
 					"Redizajn stranice značajki dnevnika promjena UserScripta"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Dodajte \"privremenu\" funkciju promjene jezika",
+					"Dodajte \"privremenu\" funkciju promjene jezika"
+				],
+				"bugfix": [
 					"Čišćenje koda kartice postavki",
 					"Čišćenje koda načina boja u Saloonu (chat)",
 					"Kôd čišćenja za poslove s bonusima na mini karti",
-					"Očistite kod funkcije analizatora poslova/prsiju",
+					"Očistite kod funkcije analizatora poslova/prsiju"
+				],
+				"main": [
 					"Modernizirajte razne funkcije koda UserScript"
 				]
 			}

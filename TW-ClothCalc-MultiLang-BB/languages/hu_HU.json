@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Színezés hozzáadása több eladó tárgyhoz a Leltárban"
+					"Színezés hozzáadása több eladó tárgyhoz a Leltárban",
+					"Lehetőség hozzáadása a Premium Energy felugró ablak letiltására"
 				],
 				"main": [
 					"A UserScript változásnapló funkciók oldalának újratervezése"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Add hozzá az \"ideiglenes\" nyelvváltoztatási funkciót",
+					"Add hozzá az \"ideiglenes\" nyelvváltoztatási funkciót"
+				],
+				"bugfix": [
 					"Clean up Settings lap kódja",
 					"Színmód kódtisztítás a szalonban (csevegés)",
 					"Tisztító kód a bónuszokat tartalmazó állásokhoz a Mini térképen",
-					"Clean up Job/Chest Analyzer funkciókód",
+					"Clean up Job/Chest Analyzer funkciókód"
+				],
+				"main": [
 					"Modernizálja a UserScript kód különböző funkcióit"
 				]
 			}

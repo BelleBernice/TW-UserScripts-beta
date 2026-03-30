@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Envanter'de satılık birden fazla eşyaya renklendirme ekle"
+					"Envanter'de satılık birden fazla eşyaya renklendirme ekle",
+					"Premium Energy açılır penceresini devre dışı bırakma seçeneği ekle"
 				],
 				"main": [
 					"UserScript değişiklik günlüğü özellikleri sayfasının yeniden tasarlanması"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"\"Geçici\" Dil değiştirme işlevi ekle",
+					"\"Geçici\" Dil değiştirme işlevi ekle"
+				],
+				"bugfix": [
 					"Ayarlar sekme kodunu temizleme",
 					"Salon'da renk modu kodu temizleme (sohbet)",
 					"Mini Haritadaki bonuslara sahip İşler için temizleme kodu",
-					"İş/Göğüs Analiz Cihazı fonksiyon kodunu temizleme",
+					"İş/Göğüs Analiz Cihazı fonksiyon kodunu temizleme"
+				],
+				"main": [
 					"UserScript kodunun çeşitli işlevlerini modernleştirin"
 				]
 			}

@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Ajouter une coloration à plusieurs objets en vente dans l'Inventaire"
+					"Ajouter une coloration à plusieurs objets en vente dans l'Inventaire",
+					"Ajouter une option pour désactiver la fenêtre contextuelle Premium Energy"
 				],
 				"main": [
 					"Refonte de la page des fonctionnalités du journal des modifications du UserScript"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Ajouter une fonction de changement de langue \"temporaire\"",
+					"Ajouter une fonction de changement de langue \"temporaire\""
+				],
+				"bugfix": [
 					"Nettoyer le code de l'onglet Paramètres",
 					"Nettoyage du code du mode couleur dans Saloon (chat)",
 					"Code de nettoyage pour les jobs avec bonus sur la mini-carte",
-					"Nettoyer le code de fonction de l'analyseur de travail/de poitrine",
+					"Nettoyer le code de fonction de l'analyseur de travail/de poitrine"
+				],
+				"main": [
 					"Moderniser diverses fonctions du code UserScript"
 				]
 			}

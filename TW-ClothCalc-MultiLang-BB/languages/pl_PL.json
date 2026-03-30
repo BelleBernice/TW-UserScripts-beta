@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Dodaj kolorowanie wielu przedmiotów na sprzedaż w Ekwipunku"
+					"Dodaj kolorowanie wielu przedmiotów na sprzedaż w Ekwipunku",
+					"Dodanie opcji wyłączenia wyskakującego okna Premium Energy"
 				],
 				"main": [
 					"Przeprojektowanie strony funkcji dziennika zmian UserScriptu"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Dodaj „tymczasową” funkcję zmiany języka",
+					"Dodaj „tymczasową” funkcję zmiany języka"
+				],
+				"bugfix": [
 					"Oczyść kod karty Ustawienia",
 					"Czyszczenie kodu trybu koloru w Saloon (czat)",
 					"Kod porządkowy dla zawodów z bonusami na minimapie",
-					"Oczyść kod funkcji analizatora pracy/klatki piersiowej",
+					"Oczyść kod funkcji analizatora pracy/klatki piersiowej"
+				],
+				"main": [
 					"Modernizacja różnych funkcji kodu UserScript"
 				]
 			}

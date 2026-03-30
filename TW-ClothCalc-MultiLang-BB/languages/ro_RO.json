@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Adaugă colorare pentru multiple obiecte de vânzare în Inventar"
+					"Adaugă colorare pentru multiple obiecte de vânzare în Inventar",
+					"Adăugarea opțiunii de dezactivare a ferestrei pop-up Premium Energy"
 				],
 				"main": [
 					"Reproiectarea paginii funcționalităților jurnalului de modificări al UserScriptului"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Adăugați funcția de schimbare a limbii „temporane”.",
+					"Adăugați funcția de schimbare a limbii „temporane”"
+				],
+				"bugfix": [
 					"Curățați codul filei Setări",
 					"Curățarea codului modului de culoare în Saloon (chat)",
 					"Cod de curățare pentru locuri de muncă cu bonusuri pe mini hartă",
-					"Curățați codul funcției Job/Chest Analyzer",
+					"Curățați codul funcției Job/Chest Analyzer"
+				],
+				"main": [
 					"Modernizați diferite funcții ale codului UserScript"
 				]
 			}

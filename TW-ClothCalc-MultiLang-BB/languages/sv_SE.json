@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Lägg till färgkodning på flera föremål till salu i Förrådet"
+					"Lägg till färgkodning på flera föremål till salu i Förrådet",
+					"Lägg till alternativ för att inaktivera Premium Energy-popupfönstret"
 				],
 				"main": [
 					"Omdesign av UserScripts ändringsloggfunktionssida"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Lägg till \"tillfällig\" språkändringsfunktion",
+					"Lägg till \"tillfällig\" språkändringsfunktion"
+				],
+				"bugfix": [
 					"Kod för fliken Rensa Inställningar",
 					"Rengöring av färglägeskod i Saloon (chatt)",
 					"Rensningskod för jobb med bonusar på minikartan",
-					"Funktionskod för rengöring av jobb/bröstanalysator",
+					"Funktionskod för rengöring av jobb/bröstanalysator"
+				],
+				"main": [
 					"Modernisera olika funktioner i UserScript-koden"
 				]
 			}

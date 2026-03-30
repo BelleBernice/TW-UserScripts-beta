@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Lisää väritys useille myytäville esineille varastossa"
+					"Lisää väritys useille myytäville esineille varastossa",
+					"Lisää mahdollisuus poistaa Premium Energy -ponnahdusikkuna käytöstä"
 				],
 				"main": [
 					"UserScriptin muutoslokin ominaisuussivun uudelleensuunnittelu"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Lisää \"väliaikainen\" kielenvaihtotoiminto",
+					"Lisää \"väliaikainen\" kielenvaihtotoiminto"
+				],
+				"bugfix": [
 					"Puhdista Asetukset-välilehden koodi",
 					"Väritilan koodin puhdistus sedanissa (chat)",
 					"Siivouskoodi työpaikoille, joissa on bonuksia minikartassa",
-					"Clean up Job/Chest Analyzer -toimintokoodi",
+					"Clean up Job/Chest Analyzer -toimintokoodi"
+				],
+				"main": [
 					"Nykyaikaistaa UserScript-koodin eri toimintoja"
 				]
 			}

@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Voeg kleurcodering toe aan meerdere te koop staande items in Voorraad"
+					"Voeg kleurcodering toe aan meerdere te koop staande items in Voorraad",
+					"Optie toevoegen om het Premium Energy-pop-upvenster uit te schakelen"
 				],
 				"main": [
 					"Herontwerp van de functiespagina van de UserScript-changelog"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Voeg een \"tijdelijke\" taalwijzigingsfunctie toe",
+					"Voeg een \"tijdelijke\" taalwijzigingsfunctie toe"
+				],
+				"bugfix": [
 					"Tabbladcode Instellingen opschonen",
 					"Kleurmoduscode opschonen in Saloon (chat)",
 					"Opruimcode voor banen met bonussen op de minikaart",
-					"Functiecode taak-/kistanalysator opruimen",
+					"Functiecode taak-/kistanalysator opruimen"
+				],
+				"main": [
 					"Moderniseer verschillende functies van de UserScript-code"
 				]
 			}

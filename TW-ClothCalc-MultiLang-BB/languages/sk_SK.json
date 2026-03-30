@@ -373,7 +373,8 @@
 			"version": "0.30.0",
 			"notes": {
 				"feature": [
-					"Pridať zafarbenie viacerých predmetov na predaj v Inventári"
+					"Pridať zafarbenie viacerých predmetov na predaj v Inventári",
+					"Pridať možnosť deaktivácie vyskakovacieho okna Premium Energy"
 				],
 				"main": [
 					"Prepracovanie stránky funkcií zoznamu zmien UserScriptu"
@@ -395,11 +396,15 @@
 			"version": "0.28.0",
 			"notes": {
 				"feature": [
-					"Pridajte \"dočasnú\" funkciu zmeny jazyka",
+					"Pridajte \"dočasnú\" funkciu zmeny jazyka"
+				],
+				"bugfix": [
 					"Kód karty Nastavenia čistenia",
 					"Čistenie kódu farebného režimu v salóne (chat)",
 					"Kód čistenia pre úlohy s bonusmi na minimape",
-					"Kód funkcie Cleanup Job/Chest Analyzer",
+					"Kód funkcie Cleanup Job/Chest Analyzer"
+				],
+				"main": [
 					"Modernizácia rôznych funkcií kódu UserScript"
 				]
 			}
