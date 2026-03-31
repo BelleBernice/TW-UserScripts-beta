@@ -151,6 +151,7 @@
 		"scrollbars_off": "Wyłączenie pasków przewijania na małych ekranach lub przy dużym przesunięciu okien",
 		"wear_close": "Dodanie przycisku do automatycznego zamykania tylko okien ekwipunku",
 		"profile_duel_exp": "Wyświetlanie doświadczenia pojedynków w profilach graczy",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Dodanie liczników regeneracji do portretu gracza",
 		"button_church": "Dodanie przycisku ułatwiającego otwarcie okna budowy kościoła",
 		"button_market": "Dodanie przycisku ułatwiającego otwarcie okna targu",
@@ -327,7 +328,6 @@
 		"ko_time": "Czas KO",
 		"ko_suspension": "KO – Zawieszenie pojedynków do $time$",
 		"ko_protection": "KO – Ochrona pojedynków do $time$",
-		"profile_duel_exp": "Pokaż doświadczenie pojedynku w profilach graczy",
 		"protection_changed": "Ochrona pojedynku została zmieniona"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Dodanie opcji wyłączenia wyskakującego okna Premium Energy"
 				],
 				"main": [
-					"Przeprojektowanie strony funkcji dziennika zmian UserScriptu"
+					"Przeprojektowanie strony funkcji dziennika zmian UserScriptu",
+					"Refaktoryzacja i czyszczenie kodu UserScript"
 				]
 			}
 		},

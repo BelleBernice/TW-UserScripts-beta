@@ -151,6 +151,7 @@
 		"scrollbars_off": "Disable scrollbars on small screens or when windows are moved too far",
 		"wear_close": "Add a button to automatically close only inventory windows",
 		"profile_duel_exp": "Show duel experience on player profiles",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Add regeneration timers to the player portrait",
 		"button_church": "Add a button for easier opening of the church construction window",
 		"button_market": "Add a button for easier opening of the market window",
@@ -327,7 +328,6 @@
 		"ko_time": "Knockout time",
 		"ko_suspension": "KO – Duel suspension until $time$",
 		"ko_protection": "KO – Duel protection until $time$",
-		"profile_duel_exp": "Show duel experience on player profiles",
 		"protection_changed": "Duel protection has changed"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Add option to disable the Premium Energy pop-up window"
 				],
 				"main": [
-					"Redesign the Changelog Features page of the UserScript"
+					"Redesign the Changelog Features page of the UserScript",
+					"Refactoring and cleaning up the UserScript code"
 				]
 			}
 		},

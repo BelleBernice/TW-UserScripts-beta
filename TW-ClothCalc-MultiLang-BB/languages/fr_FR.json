@@ -151,6 +151,7 @@
 		"scrollbars_off": "Désactiver les barres de défilement sur les petits écrans ou lorsque les fenêtres sont trop déplacées",
 		"wear_close": "Ajouter un bouton pour fermer automatiquement uniquement les fenêtres d’inventaire",
 		"profile_duel_exp": "Afficher l’expérience de duel dans les profils des joueurs",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Ajouter des minuteries de régénération au portrait du joueur",
 		"button_church": "Ajouter un bouton pour ouvrir plus facilement la fenêtre de construction de l’église",
 		"button_market": "Ajouter un bouton pour ouvrir plus facilement la fenêtre du marché",
@@ -327,7 +328,6 @@
 		"ko_time": "Heure du KO",
 		"ko_suspension": "KO – Suspension de duel jusqu’à $time$",
 		"ko_protection": "KO – Protection de duel jusqu’à $time$",
-		"profile_duel_exp": "Afficher l’expérience de duel dans les profils des joueurs",
 		"protection_changed": "La protection de duel a changé"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Ajouter une option pour désactiver la fenêtre contextuelle Premium Energy"
 				],
 				"main": [
-					"Refonte de la page des fonctionnalités du journal des modifications du UserScript"
+					"Refonte de la page des fonctionnalités du journal des modifications du UserScript",
+					"Refactorisation et nettoyage du code UserScript"
 				]
 			}
 		},

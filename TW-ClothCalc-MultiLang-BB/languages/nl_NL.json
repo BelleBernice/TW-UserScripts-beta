@@ -151,6 +151,7 @@
 		"scrollbars_off": "Schuifbalken uitschakelen op kleine schermen of wanneer vensters te ver zijn verplaatst",
 		"wear_close": "Knop toevoegen om automatisch alleen inventarisvensters te sluiten",
 		"profile_duel_exp": "Duelervaring tonen op spelersprofielen",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Regeneratietimers toevoegen aan het spelersportret",
 		"button_church": "Knop toevoegen om het kerkbouwvenster gemakkelijker te openen",
 		"button_market": "Knop toevoegen om het marktvenster gemakkelijker te openen",
@@ -327,7 +328,6 @@
 		"ko_time": "KO-tijd",
 		"ko_suspension": "KO – Duel geschorst tot $time$",
 		"ko_protection": "KO – Duelbescherming tot $time$",
-		"profile_duel_exp": "Duelervaring tonen op spelersprofielen",
 		"protection_changed": "Duelbescherming is gewijzigd"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Optie toevoegen om het Premium Energy-pop-upvenster uit te schakelen"
 				],
 				"main": [
-					"Herontwerp van de functiespagina van de UserScript-changelog"
+					"Herontwerp van de functiespagina van de UserScript-changelog",
+					"De UserScript-code opnieuw opbouwen en opschonen"
 				]
 			}
 		},

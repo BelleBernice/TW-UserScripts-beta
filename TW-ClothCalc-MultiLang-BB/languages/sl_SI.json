@@ -151,6 +151,7 @@
 		"scrollbars_off": "Onemogoči drsnike na majhnih zaslonih ali ob velikem premiku oken",
 		"wear_close": "Dodaj gumb za samodejno zapiranje samo oken inventarja",
 		"profile_duel_exp": "Prikaži izkušnje iz dvobojev v profilih igralcev",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Dodaj časovnike regeneracije na portret igralca",
 		"button_church": "Dodaj gumb za lažje odpiranje okna gradnje cerkve",
 		"button_market": "Dodaj gumb za lažje odpiranje okna trga",
@@ -327,7 +328,6 @@
 		"ko_time": "Čas KO",
 		"ko_suspension": "KO – Dvoboj prekinjen do $time$",
 		"ko_protection": "KO – Zaščita dvoboja do $time$",
-		"profile_duel_exp": "Prikaži izkušnje iz dvobojev v profilih igralcev",
 		"protection_changed": "Zaščita dvoboja je bila spremenjena"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Dodaj možnost za onemogočanje pojavnega okna Premium Energy"
 				],
 				"main": [
-					"Prenova strani funkcij dnevnika sprememb UserScripta"
+					"Prenova strani funkcij dnevnika sprememb UserScripta",
+					"Preoblikovanje in čiščenje kode UserScript"
 				]
 			}
 		},

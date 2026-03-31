@@ -151,6 +151,7 @@
 		"scrollbars_off": "Küçük ekranlarda veya pencereler çok taşındığında kaydırma çubuklarını devre dışı bırak",
 		"wear_close": "Sadece envanter pencerelerini otomatik kapatmak için düğme ekle",
 		"profile_duel_exp": "Oyuncu profillerinde düello deneyimini göster",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Oyuncu portresine yenilenme sayaçları ekle",
 		"button_church": "Kilise inşa penceresini kolay açmak için düğme ekle",
 		"button_market": "Pazar penceresini kolay açmak için düğme ekle",
@@ -327,7 +328,6 @@
 		"ko_time": "Bayılma süresi",
 		"ko_suspension": "KO – Düello $time$ tarihine kadar askıya alındı",
 		"ko_protection": "KO – Düello koruması $time$ tarihine kadar",
-		"profile_duel_exp": "Oyuncu profillerinde düello deneyimini göster",
 		"protection_changed": "Düello koruması değiştirildi"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Premium Energy açılır penceresini devre dışı bırakma seçeneği ekle"
 				],
 				"main": [
-					"UserScript değişiklik günlüğü özellikleri sayfasının yeniden tasarlanması"
+					"UserScript değişiklik günlüğü özellikleri sayfasının yeniden tasarlanması",
+					"UserScript kodunu yeniden düzenleme ve temizleme"
 				]
 			}
 		},

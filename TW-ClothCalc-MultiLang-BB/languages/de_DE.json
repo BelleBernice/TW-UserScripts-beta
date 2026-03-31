@@ -151,6 +151,7 @@
 		"scrollbars_off": "Scrollleisten auf kleinen Bildschirmen oder bei weit verschobenen Fenstern deaktivieren",
 		"wear_close": "Schaltfläche zum automatischen Schließen nur der Inventarfenster hinzufügen",
 		"profile_duel_exp": "Duellerfahrung in Spielerprofilen anzeigen",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Regenerationszeiten im Spielerporträt anzeigen",
 		"button_church": "Schaltfläche zum einfacheren Öffnen des Kirchenbau-Fensters hinzufügen",
 		"button_market": "Schaltfläche zum einfacheren Öffnen des Marktfensters hinzufügen",
@@ -327,7 +328,6 @@
 		"ko_time": "KO-Zeit",
 		"ko_suspension": "KO – Duellsperre bis $time$",
 		"ko_protection": "KO – Duellschutz bis $time$",
-		"profile_duel_exp": "Duellerfahrung in Spielerprofilen anzeigen",
 		"protection_changed": "Der Duellschutz wurde geändert"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Option zum Deaktivieren des Premium-Energy-Pop-up-Fensters hinzufügen"
 				],
 				"main": [
-					"Neugestaltung der Seite „Changelog-Funktionen“ des UserScripts"
+					"Neugestaltung der Seite „Changelog-Funktionen“ des UserScripts",
+					"Refactoring und Bereinigen des UserScript-Codes"
 				]
 			}
 		},

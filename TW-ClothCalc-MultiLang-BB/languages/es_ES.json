@@ -151,6 +151,7 @@
 		"scrollbars_off": "Desactivar barras de desplazamiento en pantallas pequeñas o cuando las ventanas se mueven demasiado",
 		"wear_close": "Añadir un botón para cerrar automáticamente solo las ventanas de inventario",
 		"profile_duel_exp": "Mostrar la experiencia de duelo en los perfiles de jugador",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Añadir temporizadores de regeneración al retrato del jugador",
 		"button_church": "Añadir un botón para abrir más fácilmente la ventana de construcción de la iglesia",
 		"button_market": "Añadir un botón para abrir más fácilmente la ventana del mercado",
@@ -327,7 +328,6 @@
 		"ko_time": "Tiempo de KO",
 		"ko_suspension": "KO – Suspensión de duelo hasta $time$",
 		"ko_protection": "KO – Protección de duelo hasta $time$",
-		"profile_duel_exp": "Mostrar experiencia de duelo en perfiles de jugador",
 		"protection_changed": "La protección de duelo ha cambiado"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Añadir opción para desactivar la ventana emergente de Premium Energy"
 				],
 				"main": [
-					"Rediseño de la página de funciones del registro de cambios del UserScript"
+					"Rediseño de la página de funciones del registro de cambios del UserScript",
+					"Refactorización y limpieza del código UserScript"
 				]
 			}
 		},

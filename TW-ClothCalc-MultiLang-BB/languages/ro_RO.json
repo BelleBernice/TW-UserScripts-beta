@@ -151,6 +151,7 @@
 		"scrollbars_off": "Dezactivează barele de derulare pe ecrane mici sau când ferestrele sunt mutate prea departe",
 		"wear_close": "Adaugă un buton pentru a închide automat doar ferestrele inventarului",
 		"profile_duel_exp": "Afișează experiența de duel în profilurile jucătorilor",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Adaugă temporizatoare de regenerare pe portretul jucătorului",
 		"button_church": "Adaugă un buton pentru deschiderea rapidă a ferestrei de construire a bisericii",
 		"button_market": "Adaugă un buton pentru deschiderea rapidă a ferestrei pieței",
@@ -327,7 +328,6 @@
 		"ko_time": "Timp KO",
 		"ko_suspension": "KO – Duel suspendat până la $time$",
 		"ko_protection": "KO – Protecție duel până la $time$",
-		"profile_duel_exp": "Afișează experiența de duel în profilurile jucătorilor",
 		"protection_changed": "Protecția duelului a fost modificată"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Adăugarea opțiunii de dezactivare a ferestrei pop-up Premium Energy"
 				],
 				"main": [
-					"Reproiectarea paginii funcționalităților jurnalului de modificări al UserScriptului"
+					"Reproiectarea paginii funcționalităților jurnalului de modificări al UserScriptului",
+					"Refactorizarea și curățarea codului UserScript"
 				]
 			}
 		},

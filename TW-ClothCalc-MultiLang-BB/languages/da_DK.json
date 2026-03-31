@@ -151,6 +151,7 @@
 		"scrollbars_off": "Deaktivér rullebjælker på små skærme eller når vinduer flyttes langt",
 		"wear_close": "Tilføj knap til automatisk kun at lukke inventarvinduer",
 		"profile_duel_exp": "Vis duel-erfaring på spillerprofiler",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Tilføj regenerationstimere til spillerportrættet",
 		"button_church": "Tilføj knap for lettere åbning af kirkebyggevinduet",
 		"button_market": "Tilføj knap for lettere åbning af markedet",
@@ -327,7 +328,6 @@
 		"ko_time": "KO-tid",
 		"ko_suspension": "KO – Duel suspenderet indtil $time$",
 		"ko_protection": "KO – Duelbeskyttelse indtil $time$",
-		"profile_duel_exp": "Vis duel-erfaring på spillerprofiler",
 		"protection_changed": "Duelbeskyttelsen er ændret"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Tilføj mulighed for at deaktivere Premium Energy-pop op-vinduet"
 				],
 				"main": [
-					"Redesign af UserScript changelog-funktionssiden"
+					"Redesign af UserScript changelog-funktionssiden",
+					"Refaktorering og oprydning af UserScript-koden"
 				]
 			}
 		},

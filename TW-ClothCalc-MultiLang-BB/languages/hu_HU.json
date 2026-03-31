@@ -151,6 +151,7 @@
 		"scrollbars_off": "Görgetősávok kikapcsolása kis képernyőkön vagy túl messzire mozgatott ablakoknál",
 		"wear_close": "Gomb hozzáadása csak a készletablakok automatikus bezárásához",
 		"profile_duel_exp": "Párbajtapasztalat megjelenítése a játékosprofilokban",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Regenerációs időzítők hozzáadása a játékos portréhoz",
 		"button_church": "Gomb hozzáadása a templomépítési ablak könnyebb megnyitásához",
 		"button_market": "Gomb hozzáadása a piaci ablak könnyebb megnyitásához",
@@ -327,7 +328,6 @@
 		"ko_time": "Kiütés ideje",
 		"ko_suspension": "KO – Párbaj felfüggesztve eddig: $time$",
 		"ko_protection": "KO – Párbajvédelem eddig: $time$",
-		"profile_duel_exp": "Párbajtapasztalat megjelenítése a játékosprofilokban",
 		"protection_changed": "A párbajvédelem megváltozott"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Lehetőség hozzáadása a Premium Energy felugró ablak letiltására"
 				],
 				"main": [
-					"A UserScript változásnapló funkciók oldalának újratervezése"
+					"A UserScript változásnapló funkciók oldalának újratervezése",
+					"A UserScript kód újrafaktorálása és tisztítása"
 				]
 			}
 		},

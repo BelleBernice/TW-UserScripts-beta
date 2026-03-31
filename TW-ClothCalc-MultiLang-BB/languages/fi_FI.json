@@ -151,6 +151,7 @@
 		"scrollbars_off": "Poista vierityspalkit pienillä näytöillä tai kun ikkunoita siirretään kauas",
 		"wear_close": "Lisää painike, joka sulkee automaattisesti vain inventaarioikkunat",
 		"profile_duel_exp": "Näytä kaksintaistelukokemus pelaajaprofiileissa",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Lisää palautumisajastimet pelaajakuvaan",
 		"button_church": "Lisää painike kirkon rakennusikkunan helppoon avaamiseen",
 		"button_market": "Lisää painike torin ikkunan helppoon avaamiseen",
@@ -327,7 +328,6 @@
 		"ko_time": "KO-aika",
 		"ko_suspension": "KO – Kaksintaistelu keskeytetty $time$ asti",
 		"ko_protection": "KO – Kaksintaistelusuoja $time$ asti",
-		"profile_duel_exp": "Näytä kaksintaistelukokemus pelaajaprofiileissa",
 		"protection_changed": "Kaksintaistelusuoja on muuttunut"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Lisää mahdollisuus poistaa Premium Energy -ponnahdusikkuna käytöstä"
 				],
 				"main": [
-					"UserScriptin muutoslokin ominaisuussivun uudelleensuunnittelu"
+					"UserScriptin muutoslokin ominaisuussivun uudelleensuunnittelu",
+					"UserScript-koodin uudelleenfaktorointi ja puhdistaminen"
 				]
 			}
 		},

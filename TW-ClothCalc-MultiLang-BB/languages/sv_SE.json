@@ -151,6 +151,7 @@
 		"scrollbars_off": "Inaktivera rullningslister på små skärmar eller när fönster flyttas långt",
 		"wear_close": "Lägg till knapp för att automatiskt stänga endast inventariefönster",
 		"profile_duel_exp": "Visa duellerfarenhet i spelarprofiler",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Lägg till regenereringstimers i spelarporträttet",
 		"button_church": "Lägg till knapp för att enkelt öppna kyrkobyggnadsfönstret",
 		"button_market": "Lägg till knapp för att enkelt öppna marknadsfönstret",
@@ -327,7 +328,6 @@
 		"ko_time": "KO-tid",
 		"ko_suspension": "KO – Duell avstängd till $time$",
 		"ko_protection": "KO – Duellskydd till $time$",
-		"profile_duel_exp": "Visa duellerfarenhet i spelarprofiler",
 		"protection_changed": "Duellskyddet har ändrats"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Lägg till alternativ för att inaktivera Premium Energy-popupfönstret"
 				],
 				"main": [
-					"Omdesign av UserScripts ändringsloggfunktionssida"
+					"Omdesign av UserScripts ändringsloggfunktionssida",
+					"Refaktorering och rengöring av UserScript-koden"
 				]
 			}
 		},

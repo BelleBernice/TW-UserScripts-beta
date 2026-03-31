@@ -151,6 +151,7 @@
 		"scrollbars_off": "Vypnout posuvníky na malých obrazovkách nebo při velkém posunu oken",
 		"wear_close": "Přidat tlačítko pro automatické zavření pouze oken inventáře",
 		"profile_duel_exp": "Zobrazit zkušenosti z duelů v profilech hráčů",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Přidat časovače regenerace k portrétu hráče",
 		"button_church": "Přidat tlačítko pro snadnější otevření okna stavby kostela",
 		"button_market": "Přidat tlačítko pro snadnější otevření okna trhu",
@@ -327,7 +328,6 @@
 		"ko_time": "Čas omdlení",
 		"ko_suspension": "KO – Zákaz duelů do $time$",
 		"ko_protection": "KO – Ochrana v duelech do $time$",
-		"profile_duel_exp": "Zobrazit zkušenosti z duelů v profilech hráčů",
 		"protection_changed": "Ochrana v duelech byla změněna"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Přidat možnost deaktivace vyskakovacího okna Premium Energy"
 				],
 				"main": [
-					"Přepracování stránky funkcí změn UserScriptu"
+					"Přepracování stránky funkcí změn UserScriptu",
+					"Refaktorování a čištění kódu UserScript"
 				]
 			}
 		},

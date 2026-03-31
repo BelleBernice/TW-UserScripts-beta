@@ -17,6 +17,7 @@
 		"worker": "Worker",
 		"setup_whisper_sound": "Error setting up whisper sound options",
 		"duel_xp_profile": "Error adding duel experience in player profiles",
+		"church_lvl_profile": "Error adding duel experience in player profiles",
 		"regen_timers": "Error enabling regeneration timers",
 		"enable_selectable_text": "Error enabling selectable text",
 		"enable_night_mode": "Error enabling Night Mode",

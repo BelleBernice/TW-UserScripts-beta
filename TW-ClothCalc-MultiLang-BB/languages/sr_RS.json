@@ -151,6 +151,7 @@
 		"scrollbars_off": "Onemogući klizače na malim ekranima ili kada se prozori pomere predaleko",
 		"wear_close": "Dodaj dugme za automatsko zatvaranje samo prozora inventara",
 		"profile_duel_exp": "Prikaži iskustvo iz duela u profilima igrača",
+		"church_lvl_points": "Εμφάνιση της εμπειρία μονομαχίας στα προφίλ παικτών",
 		"regen_timers": "Dodaj tajmere regeneracije na portret igrača",
 		"button_church": "Dodaj dugme za lakše otvaranje prozora izgradnje crkve",
 		"button_market": "Dodaj dugme za lakše otvaranje prozora pijace",
@@ -327,7 +328,6 @@
 		"ko_time": "Vreme KO",
 		"ko_suspension": "KO – Duel suspendovan do $time$",
 		"ko_protection": "KO – Zaštita duela do $time$",
-		"profile_duel_exp": "Prikaži iskustvo iz duela u profilima igrača",
 		"protection_changed": "Zaštita duela je promenjena"
 	},
 	"town": {
@@ -377,7 +377,8 @@
 					"Dodati opciju za onemogućavanje iskačućeg prozora Premium Energy"
 				],
 				"main": [
-					"Редизајн странице функција дневника измена УсерСцрипт"
+					"Редизајн странице функција дневника измена УсерСцрипт",
+					"Рефакторисање и чишћење УсерСцрипт кода"
 				]
 			}
 		},
