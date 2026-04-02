@@ -35,6 +35,7 @@
 		"hotel": "Hôtel",
 		"stage": "Niveau",
 		"your_position": "Votre position",
+		"level": "Niveau",
 		"levels": "Niveaux",
 		"count": "Nombre",
 		"duration": "Durée",
@@ -138,6 +139,7 @@
 		"forum_blink": "Supprimer le clignotement du bouton de la ville s’il y a un nouveau message sur le forum",
 		"market_map": "Ajouter la fenêtre de la carte du marché",
 		"market_reminder": "Ajouter un rappel pour les enchères du marché",
+		"market_offer_category_memory": "Mémoriser la visibilité des offres dans l’onglet d’achat",
 		"market_sell": "Améliorer la fenêtre de vente du marché",
 		"market_report": "Améliorer l’icône de rapport de vente du marché",
 		"market_improved": "Améliorer la fenêtre d’achat du marché",
@@ -310,6 +312,7 @@
 		"accept_finish": "Accepter et terminer la quête"
 	},
 	"building": {
+		"church_level_tooltip": "Compare le niveau actuel de l'église au niveau maximal que vos points de travail peuvent couvrir pour l'instant. Essayez de conserver toujours au moins 5 à 10 niveaux d'avance sur le niveau actuel de l'église pour un meilleur gain d'expérience.",
 		"progress_tooltip": "La progression indique le travail restant avant le niveau suivant",
 		"progress_label": "Progression"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Ajouter une coloration à plusieurs objets en vente dans l'Inventaire",
-					"Ajouter une option pour désactiver la fenêtre contextuelle Premium Energy"
+					"Ajouter une option pour désactiver la fenêtre contextuelle Premium Energy",
+					"Ajouter une option pour mémoriser la visibilité des offres dans l'onglet d'achat"
 				],
 				"main": [
 					"Refonte de la page des fonctionnalités du journal des modifications du UserScript",

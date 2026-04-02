@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Nivo",
 		"your_position": "Tvoja pozicija",
+		"level": "Nivo",
 		"levels": "Nivoi",
 		"count": "Broj",
 		"duration": "Trajanje",
@@ -138,6 +139,7 @@
 		"forum_blink": "Ukloni treperenje dugmeta grada kada postoji nova poruka na forumu",
 		"market_map": "Dodaj mapu pijace",
 		"market_reminder": "Dodaj podsetnik za aukcije na pijaci",
+		"market_offer_category_memory": "Zapamti vidljivost ponuda na kartici kupovine",
 		"market_sell": "Poboljšaj prozor za prodaju na pijaci",
 		"market_report": "Poboljšaj ikonu izveštaja o prodaji na pijaci",
 		"market_improved": "Poboljšaj prozor za kupovinu na pijaci",
@@ -310,6 +312,7 @@
 		"accept_finish": "Prihvati i završi zadatak"
 	},
 	"building": {
+		"church_level_tooltip": "Upoređuje trenutni nivo crkve sa najvišim nivoom koji vaši radni poeni mogu da pokriju u ovom trenutku. Pokušajte uvek da budete najmanje 5-10 nivoa ispred trenutnog nivoa crkve radi najboljeg iskustvenog dobitka.",
 		"progress_tooltip": "Napredak pokazuje koliko izgradnje je još potrebno za sledeći nivo",
 		"progress_label": "Napredak"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Dodaj boju više predmeta za prodaju u Inventaru",
-					"Dodati opciju za onemogućavanje iskačućeg prozora Premium Energy"
+					"Dodati opciju za onemogućavanje iskačućeg prozora Premium Energy",
+					"Dodati opciju za pamćenje vidljivosti ponuda na kartici kupovine"
 				],
 				"main": [
 					"Редизајн странице функција дневника измена УсерСцрипт",

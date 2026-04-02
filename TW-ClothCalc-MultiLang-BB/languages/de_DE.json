@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Stufe",
 		"your_position": "Deine Position",
+		"level": "Stufe",
 		"levels": "Stufen",
 		"count": "Anzahl",
 		"duration": "Dauer",
@@ -138,6 +139,7 @@
 		"forum_blink": "Blinken der Stadtschaltfläche bei neuen Forenbeiträgen entfernen",
 		"market_map": "Marktkarte hinzufügen",
 		"market_reminder": "Erinnerung für Marktauktionen hinzufügen",
+		"market_offer_category_memory": "Sichtbarkeit der Angebote im Kauf-Tab merken",
 		"market_sell": "Verkaufsfenster des Marktes verbessern",
 		"market_report": "Symbol für Verkaufsberichte auf dem Markt verbessern",
 		"market_improved": "Kauffenster des Marktes verbessern",
@@ -310,6 +312,7 @@
 		"accept_finish": "Quest annehmen & abschließen"
 	},
 	"building": {
+		"church_level_tooltip": "Vergleicht das aktuelle Kirchenlevel mit dem höchsten Level, das deine Arbeitspunkte derzeit ermöglichen. Versuche, immer mindestens 5-10 Level über dem aktuellen Kirchenlevel zu bleiben, um die besten Erfahrungspunkte zu erhalten.",
 		"progress_tooltip": "Der Fortschritt zeigt, wie viel Bauarbeit bis zur nächsten Stufe noch benötigt wird",
 		"progress_label": "Fortschritt"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Färbung für mehrere zum Verkauf stehende Gegenstände im Inventar hinzufügen",
-					"Option zum Deaktivieren des Premium-Energy-Pop-up-Fensters hinzufügen"
+					"Option zum Deaktivieren des Premium-Energy-Pop-up-Fensters hinzufügen",
+					"Option zum Merken der Sichtbarkeit der Angebote im Kauf-Tab hinzufügen"
 				],
 				"main": [
 					"Neugestaltung der Seite „Changelog-Funktionen“ des UserScripts",

@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Nivel",
 		"your_position": "Tu posición",
+		"level": "Nivel",
 		"levels": "Niveles",
 		"count": "Cantidad",
 		"duration": "Duración",
@@ -126,6 +127,7 @@
 		"task_points": "Agregar indicador de puntos de trabajo y consejos de salud a la lista de tareas",
 		"market_map": "Agregar mapa del mercado",
 		"market_reminder": "Agregar recordatorio para subastas del mercado",
+		"market_offer_category_memory": "Recordar la visibilidad de las ofertas en la pestaña de compra",
 		"duel_motivation": "Agregar un indicador permanente de motivación de duelo",
 		"sleep_direct": "Agregar un botón para ir directamente al hotel o al cuartel",
 		"deposit": "Agregar un botón para depositar dinero en el banco",
@@ -303,6 +305,7 @@
 		"accept_finish": "Accept & Complete quest"
 	},
 	"building": {
+		"church_level_tooltip": "Compara el nivel actual de la iglesia con el nivel máximo que tus puntos de trabajo pueden cubrir ahora mismo. Trata de mantener siempre al menos 5-10 niveles por encima del nivel actual de la iglesia para la mejor ganancia de experiencia.",
 		"progress_tooltip": "Progress shows how much construction is still needed for the next level",
 		"progress_label": "Progress"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Añadir color a múltiples objetos en venta en el Inventario",
-					"Agregar opción para desactivar la ventana emergente de Premium Energy"
+					"Agregar opción para desactivar la ventana emergente de Premium Energy",
+					"Agregar opción para recordar la visibilidad de las ofertas en la pestaña de compra"
 				],
 				"main": [
 					"Rediseño de la página de funciones del registro de cambios del UserScript",

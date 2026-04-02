@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Nivel",
 		"your_position": "Poziția ta",
+		"level": "Nivel",
 		"levels": "Niveluri",
 		"count": "Număr",
 		"duration": "Durată",
@@ -138,6 +139,7 @@
 		"forum_blink": "Elimină clipirea butonului orașului dacă există un mesaj nou pe forum",
 		"market_map": "Adaugă fereastra hărții pieței",
 		"market_reminder": "Adaugă memento pentru licitațiile pieței",
+		"market_offer_category_memory": "Ține minte vizibilitatea ofertelor în fila de cumpărare",
 		"market_sell": "Îmbunătățește fereastra de vânzare a pieței",
 		"market_report": "Îmbunătățește pictograma raportului de vânzare din piață",
 		"market_improved": "Îmbunătățește fereastra de cumpărare din piață",
@@ -310,6 +312,7 @@
 		"accept_finish": "Acceptă și finalizează misiunea"
 	},
 	"building": {
+		"church_level_tooltip": "Compară nivelul actual al bisericii cu nivelul maxim pe care punctele tale de muncă îl pot acoperi în acest moment. Încearcă să rămâi mereu cu cel puțin 5-10 niveluri peste nivelul actual al bisericii pentru cel mai bun câștig de experiență.",
 		"progress_tooltip": "Progresul arată câtă construcție mai este necesară pentru nivelul următor",
 		"progress_label": "Progres"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Adaugă colorare pentru multiple obiecte de vânzare în Inventar",
-					"Adăugarea opțiunii de dezactivare a ferestrei pop-up Premium Energy"
+					"Adăugarea opțiunii de dezactivare a ferestrei pop-up Premium Energy",
+					"Adăugarea opțiunii de memorare a vizibilității ofertelor în fila de cumpărare"
 				],
 				"main": [
 					"Reproiectarea paginii funcționalităților jurnalului de modificări al UserScriptului",

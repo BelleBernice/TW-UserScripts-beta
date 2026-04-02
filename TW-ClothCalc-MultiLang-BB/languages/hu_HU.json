@@ -35,6 +35,7 @@
 		"hotel": "Szálloda",
 		"stage": "Szint",
 		"your_position": "Pozíciód",
+		"level": "Szint",
 		"levels": "Szintek",
 		"count": "Darabszám",
 		"duration": "Időtartam",
@@ -138,6 +139,7 @@
 		"forum_blink": "A város gomb villogásának eltávolítása új fórumbejegyzés esetén",
 		"market_map": "Piaci térkép ablak hozzáadása",
 		"market_reminder": "Emlékeztető hozzáadása a piaci aukciókhoz",
+		"market_offer_category_memory": "Ajánlatok láthatóságának megjegyzése a vásárlás lapon",
 		"market_sell": "A piaci eladási ablak fejlesztése",
 		"market_report": "A piaci eladási jelentés ikonjának fejlesztése",
 		"market_improved": "A piaci vásárlási ablak fejlesztése",
@@ -310,6 +312,7 @@
 		"accept_finish": "Küldetés elfogadása és befejezése"
 	},
 	"building": {
+		"church_level_tooltip": "Összeveti a templom jelenlegi szintjét a legmagasabb szinttel, amit a munkapontjaid pillanatnyilag elérhetővé tesznek. Tarts legalább 5-10 szint előnyt a templom jelenlegi szintje felett a legjobb tapasztalati pontszerzéshez.",
 		"progress_tooltip": "A folyamat megmutatja, mennyi építés szükséges a következő szinthez",
 		"progress_label": "Folyamat"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Színezés hozzáadása több eladó tárgyhoz a Leltárban",
-					"Lehetőség hozzáadása a Premium Energy felugró ablak letiltására"
+					"Lehetőség hozzáadása a Premium Energy felugró ablak letiltására",
+					"Lehetőség hozzáadása az ajánlatok láthatóságának megjegyzésére a vásárlás lapon"
 				],
 				"main": [
 					"A UserScript változásnapló funkciók oldalának újratervezése",

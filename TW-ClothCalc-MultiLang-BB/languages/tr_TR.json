@@ -35,6 +35,7 @@
 		"hotel": "Otel",
 		"stage": "Seviye",
 		"your_position": "Konumun",
+		"level": "Seviye",
 		"levels": "Seviyeler",
 		"count": "Sayı",
 		"duration": "Süre",
@@ -138,6 +139,7 @@
 		"forum_blink": "Yeni şehir forumu mesajı varsa şehir düğmesinin yanıp sönmesini kaldır",
 		"market_map": "Pazar Haritası penceresi ekle",
 		"market_reminder": "Pazar açık artırmaları için hatırlatıcı ekle",
+		"market_offer_category_memory": "Satın alma sekmesinde teklif görünürlüğünü hatırla",
 		"market_sell": "Pazar satış penceresini geliştir",
 		"market_report": "Pazar satış raporu simgesini geliştir",
 		"market_improved": "Pazar satın alma penceresini geliştir",
@@ -310,6 +312,7 @@
 		"accept_finish": "Görevi kabul et ve tamamla"
 	},
 	"building": {
+		"church_level_tooltip": "Kilisenin mevcut seviyesini, iş puanlarınızın şu anda kapsayabildiği en yüksek seviye ile karşılaştırır. En iyi deneyim puanı için kilisenin mevcut seviyesinin her zaman en az 5-10 seviye önünde olmaya çalışın.",
 		"progress_tooltip": "İlerleme, bir sonraki seviye için ne kadar inşaat kaldığını gösterir",
 		"progress_label": "İlerleme"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Envanter'de satılık birden fazla eşyaya renklendirme ekle",
-					"Premium Energy açılır penceresini devre dışı bırakma seçeneği ekle"
+					"Premium Energy açılır penceresini devre dışı bırakma seçeneği ekle",
+					"Satın alma sekmesinde teklif görünürlüğünü hatırlama seçeneği ekle"
 				],
 				"main": [
 					"UserScript değişiklik günlüğü özellikleri sayfasının yeniden tasarlanması",

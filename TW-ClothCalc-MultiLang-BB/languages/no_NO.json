@@ -35,6 +35,7 @@
 		"hotel": "Hotell",
 		"stage": "Nivå",
 		"your_position": "Din posisjon",
+		"level": "Nivå",
 		"levels": "Nivåer",
 		"count": "Antall",
 		"duration": "Varighet",
@@ -138,6 +139,7 @@
 		"forum_blink": "Fjern blinking på byknappen ved nye foruminnlegg",
 		"market_map": "Legg til markedskart",
 		"market_reminder": "Legg til påminnelse for markedsauksjoner",
+		"market_offer_category_memory": "Husk tilbudssynlighet på kjøp-fanen",
 		"market_sell": "Forbedre salgs­vinduet på markedet",
 		"market_report": "Forbedre ikonet for salgsrapport på markedet",
 		"market_improved": "Forbedre kjøpsvinduet på markedet",
@@ -310,6 +312,7 @@
 		"accept_finish": "Godta og fullfør oppdrag"
 	},
 	"building": {
+		"church_level_tooltip": "Sammenligner kirkens nåværende nivå med det høyeste nivået arbeidspoengene dine kan dekke akkurat nå. Prøv å holde deg minst 5-10 nivåer over kirkens nåværende nivå for best erfaringspoeng.",
 		"progress_tooltip": "Fremdriften viser hvor mye bygging som gjenstår til neste nivå",
 		"progress_label": "Fremdrift"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Legg til fargekoding på flere gjenstander til salgs i Inventaret",
-					"Legg til alternativ for å deaktivere Premium Energy-popup-vinduet"
+					"Legg til alternativ for å deaktivere Premium Energy-popup-vinduet",
+					"Legg til alternativ for å huske tilbudssynlighet på kjøp-fanen"
 				],
 				"main": [
 					"Redesignet av funksjonssiden for UserScript-endringsloggen",

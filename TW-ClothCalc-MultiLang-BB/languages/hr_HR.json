@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Razina",
 		"your_position": "Tvoja pozicija",
+		"level": "Razina",
 		"levels": "Razine",
 		"count": "Broj",
 		"duration": "Trajanje",
@@ -126,6 +127,7 @@
 		"task_points": "Dodaj pokazatelj radnih bodova i savjete za zdravlje u popis zadataka",
 		"market_map": "Dodaj kartu tržnice",
 		"market_reminder": "Dodaj podsjetnik za aukcije na tržnici",
+		"market_offer_category_memory": "Zapamti vidljivost ponuda na kartici kupnje",
 		"duel_motivation": "Dodaj trajni pokazatelj motivacije za dvoboj",
 		"sleep_direct": "Dodaj gumb za izravan odlazak u hotel ili kasarnu",
 		"deposit": "Dodaj gumb za polaganje novca u banku",
@@ -303,6 +305,7 @@
 		"accept_finish": "Accept & Complete quest"
 	},
 	"building": {
+		"church_level_tooltip": "Uspoređuje trenutačnu razinu crkve s najvišom razinom koju vaši radni bodovi trenutno mogu pokriti. Pokušavajte uvijek imati najmanje 5-10 razina više od trenutačne razine crkve radi najboljeg iskustvenog dobitka.",
 		"progress_tooltip": "Progress shows how much construction is still needed for the next level",
 		"progress_label": "Progress"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Dodaj boju više predmeta za prodaju u Inventaru",
-					"Dodati opciju za onemogućavanje skočnog prozora Premium Energy"
+					"Dodati opciju za onemogućavanje skočnog prozora Premium Energy",
+					"Dodati opciju za pamćenje vidljivosti ponuda na kartici kupnje"
 				],
 				"main": [
 					"Redizajn stranice značajki dnevnika promjena UserScripta",

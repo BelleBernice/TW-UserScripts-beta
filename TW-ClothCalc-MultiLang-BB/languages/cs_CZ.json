@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Úroveň",
 		"your_position": "Tvoje pozice",
+		"level": "Úroveň",
 		"levels": "Úrovně",
 		"count": "Počet",
 		"duration": "Doba trvání",
@@ -138,6 +139,7 @@
 		"forum_blink": "Odstranit blikání tlačítka města při nové zprávě ve fóru",
 		"market_map": "Přidat okno mapy trhu",
 		"market_reminder": "Přidat připomínku aukcí na trhu",
+		"market_offer_category_memory": "Zapamatovat viditelnost nabídek na kartě nákupu",
 		"market_sell": "Vylepšit okno prodeje na trhu",
 		"market_report": "Vylepšit ikonu prodejní zprávy na trhu",
 		"market_improved": "Vylepšit okno nákupu na trhu",
@@ -310,6 +312,7 @@
 		"accept_finish": "Přijmout a dokončit úkol"
 	},
 	"building": {
+		"church_level_tooltip": "Porovnává aktuální úroveň kostela s nejvyšší úrovní, kterou vaše pracovní body v tuto chvíli dokážou pokrýt. Snažte se mít vždy alespoň o 5-10 úrovní náskok před aktuální úrovní kostela, abyste získali co nejvíce zkušeností.",
 		"progress_tooltip": "Průběh ukazuje, kolik stavby ještě zbývá do další úrovně",
 		"progress_label": "Průběh"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Přidat zbarvení více předmětů k prodeji v inventáři",
-					"Přidat možnost deaktivace vyskakovacího okna Premium Energy"
+					"Přidat možnost deaktivace vyskakovacího okna Premium Energy",
+					"Přidat možnost zapamatování viditelnosti nabídek na kartě nákupu"
 				],
 				"main": [
 					"Přepracování stránky funkcí změn UserScriptu",

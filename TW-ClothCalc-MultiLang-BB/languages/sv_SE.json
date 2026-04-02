@@ -35,6 +35,7 @@
 		"hotel": "Hotell",
 		"stage": "Nivå",
 		"your_position": "Din position",
+		"level": "Nivå",
 		"levels": "Nivåer",
 		"count": "Antal",
 		"duration": "Varaktighet",
@@ -138,6 +139,7 @@
 		"forum_blink": "Ta bort blinkning på stadsknappen om det finns ett nytt foruminlägg",
 		"market_map": "Lägg till marknadskarta",
 		"market_reminder": "Lägg till påminnelse för marknadsauktioner",
+		"market_offer_category_memory": "Kom ihåg erbjudandesynlighet på köpfliken",
 		"market_sell": "Förbättra försäljningsfönstret på marknaden",
 		"market_report": "Förbättra ikonen för försäljningsrapport på marknaden",
 		"market_improved": "Förbättra köp-fönstret på marknaden",
@@ -310,6 +312,7 @@
 		"accept_finish": "Acceptera och slutför uppdrag"
 	},
 	"building": {
+		"church_level_tooltip": "Jämför kyrkans nuvarande nivå med den högsta nivån dina arbetspoäng kan täcka just nu. Försök alltid ligga minst 5-10 nivåer över kyrkans nuvarande nivå för bästa erfarenhetspoäng.",
 		"progress_tooltip": "Framsteg visar hur mycket byggnation som återstår till nästa nivå",
 		"progress_label": "Framsteg"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Lägg till färgkodning på flera föremål till salu i Förrådet",
-					"Lägg till alternativ för att inaktivera Premium Energy-popupfönstret"
+					"Lägg till alternativ för att inaktivera Premium Energy-popupfönstret",
+					"Lägg till alternativ för att komma ihåg erbjudandesynlighet på köpfliken"
 				],
 				"main": [
 					"Omdesign av UserScripts ändringsloggfunktionssida",

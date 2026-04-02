@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Niveau",
 		"your_position": "Din position",
+		"level": "Niveau",
 		"levels": "Niveauer",
 		"count": "Antal",
 		"duration": "Varighed",
@@ -138,6 +139,7 @@
 		"forum_blink": "Fjern blink fra byknappen, hvis der er en ny forum-besked",
 		"market_map": "Tilføj markedskort-vindue",
 		"market_reminder": "Tilføj påmindelse for markedsauktioner",
+		"market_offer_category_memory": "Husk tilbudssynlighed på købsfanen",
 		"market_sell": "Forbedr markedets salgsvindue",
 		"market_report": "Forbedr ikonet for salgsrapport på markedet",
 		"market_improved": "Forbedr markedets købsvindue",
@@ -310,6 +312,7 @@
 		"accept_finish": "Acceptér og fuldfør mission"
 	},
 	"building": {
+		"church_level_tooltip": "Sammenligner kirkens nuværende niveau med det højeste niveau, dine arbejdspoint kan understøtte lige nu. Prøv altid at holde mindst 5-10 niveauer over kirkens nuværende niveau for de bedste erfaringspoint.",
 		"progress_tooltip": "Fremskridtet viser, hvor meget byggeri der mangler til næste niveau",
 		"progress_label": "Fremskridt"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Tilføj farvemarkering til flere genstande til salg i inventaret",
-					"Tilføj mulighed for at deaktivere Premium Energy-pop op-vinduet"
+					"Tilføj mulighed for at deaktivere Premium Energy-pop op-vinduet",
+					"Tilføj mulighed for at huske tilbudssynlighed på købsfanen"
 				],
 				"main": [
 					"Redesign af UserScript changelog-funktionssiden",

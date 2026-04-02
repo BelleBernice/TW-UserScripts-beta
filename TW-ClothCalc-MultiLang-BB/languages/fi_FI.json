@@ -35,6 +35,7 @@
 		"hotel": "Hotelli",
 		"stage": "Taso",
 		"your_position": "Sijaintisi",
+		"level": "Taso",
 		"levels": "Tasot",
 		"count": "Määrä",
 		"duration": "Kesto",
@@ -138,6 +139,7 @@
 		"forum_blink": "Poista kaupunkipainikkeen vilkkuminen uuden foorumiviestin yhteydessä",
 		"market_map": "Lisää torikartta",
 		"market_reminder": "Lisää muistutus torihuutokaupoista",
+		"market_offer_category_memory": "Muista tarjousten näkyvyys ostovälilehdellä",
 		"market_sell": "Paranna torin myynti-ikkunaa",
 		"market_report": "Paranna torin myyntiraportin kuvaketta",
 		"market_improved": "Paranna torin ostoikkunaa",
@@ -310,6 +312,7 @@
 		"accept_finish": "Hyväksy ja suorita tehtävä"
 	},
 	"building": {
+		"church_level_tooltip": "Vertaa kirkon nykyistä tasoa korkeimpaan tasoon, jonka työpisteesi voivat tällä hetkellä kattaa. Pyri pysymään aina vähintään 5-10 tasoa kirkon nykyisen tason yläpuolella parhaan kokemuksen saamiseksi.",
 		"progress_tooltip": "Edistyminen näyttää, kuinka paljon rakentamista on jäljellä seuraavaan tasoon",
 		"progress_label": "Edistyminen"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Lisää väritys useille myytäville esineille varastossa",
-					"Lisää mahdollisuus poistaa Premium Energy -ponnahdusikkuna käytöstä"
+					"Lisää mahdollisuus poistaa Premium Energy -ponnahdusikkuna käytöstä",
+					"Lisää mahdollisuus muistaa tarjousten näkyvyys ostovälilehdellä"
 				],
 				"main": [
 					"UserScriptin muutoslokin ominaisuussivun uudelleensuunnittelu",

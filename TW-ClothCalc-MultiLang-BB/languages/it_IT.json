@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Livello",
 		"your_position": "La tua posizione",
+		"level": "Livello",
 		"levels": "Livelli",
 		"count": "Quantità",
 		"duration": "Durata",
@@ -138,6 +139,7 @@
 		"forum_blink": "Rimuovi il lampeggio del pulsante città se c’è un nuovo messaggio nel forum",
 		"market_map": "Aggiungi la finestra della mappa del mercato",
 		"market_reminder": "Aggiungi un promemoria per le aste del mercato",
+		"market_offer_category_memory": "Ricorda la visibilità delle offerte nella scheda Acquisti",
 		"market_sell": "Migliora la finestra di vendita del mercato",
 		"market_report": "Migliora l’icona del rapporto di vendita del mercato",
 		"market_improved": "Migliora la finestra di acquisto del mercato",
@@ -310,6 +312,7 @@
 		"accept_finish": "Accetta e completa la missione"
 	},
 	"building": {
+		"church_level_tooltip": "Confronta il livello attuale della chiesa con il livello massimo che i tuoi punti lavoro possono coprire in questo momento. Cerca di restare sempre almeno 5-10 livelli sopra il livello attuale della chiesa per il miglior guadagno di esperienza.",
 		"progress_tooltip": "L’avanzamento mostra quanto lavoro di costruzione manca al livello successivo",
 		"progress_label": "Avanzamento"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Aggiungi colorazione a più oggetti in vendita nell'Inventario",
-					"Aggiungere un'opzione per disattivare il pop-up Premium Energy"
+					"Aggiungere un'opzione per disattivare il pop-up Premium Energy",
+					"Aggiungere un'opzione per ricordare la visibilità delle offerte nella scheda Acquisti"
 				],
 				"main": [
 					"Ridisegno della pagina delle funzionalità del changelog del UserScript",

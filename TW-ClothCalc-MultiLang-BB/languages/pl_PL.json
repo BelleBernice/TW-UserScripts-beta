@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Poziom",
 		"your_position": "Twoja pozycja",
+		"level": "Poziom",
 		"levels": "Poziomy",
 		"count": "Ilość",
 		"duration": "Czas trwania",
@@ -138,6 +139,7 @@
 		"forum_blink": "Usunięcie migania przycisku miasta przy nowej wiadomości na forum",
 		"market_map": "Dodanie okna mapy targu",
 		"market_reminder": "Dodanie przypomnienia o aukcjach targowych",
+		"market_offer_category_memory": "Zapamiętywanie widoczności ofert na karcie zakupów",
 		"market_sell": "Ulepszenie okna sprzedaży na targu",
 		"market_report": "Ulepszenie ikony raportu sprzedaży na targu",
 		"market_improved": "Ulepszenie okna zakupów na targu",
@@ -310,6 +312,7 @@
 		"accept_finish": "Akceptuj i zakończ zadanie"
 	},
 	"building": {
+		"church_level_tooltip": "Porównuje aktualny poziom kościoła z najwyższym poziomem, jaki obecnie mogą pokryć twoje punkty pracy. Staraj się zawsze mieć co najmniej 5-10 poziomów przewagi nad aktualnym poziomem kościoła, aby uzyskać jak najwięcej punktów doświadczenia.",
 		"progress_tooltip": "Postęp pokazuje, ile budowy pozostało do następnego poziomu",
 		"progress_label": "Postęp"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Dodaj kolorowanie wielu przedmiotów na sprzedaż w Ekwipunku",
-					"Dodanie opcji wyłączenia wyskakującego okna Premium Energy"
+					"Dodanie opcji wyłączenia wyskakującego okna Premium Energy",
+					"Dodanie opcji zapamiętywania widoczności ofert na karcie zakupów"
 				],
 				"main": [
 					"Przeprojektowanie strony funkcji dziennika zmian UserScriptu",

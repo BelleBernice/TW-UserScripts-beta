@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Úroveň",
 		"your_position": "Tvoja pozícia",
+		"level": "Úroveň",
 		"levels": "Úrovne",
 		"count": "Počet",
 		"duration": "Trvanie",
@@ -138,6 +139,7 @@
 		"forum_blink": "Odstrániť blikanie tlačidla mesta pri novej správe na fóre",
 		"market_map": "Pridať okno mapy trhu",
 		"market_reminder": "Pridať pripomienku pre aukcie na trhu",
+		"market_offer_category_memory": "Zapamätať viditeľnosť ponúk na karte nákupu",
 		"market_sell": "Vylepšiť okno predaja na trhu",
 		"market_report": "Vylepšiť ikonu správy o predaji na trhu",
 		"market_improved": "Vylepšiť okno nákupu na trhu",
@@ -310,6 +312,7 @@
 		"accept_finish": "Prijať a dokončiť úlohu"
 	},
 	"building": {
+		"church_level_tooltip": "Porovnáva aktuálnu úroveň kostola s najvyššou úrovňou, ktorú vaše pracovné body v tejto chvíli dokážu pokryť. Snažte sa mať vždy aspoň o 5-10 úrovní viac ako aktuálna úroveň kostola, aby ste získali čo najviac skúseností.",
 		"progress_tooltip": "Priebeh zobrazuje, koľko stavby ešte chýba do ďalšej úrovne",
 		"progress_label": "Priebeh"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Pridať zafarbenie viacerých predmetov na predaj v Inventári",
-					"Pridať možnosť deaktivácie vyskakovacieho okna Premium Energy"
+					"Pridať možnosť deaktivácie vyskakovacieho okna Premium Energy",
+					"Pridať možnosť zapamätania viditeľnosti ponúk na karte nákupu"
 				],
 				"main": [
 					"Prepracovanie stránky funkcií zoznamu zmien UserScriptu",

@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Raven",
 		"your_position": "Tvoj položaj",
+		"level": "Raven",
 		"levels": "Ravni",
 		"count": "Število",
 		"duration": "Trajanje",
@@ -138,6 +139,7 @@
 		"forum_blink": "Odstrani utripanje gumba mesta ob novem sporočilu na forumu",
 		"market_map": "Dodaj zemljevid trga",
 		"market_reminder": "Dodaj opomnik za dražbe na trgu",
+		"market_offer_category_memory": "Zapomni si vidnost ponudb na zavihku nakupa",
 		"market_sell": "Izboljšaj prodajno okno na trgu",
 		"market_report": "Izboljšaj ikono poročila o prodaji na trgu",
 		"market_improved": "Izboljšaj nakupno okno na trgu",
@@ -310,6 +312,7 @@
 		"accept_finish": "Sprejmi in zaključi nalogo"
 	},
 	"building": {
+		"church_level_tooltip": "Primerja trenutno raven cerkve z najvišjo ravnjo, ki jo vaši delovni točki lahko pokrijejo v tem trenutku. Poskusite ostati vedno vsaj 5-10 ravni nad trenutno ravnjo cerkve za najboljše izkušenjske točke.",
 		"progress_tooltip": "Napredek prikazuje, koliko gradnje je še potrebno do naslednje ravni",
 		"progress_label": "Napredek"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Dodaj barvanje več predmetov za prodajo v Inventarju",
-					"Dodaj možnost za onemogočanje pojavnega okna Premium Energy"
+					"Dodaj možnost za onemogočanje pojavnega okna Premium Energy",
+					"Dodaj možnost za zapomnitev vidnosti ponudb na zavihku nakupa"
 				],
 				"main": [
 					"Prenova strani funkcij dnevnika sprememb UserScripta",

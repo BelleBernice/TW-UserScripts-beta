@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Stage",
 		"your_position": "Your position",
+		"level": "Level",
 		"levels": "Levels",
 		"count": "Count",
 		"duration": "Duration",
@@ -138,6 +139,7 @@
 		"forum_blink": "Remove city button blinking if there is a new city forum message",
 		"market_map": "Add Market Map window",
 		"market_reminder": "Add a reminder for market auctions",
+		"market_offer_category_memory": "Remember offer visibility on the Buy tab",
 		"market_sell": "Improve the market sell window",
 		"market_report": "Improve the market sell report icon",
 		"market_improved": "Improve the market buy window",
@@ -310,6 +312,7 @@
 		"accept_finish": "Accept & Complete quest"
 	},
 	"building": {
+		"church_level_tooltip": "Compares the church's current level with the highest level your labor points can support right now. Try to stay at least 5-10 levels ahead of the church's current level for the best experience gains.",
 		"progress_tooltip": "Progress shows how much construction is still needed for the next level",
 		"progress_label": "Progress"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Add coloring to multiple items for sale in Inventory",
-					"Add option to disable the Premium Energy pop-up window"
+					"Add option to disable the Premium Energy pop-up window",
+					"Add option to remember offer visibility on the market Buy tab"
 				],
 				"main": [
 					"Redesign the Changelog Features page of the UserScript",

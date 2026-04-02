@@ -35,6 +35,7 @@
 		"hotel": "Hotel",
 		"stage": "Niveau",
 		"your_position": "Jouw positie",
+		"level": "Niveau",
 		"levels": "Niveaus",
 		"count": "Aantal",
 		"duration": "Duur",
@@ -138,6 +139,7 @@
 		"forum_blink": "Knipperen van de stadsknop verwijderen bij een nieuw forumbericht",
 		"market_map": "Marktkaartvenster toevoegen",
 		"market_reminder": "Herinnering voor markveilingen toevoegen",
+		"market_offer_category_memory": "Zichtbaarheid van aanbiedingen onthouden op het koop-tabblad",
 		"market_sell": "Verkoopvenster van de markt verbeteren",
 		"market_report": "Verkooprapport-icoon van de markt verbeteren",
 		"market_improved": "Aankoopvenster van de markt verbeteren",
@@ -310,6 +312,7 @@
 		"accept_finish": "Missie accepteren en voltooien"
 	},
 	"building": {
+		"church_level_tooltip": "Vergelijkt het huidige kerkniveau met het hoogste niveau dat je arbeidspunten op dit moment kunnen dekken. Probeer altijd minstens 5-10 niveaus boven het huidige kerkniveau te blijven voor de beste ervaringspunten.",
 		"progress_tooltip": "De voortgang toont hoeveel bouw nog nodig is voor het volgende niveau",
 		"progress_label": "Voortgang"
 	},
@@ -374,7 +377,8 @@
 			"notes": {
 				"feature": [
 					"Voeg kleurcodering toe aan meerdere te koop staande items in Voorraad",
-					"Optie toevoegen om het Premium Energy-pop-upvenster uit te schakelen"
+					"Optie toevoegen om het Premium Energy-pop-upvenster uit te schakelen",
+					"Optie toevoegen om zichtbaarheid van aanbiedingen op het koop-tabblad te onthouden"
 				],
 				"main": [
 					"Herontwerp van de functiespagina van de UserScript-changelog",
