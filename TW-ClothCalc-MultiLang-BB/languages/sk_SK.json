@@ -58,7 +58,14 @@
 		"rank": "Hodnosť",
 		"distance": "Vzdialenosť",
 		"health_points": "Body zdravia",
-		"labor_points": "Body práce"
+		"labor_points": "Body práce",
+		"fbmisc_fbcount_label": "Declared battles",
+		"town_shop_search_placeholder": "Filter items…",
+		"quest_wiki": "TW-DB",
+		"owned_count": "Owned: \\$",
+		"quest_invcounts_title": "Inventory",
+		"quest_wiki_link": "Quest on TW-DB",
+		"inventory_short": "Inv"
 	},
 	"script": {
 		"lang_names": {
@@ -125,6 +132,9 @@
 		"colored_quest": "Zmeniť farbu úloh, ktoré je možné dokončiť",
 		"job_lp": "Pridať body práce do okien práce",
 		"task_points": "Pridať indikátor bodov práce a tipy na zdravie do zoznamu úloh – [vpravo dole]",
+		"taskqueue_length_in_favicon": "Put the number of task queue elements into the favicon.",
+		"taskqueue_idle_in_favicon": "Show a red zero in the favicon if the task queue is empty.",
+		"taskqueue_sleep_in_favicon": "Show a red S in the favicon while the character is sleeping.",
 		"forts_import": "Pridať tlačidlo importu bitiek pevnosti na stránku (westforts)",
 		"fort_recruit": "Pridať prehľad náboru do pevnosti",
 		"fort_recruit_enhanced": "Vylepšiť kartu náboru pred bitkou o pevnosť",
@@ -176,7 +186,18 @@
 		"fortbattle_reminder": "Vypnúť pripomienku bitky o pevnosť vľavo",
 		"night_mode": "Tmavý režim pre mapu The-West",
 		"blink_events": "Zastaviť blikanie udalostí a lunaparku na ľavej strane",
-		"whisper_improved": "Vylepšiť zvuk šepotu v chatovacích miestnostiach saloonu"
+		"whisper_improved": "Vylepšiť zvuk šepotu v chatovacích miestnostiach saloonu",
+		"no_jobgroup_animation": "Disable open/close animation for job groups in the job window",
+		"fbmisc_walk": "Click the travel time in the fort battle list to walk to that fort",
+		"fbmisc_fbcount": "Show the number of declared fort battles in the bottom bar",
+		"town_shop_search": "Add a search field to town trader shop lists",
+		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
+		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
+		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
+		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
+		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
 	},
 	"debug": {
 		"failed_to_copy": "Kopírovanie zlyhalo:",

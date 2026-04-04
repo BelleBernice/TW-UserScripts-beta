@@ -58,7 +58,14 @@
 		"rank": "Rang",
 		"distance": "Avstånd",
 		"health_points": "Hälsopoäng",
-		"labor_points": "Arbetspoäng"
+		"labor_points": "Arbetspoäng",
+		"fbmisc_fbcount_label": "Declared battles",
+		"town_shop_search_placeholder": "Filter items…",
+		"quest_wiki": "TW-DB",
+		"owned_count": "Owned: \\$",
+		"quest_invcounts_title": "Inventory",
+		"quest_wiki_link": "Quest on TW-DB",
+		"inventory_short": "Inv"
 	},
 	"script": {
 		"lang_names": {
@@ -125,6 +132,9 @@
 		"colored_quest": "Ändra färgen på uppdrag som kan slutföras",
 		"job_lp": "Lägg till arbetspoäng i arbetsfönster",
 		"task_points": "Lägg till indikator för arbetspoäng och hälsotips i uppgiftslistan – [nedre högra hörnet]",
+		"taskqueue_length_in_favicon": "Put the number of task queue elements into the favicon.",
+		"taskqueue_idle_in_favicon": "Show a red zero in the favicon if the task queue is empty.",
+		"taskqueue_sleep_in_favicon": "Show a red S in the favicon while the character is sleeping.",
 		"forts_import": "Lägg till knapp för import av fortstrider på webbplatsen (westforts)",
 		"fort_recruit": "Lägg till översikt för fortrekrytering",
 		"fort_recruit_enhanced": "Förbättra rekryteringsfliken före en fortstrid",
@@ -176,7 +186,18 @@
 		"fortbattle_reminder": "Inaktivera påminnelse om fortstrid till vänster",
 		"night_mode": "Mörkt läge för The-West-kartan",
 		"blink_events": "Stoppa blinkning av evenemang och nöjespark till vänster",
-		"whisper_improved": "Förbättra viskningsljud i saloon-chattar"
+		"whisper_improved": "Förbättra viskningsljud i saloon-chattar",
+		"no_jobgroup_animation": "Disable open/close animation for job groups in the job window",
+		"fbmisc_walk": "Click the travel time in the fort battle list to walk to that fort",
+		"fbmisc_fbcount": "Show the number of declared fort battles in the bottom bar",
+		"town_shop_search": "Add a search field to town trader shop lists",
+		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
+		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
+		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
+		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
+		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
 	},
 	"debug": {
 		"failed_to_copy": "Misslyckades att kopiera:",

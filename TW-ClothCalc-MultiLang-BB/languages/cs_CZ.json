@@ -58,7 +58,14 @@
 		"rank": "Hodnost",
 		"distance": "Vzdálenost",
 		"health_points": "Životy",
-		"labor_points": "Pracovní body"
+		"labor_points": "Pracovní body",
+		"fbmisc_fbcount_label": "Declared battles",
+		"town_shop_search_placeholder": "Filter items…",
+		"quest_wiki": "TW-DB",
+		"owned_count": "Owned: \\$",
+		"quest_invcounts_title": "Inventory",
+		"quest_wiki_link": "Quest on TW-DB",
+		"inventory_short": "Inv"
 	},
 	"script": {
 		"lang_names": {
@@ -125,6 +132,9 @@
 		"colored_quest": "Změnit barvu dokončitelných úkolů",
 		"job_lp": "Zobrazit pracovní body v oknech prací",
 		"task_points": "Přidat indikátor pracovních bodů a tipy k životům do seznamu úkolů – [vpravo dole]",
+		"taskqueue_length_in_favicon": "Put the number of task queue elements into the favicon.",
+		"taskqueue_idle_in_favicon": "Show a red zero in the favicon if the task queue is empty.",
+		"taskqueue_sleep_in_favicon": "Show a red S in the favicon while the character is sleeping.",
 		"forts_import": "Přidat tlačítko pro import bitev pevností na web (westforts)",
 		"fort_recruit": "Přidat přehled náboru do pevnosti",
 		"fort_recruit_enhanced": "Vylepšit kartu náboru před bitvou o pevnost",
@@ -176,7 +186,18 @@
 		"fortbattle_reminder": "Vypnout připomínku bitvy o pevnost vlevo",
 		"night_mode": "Tmavý režim mapy The-West",
 		"blink_events": "Zastavit blikání událostí a lunaparku na levé straně",
-		"whisper_improved": "Vylepšit zvuk šeptání v různých saloon chatech (při zapnutí lze zvuk přímo poslouchat a měnit níže)"
+		"whisper_improved": "Vylepšit zvuk šeptání v různých saloon chatech (při zapnutí lze zvuk přímo poslouchat a měnit níže)",
+		"no_jobgroup_animation": "Disable open/close animation for job groups in the job window",
+		"fbmisc_walk": "Click the travel time in the fort battle list to walk to that fort",
+		"fbmisc_fbcount": "Show the number of declared fort battles in the bottom bar",
+		"town_shop_search": "Add a search field to town trader shop lists",
+		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
+		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
+		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
+		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
+		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
 	},
 	"debug": {
 		"failed_to_copy": "Kopírování se nezdařilo:",

@@ -58,7 +58,14 @@
 		"rank": "Rango",
 		"distance": "Distancia",
 		"health_points": "Puntos de salud",
-		"labor_points": "Puntos de trabajo"
+		"labor_points": "Puntos de trabajo",
+		"fbmisc_fbcount_label": "Declared battles",
+		"town_shop_search_placeholder": "Filter items…",
+		"quest_wiki": "TW-DB",
+		"owned_count": "Owned: \\$",
+		"quest_invcounts_title": "Inventory",
+		"quest_wiki_link": "Quest on TW-DB",
+		"inventory_short": "Inv"
 	},
 	"script": {
 		"lang_names": {
@@ -125,6 +132,9 @@
 		"colored_quest": "Cambiar el color de las misiones que se pueden completar",
 		"job_lp": "Añadir puntos de trabajo en las ventanas de trabajo",
 		"task_points": "Añadir indicador de puntos de trabajo y consejos de puntos de salud en la lista de tareas – [abajo a la derecha]",
+		"taskqueue_length_in_favicon": "Put the number of task queue elements into the favicon.",
+		"taskqueue_idle_in_favicon": "Show a red zero in the favicon if the task queue is empty.",
+		"taskqueue_sleep_in_favicon": "Show a red S in the favicon while the character is sleeping.",
 		"forts_import": "Añadir botón de importación de batallas de fuertes al sitio (westforts)",
 		"fort_recruit": "Añadir vista general de reclutamiento del fuerte",
 		"fort_recruit_enhanced": "Mejorar la pestaña de reclutamiento antes de una batalla de fuerte",
@@ -176,7 +186,18 @@
 		"fortbattle_reminder": "Desactivar el recordatorio de batalla de fuerte a la izquierda",
 		"night_mode": "Modo oscuro para el mapa de The-West",
 		"blink_events": "Detener el parpadeo de eventos y del parque de atracciones en el lado izquierdo",
-		"whisper_improved": "Mejorar el sonido de susurro en varios chats del Saloon (mientras esté activado, puedes escuchar y cambiar el sonido directamente abajo)"
+		"whisper_improved": "Mejorar el sonido de susurro en varios chats del Saloon (mientras esté activado, puedes escuchar y cambiar el sonido directamente abajo)",
+		"no_jobgroup_animation": "Disable open/close animation for job groups in the job window",
+		"fbmisc_walk": "Click the travel time in the fort battle list to walk to that fort",
+		"fbmisc_fbcount": "Show the number of declared fort battles in the bottom bar",
+		"town_shop_search": "Add a search field to town trader shop lists",
+		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
+		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
+		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
+		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
+		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
 	},
 	"debug": {
 		"failed_to_copy": "Error al copiar:",

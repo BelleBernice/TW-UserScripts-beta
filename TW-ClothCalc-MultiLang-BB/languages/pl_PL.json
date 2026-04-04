@@ -58,7 +58,14 @@
 		"rank": "Ranga",
 		"distance": "Odległość",
 		"health_points": "Punkty zdrowia",
-		"labor_points": "Punkty pracy"
+		"labor_points": "Punkty pracy",
+		"fbmisc_fbcount_label": "Declared battles",
+		"town_shop_search_placeholder": "Filter items…",
+		"quest_wiki": "TW-DB",
+		"owned_count": "Owned: \\$",
+		"quest_invcounts_title": "Inventory",
+		"quest_wiki_link": "Quest on TW-DB",
+		"inventory_short": "Inv"
 	},
 	"script": {
 		"lang_names": {
@@ -125,6 +132,9 @@
 		"colored_quest": "Zmiana koloru zadań możliwych do ukończenia",
 		"job_lp": "Dodanie punktów pracy do okien prac",
 		"task_points": "Dodanie wskaźnika punktów pracy i porad dotyczących zdrowia do listy zadań – [prawy dolny róg]",
+		"taskqueue_length_in_favicon": "Put the number of task queue elements into the favicon.",
+		"taskqueue_idle_in_favicon": "Show a red zero in the favicon if the task queue is empty.",
+		"taskqueue_sleep_in_favicon": "Show a red S in the favicon while the character is sleeping.",
 		"forts_import": "Dodanie przycisku importu bitew fortowych na stronę (westforts)",
 		"fort_recruit": "Dodanie przeglądu rekrutacji fortu",
 		"fort_recruit_enhanced": "Ulepszenie zakładki rekrutacji przed bitwą fortu",
@@ -176,7 +186,18 @@
 		"fortbattle_reminder": "Wyłączenie przypomnienia o bitwie fortowej po lewej stronie",
 		"night_mode": "Tryb nocny dla mapy The-West",
 		"blink_events": "Zatrzymanie migania wydarzeń i wesołego miasteczka po lewej stronie",
-		"whisper_improved": "Ulepszenie dźwięku szeptu w różnych czatach saloonu (po włączeniu można odsłuchać i zmienić dźwięk bezpośrednio poniżej)"
+		"whisper_improved": "Ulepszenie dźwięku szeptu w różnych czatach saloonu (po włączeniu można odsłuchać i zmienić dźwięk bezpośrednio poniżej)",
+		"no_jobgroup_animation": "Disable open/close animation for job groups in the job window",
+		"fbmisc_walk": "Click the travel time in the fort battle list to walk to that fort",
+		"fbmisc_fbcount": "Show the number of declared fort battles in the bottom bar",
+		"town_shop_search": "Add a search field to town trader shop lists",
+		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
+		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
+		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
+		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
+		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
 	},
 	"debug": {
 		"failed_to_copy": "Nie udało się skopiować:",

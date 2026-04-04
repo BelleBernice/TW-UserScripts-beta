@@ -58,7 +58,12 @@
 		"rank": "Rank",
 		"distance": "Distance",
 		"health_points": "Health Points",
-		"labor_points": "Labor Points"
+		"labor_points": "Labor Points",
+		"fbmisc_fbcount_label": "Declared battles",
+		"owned_count": "Owned: $n$",
+		"quest_invcounts_title": "Inventory",
+		"quest_wiki_link": "Quest on TW-DB",
+		"inventory_short": "Inv"
 	},
 	"script": {
 		"lang_names": {
@@ -125,6 +130,9 @@
 		"colored_quest": "Change the color of quests that can be completed",
 		"job_lp": "Add labor points to job windows",
 		"task_points": "Add labor point indicator and health point tips to the task list – [Bottom right]",
+		"taskqueue_length_in_favicon": "Put the number of task queue elements into the favicon.",
+		"taskqueue_idle_in_favicon": "Show a red zero in the favicon if the task queue is empty.",
+		"taskqueue_sleep_in_favicon": "Show a red S in the favicon while the character is sleeping.",
 		"forts_import": "Add a fort battle import button to the site (westforts)",
 		"fort_recruit": "Add fort recruitment overview",
 		"fort_recruit_enhanced": "Improve the recruitment tab before a fort battle",
@@ -176,7 +184,18 @@
 		"fortbattle_reminder": "Disable fort battle reminder on the left",
 		"night_mode": "Dark mode for the The-West map",
 		"blink_events": "Stop blinking of Events and the Fairground on the left side",
-		"whisper_improved": "Improve whisper sound in various Saloon chats (while enabled, you can listen and change the sound directly from the list below)"
+		"whisper_improved": "Improve whisper sound in various Saloon chats (while enabled, you can listen and change the sound directly from the list below)",
+		"no_jobgroup_animation": "Disable job group open/close animation in the job window",
+		"fbmisc_walk": "Click waytime in the fort battle list to walk to that fort",
+		"fbmisc_fbcount": "Show count of declared fort battles (bottom overlay)",
+		"town_shop_search": "Add search field to town trader shop",
+		"upshop_show_count": "Show how many of each item you own in shops (Union Pacific and others using the same item view)",
+		"questgroup_show_intro": "In quest book, show intro text for solved quests too",
+		"quest_show_itemcount": "Show inventory counts for item requirements in the quest window",
+		"quest_add_util_buttons": "Add TW-DB quest wiki link in the quest window",
+		"fix_recruit_health": "Word-wrap long names and HP on fort recruitment screen",
+		"fix_graveyardtable": "Word-wrap long lines in recent fort battles (graveyard) table",
+		"move_avatar_notibar": "Move avatar and notification bar toward window edges"
 	},
 	"debug": {
 		"failed_to_copy": "Failed to copy:",

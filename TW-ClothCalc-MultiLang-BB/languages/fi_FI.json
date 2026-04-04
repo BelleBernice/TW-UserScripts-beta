@@ -58,7 +58,14 @@
 		"rank": "Sijoitus",
 		"distance": "Etäisyys",
 		"health_points": "Terveys­pisteet",
-		"labor_points": "Työpisteet"
+		"labor_points": "Työpisteet",
+		"fbmisc_fbcount_label": "Declared battles",
+		"town_shop_search_placeholder": "Filter items…",
+		"quest_wiki": "TW-DB",
+		"owned_count": "Owned: \\$",
+		"quest_invcounts_title": "Inventory",
+		"quest_wiki_link": "Quest on TW-DB",
+		"inventory_short": "Inv"
 	},
 	"script": {
 		"lang_names": {
@@ -125,6 +132,9 @@
 		"colored_quest": "Vaihda suoritettavien tehtävien väriä",
 		"job_lp": "Lisää työpisteet työikkunoihin",
 		"task_points": "Lisää työpisteiden ilmaisin ja terveysvinkit tehtävälistaan – [alhaalla oikealla]",
+		"taskqueue_length_in_favicon": "Put the number of task queue elements into the favicon.",
+		"taskqueue_idle_in_favicon": "Show a red zero in the favicon if the task queue is empty.",
+		"taskqueue_sleep_in_favicon": "Show a red S in the favicon while the character is sleeping.",
 		"forts_import": "Lisää linnoitustaistelujen tuontipainike sivustolle (westforts)",
 		"fort_recruit": "Lisää linnoituksen rekrytoinnin yleiskuva",
 		"fort_recruit_enhanced": "Paranna rekrytointivälilehteä ennen linnoitustaistelua",
@@ -176,7 +186,18 @@
 		"fortbattle_reminder": "Poista vasemman reunan linnoitustaistelumuistutus",
 		"night_mode": "Tumma tila The-West-kartalle",
 		"blink_events": "Pysäytä tapahtumien ja huvipuiston vilkkuminen vasemmalla",
-		"whisper_improved": "Paranna kuiskausääntä saloon-chateissa"
+		"whisper_improved": "Paranna kuiskausääntä saloon-chateissa",
+		"no_jobgroup_animation": "Disable open/close animation for job groups in the job window",
+		"fbmisc_walk": "Click the travel time in the fort battle list to walk to that fort",
+		"fbmisc_fbcount": "Show the number of declared fort battles in the bottom bar",
+		"town_shop_search": "Add a search field to town trader shop lists",
+		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
+		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
+		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
+		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
+		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
 	},
 	"debug": {
 		"failed_to_copy": "Kopiointi epäonnistui:",

@@ -77,6 +77,7 @@
 		"bonusjobs_import": "Error importing BonusJobs",
 		"bonusjobs_reset": "Error resetting BonusJobs",
 		"ui_task_queue_hints": "Error with task queue hints",
+		"ui_task_queue_favicon": "Error updating task queue favicon",
 		"ui_suppress_notifications": "Error suppressing notifications",
 		"ui_manipulate_notification_bar": "Error manipulating notification bar",
 		"ui_remove_work_queue_pa": "Error removing Premium from work queue",
@@ -203,6 +204,16 @@
 		"ui_check_crafting_timer": "Error checking crafting timer",
 		"ui_fetch_crafting_data": "Error fetching crafting data",
 		"gameinject_check_minimap_ready": "Error checking minimap ready state",
-		"loader_register_script_api": "Error registering script with TheWestApi"
+		"loader_register_script_api": "Error registering script with TheWestApi",
+		"snippets_no_jobgroup_animation": "Error disabling job group animation",
+		"snippets_fix_recruit_health": "Error applying fort recruitment line-wrap CSS",
+		"snippets_fix_graveyardtable": "Error applying graveyard table line-wrap CSS",
+		"snippets_move_avatar_notibar": "Error applying avatar/notibar layout CSS",
+		"snippets_fbmisc_walk": "Error wiring fort waytime walk click",
+		"snippets_fbmisc_fbcount": "Error showing declared fort battle count",
+		"snippets_town_shop_search": "Error adding town shop search",
+		"snippets_upshop_show_count": "Error showing owned item counts in shop",
+		"snippets_questgroup_show_intro": "Error showing quest book intro for solved quests",
+		"snippets_quest_window_extras": "Error enhancing quest window (counts/util links)"
 	}
 }

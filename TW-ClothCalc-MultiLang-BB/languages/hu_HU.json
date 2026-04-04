@@ -58,7 +58,14 @@
 		"rank": "Rang",
 		"distance": "Távolság",
 		"health_points": "Életerőpontok",
-		"labor_points": "Munkapontok"
+		"labor_points": "Munkapontok",
+		"fbmisc_fbcount_label": "Declared battles",
+		"town_shop_search_placeholder": "Filter items…",
+		"quest_wiki": "TW-DB",
+		"owned_count": "Owned: \\$",
+		"quest_invcounts_title": "Inventory",
+		"quest_wiki_link": "Quest on TW-DB",
+		"inventory_short": "Inv"
 	},
 	"script": {
 		"lang_names": {
@@ -125,6 +132,9 @@
 		"colored_quest": "Befejezhető küldetések színének megváltoztatása",
 		"job_lp": "Munkapontok hozzáadása a munkablakokhoz",
 		"task_points": "Munkapont-jelző és életerő tippek hozzáadása a feladatlistához – [jobb alsó sarok]",
+		"taskqueue_length_in_favicon": "Put the number of task queue elements into the favicon.",
+		"taskqueue_idle_in_favicon": "Show a red zero in the favicon if the task queue is empty.",
+		"taskqueue_sleep_in_favicon": "Show a red S in the favicon while the character is sleeping.",
 		"forts_import": "Erődcata-import gomb hozzáadása az oldalhoz (westforts)",
 		"fort_recruit": "Erőd toborzási áttekintés hozzáadása",
 		"fort_recruit_enhanced": "A toborzási fül fejlesztése erődcata előtt",
@@ -176,7 +186,18 @@
 		"fortbattle_reminder": "Erődcata emlékeztető kikapcsolása bal oldalon",
 		"night_mode": "Sötét mód a The-West térképhez",
 		"blink_events": "Események és a vidámpark villogásának leállítása bal oldalon",
-		"whisper_improved": "Suttogás hangjának fejlesztése különböző szaloon chatekben (bekapcsolva a hang közvetlenül alul meghallgatható és módosítható)"
+		"whisper_improved": "Suttogás hangjának fejlesztése különböző szaloon chatekben (bekapcsolva a hang közvetlenül alul meghallgatható és módosítható)",
+		"no_jobgroup_animation": "Disable open/close animation for job groups in the job window",
+		"fbmisc_walk": "Click the travel time in the fort battle list to walk to that fort",
+		"fbmisc_fbcount": "Show the number of declared fort battles in the bottom bar",
+		"town_shop_search": "Add a search field to town trader shop lists",
+		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
+		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
+		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
+		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
+		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
 	},
 	"debug": {
 		"failed_to_copy": "Másolás sikertelen:",

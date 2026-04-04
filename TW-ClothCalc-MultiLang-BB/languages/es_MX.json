@@ -58,7 +58,14 @@
 		"rank": "Rango",
 		"distance": "Distancia",
 		"health_points": "Puntos de salud",
-		"labor_points": "Puntos de trabajo"
+		"labor_points": "Puntos de trabajo",
+		"fbmisc_fbcount_label": "Declared battles",
+		"town_shop_search_placeholder": "Filter items…",
+		"quest_wiki": "TW-DB",
+		"owned_count": "Owned: \\$",
+		"quest_invcounts_title": "Inventory",
+		"quest_wiki_link": "Quest on TW-DB",
+		"inventory_short": "Inv"
 	},
 	"script": {
 		"lang_names": {
@@ -125,6 +132,9 @@
 		"colored_quest": "Cambiar el color de las misiones que pueden completarse",
 		"job_lp": "Agregar puntos de trabajo a las ventanas de trabajo",
 		"task_points": "Agregar indicador de puntos de trabajo y consejos de salud a la lista de tareas",
+		"taskqueue_length_in_favicon": "Put the number of task queue elements into the favicon.",
+		"taskqueue_idle_in_favicon": "Show a red zero in the favicon if the task queue is empty.",
+		"taskqueue_sleep_in_favicon": "Show a red S in the favicon while the character is sleeping.",
 		"market_map": "Agregar mapa del mercado",
 		"market_reminder": "Agregar recordatorio para subastas del mercado",
 		"market_offer_category_memory": "Recordar la visibilidad de las ofertas en la pestaña de compra",
@@ -176,7 +186,18 @@
 		"pin_important": "Keep menu, experience bar and script always on top",
 		"fortbattle_reminder": "Disable fort battle reminder on the left",
 		"blink_events": "Stop blinking of Events and the Fairground on the left side",
-		"whisper_improved": "Improve whisper sound in various Saloon chats (while enabled, you can listen and change the sound directly from the list below)"
+		"whisper_improved": "Improve whisper sound in various Saloon chats (while enabled, you can listen and change the sound directly from the list below)",
+		"no_jobgroup_animation": "Disable open/close animation for job groups in the job window",
+		"fbmisc_walk": "Click the travel time in the fort battle list to walk to that fort",
+		"fbmisc_fbcount": "Show the number of declared fort battles in the bottom bar",
+		"town_shop_search": "Add a search field to town trader shop lists",
+		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
+		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
+		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
+		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
+		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
 	},
 	"debug": {
 		"failed_to_copy": "No se pudo copiar:",
