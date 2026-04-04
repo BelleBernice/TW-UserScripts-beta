@@ -187,7 +187,7 @@
 		"night_mode": "Modo escuro para o mapa do The-West",
 		"blink_events": "Parar o piscar de eventos e do parque de diversões no lado esquerdo",
 		"whisper_improved": "Melhorar o som de sussurro nos vários chats do saloon (quando ativado, você pode ouvir e alterar o som diretamente abaixo)",
-		"no_jobgroup_animation": "Disable open/close animation for job groups in the job window",
+		"no_jobgroup_animation": "Disable open/close animation for map job-group radial menus (not the job window)",
 		"fbmisc_walk": "Click the travel time in the fort battle list to walk to that fort",
 		"fbmisc_fbcount": "Show the number of declared fort battles in the bottom bar",
 		"town_shop_search": "Add a search field to town trader shop lists",
@@ -197,7 +197,13 @@
 		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
 		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"category_chat": "Chat",
+		"chat_incoming_highlight": "Highlight incoming chat lines matching this regular expression (empty = off)",
+		"chat_show_stranger_presence": "Show online/idle status in the contact list even for strangers",
+		"chat_room_slash_commands": "Enable /active and /ping in saloon and other channel chats",
+		"chat_session_default_color": "Prepend a stored 3-digit color to normal messages; enable /defaultcolor",
+		"chat_incoming_color_strip": "Strip incoming /NNN color codes per player; enable /uncolor"
 	},
 	"debug": {
 		"failed_to_copy": "Falha ao copiar:",
@@ -704,5 +710,40 @@
 				]
 			}
 		}
-	]
+	],
+	"chat": {
+		"active_shorthelp": "Lists active players (green dots).",
+		"active_help": "Lists non-idle players in this channel. Optional search substring.",
+		"active_usage": "/active [search] — omit search to list everyone online.",
+		"active_text": "active: $list$",
+		"ping_shorthelp": "Ping a player (whisper to join this channel).",
+		"ping_help": "Sends a whisper asking the player to come to this channel.",
+		"ping_usage": "/ping player-name",
+		"ping_alliance_room": "(alliance chat)",
+		"ping_town_room": "(town chat)",
+		"ping_fb_room": "(fort battle chat)",
+		"ping_no_private": "That does not work in private chat.",
+		"ping_unknown_room": "Unknown room type: $room$",
+		"ping_pong_usage": "pong (usage: /ping player-name)",
+		"ping_tell_text": "Please come to $roomname$ $info$",
+		"ping_sent": "Whisper sent to $name$.",
+		"ping_not_found": "No contact named $name$ in this channel.",
+		"defaultcolor_shorthelp": "Set default outgoing color (3 digits, each 0–9).",
+		"defaultcolor_help": "Sets a default /NNN color prefix for normal (non-slash) messages in all rooms.",
+		"defaultcolor_usage": "/defaultcolor [RGB|-] — show current, set RGB, or \"-\" to clear",
+		"defaultcolor_none": "No default color set.",
+		"defaultcolor_show": "Default color is $color$ (preview: /$color$)",
+		"defaultcolor_unset": "Default color cleared.",
+		"defaultcolor_parse_fail": "Could not parse \"$color$\" as RGB (use three digits 0–9).",
+		"defaultcolor_set": "Default color set to $color$.",
+		"uncolor_shorthelp": "Strip incoming color codes from specific players.",
+		"uncolor_help": "Use + to strip colors from a player’s messages, − to allow colors again.",
+		"uncolor_usage": "/uncolor + name or /uncolor − name — or /uncolor alone to list",
+		"uncolor_list_header": "You strip colors from messages from:",
+		"uncolor_list_empty": "You strip colors from no players.",
+		"uncolor_example_plus": "Strip: /uncolor + Player Name",
+		"uncolor_example_minus": "Allow again: /uncolor − Player Name",
+		"uncolor_added": "Stripping colors from $player$.",
+		"uncolor_removed": "No longer stripping colors from $player$."
+	}
 }
