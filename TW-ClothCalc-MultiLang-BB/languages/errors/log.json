@@ -141,6 +141,7 @@
 		"gameinject_callbacks_chat_send": "Error in callbacks on Chat Send",
 		"gameinject_manipulate_chat_send": "Error manipulating Chat Send",
 		"chat_enhancements": "Error initializing chat enhancements",
+		"fortbattle_ff_registry": "Error hooking FortBattleWindow for /ff",
 		"gameinject_callbacks_market_offer_table": "Error in callbacks MarketOfferTable",
 		"gameinject_manipulate_market_offer_table": "Error manipulating MarketOfferTable",
 		"gameinject_callbacks_market_watchlist_table": "Error in callbacks MarketWatchlistTable",
