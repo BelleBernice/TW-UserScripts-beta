@@ -62,7 +62,7 @@
 		"fbmisc_fbcount_label": "Declared battles",
 		"town_shop_search_placeholder": "Filter items…",
 		"quest_wiki": "TW-DB",
-		"owned_count": "$n$",
+		"owned_count": "Broj predmeta koje posjeduješ: $n$",
 		"quest_invcounts_title": "Inventory",
 		"quest_wiki_link": "Quest on TW-DB",
 		"inventory_short": "Inv"

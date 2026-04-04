@@ -60,7 +60,7 @@
 		"health_points": "Health Points",
 		"labor_points": "Labor Points",
 		"fbmisc_fbcount_label": "Declared battles",
-		"owned_count": "Owned: $n$",
+		"owned_count": "Number of items you own: $n$",
 		"quest_invcounts_title": "Inventory",
 		"quest_wiki_link": "Quest on TW-DB",
 		"inventory_short": "Inv"
