@@ -302,7 +302,20 @@
 		"ff_dir_right": "право",
 		"ff_dir_up": "горе",
 		"ff_dir_down": "доле",
-		"ff_swap_line": "$name1$ замени $dir$ са $name2$"
+		"ff_swap_line": "$name1$ замени $dir$ са $name2$",
+		"fb_roster_tools_wrong_room": "/findplayer and /mark only work in fort battle chat.",
+		"findplayer_shorthelp": "Fort battle: flash roster icons and print grid directions to a matching name.",
+		"findplayer_help": "Substring search on the fort roster; flashes matching character icons and prints directions from you.",
+		"findplayer_usage": "/findplayer text or /f text",
+		"findplayer_not_found": "No player matched that search.",
+		"findplayer_dir_line": "$name$: $dir$",
+		"mark_shorthelp": "Fort battle: outline roster icons with a color (3 digits) or clear outline (−).",
+		"mark_help": "Color: three digits 0–9 per channel (same as chat colors). Use − as the color token to remove outlines.",
+		"mark_usage": "/mark 990 name-substring or /mark - name-substring",
+		"mark_not_prebattle": "Roster is not ready yet (wait until the battle starts).",
+		"mark_color_parse_fail": "Could not parse color. Use − to remove outlines, or three digits (0–9 each) for outline color.",
+		"mark_marked": "Marked $name$.",
+		"mark_unmarked": "Removed outline from $name$."
 	},
 	"market": {
 		"reminder_title": "Podsetnik pijace",
