@@ -301,7 +301,7 @@
 		"ff_dir_right": "Rechts",
 		"ff_dir_up": "hoch",
 		"ff_dir_down": "runter",
-		"ff_swap_line": "$name1$ tausche $dir$ mit $name2$",
+		"ff_swap_line": "$name1$ ($dir1$) mit $name2$ ($dir2$) tauschen",
 		"fb_roster_tools_wrong_room": "/findplayer und /mark nur im Fortschlacht-Chat.",
 		"findplayer_shorthelp": "Fortschlacht: Symbole blinken, Richtungen im Raster anzeigen.",
 		"findplayer_help": "Teilstring-Suche im Kader; blinkende Icons und Richtungen von dir.",

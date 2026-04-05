@@ -301,7 +301,7 @@
 		"ff_dir_right": "pravo",
 		"ff_dir_up": "gore",
 		"ff_dir_down": "dolje",
-		"ff_swap_line": "$name1$ zamijeni $dir$ s $name2$",
+		"ff_swap_line": "$name1$ ($dir1$) zamijeni s $name2$ ($dir2$)",
 		"fb_roster_tools_wrong_room": "/findplayer and /mark only work in fort battle chat.",
 		"findplayer_shorthelp": "Fort battle: flash roster icons and print grid directions to a matching name.",
 		"findplayer_help": "Substring search on the fort roster; flashes matching character icons and prints directions from you.",

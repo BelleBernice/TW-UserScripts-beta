@@ -301,7 +301,7 @@
 		"ff_dir_right": "højre",
 		"ff_dir_up": "op",
 		"ff_dir_down": "ned",
-		"ff_swap_line": "$name1$ skift $dir$ med $name2$",
+		"ff_swap_line": "$name1$ ($dir1$) skift med $name2$ ($dir2$)",
 		"fb_roster_tools_wrong_room": "/findplayer and /mark only work in fort battle chat.",
 		"findplayer_shorthelp": "Fort battle: flash roster icons and print grid directions to a matching name.",
 		"findplayer_help": "Substring search on the fort roster; flashes matching character icons and prints directions from you.",
