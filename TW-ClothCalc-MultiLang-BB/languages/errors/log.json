@@ -211,7 +211,7 @@
 		"snippets_fix_recruit_health": "Error applying fort recruitment line-wrap CSS",
 		"snippets_fix_graveyardtable": "Error applying graveyard table line-wrap CSS",
 		"snippets_move_avatar_notibar": "Error applying avatar/notibar layout CSS",
-		"snippets_fbmisc_walk": "Error wiring fort waytime walk click",
+		"snippets_fortbattle_waytime": "Error wiring fort waytime walk click",
 		"snippets_fbmisc_fbcount": "Error showing declared fort battle count",
 		"snippets_upshop_show_count": "Error showing owned item counts in shop",
 		"snippets_questgroup_show_intro": "Error showing quest book intro for solved quests",
