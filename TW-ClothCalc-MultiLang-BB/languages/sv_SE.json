@@ -192,6 +192,7 @@
 		"pin_important": "Håll meny, erfarenhetsfält och skript alltid överst",
 		"fortbattle_reminder": "Inaktivera påminnelse om fortstrid till vänster",
 		"night_mode": "Mörkt läge för The-West-kartan",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Stoppa blinkning av evenemang och nöjespark till vänster",
 		"whisper_improved": "Förbättra viskningsljud i saloon-chattar",
 		"no_jobgroup_animation": "Inaktivera öppna/stäng-animering för kartjobbgrupps radiella menyer (inte jobbfönstret)",

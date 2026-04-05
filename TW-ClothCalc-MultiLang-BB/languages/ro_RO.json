@@ -192,6 +192,7 @@
 		"pin_important": "Păstrează meniul, bara de experiență și scriptul mereu sus",
 		"fortbattle_reminder": "Dezactivează memento-ul pentru bătălia de fort din stânga",
 		"night_mode": "Mod întunecat pentru harta The-West",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Oprește clipirea evenimentelor și a parcului de distracții din stânga",
 		"whisper_improved": "Îmbunătățește sunetul șoaptelor în chat-urile salonului",
 		"no_jobgroup_animation": "Dezactivați animația de deschidere/închidere pentru meniurile radiale pentru hărțile grupului de lucrări (nu fereastra jobului)",

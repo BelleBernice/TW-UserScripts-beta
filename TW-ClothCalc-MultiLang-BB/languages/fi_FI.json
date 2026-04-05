@@ -192,6 +192,7 @@
 		"pin_important": "Pidä valikko, kokemuspalkki ja skripti aina ylhäällä",
 		"fortbattle_reminder": "Poista vasemman reunan linnoitustaistelumuistutus",
 		"night_mode": "Tumma tila The-West-kartalle",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Pysäytä tapahtumien ja huvipuiston vilkkuminen vasemmalla",
 		"whisper_improved": "Paranna kuiskausääntä saloon-chateissa",
 		"no_jobgroup_animation": "Poista käytöstä avaus/sulje-animaatio karttatyöryhmän säteittäisissä valikoissa (ei työikkunassa)",

@@ -192,6 +192,7 @@
 		"pin_important": "Тримайте меню, панель досвіду та сценарій завжди зверху",
 		"fortbattle_reminder": "Вимкнути нагадування про битву форту зліва",
 		"night_mode": "Темний режим для мапи The-West",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Перестаньте блимати Події та Ярмарок зліва",
 		"whisper_improved": "Покращення звуку шепоту в різних чатах Saloon (якщо ввімкнено, ви можете слухати та змінювати звук безпосередньо зі списку нижче)",
 		"no_jobgroup_animation": "Вимкнути анімацію відкриття/закриття для радіальних меню груп завдань на карті (не вікно завдань)",

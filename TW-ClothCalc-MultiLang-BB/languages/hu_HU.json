@@ -192,6 +192,7 @@
 		"pin_important": "A menü, tapasztalati sáv és a script mindig felül maradjon",
 		"fortbattle_reminder": "Erődcata emlékeztető kikapcsolása bal oldalon",
 		"night_mode": "Sötét mód a The-West térképhez",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Események és a vidámpark villogásának leállítása bal oldalon",
 		"whisper_improved": "Suttogás hangjának fejlesztése különböző szaloon chatekben (bekapcsolva a hang közvetlenül alul meghallgatható és módosítható)",
 		"no_jobgroup_animation": "Nyitási/bezárási animáció letiltása a munkacsoportok radiális menüinél (nem a feladatablaknál)",

@@ -192,6 +192,7 @@
 		"pin_important": "Keep menu, experience bar and script always on top",
 		"fortbattle_reminder": "Disable fort battle reminder on the left",
 		"night_mode": "Dark mode for the The-West map",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Stop blinking of Events and the Fairground on the left side",
 		"whisper_improved": "Improve whisper sound in various Saloon chats (while enabled, you can listen and change the sound directly from the list below)",
 		"no_jobgroup_animation": "Disable open/close animation for map job-group radial menus (not the job window)",

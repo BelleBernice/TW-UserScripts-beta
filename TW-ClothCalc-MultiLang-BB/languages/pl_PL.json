@@ -192,6 +192,7 @@
 		"pin_important": "Zachowanie menu, paska doświadczenia i skryptu zawsze na wierzchu",
 		"fortbattle_reminder": "Wyłączenie przypomnienia o bitwie fortowej po lewej stronie",
 		"night_mode": "Tryb nocny dla mapy The-West",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Zatrzymanie migania wydarzeń i wesołego miasteczka po lewej stronie",
 		"whisper_improved": "Ulepszenie dźwięku szeptu w różnych czatach saloonu (po włączeniu można odsłuchać i zmienić dźwięk bezpośrednio poniżej)",
 		"no_jobgroup_animation": "Wyłącz animację otwierania/zamykania menu kołowych grupy zadań mapy (nie okna zadania)",

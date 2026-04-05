@@ -192,6 +192,7 @@
 		"pin_important": "Udržovat menu, lištu zkušeností a skript vždy nahoře",
 		"fortbattle_reminder": "Vypnout připomínku bitvy o pevnost vlevo",
 		"night_mode": "Tmavý režim mapy The-West",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Zastavit blikání událostí a lunaparku na levé straně",
 		"whisper_improved": "Vylepšit zvuk šeptání v různých saloon chatech (při zapnutí lze zvuk přímo poslouchat a měnit níže)",
 		"no_jobgroup_animation": "Zakázat animaci otevření/zavření pro radiální nabídky mapových skupin úloh (nikoli okno úlohy)",

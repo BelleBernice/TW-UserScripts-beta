@@ -192,6 +192,7 @@
 		"pin_important": "Всегда закреплять меню, полосу опыта и скрипт сверху",
 		"fortbattle_reminder": "Отключать напоминание о бое за форт слева",
 		"night_mode": "Тёмный режим для карты The-West",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Останавливать мигание событий и парка развлечений слева",
 		"whisper_improved": "Улучшать звук шёпота в чатах салуна",
 		"no_jobgroup_animation": "Отключить анимацию открытия/закрытия радиальных меню группы заданий карты (не окна задания).",

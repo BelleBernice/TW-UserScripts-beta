@@ -192,6 +192,7 @@
 		"pin_important": "Menü, Erfahrungsleiste und Script immer oben halten",
 		"fortbattle_reminder": "Erinnerung an Fortkämpfe links deaktivieren",
 		"night_mode": "Dunkelmodus für die The-West-Karte",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Blinken von Events und Jahrmarkt auf der linken Seite stoppen",
 		"whisper_improved": "Flüsterton in verschiedenen Saloon-Chats verbessern (solange aktiv, kann der Ton direkt unten angehört und geändert werden)",
 		"no_jobgroup_animation": "Deaktivieren Sie die Animation zum Öffnen/Schließen für radiale Menüs der Kartenauftragsgruppe (nicht für das Auftragsfenster).",

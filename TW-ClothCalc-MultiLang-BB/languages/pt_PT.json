@@ -192,6 +192,7 @@
 		"pin_important": "Mantenha o menu, a barra de experiência e o script sempre no topo",
 		"fortbattle_reminder": "Desative o lembrete de batalha do forte à esquerda",
 		"night_mode": "Modo escuro para o mapa do The-West",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Pare de piscar os Eventos e o Recinto de Feiras no lado esquerdo",
 		"whisper_improved": "Melhore o som sussurrado em vários bate-papos do Saloon (enquanto ativado, você pode ouvir e alterar o som diretamente na lista abaixo)",
 		"no_jobgroup_animation": "Desativar animação de abertura/fechamento para menus radiais de grupos de tarefas de mapas (não para a janela de tarefas)",

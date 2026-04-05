@@ -192,6 +192,7 @@
 		"pin_important": "Hold meny, erfaringslinje og script alltid øverst",
 		"fortbattle_reminder": "Deaktiver påminnelse om fortkamp til venstre",
 		"night_mode": "Mørk modus for The-West-kartet",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Stopp blinking av hendelser og fornøyelsespark til venstre",
 		"whisper_improved": "Forbedre hviskelyd i saloon-chatter",
 		"no_jobgroup_animation": "Deaktiver åpne/lukke-animasjon for kartjobbgruppe radielle menyer (ikke jobbvinduet)",

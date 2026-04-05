@@ -192,6 +192,7 @@
 		"pin_important": "Menu, ervaringsbalk en script altijd bovenaan houden",
 		"fortbattle_reminder": "Fortgevecht-herinnering links uitschakelen",
 		"night_mode": "Donkere modus voor de The-West-kaart",
+		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
 		"blink_events": "Knipperen van evenementen en het pretpark aan de linkerkant stoppen",
 		"whisper_improved": "Fluistergeluid verbeteren in verschillende saloonchats (wanneer ingeschakeld kun je het geluid hieronder direct beluisteren en wijzigen)",
 		"no_jobgroup_animation": "Schakel animatie openen/sluiten uit voor radiale menu's van kaarttaakgroepen (niet het taakvenster)",
