@@ -60,10 +60,7 @@
 		"health_points": "Очки здоровья",
 		"labor_points": "Очки работы",
 		"fbmisc_fbcount_label": "Объявленные бои",
-		"owned_count": "Количество предметов, которыми вы владеете: $n$",
-		"quest_invcounts_title": "Инвентарь",
-		"quest_wiki_link": "Квест на TW-DB",
-		"inventory_short": "Инв"
+		"owned_count": "Количество предметов, которыми вы владеете: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "Отключать уведомление о РАСПРОДАЖЕ — [под кнопкой салуна]",
 		"exp_bar": "Добавлять значения на полосу опыта",
 		"mini_chat": "Добавлять кнопку для сворачивания чатов",
-		"chat_incoming_highlight": "Выделить совпадающий текст во входящем чате",
-		"chat_incoming_highlight_text": "Соответствующий текст (без учета регистра; пусто = не выделено)",
+		"chat_room_highlight": "Выделить совпадающий текст во входящем чате",
+		"chat_room_highlight_text": "Соответствующий текст (без учета регистра; пусто = не выделено)",
 		"chat_show_stranger_presence": "Показывать статус онлайн/неактивен в списке контактов даже для незнакомцев",
-		"chat_room_slash_commands": "Включите /active и /ping в салоне и других чатах канала.",
-		"chat_fort_battle_swap": "Включить /ff fort Battle Swap (направления сетки) и завершение Alt в списке",
-		"chat_session_default_color": "Добавляйте сохраненный трехзначный цвет к обычным сообщениям; включить/цвет по умолчанию",
-		"chat_incoming_color_strip": "Удаление входящих цветовых кодов /NNN для каждого игрока; включить/отменить цвет",
+		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_fort_slash_swap": "Включить /ff fort Battle Swap (направления сетки) и завершение Alt в списке",
+		"chat_fort_slash_find": "Enable /findplayer (/f) in fort battle chat (flash roster icons, grid directions from you).",
+		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
+		"chat_room_slash_default_color": "Добавляйте сохраненный трехзначный цвет к обычным сообщениям; включить/цвет по умолчанию",
+		"chat_room_slash_color_strip": "Удаление входящих цветовых кодов /NNN для каждого игрока; включить/отменить цвет",
 		"event_counter": "Перемещать счётчик событий на больших экранах",
 		"scrollbars_off": "Отключать полосы прокрутки на маленьких экранах или при сильном смещении окон",
 		"wear_close": "Добавлять кнопку для автоматического закрытия только окон инвентаря",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add a search field to town trader shop lists",
 		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
 		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
-		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
-		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Не удалось скопировать:",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Отменить задание?",
 		"cancel_message": "Вы уверены, что хотите отменить это задание?",
-		"accept_finish": "Принять и завершить задание"
+		"accept_finish": "Принять и завершить задание",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Открыть задание на TW-Calc.net"
 	},
 	"building": {
 		"church_level_tooltip": "Сравнивает текущий уровень церкви с максимальным уровнем, который ваши очки работы позволяют набрать сейчас. Старайтесь всегда опережать текущий уровень церкви хотя бы на 5-10 уровней для лучшего прироста опыта.",

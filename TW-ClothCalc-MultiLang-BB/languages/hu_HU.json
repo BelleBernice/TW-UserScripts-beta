@@ -60,10 +60,7 @@
 		"health_points": "Életerőpontok",
 		"labor_points": "Munkapontok",
 		"fbmisc_fbcount_label": "Meghirdetett csaták",
-		"owned_count": "A birtokolt tárgyak száma: $n$",
-		"quest_invcounts_title": "Leltár",
-		"quest_wiki_link": "Küldetés a TW-DB-n",
-		"inventory_short": "Inv"
+		"owned_count": "A birtokolt tárgyak száma: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "AKCIÓ értesítés kikapcsolása – [a szaloon gomb alatt]",
 		"exp_bar": "Értékek hozzáadása a tapasztalati sávhoz – köszönet (Leones/Slygoxx/Belle Bernice)",
 		"mini_chat": "Gomb hozzáadása a chatszobák minimalizálásához",
-		"chat_incoming_highlight": "Jelölje ki a megfelelő szöveget a bejövő csevegésben",
-		"chat_incoming_highlight_text": "Egyeztetni kívánt szöveg (nem különbözik a kis- és nagybetűktől; üres = nincs kiemelés)",
+		"chat_room_highlight": "Jelölje ki a megfelelő szöveget a bejövő csevegésben",
+		"chat_room_highlight_text": "Egyeztetni kívánt szöveg (nem különbözik a kis- és nagybetűktől; üres = nincs kiemelés)",
 		"chat_show_stranger_presence": "Az online/tétlen állapot megjelenítése a névjegyzékben még idegenek számára is",
-		"chat_room_slash_commands": "Az /active és a /ping engedélyezése szalonban és más csatorna chatekben",
-		"chat_fort_battle_swap": "Engedélyezze az /ff erődcsata cserét (rácsirányok) és az Alt befejezést a névsoron",
-		"chat_session_default_color": "A normál üzenetek elé egy tárolt 3 számjegyű színt fűzzön; engedélyezése /defaultcolor",
-		"chat_incoming_color_strip": "A bejövő /NNN színkódok eltávolítása játékosonként; engedélyezése / színtelenítése",
+		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_fort_slash_swap": "Engedélyezze az /ff erődcsata cserét (rácsirányok) és az Alt befejezést a névsoron",
+		"chat_fort_slash_find": "Enable /findplayer (/f) in fort battle chat (flash roster icons, grid directions from you).",
+		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
+		"chat_room_slash_default_color": "A normál üzenetek elé egy tárolt 3 számjegyű színt fűzzön; engedélyezése /defaultcolor",
+		"chat_room_slash_color_strip": "A bejövő /NNN színkódok eltávolítása játékosonként; engedélyezése / színtelenítése",
 		"event_counter": "Eseményszámláló áthelyezése nagy képernyőkön (eseményvaluta, Hiro&#38;#39;s script)",
 		"scrollbars_off": "Görgetősávok kikapcsolása kis képernyőkön vagy túl messzire mozgatott ablakoknál",
 		"wear_close": "Gomb hozzáadása csak a készletablakok automatikus bezárásához",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add a search field to town trader shop lists",
 		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
 		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
-		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
-		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Másolás sikertelen:",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Küldetés megszakítása?",
 		"cancel_message": "Biztosan megszakítod ezt a küldetést?",
-		"accept_finish": "Küldetés elfogadása és befejezése"
+		"accept_finish": "Küldetés elfogadása és befejezése",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Küldetés megnyitása a TW-Calc.neten"
 	},
 	"building": {
 		"church_level_tooltip": "Összeveti a templom jelenlegi szintjét a legmagasabb szinttel, amit a munkapontjaid pillanatnyilag elérhetővé tesznek. Tarts legalább 5-10 szint előnyt a templom jelenlegi szintje felett a legjobb tapasztalati pontszerzéshez.",

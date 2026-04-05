@@ -60,10 +60,7 @@
 		"health_points": "Gezondheidspunten",
 		"labor_points": "Arbeidspunten",
 		"fbmisc_fbcount_label": "Verklaarde veldslagen",
-		"owned_count": "Aantal voorwerpen dat je bezit: $n$",
-		"quest_invcounts_title": "Inventaris",
-		"quest_wiki_link": "Zoektocht op TW-DB",
-		"inventory_short": "Inv"
+		"owned_count": "Aantal voorwerpen dat je bezit: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "SALE-melding uitschakelen – [onder de saloonknop]",
 		"exp_bar": "Waarden toevoegen aan de ervaringsbalk – Dank aan (Leones/Slygoxx/Belle Bernice)",
 		"mini_chat": "Knop toevoegen om chatruimtes te minimaliseren",
-		"chat_incoming_highlight": "Markeer overeenkomende tekst in inkomende chat",
-		"chat_incoming_highlight_text": "Te matchen tekst (niet hoofdlettergevoelig; leeg = geen markering)",
+		"chat_room_highlight": "Markeer overeenkomende tekst in inkomende chat",
+		"chat_room_highlight_text": "Te matchen tekst (niet hoofdlettergevoelig; leeg = geen markering)",
 		"chat_show_stranger_presence": "Toon online/inactieve status in de contactenlijst, zelfs voor vreemden",
-		"chat_room_slash_commands": "Schakel /active en /ping in salon- en andere kanaalchats in",
-		"chat_fort_battle_swap": "Schakel /ff fortgevechtwissel (rasterrichtingen) en Alt-voltooiing in de selectie in",
-		"chat_session_default_color": "Voeg een opgeslagen kleur van 3 cijfers toe aan normale berichten; schakel /standaardkleur in",
-		"chat_incoming_color_strip": "Strip inkomende /NNN-kleurcodes per speler; inschakelen / ontkleuren",
+		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_fort_slash_swap": "Schakel /ff fortgevechtwissel (rasterrichtingen) en Alt-voltooiing in de selectie in",
+		"chat_fort_slash_find": "Enable /findplayer (/f) in fort battle chat (flash roster icons, grid directions from you).",
+		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
+		"chat_room_slash_default_color": "Voeg een opgeslagen kleur van 3 cijfers toe aan normale berichten; schakel /standaardkleur in",
+		"chat_room_slash_color_strip": "Strip inkomende /NNN-kleurcodes per speler; inschakelen / ontkleuren",
 		"event_counter": "Eventteller verplaatsen op grote schermen (eventvaluta, Hiro&#38;#39;s script)",
 		"scrollbars_off": "Schuifbalken uitschakelen op kleine schermen of wanneer vensters te ver zijn verplaatst",
 		"wear_close": "Knop toevoegen om automatisch alleen inventarisvensters te sluiten",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add a search field to town trader shop lists",
 		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
 		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
-		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
-		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Kopiëren mislukt:",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Missie annuleren?",
 		"cancel_message": "Weet je zeker dat je deze missie wilt annuleren?",
-		"accept_finish": "Missie accepteren en voltooien"
+		"accept_finish": "Missie accepteren en voltooien",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Quest openen op TW-Calc.net"
 	},
 	"building": {
 		"church_level_tooltip": "Vergelijkt het huidige kerkniveau met het hoogste niveau dat je arbeidspunten op dit moment kunnen dekken. Probeer altijd minstens 5-10 niveaus boven het huidige kerkniveau te blijven voor de beste ervaringspunten.",

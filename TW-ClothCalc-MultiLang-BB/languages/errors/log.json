@@ -208,7 +208,6 @@
 		"gameinject_check_minimap_ready": "Error checking minimap ready state",
 		"loader_register_script_api": "Error registering script with TheWestApi",
 		"snippets_no_jobgroup_animation": "Error disabling job group animation",
-		"snippets_fix_recruit_health": "Error applying fort recruitment line-wrap CSS",
 		"snippets_fix_graveyardtable": "Error applying graveyard table line-wrap CSS",
 		"snippets_move_avatar_notibar": "Error applying avatar/notibar layout CSS",
 		"snippets_fortbattle_waytime": "Error wiring fort waytime walk click",

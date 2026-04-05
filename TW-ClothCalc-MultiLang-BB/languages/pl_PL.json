@@ -60,10 +60,7 @@
 		"health_points": "Punkty zdrowia",
 		"labor_points": "Punkty pracy",
 		"fbmisc_fbcount_label": "Zadeklarowane bitwy",
-		"owned_count": "Liczba przedmiotów, które posiadasz: $n$",
-		"quest_invcounts_title": "Spis",
-		"quest_wiki_link": "Zadanie na TW-DB",
-		"inventory_short": "nr inw"
+		"owned_count": "Liczba przedmiotów, które posiadasz: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "Wyłączenie powiadomień o WYPRZEDAŻY – [pod przyciskiem saloonu]",
 		"exp_bar": "Dodanie wartości do paska doświadczenia – podziękowania dla (Leones/Slygoxx/Belle Bernice)",
 		"mini_chat": "Dodanie przycisku do minimalizacji okien czatu",
-		"chat_incoming_highlight": "Zaznacz pasujący tekst na czacie przychodzącym",
-		"chat_incoming_highlight_text": "Dopasowany tekst (wielkość liter nie ma znaczenia; pusty = brak wyróżnienia)",
+		"chat_room_highlight": "Zaznacz pasujący tekst na czacie przychodzącym",
+		"chat_room_highlight_text": "Dopasowany tekst (wielkość liter nie ma znaczenia; pusty = brak wyróżnienia)",
 		"chat_show_stranger_presence": "Pokaż status online/bezczynny na liście kontaktów nawet nieznajomym",
-		"chat_room_slash_commands": "Włącz opcję /active i /ping w salonach i na innych czatach na kanałach",
-		"chat_fort_battle_swap": "Włącz opcję /ff Fort Battle Swap (kierunki siatki) i dokończenie Alt w składzie",
-		"chat_session_default_color": "Dołącz zapisany 3-cyfrowy kolor do normalnych wiadomości; włącz /domyślny kolor",
-		"chat_incoming_color_strip": "Usuń przychodzące kody kolorów /NNN na gracza; włącz /odkoloruj",
+		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_fort_slash_swap": "Włącz opcję /ff Fort Battle Swap (kierunki siatki) i dokończenie Alt w składzie",
+		"chat_fort_slash_find": "Enable /findplayer (/f) in fort battle chat (flash roster icons, grid directions from you).",
+		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
+		"chat_room_slash_default_color": "Dołącz zapisany 3-cyfrowy kolor do normalnych wiadomości; włącz /domyślny kolor",
+		"chat_room_slash_color_strip": "Usuń przychodzące kody kolorów /NNN na gracza; włącz /odkoloruj",
 		"event_counter": "Przeniesienie licznika wydarzeń na dużych ekranach (waluta wydarzenia, skrypt Hiro&#38;#39;s)",
 		"scrollbars_off": "Wyłączenie pasków przewijania na małych ekranach lub przy dużym przesunięciu okien",
 		"wear_close": "Dodanie przycisku do automatycznego zamykania tylko okien ekwipunku",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add a search field to town trader shop lists",
 		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
 		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
-		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
-		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Nie udało się skopiować:",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Anulować zadanie?",
 		"cancel_message": "Czy na pewno chcesz anulować to zadanie?",
-		"accept_finish": "Akceptuj i zakończ zadanie"
+		"accept_finish": "Akceptuj i zakończ zadanie",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Otwórz zadanie na TW-Calc.net"
 	},
 	"building": {
 		"church_level_tooltip": "Porównuje aktualny poziom kościoła z najwyższym poziomem, jaki obecnie mogą pokryć twoje punkty pracy. Staraj się zawsze mieć co najmniej 5-10 poziomów przewagi nad aktualnym poziomem kościoła, aby uzyskać jak najwięcej punktów doświadczenia.",

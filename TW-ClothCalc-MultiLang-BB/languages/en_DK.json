@@ -60,10 +60,7 @@
 		"health_points": "Health Points",
 		"labor_points": "Labor Points",
 		"fbmisc_fbcount_label": "Declared battles",
-		"owned_count": "Number of items you own: $n$",
-		"quest_invcounts_title": "Inventory",
-		"quest_wiki_link": "Quest on TW-DB",
-		"inventory_short": "Inv"
+		"owned_count": "Number of items you own: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "Disable SALE notification – [Below the Saloon button]",
 		"exp_bar": "Add values to the experience bar – Thanks to (Leones/Slygoxx/Belle Bernice)",
 		"mini_chat": "Add a button to minimize chat rooms",
-		"chat_incoming_highlight": "Highlight matching text in incoming chat",
-		"chat_incoming_highlight_text": "Text to match (case-insensitive; empty = no highlight)",
+		"chat_room_highlight": "Highlight matching text in incoming chat",
+		"chat_room_highlight_text": "Text to match (case-insensitive; empty = no highlight)",
 		"chat_show_stranger_presence": "Show online/idle status in the contact list even for strangers",
-		"chat_room_slash_commands": "Enable /active and /ping in saloon and other channel chats",
-		"chat_fort_battle_swap": "Enable fort battle chat tools: /ff swap & Alt roster completion, /findplayer (/f), /mark",
-		"chat_session_default_color": "Prepend a stored 3-digit color to normal messages; enable /defaultcolor",
-		"chat_incoming_color_strip": "Strip incoming /NNN color codes per player; enable /uncolor",
+		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_fort_slash_swap": "Enable /ff fort battle swap (grid directions) and Alt roster completion",
+		"chat_fort_slash_find": "Enable /findplayer (/f) in fort battle chat (flash roster icons, grid directions from you).",
+		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
+		"chat_room_slash_default_color": "Prepend a stored 3-digit color to normal messages; enable /defaultcolor",
+		"chat_room_slash_color_strip": "Strip incoming /NNN color codes per player; enable /uncolor",
 		"event_counter": "Move event counter on large screens (Event currency, Hiro&#38;#39;s script)",
 		"scrollbars_off": "Disable scrollbars on small screens or when windows are moved too far",
 		"wear_close": "Add a button to automatically close only inventory windows",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add search field to town trader shop",
 		"upshop_show_count": "Show how many of each item you own in shops (Union Pacific and others using the same item view)",
 		"questgroup_show_intro": "In quest book, show intro text for solved quests too",
-		"quest_show_itemcount": "Show inventory counts for item requirements in the quest window",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link in the quest window",
-		"fix_recruit_health": "Word-wrap long names and HP on fort recruitment screen",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Word-wrap long lines in recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Move avatar and notification bar toward window edges"
+		"move_avatar_notibar": "Move avatar and notification bar toward window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Failed to copy:",
@@ -287,7 +286,7 @@
 		"uncolor_example_minus": "Allow again: /uncolor − Player Name",
 		"uncolor_added": "Stripping colors from $player$.",
 		"uncolor_removed": "No longer stripping colors from $player$.",
-		"ff_shorthelp": "Fort battle: /ff ping/swap; /findplayer (/f) flash+dirs; /mark colored outline.",
+		"ff_shorthelp": "Fort battle: /ff name pings; /ff a b posts a swap line (grid directions).",
 		"ff_help": "One name: same as /ping (tell that player your room). Two names: resolves them on the fort battle map and sends a swap line to fort battle chat. Names are substring matches; use Alt to complete from the roster.",
 		"ff_usage": "/ff player — ping; /ff player1 player2 — swap (fort battle chat only)",
 		"ff_wrong_room": "/ff only works in fort battle chat.",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Cancel Quest?",
 		"cancel_message": "Are you sure you want to cancel this quest?",
-		"accept_finish": "Accept & Complete quest"
+		"accept_finish": "Accept & Complete quest",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Open Quest at TW-Calc.net"
 	},
 	"building": {
 		"church_level_tooltip": "Compares the church's current level with the highest level your labor points can support right now. Try to stay at least 5-10 levels ahead of the church's current level for the best experience gains.",

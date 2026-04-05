@@ -60,10 +60,7 @@
 		"health_points": "Lebenspunkte",
 		"labor_points": "Arbeitspunkte",
 		"fbmisc_fbcount_label": "Erklärte Schlachten",
-		"owned_count": "Anzahl der Gegenstände, die du besitzt: $n$",
-		"quest_invcounts_title": "Inventar",
-		"quest_wiki_link": "Quest auf TW-DB",
-		"inventory_short": "Inv"
+		"owned_count": "Anzahl der Gegenstände, die du besitzt: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "SALE-Benachrichtigung deaktivieren – [unter der Saloon-Schaltfläche]",
 		"exp_bar": "Werte zur Erfahrungsleiste hinzufügen – Dank an (Leones/Slygoxx/Belle Bernice)",
 		"mini_chat": "Schaltfläche zum Minimieren von Chat-Räumen hinzufügen",
-		"chat_incoming_highlight": "Markieren Sie passenden Text im eingehenden Chat",
-		"chat_incoming_highlight_text": "Zu vergleichender Text (Groß- und Kleinschreibung wird nicht beachtet; leer = keine Hervorhebung)",
+		"chat_room_highlight": "Markieren Sie passenden Text im eingehenden Chat",
+		"chat_room_highlight_text": "Zu vergleichender Text (Groß- und Kleinschreibung wird nicht beachtet; leer = keine Hervorhebung)",
 		"chat_show_stranger_presence": "Online-/Ruhezustand auch für Fremde in der Kontaktliste anzeigen",
-		"chat_room_slash_commands": "Aktivieren Sie /active und /ping in Saloon- und anderen Kanal-Chats",
-		"chat_fort_battle_swap": "/ff Tausch & Alt-Kader, /findplayer (/f), /mark — Fortschlacht-Chat-Helfer",
-		"chat_session_default_color": "Normalen Nachrichten eine gespeicherte dreistellige Farbe voranstellen; /defaultcolor aktivieren",
-		"chat_incoming_color_strip": "Eingehende /NNN-Farbcodes pro Spieler entfernen; aktivieren/uncolor",
+		"chat_room_slash_active": "/active in Saloon- und anderen Kanal-Chats (wer ist in diesem Kanal online)",
+		"chat_room_slash_ping": "/ping in Saloon- und anderen Kanal-Chats (Kontakt anflüstern, in diesen Raum zu kommen)",
+		"chat_fort_slash_swap": "/ff Tausch (Rasterrichtungen) und Alt-Vervollständigung im Kader",
+		"chat_fort_slash_find": "/findplayer (/f) im Fortschlacht-Chat (blinkende Icons, Richtungen)",
+		"chat_fort_slash_mark": "/mark im Fortschlacht-Chat (farbige Umrandungen am Kader)",
+		"chat_room_slash_default_color": "Normalen Nachrichten eine gespeicherte dreistellige Farbe voranstellen; /defaultcolor aktivieren",
+		"chat_room_slash_color_strip": "Eingehende /NNN-Farbcodes pro Spieler entfernen; aktivieren/uncolor",
 		"event_counter": "Ereigniszähler auf großen Bildschirmen verschieben (Eventwährung, Hiro&#38;#39;s Script)",
 		"scrollbars_off": "Scrollleisten auf kleinen Bildschirmen oder bei weit verschobenen Fenstern deaktivieren",
 		"wear_close": "Schaltfläche zum automatischen Schließen nur der Inventarfenster hinzufügen",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add a search field to town trader shop lists",
 		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
 		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
-		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
-		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Kopieren fehlgeschlagen:",
@@ -287,7 +286,7 @@
 		"uncolor_example_minus": "Erneut zulassen: /uncolor − Spielername",
 		"uncolor_added": "Farben von $player$ entfernen.",
 		"uncolor_removed": "Es werden keine Farben mehr von $player$ entfernt.",
-		"ff_shorthelp": "Fortschlacht: /ff Ping/Tausch; /findplayer (/f) Blink+Richtungen; /mark Umrandung.",
+		"ff_shorthelp": "Fortschlacht: /ff Name pingt; /ff a b sendet eine Tauschzeile (Rasterrichtungen).",
 		"ff_help": "Resolves two player names on the fort battle map and sends a line like “name1 swap … with name2” to this fort battle chat. Names are substring matches; use Alt to complete from the roster.",
 		"ff_usage": "/ff player1 player2 — fort battle chat only",
 		"ff_wrong_room": "/ff funktioniert nur im Fort Battle Chat.",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Quest abbrechen?",
 		"cancel_message": "Sind Sie sicher, dass Sie diese Quest abbrechen möchten?",
-		"accept_finish": "Quest annehmen & abschließen"
+		"accept_finish": "Quest annehmen & abschließen",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Quest auf TW-Calc.net öffnen"
 	},
 	"building": {
 		"church_level_tooltip": "Vergleicht das aktuelle Kirchenlevel mit dem höchsten Level, das deine Arbeitspunkte derzeit ermöglichen. Versuche, immer mindestens 5-10 Level über dem aktuellen Kirchenlevel zu bleiben, um die besten Erfahrungspunkte zu erhalten.",

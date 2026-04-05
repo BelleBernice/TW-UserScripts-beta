@@ -60,10 +60,7 @@
 		"health_points": "Puncte de viață",
 		"labor_points": "Puncte de muncă",
 		"fbmisc_fbcount_label": "Bătălii declarate",
-		"owned_count": "Numărul de obiecte pe care le deții: $n$",
-		"quest_invcounts_title": "Inventar",
-		"quest_wiki_link": "Quest pe TW-DB",
-		"inventory_short": "Inv"
+		"owned_count": "Numărul de obiecte pe care le deții: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "Dezactivează notificarea de REDUCERE – [sub butonul salonului]",
 		"exp_bar": "Adaugă valori în bara de experiență",
 		"mini_chat": "Adaugă un buton pentru minimizarea camerelor de chat",
-		"chat_incoming_highlight": "Evidențiați textul care se potrivește în chatul primit",
-		"chat_incoming_highlight_text": "Text care să se potrivească (indiferent de majuscule și minuscule; gol = fără evidențiere)",
+		"chat_room_highlight": "Evidențiați textul care se potrivește în chatul primit",
+		"chat_room_highlight_text": "Text care să se potrivească (indiferent de majuscule și minuscule; gol = fără evidențiere)",
 		"chat_show_stranger_presence": "Afișează starea online/inactiv în lista de contacte chiar și pentru străini",
-		"chat_room_slash_commands": "Activați /active și /ping în chat-uri de salon și alte canale",
-		"chat_fort_battle_swap": "Activați /ff fort battle swap (direcții grilă) și completarea Alt pe listă",
-		"chat_session_default_color": "Adăugați o culoare stocată de 3 cifre la mesajele normale; activați /defaultcolor",
-		"chat_incoming_color_strip": "Eliminați codurile de culoare primite/NNN per jucător; activa /uncolor",
+		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_fort_slash_swap": "Activați /ff fort battle swap (direcții grilă) și completarea Alt pe listă",
+		"chat_fort_slash_find": "Enable /findplayer (/f) in fort battle chat (flash roster icons, grid directions from you).",
+		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
+		"chat_room_slash_default_color": "Adăugați o culoare stocată de 3 cifre la mesajele normale; activați /defaultcolor",
+		"chat_room_slash_color_strip": "Eliminați codurile de culoare primite/NNN per jucător; activa /uncolor",
 		"event_counter": "Mută contorul de evenimente pe ecrane mari",
 		"scrollbars_off": "Dezactivează barele de derulare pe ecrane mici sau când ferestrele sunt mutate prea departe",
 		"wear_close": "Adaugă un buton pentru a închide automat doar ferestrele inventarului",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add a search field to town trader shop lists",
 		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
 		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
-		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
-		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Copiere eșuată:",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Anulezi misiunea?",
 		"cancel_message": "Ești sigur că dorești să anulezi această misiune?",
-		"accept_finish": "Acceptă și finalizează misiunea"
+		"accept_finish": "Acceptă și finalizează misiunea",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Deschide misiunea pe TW-Calc.net"
 	},
 	"building": {
 		"church_level_tooltip": "Compară nivelul actual al bisericii cu nivelul maxim pe care punctele tale de muncă îl pot acoperi în acest moment. Încearcă să rămâi mereu cu cel puțin 5-10 niveluri peste nivelul actual al bisericii pentru cel mai bun câștig de experiență.",

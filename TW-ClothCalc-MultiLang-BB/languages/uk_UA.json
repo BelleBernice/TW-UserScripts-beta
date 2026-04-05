@@ -60,10 +60,7 @@
 		"health_points": "Очки здоровʼя",
 		"labor_points": "Очки праці",
 		"fbmisc_fbcount_label": "Оголошені бої",
-		"owned_count": "Кількість предметів, які ви маєте: $n$",
-		"quest_invcounts_title": "Інвентар",
-		"quest_wiki_link": "Квест на TW-DB",
-		"inventory_short": "інв"
+		"owned_count": "Кількість предметів, які ви маєте: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "Вимкнути сповіщення про РОЗПРОДАЖ – [під кнопкою Saloon]",
 		"exp_bar": "Додати значення до смуги досвіду",
 		"mini_chat": "Додати кнопку згортання чатів",
-		"chat_incoming_highlight": "Виділіть відповідний текст у вхідному чаті",
-		"chat_incoming_highlight_text": "Текст для відповідності (незалежно від регістру; пусто = не виділено)",
+		"chat_room_highlight": "Виділіть відповідний текст у вхідному чаті",
+		"chat_room_highlight_text": "Текст для відповідності (незалежно від регістру; пусто = не виділено)",
 		"chat_show_stranger_presence": "Показувати статус онлайн/неактивність у списку контактів навіть для незнайомців",
-		"chat_room_slash_commands": "Увімкніть /active та /ping у чатах салону та інших каналів",
-		"chat_fort_battle_swap": "Увімкніть /ff fort battle swap (напрямки сітки) і Alt завершення в списку",
-		"chat_session_default_color": "Додавання збереженого 3-значного кольору до звичайних повідомлень; увімкнути /defaultcolor",
-		"chat_incoming_color_strip": "Видалення вхідних /NNN кодів кольорів для кожного гравця; увімкнути/розфарбувати",
+		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_fort_slash_swap": "Увімкніть /ff fort battle swap (напрямки сітки) і Alt завершення в списку",
+		"chat_fort_slash_find": "Enable /findplayer (/f) in fort battle chat (flash roster icons, grid directions from you).",
+		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
+		"chat_room_slash_default_color": "Додавання збереженого 3-значного кольору до звичайних повідомлень; увімкнути /defaultcolor",
+		"chat_room_slash_color_strip": "Видалення вхідних /NNN кодів кольорів для кожного гравця; увімкнути/розфарбувати",
 		"event_counter": "Переміщення лічильника подій на великих екранах (валюта подій, сценарій Хіро)",
 		"scrollbars_off": "Вимкніть смуги прокрутки на маленьких екранах або коли вікна пересунуті занадто далеко",
 		"wear_close": "Додайте кнопку для автоматичного закриття лише вікон інвентарю",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add a search field to town trader shop lists",
 		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
 		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
-		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
-		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Не вдалося скопіювати:",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Скасувати квест?",
 		"cancel_message": "Ви впевнені, що хочете скасувати цей квест?",
-		"accept_finish": "Прийняти та завершити квест"
+		"accept_finish": "Прийняти та завершити квест",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Відкрити завдання на TW-Calc.net"
 	},
 	"building": {
 		"church_level_tooltip": "Порівнює поточний рівень церкви з найвищим рівнем, який ваші очки праці можуть покрити зараз. Намагайтеся завжди тримати принаймні на 5-10 рівнів випередження над поточним рівнем церкви для найкращого зростання досвіду.",

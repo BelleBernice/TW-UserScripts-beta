@@ -60,10 +60,7 @@
 		"health_points": "Helsepoeng",
 		"labor_points": "Arbeidspoeng",
 		"fbmisc_fbcount_label": "Erklærte kamper",
-		"owned_count": "Antall gjenstander du eier: $n$",
-		"quest_invcounts_title": "Inventar",
-		"quest_wiki_link": "Quest på TW-DB",
-		"inventory_short": "Inv"
+		"owned_count": "Antall gjenstander du eier: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "Deaktiver SALG-varsling – [under saloon-knappen]",
 		"exp_bar": "Legg til verdier i erfaringslinjen",
 		"mini_chat": "Legg til knapp for å minimere chatterom",
-		"chat_incoming_highlight": "Fremhev samsvarende tekst i innkommende chat",
-		"chat_incoming_highlight_text": "Tekst som skal samsvare (skiller mellom store og små bokstaver; tom = ingen fremheving)",
+		"chat_room_highlight": "Fremhev samsvarende tekst i innkommende chat",
+		"chat_room_highlight_text": "Tekst som skal samsvare (skiller mellom store og små bokstaver; tom = ingen fremheving)",
 		"chat_show_stranger_presence": "Vis online/tomgangsstatus i kontaktlisten selv for fremmede",
-		"chat_room_slash_commands": "Aktiver /active og /ping i saloon og andre kanalchatter",
-		"chat_fort_battle_swap": "Aktiver /ff fort battle swap (rutenettretninger) og Alt-fullføring på vaktlisten",
-		"chat_session_default_color": "Sett en lagret 3-sifret farge foran vanlige meldinger; aktiver /defaultcolor",
-		"chat_incoming_color_strip": "Fjern innkommende /NNN-fargekoder per spiller; aktiver /uncolor",
+		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_fort_slash_swap": "Aktiver /ff fort battle swap (rutenettretninger) og Alt-fullføring på vaktlisten",
+		"chat_fort_slash_find": "Enable /findplayer (/f) in fort battle chat (flash roster icons, grid directions from you).",
+		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
+		"chat_room_slash_default_color": "Sett en lagret 3-sifret farge foran vanlige meldinger; aktiver /defaultcolor",
+		"chat_room_slash_color_strip": "Fjern innkommende /NNN-fargekoder per spiller; aktiver /uncolor",
 		"event_counter": "Flytt hendelsestelleren på store skjermer",
 		"scrollbars_off": "Deaktiver rullefelt på små skjermer eller når vinduer flyttes langt",
 		"wear_close": "Legg til knapp for automatisk lukking av kun inventarvinduer",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add a search field to town trader shop lists",
 		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
 		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
-		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
-		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Kunne ikke kopiere:",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Avbryt oppdrag?",
 		"cancel_message": "Er du sikker på at du vil avbryte dette oppdraget?",
-		"accept_finish": "Godta og fullfør oppdrag"
+		"accept_finish": "Godta og fullfør oppdrag",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Åpne oppdrag på TW-Calc.net"
 	},
 	"building": {
 		"church_level_tooltip": "Sammenligner kirkens nåværende nivå med det høyeste nivået arbeidspoengene dine kan dekke akkurat nå. Prøv å holde deg minst 5-10 nivåer over kirkens nåværende nivå for best erfaringspoeng.",

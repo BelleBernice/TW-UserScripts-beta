@@ -60,10 +60,7 @@
 		"health_points": "Poeni zdravlja",
 		"labor_points": "Radni poeni",
 		"fbmisc_fbcount_label": "Проглашене битке",
-		"owned_count": "Број предмета које поседујете: $n$",
-		"quest_invcounts_title": "Инвентар",
-		"quest_wiki_link": "Потрага на ТВ-ДБ",
-		"inventory_short": "Инв"
+		"owned_count": "Број предмета које поседујете: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "Onemogući obaveštenje o PRODAJI – [ispod dugmeta saluna]",
 		"exp_bar": "Dodaj vrednosti na traku iskustva",
 		"mini_chat": "Dodaj dugme za minimizovanje chat soba",
-		"chat_incoming_highlight": "Истакните одговарајући текст у долазном ћаскању",
-		"chat_incoming_highlight_text": "Текст који се подудара (не разликује велика и мала слова; празно = без истицања)",
+		"chat_room_highlight": "Истакните одговарајући текст у долазном ћаскању",
+		"chat_room_highlight_text": "Текст који се подудара (не разликује велика и мала слова; празно = без истицања)",
 		"chat_show_stranger_presence": "Прикажите статус на мрежи/неактивности на листи контаката чак и за странце",
-		"chat_room_slash_commands": "Омогућите /ацтиве и /пинг у салону и другим каналима за ћаскање",
-		"chat_fort_battle_swap": "Омогућите /фф замену битке у тврђави (упутства мреже) и Алт завршетак на списку",
-		"chat_session_default_color": "Додати сачувану троцифрену боју нормалним порукама; омогући /дефаултцолор",
-		"chat_incoming_color_strip": "Скините долазне /ННН кодове боја по играчу; омогући /уклони боју",
+		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_fort_slash_swap": "Омогућите /фф замену битке у тврђави (упутства мреже) и Алт завршетак на списку",
+		"chat_fort_slash_find": "Enable /findplayer (/f) in fort battle chat (flash roster icons, grid directions from you).",
+		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
+		"chat_room_slash_default_color": "Додати сачувану троцифрену боју нормалним порукама; омогући /дефаултцолор",
+		"chat_room_slash_color_strip": "Скините долазне /ННН кодове боја по играчу; омогући /уклони боју",
 		"event_counter": "Premesti brojač događaja na velikim ekranima",
 		"scrollbars_off": "Onemogući klizače na malim ekranima ili kada se prozori pomere predaleko",
 		"wear_close": "Dodaj dugme za automatsko zatvaranje samo prozora inventara",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add a search field to town trader shop lists",
 		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
 		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
-		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
-		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Kopiranje neuspešno:",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Otkaži zadatak?",
 		"cancel_message": "Da li ste sigurni da želite da otkažete ovaj zadatak?",
-		"accept_finish": "Prihvati i završi zadatak"
+		"accept_finish": "Prihvati i završi zadatak",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Otvori zadatak na TW-Calc.net"
 	},
 	"building": {
 		"church_level_tooltip": "Upoređuje trenutni nivo crkve sa najvišim nivoom koji vaši radni poeni mogu da pokriju u ovom trenutku. Pokušajte uvek da budete najmanje 5-10 nivoa ispred trenutnog nivoa crkve radi najboljeg iskustvenog dobitka.",

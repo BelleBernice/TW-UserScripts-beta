@@ -60,10 +60,7 @@
 		"health_points": "Sağlık Puanları",
 		"labor_points": "Çalışma Puanları",
 		"fbmisc_fbcount_label": "Bildirilen savaşlar",
-		"owned_count": "Sahip olduğun eşya sayısı: $n$",
-		"quest_invcounts_title": "Envanter",
-		"quest_wiki_link": "TW-DB'de Görev",
-		"inventory_short": "Fatura"
+		"owned_count": "Sahip olduğun eşya sayısı: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "İNDİRİM bildirimini devre dışı bırak – [Salon düğmesinin altında]",
 		"exp_bar": "Deneyim çubuğuna değerler ekle",
 		"mini_chat": "Sohbet odalarını küçültmek için düğme ekle",
-		"chat_incoming_highlight": "Gelen sohbette eşleşen metni vurgulayın",
-		"chat_incoming_highlight_text": "Eşleşecek metin (büyük/küçük harfe duyarlı değil; boş = vurgu yok)",
+		"chat_room_highlight": "Gelen sohbette eşleşen metni vurgulayın",
+		"chat_room_highlight_text": "Eşleşecek metin (büyük/küçük harfe duyarlı değil; boş = vurgu yok)",
 		"chat_show_stranger_presence": "Yabancılar için bile kişi listesinde çevrimiçi/boşta durumunu göster",
-		"chat_room_slash_commands": "Salonda ve diğer kanal sohbetlerinde /active ve /ping'i etkinleştirin",
-		"chat_fort_battle_swap": "Kadroda /ff kale savaş değişimini (ızgara yönleri) ve Alt tamamlamayı etkinleştirin",
-		"chat_session_default_color": "Saklanan 3 basamaklı rengi normal mesajların başına ekleyin; etkinleştir / varsayılan renk",
-		"chat_incoming_color_strip": "Oyuncu başına gelen /NNN renk kodlarını soyun; etkinleştir / rengini kaldır",
+		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_fort_slash_swap": "Kadroda /ff kale savaş değişimini (ızgara yönleri) ve Alt tamamlamayı etkinleştirin",
+		"chat_fort_slash_find": "Enable /findplayer (/f) in fort battle chat (flash roster icons, grid directions from you).",
+		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
+		"chat_room_slash_default_color": "Saklanan 3 basamaklı rengi normal mesajların başına ekleyin; etkinleştir / varsayılan renk",
+		"chat_room_slash_color_strip": "Oyuncu başına gelen /NNN renk kodlarını soyun; etkinleştir / rengini kaldır",
 		"event_counter": "Büyük ekranlarda etkinlik sayacını taşı",
 		"scrollbars_off": "Küçük ekranlarda veya pencereler çok taşındığında kaydırma çubuklarını devre dışı bırak",
 		"wear_close": "Sadece envanter pencerelerini otomatik kapatmak için düğme ekle",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add a search field to town trader shop lists",
 		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
 		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
-		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
-		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Kopyalama başarısız:",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Görev iptal edilsin mi?",
 		"cancel_message": "Bu görevi iptal etmek istediğinizden emin misiniz?",
-		"accept_finish": "Görevi kabul et ve tamamla"
+		"accept_finish": "Görevi kabul et ve tamamla",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Görevi TW-Calc.net'te aç"
 	},
 	"building": {
 		"church_level_tooltip": "Kilisenin mevcut seviyesini, iş puanlarınızın şu anda kapsayabildiği en yüksek seviye ile karşılaştırır. En iyi deneyim puanı için kilisenin mevcut seviyesinin her zaman en az 5-10 seviye önünde olmaya çalışın.",

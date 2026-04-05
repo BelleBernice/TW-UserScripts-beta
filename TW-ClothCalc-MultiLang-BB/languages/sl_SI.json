@@ -60,10 +60,7 @@
 		"health_points": "Točke zdravja",
 		"labor_points": "Delovne točke",
 		"fbmisc_fbcount_label": "Napovedane bitke",
-		"owned_count": "Število predmetov, ki jih imaš: $n$",
-		"quest_invcounts_title": "Inventar",
-		"quest_wiki_link": "Naloga na TW-DB",
-		"inventory_short": "inv"
+		"owned_count": "Število predmetov, ki jih imaš: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "Onemogoči obvestilo o RAZPRODAJI – [pod gumbom saloona]",
 		"exp_bar": "Dodaj vrednosti v vrstico izkušenj",
 		"mini_chat": "Dodaj gumb za pomanjšanje klepetalnic",
-		"chat_incoming_highlight": "Označite ujemanje besedila v dohodnem klepetu",
-		"chat_incoming_highlight_text": "Besedilo, ki se ujema (ne razlikuje med velikimi in malimi črkami; prazno = ni označenega)",
+		"chat_room_highlight": "Označite ujemanje besedila v dohodnem klepetu",
+		"chat_room_highlight_text": "Besedilo, ki se ujema (ne razlikuje med velikimi in malimi črkami; prazno = ni označenega)",
 		"chat_show_stranger_presence": "Prikaži stanje na spletu/nedejavnosti na seznamu stikov tudi neznancem",
-		"chat_room_slash_commands": "Omogočite /active in /ping v salonskih in drugih kanalskih klepetih",
-		"chat_fort_battle_swap": "Omogoči /ff fort battle swap (smeri mreže) in Alt dokončanje na seznamu",
-		"chat_session_default_color": "Dodajte shranjeno 3-mestno barvo običajnim sporočilom; omogoči /defaultcolor",
-		"chat_incoming_color_strip": "Odstrani dohodne /NNN barvne kode na igralca; omogoči/razbarvaj",
+		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_fort_slash_swap": "Omogoči /ff fort battle swap (smeri mreže) in Alt dokončanje na seznamu",
+		"chat_fort_slash_find": "Enable /findplayer (/f) in fort battle chat (flash roster icons, grid directions from you).",
+		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
+		"chat_room_slash_default_color": "Dodajte shranjeno 3-mestno barvo običajnim sporočilom; omogoči /defaultcolor",
+		"chat_room_slash_color_strip": "Odstrani dohodne /NNN barvne kode na igralca; omogoči/razbarvaj",
 		"event_counter": "Premakni števec dogodkov na velikih zaslonih",
 		"scrollbars_off": "Onemogoči drsnike na majhnih zaslonih ali ob velikem premiku oken",
 		"wear_close": "Dodaj gumb za samodejno zapiranje samo oken inventarja",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add a search field to town trader shop lists",
 		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
 		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
-		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
-		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Kopiranje ni uspelo:",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Preklic naloge?",
 		"cancel_message": "Ali ste prepričani, da želite preklicati to nalogo?",
-		"accept_finish": "Sprejmi in zaključi nalogo"
+		"accept_finish": "Sprejmi in zaključi nalogo",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Odpri nalogo na TW-Calc.net"
 	},
 	"building": {
 		"church_level_tooltip": "Primerja trenutno raven cerkve z najvišjo ravnjo, ki jo vaši delovni točki lahko pokrijejo v tem trenutku. Poskusite ostati vedno vsaj 5-10 ravni nad trenutno ravnjo cerkve za najboljše izkušenjske točke.",

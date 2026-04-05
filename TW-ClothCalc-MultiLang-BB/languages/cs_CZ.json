@@ -60,10 +60,7 @@
 		"health_points": "Životy",
 		"labor_points": "Pracovní body",
 		"fbmisc_fbcount_label": "Vyhlášené bitvy",
-		"owned_count": "Počet předmětů, které vlastníte: $n$",
-		"quest_invcounts_title": "Inventář",
-		"quest_wiki_link": "Quest na TW-DB",
-		"inventory_short": "Inv"
+		"owned_count": "Počet předmětů, které vlastníte: $n$"
 	},
 	"script": {
 		"lang_names": {
@@ -158,13 +155,16 @@
 		"shop_sale_off": "Vypnout upozornění PRODEJ – [pod tlačítkem Saloon]",
 		"exp_bar": "Přidat hodnoty do lišty zkušeností – poděkování (Leones/Slygoxx/Belle Bernice)",
 		"mini_chat": "Přidat tlačítko pro minimalizaci chatovacích místností",
-		"chat_incoming_highlight": "Zvýrazněte odpovídající text v příchozím chatu",
-		"chat_incoming_highlight_text": "Text ke shodě (nerozlišují se malá a velká písmena; prázdné = žádné zvýraznění)",
+		"chat_room_highlight": "Zvýrazněte odpovídající text v příchozím chatu",
+		"chat_room_highlight_text": "Text ke shodě (nerozlišují se malá a velká písmena; prázdné = žádné zvýraznění)",
 		"chat_show_stranger_presence": "Zobrazit online/nečinný stav v seznamu kontaktů i pro cizí lidi",
-		"chat_room_slash_commands": "Povolit /active a /ping v salonu a dalších kanálových chatech",
-		"chat_fort_battle_swap": "Povolte /ff výměnu bitvy o pevnost (směry mřížky) a dokončování Alt na soupisce",
-		"chat_session_default_color": "Přiřazení uložené 3-místné barvy k normálním zprávám; povolit /defaultcolor",
-		"chat_incoming_color_strip": "Odstraňte příchozí /NNN barevné kódy na hráče; povolit /odbarvit",
+		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_fort_slash_swap": "Povolte /ff výměnu bitvy o pevnost (směry mřížky) a dokončování Alt na soupisce",
+		"chat_fort_slash_find": "Enable /findplayer (/f) in fort battle chat (flash roster icons, grid directions from you).",
+		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
+		"chat_room_slash_default_color": "Přiřazení uložené 3-místné barvy k normálním zprávám; povolit /defaultcolor",
+		"chat_room_slash_color_strip": "Odstraňte příchozí /NNN barevné kódy na hráče; povolit /odbarvit",
 		"event_counter": "Přesunout počítadlo událostí na velkých obrazovkách (měna událostí, Hiro&#38;#39;s script)",
 		"scrollbars_off": "Vypnout posuvníky na malých obrazovkách nebo při velkém posunu oken",
 		"wear_close": "Přidat tlačítko pro automatické zavření pouze oken inventáře",
@@ -200,11 +200,10 @@
 		"town_shop_search": "Add a search field to town trader shop lists",
 		"upshop_show_count": "In the Union Pacific shop, show how many of each item you own",
 		"questgroup_show_intro": "In the quest book, show intro text for solved quests (not only objectives)",
-		"quest_show_itemcount": "In the quest window, show inventory counts for item requirements",
-		"quest_add_util_buttons": "Add TW-DB quest wiki link to the quest window title bar",
-		"fix_recruit_health": "Improve line wrapping on the fort battle recruiting list",
+		"quest_show_itemcount": "Show [count] for item requirements (only applies when Quest utility buttons is enabled).",
 		"fix_graveyardtable": "Improve line wrapping in the recent fort battles (graveyard) table",
-		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges"
+		"move_avatar_notibar": "Stretch the notification bar and pin the avatar toward the window edges",
+		"quest_add_util_buttons": "Add quest shortcuts (craft, market, shop search, wear) and Innogames KB link. Inventory counts on requirements need this enabled."
 	},
 	"debug": {
 		"failed_to_copy": "Kopírování se nezdařilo:",
@@ -401,7 +400,12 @@
 	"quests": {
 		"cancel_title": "Zrušit úkol?",
 		"cancel_message": "Opravdu chcete tento úkol zrušit?",
-		"accept_finish": "Přijmout a dokončit úkol"
+		"accept_finish": "Přijmout a dokončit úkol",
+		"questutil_craft": "Craft",
+		"questutil_market": "Search market",
+		"questutil_shop": "Search town shops",
+		"questutil_wear": "Wear",
+		"quest_calc_site": "Otevřít úkol na TW-Calc.net"
 	},
 	"building": {
 		"church_level_tooltip": "Porovnává aktuální úroveň kostela s nejvyšší úrovní, kterou vaše pracovní body v tuto chvíli dokážou pokrýt. Snažte se mít vždy alespoň o 5-10 úrovní náskok před aktuální úrovní kostela, abyste získali co nejvíce zkušeností.",
