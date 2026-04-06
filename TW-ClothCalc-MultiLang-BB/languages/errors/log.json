@@ -214,6 +214,6 @@
 		"snippets_fbmisc_fbcount": "Error showing declared fort battle count",
 		"snippets_upshop_show_count": "Error showing owned item counts in shop",
 		"snippets_questgroup_show_intro": "Error showing quest book intro for solved quests",
-		"snippets_quest_window_extras": "Error enhancing quest window (counts/util links)"
+		"quests_quest_util_init": "Error initializing quest utilities (KB link / requirement row extras)"
 	}
 }
