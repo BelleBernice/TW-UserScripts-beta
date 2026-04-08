@@ -29,7 +29,7 @@
 		"wear_close_tooltip": "Close only your inventory windows",
 		"sort_by": "Sort by",
 		"name": "Name",
-		"country": "County",
+		"country": "Country",
 		"sound_default": "Default sound",
 		"sleep": "Sleep",
 		"hotel": "Hotel",
@@ -129,9 +129,9 @@
 		"job_lp": "Add labor points to job windows",
 		"task_points": "Add labor point indicator and health point tips to the task list – [Bottom right]",
 		"taskqueue_favicon": "Task list favicon",
-		"taskqueue_length_in_favicon": "Put the number of task queue elements into the favicon.",
-		"taskqueue_idle_in_favicon": "Show a red zero in the favicon if the task queue is empty.",
-		"taskqueue_sleep_in_favicon": "Show a red S in the favicon while the character is sleeping.",
+		"taskqueue_length_in_favicon": "Show the number of task queue entries in the favicon",
+		"taskqueue_idle_in_favicon": "Show a red zero in the favicon if the task queue is empty",
+		"taskqueue_sleep_in_favicon": "Show a red S in the favicon while the character is sleeping",
 		"forts_import": "Add a fort battle import button to the site (westforts)",
 		"fort_recruit": "Add fort recruitment overview",
 		"fort_recruit_enhanced": "Improve the recruitment tab before a fort battle",
@@ -160,18 +160,18 @@
 		"chat_room_highlight_text": "Text to match (case-insensitive; empty = no highlight)",
 		"chat_show_stranger_presence": "Show online/idle status in the contact list even for strangers",
 		"chat_slash_commands": "Slash commands",
-		"chat_room_slash_active": "Enable /active in saloon and other channel chats (list who is online in this channel).",
-		"chat_room_slash_ping": "Enable /ping in saloon and other channel chats (whisper a contact to join this room).",
+		"chat_room_slash_active": "Enable /active in Saloon and other channel chats (lists who is online in this channel).",
+		"chat_room_slash_ping": "Enable /ping in Saloon and other channel chats (whisper a contact to join this room).",
 		"chat_fort_slash_swap": "Enable /ff fort battle swap (grid directions) and Alt roster completion",
 		"chat_fort_slash_find": "Enable /find (/f) in fort battle chat (/findplayer alias; flash roster icons, grid directions from you).",
 		"chat_fort_slash_mark": "Enable /mark in fort battle chat (colored outlines on fort roster icons).",
 		"chat_room_slash_colorful": "Prepend a stored 3-digit color to normal messages; enable /colorful",
 		"chat_room_slash_color_strip": "Strip incoming /NNN colors per player (toggle via /uncolor); enable /uncolor",
-		"event_counter": "Move event counter on large screens (Event currency, Hiro&#38;#39;s script)",
+		"event_counter": "Move the event counter on large screens (event currency, Hiro&#38;#39;s script)",
 		"scrollbars_off": "Disable scrollbars on small screens or when windows are moved too far",
 		"wear_close": "Add a button to automatically close only inventory windows",
 		"profile_duel_exp": "Show duel experience on player profiles",
-		"church_lvl_points": "Show church level and labor points on player profiles",
+		"church_lvl_points": "Show current church level along with the maximum level you can build",
 		"regen_timers": "Add regeneration timers to the player portrait",
 		"button_church": "Add a button for easier opening of the church construction window",
 		"button_market": "Add a button for easier opening of the market window",
@@ -190,19 +190,19 @@
 		"telegram_bb_codes": "Add a button to switch to unformatted text in telegrams",
 		"enhanced_rankings": "Improve ranking tabs and add player difference",
 		"translation_texts": "Translate specific incorrect text strings",
-		"forum_select": "Enable text selection in City Forum",
+		"forum_select": "Enable text selection in the Town Forum",
 		"pin_important": "Keep menu, experience bar and script always on top",
 		"fortbattle_reminder": "Disable fort battle reminder on the left",
-		"night_mode": "Dark mode for the The-West map",
-		"night_mode_sites": "Dim The-West sites outside the game (forum, wiki). Saved when you use Save in script settings in the game.",
+		"night_mode_group": "Dark Theme Mode",
+		"night_mode": "Dark Theme for the game The-West",
+		"night_mode_sites": "Dark Theme on external websites of The-West (Forum, Wiki, Knowledge Base)",
 		"blink_events": "Stop blinking of Events and the Fairground on the left side",
 		"whisper_improved": "Improve whisper sound in various Saloon chats (while enabled, you can listen and change the sound directly from the list below)",
 		"no_jobgroup_animation": "Disable open/close animation for map job-group radial menus (not the job window)",
 		"fortbattle_waytime": "Click waytime in the fort battle list to walk to that fort",
 		"fbmisc_fbcount": "Show count of declared fort battles (bottom overlay)",
-		"town_shop_search": "Add search field to town trader shop",
 		"upshop_show_count": "Show how many of each item you own in shops (Union Pacific and others using the same item view)",
-		"questgroup_show_intro": "In quest book, show intro text for solved quests too",
+		"questgroup_show_intro": "In the quest book, also show intro text for solved quests",
 		"quest_util_group": "Quest window utilities",
 		"quest_util_kb_link": "Quest titles: tw-calc.net knowledge-base link (book icon).",
 		"quest_util_craft": "Quest item requirements: craft shortcut (toolbox; handles TW-Calc craft links when enabled).",
@@ -276,6 +276,7 @@
 		"ping_pong_usage": "pong (usage: /ping [name])",
 		"ping_tell_text": "Please come to $roomname$ $info$",
 		"ping_sent": "Whisper sent to $name$",
+		"ping_self": "Can't whisper yourself",
 		"ping_not_found": "No contact named $name$ in this channel",
 		"colorful_shorthelp": "Set default outgoing color (3 digits, each 0–9).",
 		"colorful_help": "Sets a default /NNN color prefix for normal (non-slash) messages in all rooms",
@@ -321,7 +322,10 @@
 		"mark_not_prebattle": "Roster is not ready yet (wait until the battle starts)",
 		"mark_color_parse_fail": "Could not parse color. Use − to remove outlines, or three digits (0–9 each) for outline color",
 		"mark_marked": "Marked $name$",
-		"mark_unmarked": "Removed outline from $name$"
+		"mark_unmarked": "Removed outline from $name$",
+		"player_not_found": "No player named \"$name$\" in this chat room",
+		"list_not_ready": "Player list is not ready yet (wait until the battle starts)",
+		"fb_wrong_room": "$cmd$ works only in Fort Battle chat rooms"
 	},
 	"market": {
 		"reminder_title": "Market reminder",
@@ -392,7 +396,7 @@
 	},
 	"analyzer": {
 		"reset_confirm_title": "Do you really want to reset the Job Analyzer statistics?",
-		"reset_confirm_message": "Provide the link of the first report to be read after the reset",
+		"reset_confirm_message": "Provide the link to the first report to read after the reset",
 		"job_title": "Job Analyzer",
 		"chest_title": "Chest Analyzer",
 		"duel_coming_soon": "The Duel Analyzer will come in the future!",
@@ -412,7 +416,7 @@
 		"questutil_market": "Search market",
 		"questutil_shop": "Search town shops",
 		"questutil_wear": "Wear",
-		"quest_calc_site": "Open Quest at TW-Calc.net"
+		"quest_calc_site": "Open quest on TW-Calc.net"
 	},
 	"building": {
 		"church_level_tooltip": "Compares the church's current level with the highest level your labor points can support right now. Try to stay at least 5-10 levels ahead of the church's current level for the best experience gains.",
@@ -421,15 +425,15 @@
 	},
 	"map": {
 		"coordinates_tooltip": "Show coordinates on the map",
-		"coordinates_button": "Move the map to the given coordinates",
+		"coordinates_button": "Move the map to the specified coordinates",
 		"show_town_tooltip": "Show town indicator on the map",
 		"show_coordinates": "Show coordinates on the map"
 	},
 	"duel": {
-		"levels_duel": "Duel levels you can duel: $min$ - $max$",
+		"levels_duel": "Duel levels you can challenge: $min$ - $max$",
 		"levels_exp": "Current duel experience you will gain: $min$ - $max$",
 		"potion_label": "Mysterious potion",
-		"levels_potion": "Duel Level $min$$max$",
+		"levels_potion": "Duel level $min$$max$",
 		"motivation": "Duel motivation",
 		"ko_time": "Knockout time",
 		"ko_suspension": "KO – Duel suspension until $time$",
@@ -465,8 +469,8 @@
 		"suboptimal_lp": "Suboptimal labor points"
 	},
 	"westforts": {
-		"open_import": "Open battle import in West Forts",
-		"close_import": "Close battle import in West Forts",
+		"open_import": "Open battle import in WestForts",
+		"close_import": "Close battle import in WestForts",
 		"button_label": "West Forts"
 	},
 	"changelog_types": {
@@ -480,8 +484,24 @@
 			"notes": {
 				"feature": [
 					"Add coloring to multiple items for sale in Inventory",
+					"Improve task list favicon with compact status indicators",
+					"Add current church level along with the maximum level you can build",
 					"Add option to disable the Premium Energy pop-up window",
-					"Add option to remember offer visibility on the market Buy tab"
+					"Add option to remember offer visibility on the market Buy tab",
+					"Highlight matching text in incoming chat",
+					"Add chat slash commands: /active, /ping, /ff, /find, /mark, /colorful, /uncolor",
+					"Add Dark Theme support for The-West external sites",
+					"Disable map job-group radial open/close animation",
+					"Click waytime in fort battle list to walk to that fort",
+					"Show count of declared fort battles",
+					"Show owned item count in shop tabs (Union Pacific and compatible shops)",
+					"Show intro text in solved quest list",
+					"Add quest window utilities: link, craft, market, shop, wear, itemcount",
+					"Improve recent fort battles (graveyard) table layout",
+					"Move avatar and notification bar toward window edges"
+				],
+				"bugfix": [
+					"Fix chat room minimize function"
 				],
 				"main": [
 					"Redesign the Changelog Features page of the UserScript",
