@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(Allianz-Chat)",
 		"ping_town_room": "(Stadtchat)",
 		"ping_fb_room": "(Fort-Kampf-Chat)",
+		"ping_saloon_room": "Saloon $id$",
 		"ping_no_private": "Das funktioniert im privaten Chat nicht.",
 		"ping_unknown_room": "Unbekannter Zimmertyp: $room$",
 		"ping_pong_usage": "pong (Verwendung: /ping Spielername)",

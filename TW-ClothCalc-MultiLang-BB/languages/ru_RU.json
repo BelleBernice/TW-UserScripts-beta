@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(чат альянса)",
 		"ping_town_room": "(городской чат)",
 		"ping_fb_room": "(чат битвы в фортах)",
+		"ping_saloon_room": "Салун $id$",
 		"ping_no_private": "В приватном чате это не работает.",
 		"ping_unknown_room": "Неизвестный тип номера: $room$.",
 		"ping_pong_usage": "понг (использование: /ping имя игрока)",

@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(chat alianță)",
 		"ping_town_room": "(chat din oraș)",
 		"ping_fb_room": "(chat de luptă fort)",
+		"ping_saloon_room": "Saloon $id$",
 		"ping_no_private": "Asta nu funcționează în chatul privat.",
 		"ping_unknown_room": "Tip de cameră necunoscut: $room$",
 		"ping_pong_usage": "pong (utilizare: /ping player-name)",

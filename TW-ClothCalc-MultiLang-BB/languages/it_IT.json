@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(chiacchierata dell'alleanza)",
 		"ping_town_room": "(chiacchierata cittadina)",
 		"ping_fb_room": "(chiacchierata sulla battaglia del forte)",
+		"ping_saloon_room": "Saloon $id$",
 		"ping_no_private": "Non funziona nella chat privata.",
 		"ping_unknown_room": "Tipo di camera sconosciuta: $room$",
 		"ping_pong_usage": "pong (utilizzo: /ping nome-giocatore)",

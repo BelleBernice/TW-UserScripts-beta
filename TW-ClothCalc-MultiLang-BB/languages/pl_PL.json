@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(czat sojuszu)",
 		"ping_town_room": "(czat miejski)",
 		"ping_fb_room": "(czat bitewny w forcie)",
+		"ping_saloon_room": "Saloon $id$",
 		"ping_no_private": "To nie działa na czacie prywatnym.",
 		"ping_unknown_room": "Nieznany typ pokoju: $room$",
 		"ping_pong_usage": "pong (użycie: /ping nazwa-gracza)",

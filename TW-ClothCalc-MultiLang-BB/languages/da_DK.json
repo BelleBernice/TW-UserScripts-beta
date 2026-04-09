@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(alliance chat)",
 		"ping_town_room": "(by chat)",
 		"ping_fb_room": "(fort battle chat)",
+		"ping_saloon_room": "Saloon $id$",
 		"ping_no_private": "Det virker ikke i privat chat.",
 		"ping_unknown_room": "Ukendt værelsestype: $room$",
 		"ping_pong_usage": "pong (brug: /ping spillernavn)",

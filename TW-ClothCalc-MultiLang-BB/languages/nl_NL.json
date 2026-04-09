@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(alliantiechat)",
 		"ping_town_room": "(stadschat)",
 		"ping_fb_room": "(fortgevechtchat)",
+		"ping_saloon_room": "Saloon $id$",
 		"ping_no_private": "Dat werkt niet in privéchat.",
 		"ping_unknown_room": "Onbekend kamertype: $room$",
 		"ping_pong_usage": "pong (gebruik: /ping spelernaam)",

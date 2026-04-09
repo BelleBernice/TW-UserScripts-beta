@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(разговор савеза)",
 		"ping_town_room": "(градско ћаскање)",
 		"ping_fb_room": "(форт баттле цхат)",
+		"ping_saloon_room": "Салун $id$",
 		"ping_no_private": "То не функционише у приватном ћаскању.",
 		"ping_unknown_room": "Непознат тип собе: $room$",
 		"ping_pong_usage": "понг (употреба: /пинг име играча)",

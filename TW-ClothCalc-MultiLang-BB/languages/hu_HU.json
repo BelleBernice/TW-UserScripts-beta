@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(szövetségi chat)",
 		"ping_town_room": "(városi chat)",
 		"ping_fb_room": "(erődcsata chat)",
+		"ping_saloon_room": "Saloon $id$",
 		"ping_no_private": "Ez nem működik privát chatben.",
 		"ping_unknown_room": "Ismeretlen szobatípus: $room$",
 		"ping_pong_usage": "pong (használat: /ping játékosnév)",

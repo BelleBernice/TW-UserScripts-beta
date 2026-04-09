@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(ittifak sohbeti)",
 		"ping_town_room": "(şehir sohbeti)",
 		"ping_fb_room": "(kale savaşı sohbeti)",
+		"ping_saloon_room": "Saloon $id$",
 		"ping_no_private": "Özel sohbette bu işe yaramaz.",
 		"ping_unknown_room": "Bilinmeyen oda tipi: $room$",
 		"ping_pong_usage": "pong (kullanım: /ping oyuncu-adı)",

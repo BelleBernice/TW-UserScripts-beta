@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(saveznički chat)",
 		"ping_town_room": "(gradski chat)",
 		"ping_fb_room": "(razgovor za bitku u tvrđavi)",
+		"ping_saloon_room": "Saloon $id$",
 		"ping_no_private": "To ne funkcionira u privatnom chatu.",
 		"ping_unknown_room": "Nepoznata vrsta sobe: $room$",
 		"ping_pong_usage": "pong (upotreba: /ping ime igrača)",

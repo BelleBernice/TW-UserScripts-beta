@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(klepet z zavezništvom)",
 		"ping_town_room": "(mestni klepet)",
 		"ping_fb_room": "(klepet o bitki v trdnjavi)",
+		"ping_saloon_room": "Saloon $id$",
 		"ping_no_private": "To ne deluje v zasebnem klepetu.",
 		"ping_unknown_room": "Neznana vrsta sobe: $room$",
 		"ping_pong_usage": "pong (uporaba: /ping ime igralca)",

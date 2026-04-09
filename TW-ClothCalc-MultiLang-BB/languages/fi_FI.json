@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(liittoutuman chat)",
 		"ping_town_room": "(kaupungin chat)",
 		"ping_fb_room": "(linnoitustaistelun chat)",
+		"ping_saloon_room": "Saloon $id$",
 		"ping_no_private": "Se ei toimi yksityisessä chatissa.",
 		"ping_unknown_room": "Tuntematon huonetyyppi: $room$",
 		"ping_pong_usage": "pong (käyttö: /ping-soittimen nimi)",

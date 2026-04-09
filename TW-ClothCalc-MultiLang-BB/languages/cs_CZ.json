@@ -271,6 +271,7 @@
 		"ping_alliance_room": "(alianční chat)",
 		"ping_town_room": "(městský chat)",
 		"ping_fb_room": "(chat o bitvě o pevnost)",
+		"ping_saloon_room": "Saloon $id$",
 		"ping_no_private": "To v soukromém chatu nefunguje.",
 		"ping_unknown_room": "Neznámý typ pokoje: $room$",
 		"ping_pong_usage": "pong (použití: /ping player-name)",
