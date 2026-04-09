@@ -69,7 +69,7 @@
 		"map_set_minimap_job": "Error setting minimap job search",
 		"map_scan_coordinates": "Error scanning coordinates",
 		"map_initialize_coordinates": "Error initializing coordinates input",
-		"map_minimap_hidden_shortcuts": "Error initializing minimap hidden shortcuts",
+		"map_minimap_shortcuts": "Error initializing minimap shortcuts",
 		"bonusjobs_initialize": "Error initializing BonusJobs",
 		"bonusjobs_process_data": "Error processing BonusJobs data",
 		"bonusjobs_render_markers": "Error rendering BonusJobs markers",
